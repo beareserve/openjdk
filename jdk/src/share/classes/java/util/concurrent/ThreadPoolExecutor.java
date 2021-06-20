@@ -898,10 +898,10 @@ public class ThreadPoolExecutor extends AbstractExecutorService {
             int rs = runStateOf(c);
 
             // Check if queue empty only if necessary.
+            //k2 看起来就是非running状态返回
             if (rs >= SHUTDOWN &&
-                ! (rs == SHUTDOWN &&
-                   firstTask == null &&
-                   ! workQueue.isEmpty()))
+//                ! (rs == SHUTDOWN && firstTask == null && ! workQueue.isEmpty()))
+                (rs != SHUTDOWN || firstTask != null || workQueue.isEmpty()))
                 return false;
 
             for (;;) {
