@@ -1,0 +1,4 @@
+e_exp.c
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\java\lang\fdlibm\include\fdlibm.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\java\lang\fdlibm\include\jfdlibm.h
+d:/xysziv/openjdk/jdk/src/share/native/java/lang/fdlibm/src/e_exp.c(146) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data

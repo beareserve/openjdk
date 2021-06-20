@@ -1,0 +1,1211 @@
+ lcms
+
+ Timestamp is 60b79ce1 (Wed Jun 02 15:59:45 2021)
+
+ Preferred load address is 0000000180000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00027d62H .text                   CODE
+ 0001:00027d70 00000092H .text$x                 CODE
+ 0002:00000000 00000228H .idata$5                DATA
+ 0002:00000228 00000008H .CRT$XCA                DATA
+ 0002:00000230 00000008H .CRT$XCZ                DATA
+ 0002:00000238 00000008H .CRT$XIA                DATA
+ 0002:00000240 00000008H .CRT$XIAA               DATA
+ 0002:00000248 00000008H .CRT$XIZ                DATA
+ 0002:00000250 00002838H .rdata                  DATA
+ 0002:00002a88 00000071H .rdata$debug            DATA
+ 0002:00002b00 00000008H .rtc$IAA                DATA
+ 0002:00002b08 00000008H .rtc$IZZ                DATA
+ 0002:00002b10 00000008H .rtc$TAA                DATA
+ 0002:00002b18 00000008H .rtc$TZZ                DATA
+ 0002:00002b20 00003afcH .xdata                  DATA
+ 0002:0000661c 00000050H .idata$2                DATA
+ 0002:0000666c 00000014H .idata$3                DATA
+ 0002:00006680 00000228H .idata$4                DATA
+ 0002:000068a8 0000042aH .idata$6                DATA
+ 0002:00006ce0 00000241H .edata                  DATA
+ 0003:00000000 000067f8H .data                   DATA
+ 0003:00006800 00000ef0H .bss                    DATA
+ 0004:00000000 00002ad8H .pdata                  DATA
+ 0005:00000000 00000058H .rsrc$01                DATA
+ 0005:00000060 00000350H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
+ 0000:00000000       __ImageBase                0000000180000000     <linker-defined>
+ 0001:00000000       errorHandler               0000000180001000 f   LCMS.obj
+ 0001:000000a0       JNI_OnLoad                 00000001800010a0 f   LCMS.obj
+ 0001:000000d0       LCMS_freeProfile           00000001800010d0 f   LCMS.obj
+ 0001:00000100       LCMS_freeTransform         0000000180001100 f   LCMS.obj
+ 0001:00000110       Java_sun_java2d_cmm_lcms_LCMS_createNativeTransform 0000000180001110 f   LCMS.obj
+ 0001:00000380       Java_sun_java2d_cmm_lcms_LCMS_loadProfileNative 0000000180001380 f   LCMS.obj
+ 0001:000004b0       Java_sun_java2d_cmm_lcms_LCMS_getProfileSizeNative 00000001800014b0 f   LCMS.obj
+ 0001:00000500       Java_sun_java2d_cmm_lcms_LCMS_getProfileDataNative 0000000180001500 f   LCMS.obj
+ 0001:00000610       releaseILData              0000000180001610 f   LCMS.obj
+ 0001:00000690       Java_sun_java2d_cmm_lcms_LCMS_colorConvert 0000000180001690 f   LCMS.obj
+ 0001:00000a30       Java_sun_java2d_cmm_lcms_LCMS_getProfileID 0000000180001a30 f   LCMS.obj
+ 0001:00000af0       Java_sun_java2d_cmm_lcms_LCMS_initLCMS 0000000180001af0 f   LCMS.obj
+ 0001:00001190       Java_sun_java2d_cmm_lcms_LCMS_getTagNative 0000000180002190 f   LCMS.obj
+ 0001:00001310       Java_sun_java2d_cmm_lcms_LCMS_setTagDataNative 0000000180002310 f   LCMS.obj
+ 0001:00002e10       _cmsLinkProfiles           0000000180003e10 f   cmscnvrt.obj
+ 0001:00002fa0       cmsfilelength              0000000180003fa0 f   cmserr.obj
+ 0001:00003070       _cmsMalloc                 0000000180004070 f   cmserr.obj
+ 0001:000030a0       _cmsMallocZero             00000001800040a0 f   cmserr.obj
+ 0001:000030d0       _cmsCalloc                 00000001800040d0 f   cmserr.obj
+ 0001:00003110       _cmsRealloc                0000000180004110 f   cmserr.obj
+ 0001:00003150       _cmsFree                   0000000180004150 f   cmserr.obj
+ 0001:00003190       _cmsDupMem                 0000000180004190 f   cmserr.obj
+ 0001:000031e0       cmsSetLogErrorHandler      00000001800041e0 f   cmserr.obj
+ 0001:00003220       cmsSignalError             0000000180004220 f   cmserr.obj
+ 0001:000032a0       _cmsTagSignature2String    00000001800042a0 f   cmserr.obj
+ 0001:00003390       _cmsCreateMutex            0000000180004390 f   cmserr.obj
+ 0001:000033c0       _cmsDestroyMutex           00000001800043c0 f   cmserr.obj
+ 0001:00003400       _cmsLockMutex              0000000180004400 f   cmserr.obj
+ 0001:00003450       _cmsUnlockMutex            0000000180004450 f   cmserr.obj
+ 0001:00004140       cmsBuildTabulatedToneCurve16 0000000180005140 f   cmsgamma.obj
+ 0001:000042b0       cmsBuildSegmentedToneCurve 00000001800052b0 f   cmsgamma.obj
+ 0001:00004480       cmsBuildTabulatedToneCurveFloat 0000000180005480 f   cmsgamma.obj
+ 0001:00004590       cmsBuildParametricToneCurve 0000000180005590 f   cmsgamma.obj
+ 0001:00004690       cmsBuildGamma              0000000180005690 f   cmsgamma.obj
+ 0001:000046b0       cmsFreeToneCurve           00000001800056b0 f   cmsgamma.obj
+ 0001:000047a0       cmsFreeToneCurveTriple     00000001800057a0 f   cmsgamma.obj
+ 0001:00004810       cmsDupToneCurve            0000000180005810 f   cmsgamma.obj
+ 0001:00004920       cmsIsToneCurveLinear       0000000180005920 f   cmsgamma.obj
+ 0001:000049c0       cmsIsToneCurveDescending   00000001800059c0 f   cmsgamma.obj
+ 0001:00004a10       cmsGetToneCurveParametricType 0000000180005a10 f   cmsgamma.obj
+ 0001:00004a60       cmsEvalToneCurve16         0000000180005a60 f   cmsgamma.obj
+ 0001:00004ab0       cmsReverseToneCurveEx      0000000180005ab0 f   cmsgamma.obj
+ 0001:00004dd0       cmsReverseToneCurve        0000000180005dd0 f   cmsgamma.obj
+ 0001:00004e10       cmsIsToneCurveMonotonic    0000000180005e10 f   cmsgamma.obj
+ 0001:00004ef0       cmsEvalToneCurveFloat      0000000180005ef0 f   cmsgamma.obj
+ 0001:00004fe0       cmsJoinToneCurve           0000000180005fe0 f   cmsgamma.obj
+ 0001:00005110       _cmsChain2Lab              0000000180006110 f   cmsgmt.obj
+ 0001:000054c0       _cmsBuildKToneCurve        00000001800064c0 f   cmsgmt.obj
+ 0001:000057b0       _cmsCreateGamutCheckPipeline 00000001800067b0 f   cmsgmt.obj
+ 0001:00005bc0       cmsDetectTAC               0000000180006bc0 f   cmsgmt.obj
+ 0001:00005d40       _cmsHalf2Float             0000000180006d40 f   cmshalf.obj
+ 0001:00005d80       _cmsFloat2Half             0000000180006d80 f   cmshalf.obj
+ 0001:00005dc0       _cmsFreeInterpParams       0000000180006dc0 f   cmsintrp.obj
+ 0001:00008ce0       _cmsSetInterpolationRoutine 0000000180009ce0 f   cmsintrp.obj
+ 0001:00008d50       _cmsComputeInterpParamsEx  0000000180009d50 f   cmsintrp.obj
+ 0001:00008ed0       _cmsComputeInterpParams    0000000180009ed0 f   cmsintrp.obj
+ 0001:00009100       cmsOpenIOhandlerFromNULL   000000018000a100 f   cmsio0.obj
+ 0001:00009360       cmsOpenIOhandlerFromMem    000000018000a360 f   cmsio0.obj
+ 0001:00009680       cmsOpenIOhandlerFromFile   000000018000a680 f   cmsio0.obj
+ 0001:00009830       cmsCreateProfilePlaceholder 000000018000a830 f   cmsio0.obj
+ 0001:000098c0       cmsGetProfileContextID     000000018000a8c0 f   cmsio0.obj
+ 0001:000098d0       cmsGetTagCount             000000018000a8d0 f   cmsio0.obj
+ 0001:000098e0       cmsGetTagSignature         000000018000a8e0 f   cmsio0.obj
+ 0001:00009a00       cmsIsTag                   000000018000aa00 f   cmsio0.obj
+ 0001:00009a40       _cmsReadHeader             000000018000aa40 f   cmsio0.obj
+ 0001:00009cf0       _cmsWriteHeader            000000018000acf0 f   cmsio0.obj
+ 0001:00009f10       cmsGetHeaderRenderingIntent 000000018000af10 f   cmsio0.obj
+ 0001:00009f20       cmsSetHeaderRenderingIntent 000000018000af20 f   cmsio0.obj
+ 0001:00009f30       cmsGetHeaderFlags          000000018000af30 f   cmsio0.obj
+ 0001:00009f40       cmsSetHeaderFlags          000000018000af40 f   cmsio0.obj
+ 0001:00009f50       cmsGetHeaderManufacturer   000000018000af50 f   cmsio0.obj
+ 0001:00009f60       cmsSetHeaderManufacturer   000000018000af60 f   cmsio0.obj
+ 0001:00009f70       cmsGetHeaderModel          000000018000af70 f   cmsio0.obj
+ 0001:00009f80       cmsSetHeaderModel          000000018000af80 f   cmsio0.obj
+ 0001:00009f90       cmsGetHeaderAttributes     000000018000af90 f   cmsio0.obj
+ 0001:00009fb0       cmsSetHeaderAttributes     000000018000afb0 f   cmsio0.obj
+ 0001:00009fe0       cmsGetHeaderProfileID      000000018000afe0 f   cmsio0.obj
+ 0001:0000a000       cmsSetHeaderProfileID      000000018000b000 f   cmsio0.obj
+ 0001:0000a020       cmsGetPCS                  000000018000b020 f   cmsio0.obj
+ 0001:0000a030       cmsSetPCS                  000000018000b030 f   cmsio0.obj
+ 0001:0000a040       cmsGetColorSpace           000000018000b040 f   cmsio0.obj
+ 0001:0000a050       cmsSetColorSpace           000000018000b050 f   cmsio0.obj
+ 0001:0000a060       cmsGetDeviceClass          000000018000b060 f   cmsio0.obj
+ 0001:0000a070       cmsSetDeviceClass          000000018000b070 f   cmsio0.obj
+ 0001:0000a080       cmsGetEncodedICCversion    000000018000b080 f   cmsio0.obj
+ 0001:0000a090       cmsSetEncodedICCversion    000000018000b090 f   cmsio0.obj
+ 0001:0000a130       cmsSetProfileVersion       000000018000b130 f   cmsio0.obj
+ 0001:0000a180       cmsGetProfileVersion       000000018000b180 f   cmsio0.obj
+ 0001:0000a600       cmsSaveProfileToIOhandler  000000018000b600 f   cmsio0.obj
+ 0001:0000a750       cmsSaveProfileToFile       000000018000b750 f   cmsio0.obj
+ 0001:0000a7d0       cmsSaveProfileToMem        000000018000b7d0 f   cmsio0.obj
+ 0001:0000a890       cmsCloseProfile            000000018000b890 f   cmsio0.obj
+ 0001:0000a9c0       cmsReadTag                 000000018000b9c0 f   cmsio0.obj
+ 0001:0000ac80       _cmsGetTagTrueType         000000018000bc80 f   cmsio0.obj
+ 0001:0000acd0       cmsWriteTag                000000018000bcd0 f   cmsio0.obj
+ 0001:0000afe0       cmsReadRawTag              000000018000bfe0 f   cmsio0.obj
+ 0001:0000b2c0       cmsWriteRawTag             000000018000c2c0 f   cmsio0.obj
+ 0001:0000b3e0       cmsLinkTag                 000000018000c3e0 f   cmsio0.obj
+ 0001:0000b4f0       cmsOpenProfileFromMemTHR   000000018000c4f0 f   cmsio0.obj
+ 0001:0000b570       cmsOpenProfileFromMem      000000018000c570 f   cmsio0.obj
+ 0001:0000b580       _cmsReadMediaWhitePoint    000000018000c580 f   cmsio1.obj
+ 0001:0000b630       _cmsReadCHAD               000000018000c630 f   cmsio1.obj
+ 0001:0000bce0       _cmsReadInputLUT           000000018000cce0 f   cmsio1.obj
+ 0001:0000c410       _cmsReadOutputLUT          000000018000d410 f   cmsio1.obj
+ 0001:0000c680       _cmsReadDevicelinkLUT      000000018000d680 f   cmsio1.obj
+ 0001:0000c880       cmsIsMatrixShaper          000000018000d880 f   cmsio1.obj
+ 0001:0000c930       cmsIsCLUT                  000000018000d930 f   cmsio1.obj
+ 0001:0000ca40       cmsIsIntentSupported       000000018000da40 f   cmsio1.obj
+ 0001:0000ca70       _cmsCompileProfileSequence 000000018000da70 f   cmsio1.obj
+ 0001:0000cbc0       _cmsStageAllocPlaceholder  000000018000dbc0 f   cmslut.obj
+ 0001:0000cc60       cmsStageAllocIdentity      000000018000dc60 f   cmslut.obj
+ 0001:0000cfe0       _cmsStageGetPtrToCurveSet  000000018000dfe0 f   cmslut.obj
+ 0001:0000d4a0       cmsStageAllocMatrix        000000018000e4a0 f   cmslut.obj
+ 0001:0000da80       _cmsQuantizeVal            000000018000ea80 f   cmslut.obj
+ 0001:0000daf0       cmsStageSampleCLut16bit    000000018000eaf0 f   cmslut.obj
+ 0001:0000dd70       cmsSliceSpace16            000000018000ed70 f   cmslut.obj
+ 0001:0000e270       _cmsStageAllocLab2XYZ      000000018000f270 f   cmslut.obj
+ 0001:0000e2e0       _cmsStageAllocLabV2ToV4    000000018000f2e0 f   cmslut.obj
+ 0001:0000e320       _cmsStageAllocLabV4ToV2    000000018000f320 f   cmslut.obj
+ 0001:0000e360       _cmsStageNormalizeFromLabFloat 000000018000f360 f   cmslut.obj
+ 0001:0000e3a0       _cmsStageNormalizeFromXyzFloat 000000018000f3a0 f   cmslut.obj
+ 0001:0000e3e0       _cmsStageNormalizeToLabFloat 000000018000f3e0 f   cmslut.obj
+ 0001:0000e420       _cmsStageNormalizeToXyzFloat 000000018000f420 f   cmslut.obj
+ 0001:0000e530       _cmsStageAllocXYZ2Lab      000000018000f530 f   cmslut.obj
+ 0001:0000e5a0       cmsStageFree               000000018000f5a0 f   cmslut.obj
+ 0001:0000e5d0       cmsStageOutputChannels     000000018000f5d0 f   cmslut.obj
+ 0001:0000e5e0       cmsStageType               000000018000f5e0 f   cmslut.obj
+ 0001:0000e5f0       cmsStageData               000000018000f5f0 f   cmslut.obj
+ 0001:0000e600       cmsStageNext               000000018000f600 f   cmslut.obj
+ 0001:0000e610       cmsStageDup                000000018000f610 f   cmslut.obj
+ 0001:0000e890       cmsPipelineInputChannels   000000018000f890 f   cmslut.obj
+ 0001:0000e8d0       cmsPipelineOutputChannels  000000018000f8d0 f   cmslut.obj
+ 0001:0000e910       cmsPipelineFree            000000018000f910 f   cmslut.obj
+ 0001:0000e990       cmsPipelineEval16          000000018000f990 f   cmslut.obj
+ 0001:0000e9f0       cmsPipelineEvalFloat       000000018000f9f0 f   cmslut.obj
+ 0001:0000ea50       cmsPipelineGetPtrToFirstStage 000000018000fa50 f   cmslut.obj
+ 0001:0000ea60       cmsPipelineGetPtrToLastStage 000000018000fa60 f   cmslut.obj
+ 0001:0000ea90       cmsPipelineStageCount      000000018000fa90 f   cmslut.obj
+ 0001:0000eab0       _cmsPipelineSetOptimizationParameters 000000018000fab0 f   cmslut.obj
+ 0001:0000ead0       cmsPipelineEvalReverseFloat 000000018000fad0 f   cmslut.obj
+ 0001:0000ee90       cmsPipelineCheckAndRetreiveStages 000000018000fe90 f   cmslut.obj
+ 0001:0000ef20       cmsStageAllocToneCurves    000000018000ff20 f   cmslut.obj
+ 0001:0000f090       _cmsStageAllocIdentityCurves 0000000180010090 f   cmslut.obj
+ 0001:0000f0c0       cmsStageAllocCLut16bitGranular 00000001800100c0 f   cmslut.obj
+ 0001:0000f2b0       cmsStageAllocCLut16bit     00000001800102b0 f   cmslut.obj
+ 0001:0000f4a0       cmsStageAllocCLutFloatGranular 00000001800104a0 f   cmslut.obj
+ 0001:0000f750       _cmsStageAllocIdentityCLut 0000000180010750 f   cmslut.obj
+ 0001:0000f810       cmsPipelineAlloc           0000000180010810 f   cmslut.obj
+ 0001:0000f8d0       cmsPipelineDup             00000001800108d0 f   cmslut.obj
+ 0001:0000f9f0       cmsPipelineInsertStage     00000001800109f0 f   cmslut.obj
+ 0001:0000fa70       cmsPipelineUnlinkStage     0000000180010a70 f   cmslut.obj
+ 0001:0000fb40       cmsPipelineCat             0000000180010b40 f   cmslut.obj
+ 0001:0000fc40       _cmsVEC3init               0000000180010c40 f   cmsmtrx.obj
+ 0001:0000fc50       _cmsMAT3identity           0000000180010c50 f   cmsmtrx.obj
+ 0001:0000fc80       _cmsMAT3isIdentity         0000000180010c80 f   cmsmtrx.obj
+ 0001:0000fd60       _cmsMAT3per                0000000180010d60 f   cmsmtrx.obj
+ 0001:0000ff00       _cmsMAT3inverse            0000000180010f00 f   cmsmtrx.obj
+ 0001:000100b0       _cmsMAT3eval               00000001800110b0 f   cmsmtrx.obj
+ 0001:00010140       _cmsMAT3solve              0000000180011140 f   cmsmtrx.obj
+ 0001:00010240       cmsMLUalloc                0000000180011240 f   cmsnamed.obj
+ 0001:00010440       cmsMLUsetASCII             0000000180011440 f   cmsnamed.obj
+ 0001:00010630       cmsMLUsetWide              0000000180011630 f   cmsnamed.obj
+ 0001:000106c0       cmsMLUfree                 00000001800116c0 f   cmsnamed.obj
+ 0001:00010710       cmsMLUgetASCII             0000000180011710 f   cmsnamed.obj
+ 0001:00010820       cmsMLUgetWide              0000000180011820 f   cmsnamed.obj
+ 0001:000109b0       cmsAllocNamedColorList     00000001800119b0 f   cmsnamed.obj
+ 0001:00010aa0       cmsFreeNamedColorList      0000000180011aa0 f   cmsnamed.obj
+ 0001:00010ae0       cmsDupNamedColorList       0000000180011ae0 f   cmsnamed.obj
+ 0001:00010bf0       cmsAppendNamedColor        0000000180011bf0 f   cmsnamed.obj
+ 0001:00010d10       cmsNamedColorCount         0000000180011d10 f   cmsnamed.obj
+ 0001:00010d20       cmsNamedColorInfo          0000000180011d20 f   cmsnamed.obj
+ 0001:00011040       _cmsStageAllocNamedColor   0000000180012040 f   cmsnamed.obj
+ 0001:000110d0       cmsAllocProfileSequenceDescription 00000001800120d0 f   cmsnamed.obj
+ 0001:000111a0       cmsFreeProfileSequenceDescription 00000001800121a0 f   cmsnamed.obj
+ 0001:000112d0       cmsDictAlloc               00000001800122d0 f   cmsnamed.obj
+ 0001:00011300       cmsDictFree                0000000180012300 f   cmsnamed.obj
+ 0001:00011410       cmsDictNextEntry           0000000180012410 f   cmsnamed.obj
+ 0001:00011410       cmsDictGetEntryList        0000000180012410 f   cmsnamed.obj
+ 0001:00011420       cmsMLUdup                  0000000180012420 f   cmsnamed.obj
+ 0001:00011500       cmsDupProfileSequenceDescription 0000000180012500 f   cmsnamed.obj
+ 0001:00011680       cmsDictAddEntry            0000000180012680 f   cmsnamed.obj
+ 0001:000117c0       cmsDictDup                 00000001800127c0 f   cmsnamed.obj
+ 0001:00014d70       _cmsOptimizePipeline       0000000180015d70 f   cmsopt.obj
+ 0001:000198d0       _cmsGetFormatter           000000018001a8d0 f   cmspack.obj
+ 0001:00019a00       _cmsFormatterIsFloat       000000018001aa00 f   cmspack.obj
+ 0001:00019a10       _cmsFormatterIs8bit        000000018001aa10 f   cmspack.obj
+ 0001:00019a20       cmsFormatterForColorspaceOfProfile 000000018001aa20 f   cmspack.obj
+ 0001:00019a80       cmsXYZ2xyY                 000000018001aa80 f   cmspcs.obj
+ 0001:00019ac0       cmsxyY2XYZ                 000000018001aac0 f   cmspcs.obj
+ 0001:00019b00       cmsXYZ2Lab                 000000018001ab00 f   cmspcs.obj
+ 0001:00019c40       cmsLab2XYZ                 000000018001ac40 f   cmspcs.obj
+ 0001:00019d40       cmsLabEncoded2Float        000000018001ad40 f   cmspcs.obj
+ 0001:00019da0       cmsFloat2LabEncoded        000000018001ada0 f   cmspcs.obj
+ 0001:00019f10       cmsFloat2XYZEncoded        000000018001af10 f   cmspcs.obj
+ 0001:0001a070       cmsXYZEncoded2Float        000000018001b070 f   cmspcs.obj
+ 0001:0001a0c0       cmsDeltaE                  000000018001b0c0 f   cmspcs.obj
+ 0001:0001a120       _cmsEndPointsBySpace       000000018001b120 f   cmspcs.obj
+ 0001:0001a230       _cmsICCcolorSpace          000000018001b230 f   cmspcs.obj
+ 0001:0001a370       _cmsLCMScolorSpace         000000018001b370 f   cmspcs.obj
+ 0001:0001a5d0       cmsChannelsOf              000000018001b5d0 f   cmspcs.obj
+ 0001:0001a7d0       _cmsReasonableGridpointsByColorspace 000000018001b7d0 f   cmspcs.obj
+ 0001:0001a870       _cmsAdjustEndianess16      000000018001b870 f   cmsplugin.obj
+ 0001:0001a890       _cmsAdjustEndianess32      000000018001b890 f   cmsplugin.obj
+ 0001:0001a8c0       _cmsAdjustEndianess64      000000018001b8c0 f   cmsplugin.obj
+ 0001:0001a930       _cmsReadUInt8Number        000000018001b930 f   cmsplugin.obj
+ 0001:0001a9b0       _cmsReadUInt16Number       000000018001b9b0 f   cmsplugin.obj
+ 0001:0001aa40       _cmsReadUInt16Array        000000018001ba40 f   cmsplugin.obj
+ 0001:0001ab60       _cmsReadUInt32Number       000000018001bb60 f   cmsplugin.obj
+ 0001:0001ac00       _cmsReadFloat32Number      000000018001bc00 f   cmsplugin.obj
+ 0001:0001aca0       _cmsReadUInt64Number       000000018001bca0 f   cmsplugin.obj
+ 0001:0001ad50       _cmsWriteUInt8Number       000000018001bd50 f   cmsplugin.obj
+ 0001:0001ada0       _cmsWriteUInt16Number      000000018001bda0 f   cmsplugin.obj
+ 0001:0001ae20       _cmsWriteUInt16Array       000000018001be20 f   cmsplugin.obj
+ 0001:0001af10       _cmsWriteUInt32Number      000000018001bf10 f   cmsplugin.obj
+ 0001:0001afa0       _cmsWriteFloat32Number     000000018001bfa0 f   cmsplugin.obj
+ 0001:0001b020       _cmsWriteUInt64Number      000000018001c020 f   cmsplugin.obj
+ 0001:0001b0c0       _cms8Fixed8toDouble        000000018001c0c0 f   cmsplugin.obj
+ 0001:0001b0f0       _cms15Fixed16toDouble      000000018001c0f0 f   cmsplugin.obj
+ 0001:0001b140       _cmsDoubleTo15Fixed16      000000018001c140 f   cmsplugin.obj
+ 0001:0001b170       _cmsDecodeDateTimeNumber   000000018001c170 f   cmsplugin.obj
+ 0001:0001b2a0       _cmsEncodeDateTimeNumber   000000018001c2a0 f   cmsplugin.obj
+ 0001:0001b3c0       _cmsReadTypeBase           000000018001c3c0 f   cmsplugin.obj
+ 0001:0001b470       _cmsWriteTypeBase          000000018001c470 f   cmsplugin.obj
+ 0001:0001b510       _cmsReadAlignment          000000018001c510 f   cmsplugin.obj
+ 0001:0001b590       _cmsWriteAlignment         000000018001c590 f   cmsplugin.obj
+ 0001:0001b620       _cmsContextGetClientChunk  000000018001c620 f   cmsplugin.obj
+ 0001:0001b680       _cmsRead15Fixed16Number    000000018001c680 f   cmsplugin.obj
+ 0001:0001b760       _cmsReadXYZNumber          000000018001c760 f   cmsplugin.obj
+ 0001:0001b980       _cmsWrite15Fixed16Number   000000018001c980 f   cmsplugin.obj
+ 0001:0001ba30       _cmsWriteXYZNumber         000000018001ca30 f   cmsplugin.obj
+ 0001:0001bb90       _cmsDoubleTo8Fixed8        000000018001cb90 f   cmsplugin.obj
+ 0001:0001bfe0       cmsDetectBlackPoint        000000018001cfe0 f   cmssamp.obj
+ 0001:0001c510       cmsDetectDestinationBlackPoint 000000018001d510 f   cmssamp.obj
+ 0001:00025000       _cmsGetTagTypeHandler      0000000180026000 f   cmstypes.obj
+ 0001:00025050       _cmsGetTagDescriptor       0000000180026050 f   cmstypes.obj
+ 0001:000251a0       cmsCreateRGBProfileTHR     00000001800261a0 f   cmsvirt.obj
+ 0001:00025440       cmsCreateLab2ProfileTHR    0000000180026440 f   cmsvirt.obj
+ 0001:00025560       cmsCreateLab4ProfileTHR    0000000180026560 f   cmsvirt.obj
+ 0001:00025680       cmsD50_XYZ                 0000000180026680 f   cmswtpnt.obj
+ 0001:00025690       cmsD50_xyY                 0000000180026690 f   cmswtpnt.obj
+ 0001:000256c0       cmsWhitePointFromTemp      00000001800266c0 f   cmswtpnt.obj
+ 0001:00025840       cmsTempFromWhitePoint      0000000180026840 f   cmswtpnt.obj
+ 0001:00025b70       _cmsAdaptationMatrix       0000000180026b70 f   cmswtpnt.obj
+ 0001:00025d10       _cmsBuildRGB2XYZtransferMatrix 0000000180026d10 f   cmswtpnt.obj
+ 0001:00025f70       cmsDeleteTransform         0000000180026f70 f   cmsxform.obj
+ 0001:00026020       cmsDoTransform             0000000180027020 f   cmsxform.obj
+ 0001:00026200       NullXFORM                  0000000180027200 f   cmsxform.obj
+ 0001:00026cc0       cmsCreateExtendedTransform 0000000180027cc0 f   cmsxform.obj
+ 0001:000270d0       cmsCreateMultiprofileTransformTHR 00000001800280d0 f   cmsxform.obj
+ 0001:00027260       cmsCreateMultiprofileTransform 0000000180028260 f   cmsxform.obj
+ 0001:000272f0       cmsCreateTransformTHR      00000001800282f0 f   cmsxform.obj
+ 0001:00027342       Disposer_AddRecord         0000000180028342 f   awt:awt.dll
+ 0001:00027348       J2dTraceImpl               0000000180028348 f   awt:awt.dll
+ 0001:0002734e       JNU_ThrowByName            000000018002834e f   java:java.dll
+ 0001:00027354       JNU_ThrowIllegalArgumentException 0000000180028354 f   java:java.dll
+ 0001:0002735c       __GSHandlerCheckCommon     000000018002835c f   MSVCRT:gshandler.obj
+ 0001:000273c0       __GSHandlerCheck           00000001800283c0 f   MSVCRT:gshandler.obj
+ 0001:000273f0       __security_check_cookie    00000001800283f0 f   MSVCRT:amdsecgs.obj
+ 0001:00027410       memcpy                     0000000180028410 f   MSVCRT:MSVCR100.dll
+ 0001:00027416       memset                     0000000180028416 f   MSVCRT:MSVCR100.dll
+ 0001:0002741c       pow                        000000018002841c f   MSVCRT:MSVCR100.dll
+ 0001:00027440       _alloca_probe              0000000180028440     MSVCRT:chkstk.obj
+ 0001:00027440       __chkstk                   0000000180028440 f   MSVCRT:chkstk.obj
+ 0001:0002748e       log10                      000000018002848e f   MSVCRT:MSVCR100.dll
+ 0001:00027494       log                        0000000180028494 f   MSVCRT:MSVCR100.dll
+ 0001:0002749a       sqrt                       000000018002849a f   MSVCRT:MSVCR100.dll
+ 0001:000274a0       floor                      00000001800284a0 f   MSVCRT:MSVCR100.dll
+ 0001:000274a6       ceil                       00000001800284a6 f   MSVCRT:MSVCR100.dll
+ 0001:000274ac       sqrtf                      00000001800284ac f   MSVCRT:MSVCR100.dll
+ 0001:000274b2       memcmp                     00000001800284b2 f   MSVCRT:MSVCR100.dll
+ 0001:00027518       _CRT_INIT                  0000000180028518 f   MSVCRT:crtdll.obj
+ 0001:000278b0       _DllMainCRTStartup         00000001800288b0 f   MSVCRT:crtdll.obj
+ 0001:000278f0       __report_gsfailure         00000001800288f0 f   MSVCRT:gs_report.obj
+ 0001:00027a3c       __clean_type_info_names    0000000180028a3c f   MSVCRT:tncleanup.obj
+ 0001:00027a48       _onexit                    0000000180028a48 f   MSVCRT:atonexit.obj
+ 0001:00027af8       atexit                     0000000180028af8 f   MSVCRT:atonexit.obj
+ 0001:00027b10       _RTC_Initialize            0000000180028b10 f   MSVCRT:_initsect_.obj
+ 0001:00027b48       _RTC_Terminate             0000000180028b48 f   MSVCRT:_initsect_.obj
+ 0001:00027b80       _ValidateImageBase         0000000180028b80 f   MSVCRT:pesect.obj
+ 0001:00027bb0       _FindPESection             0000000180028bb0 f   MSVCRT:pesect.obj
+ 0001:00027c00       _IsNonwritableInCurrentImage 0000000180028c00 f   MSVCRT:pesect.obj
+ 0001:00027c42       _initterm                  0000000180028c42 f   MSVCRT:MSVCR100.dll
+ 0001:00027c48       _initterm_e                0000000180028c48 f   MSVCRT:MSVCR100.dll
+ 0001:00027c4e       _amsg_exit                 0000000180028c4e f   MSVCRT:MSVCR100.dll
+ 0001:00027c54       __C_specific_handler       0000000180028c54 f   MSVCRT:MSVCR100.dll
+ 0001:00027c5a       __CppXcptFilter            0000000180028c5a f   MSVCRT:MSVCR100.dll
+ 0001:00027c60       DllMain                    0000000180028c60 f   MSVCRT:dllmain.obj
+ 0001:00027c84       __security_init_cookie     0000000180028c84 f   MSVCRT:gs_support.obj
+ 0001:00027d38       __crt_debugger_hook        0000000180028d38 f   MSVCRT:MSVCR100.dll
+ 0001:00027d3e       __clean_type_info_names_internal 0000000180028d3e f   MSVCRT:MSVCR100.dll
+ 0001:00027d44       _unlock                    0000000180028d44 f   MSVCRT:MSVCR100.dll
+ 0001:00027d4a       __dllonexit                0000000180028d4a f   MSVCRT:MSVCR100.dll
+ 0001:00027d50       _lock                      0000000180028d50 f   MSVCRT:MSVCR100.dll
+ 0001:00027d56       RtlVirtualUnwind           0000000180028d56 f   kernel32:KERNEL32.dll
+ 0001:00027d5c       RtlLookupFunctionEntry     0000000180028d5c f   kernel32:KERNEL32.dll
+ 0002:00000000       __imp_GetSystemTimeAsFileTime 0000000180029000     kernel32:KERNEL32.dll
+ 0002:00000008       __imp_GetCurrentProcessId  0000000180029008     kernel32:KERNEL32.dll
+ 0002:00000010       __imp_GetCurrentThreadId   0000000180029010     kernel32:KERNEL32.dll
+ 0002:00000018       __imp_GetTickCount         0000000180029018     kernel32:KERNEL32.dll
+ 0002:00000020       __imp_QueryPerformanceCounter 0000000180029020     kernel32:KERNEL32.dll
+ 0002:00000028       __imp_RtlCaptureContext    0000000180029028     kernel32:KERNEL32.dll
+ 0002:00000030       __imp_RtlLookupFunctionEntry 0000000180029030     kernel32:KERNEL32.dll
+ 0002:00000038       __imp_RtlVirtualUnwind     0000000180029038     kernel32:KERNEL32.dll
+ 0002:00000040       __imp_IsDebuggerPresent    0000000180029040     kernel32:KERNEL32.dll
+ 0002:00000048       __imp_SetUnhandledExceptionFilter 0000000180029048     kernel32:KERNEL32.dll
+ 0002:00000050       __imp_UnhandledExceptionFilter 0000000180029050     kernel32:KERNEL32.dll
+ 0002:00000058       __imp_GetCurrentProcess    0000000180029058     kernel32:KERNEL32.dll
+ 0002:00000060       __imp_TerminateProcess     0000000180029060     kernel32:KERNEL32.dll
+ 0002:00000068       __imp_Sleep                0000000180029068     kernel32:KERNEL32.dll
+ 0002:00000070       __imp_DecodePointer        0000000180029070     kernel32:KERNEL32.dll
+ 0002:00000078       __imp_EncodePointer        0000000180029078     kernel32:KERNEL32.dll
+ 0002:00000080       __imp_DeleteCriticalSection 0000000180029080     kernel32:KERNEL32.dll
+ 0002:00000088       __imp_InitializeCriticalSection 0000000180029088     kernel32:KERNEL32.dll
+ 0002:00000090       __imp_LeaveCriticalSection 0000000180029090     kernel32:KERNEL32.dll
+ 0002:00000098       __imp_EnterCriticalSection 0000000180029098     kernel32:KERNEL32.dll
+ 0002:000000a0       __imp_DisableThreadLibraryCalls 00000001800290a0     kernel32:KERNEL32.dll
+ 0002:000000a8       \177KERNEL32_NULL_THUNK_DATA 00000001800290a8     kernel32:KERNEL32.dll
+ 0002:000000b0       __imp__vsnprintf           00000001800290b0     MSVCRT:MSVCR100.dll
+ 0002:000000b8       __imp_fclose               00000001800290b8     MSVCRT:MSVCR100.dll
+ 0002:000000c0       __imp_memmove              00000001800290c0     MSVCRT:MSVCR100.dll
+ 0002:000000c8       __imp_fwrite               00000001800290c8     MSVCRT:MSVCR100.dll
+ 0002:000000d0       __imp_fopen                00000001800290d0     MSVCRT:MSVCR100.dll
+ 0002:000000d8       __imp_fread                00000001800290d8     MSVCRT:MSVCR100.dll
+ 0002:000000e0       __imp_fseek                00000001800290e0     MSVCRT:MSVCR100.dll
+ 0002:000000e8       __imp_ftell                00000001800290e8     MSVCRT:MSVCR100.dll
+ 0002:000000f0       __imp_realloc              00000001800290f0     MSVCRT:MSVCR100.dll
+ 0002:000000f8       __imp_log10                00000001800290f8     MSVCRT:MSVCR100.dll
+ 0002:00000100       __imp_sqrt                 0000000180029100     MSVCRT:MSVCR100.dll
+ 0002:00000108       __imp_floor                0000000180029108     MSVCRT:MSVCR100.dll
+ 0002:00000110       __imp_ceil                 0000000180029110     MSVCRT:MSVCR100.dll
+ 0002:00000118       __imp__gmtime64            0000000180029118     MSVCRT:MSVCR100.dll
+ 0002:00000120       __imp__time64              0000000180029120     MSVCRT:MSVCR100.dll
+ 0002:00000128       __imp_remove               0000000180029128     MSVCRT:MSVCR100.dll
+ 0002:00000130       __imp_sqrtf                0000000180029130     MSVCRT:MSVCR100.dll
+ 0002:00000138       __imp_memcmp               0000000180029138     MSVCRT:MSVCR100.dll
+ 0002:00000140       __imp__malloc_crt          0000000180029140     MSVCRT:MSVCR100.dll
+ 0002:00000148       __imp__initterm            0000000180029148     MSVCRT:MSVCR100.dll
+ 0002:00000150       __imp__initterm_e          0000000180029150     MSVCRT:MSVCR100.dll
+ 0002:00000158       __imp__encoded_null        0000000180029158     MSVCRT:MSVCR100.dll
+ 0002:00000160       __imp__amsg_exit           0000000180029160     MSVCRT:MSVCR100.dll
+ 0002:00000168       __imp___C_specific_handler 0000000180029168     MSVCRT:MSVCR100.dll
+ 0002:00000170       __imp___CppXcptFilter      0000000180029170     MSVCRT:MSVCR100.dll
+ 0002:00000178       __imp___crt_debugger_hook  0000000180029178     MSVCRT:MSVCR100.dll
+ 0002:00000180       __imp___clean_type_info_names_internal 0000000180029180     MSVCRT:MSVCR100.dll
+ 0002:00000188       __imp__unlock              0000000180029188     MSVCRT:MSVCR100.dll
+ 0002:00000190       __imp___dllonexit          0000000180029190     MSVCRT:MSVCR100.dll
+ 0002:00000198       __imp__lock                0000000180029198     MSVCRT:MSVCR100.dll
+ 0002:000001a0       __imp__onexit              00000001800291a0     MSVCRT:MSVCR100.dll
+ 0002:000001a8       __imp_strncpy              00000001800291a8     MSVCRT:MSVCR100.dll
+ 0002:000001b0       __imp__wassert             00000001800291b0     MSVCRT:MSVCR100.dll
+ 0002:000001b8       __imp_pow                  00000001800291b8     MSVCRT:MSVCR100.dll
+ 0002:000001c0       __imp_memset               00000001800291c0     MSVCRT:MSVCR100.dll
+ 0002:000001c8       __imp_memcpy               00000001800291c8     MSVCRT:MSVCR100.dll
+ 0002:000001d0       __imp_malloc               00000001800291d0     MSVCRT:MSVCR100.dll
+ 0002:000001d8       __imp_free                 00000001800291d8     MSVCRT:MSVCR100.dll
+ 0002:000001e0       __imp__snprintf            00000001800291e0     MSVCRT:MSVCR100.dll
+ 0002:000001e8       __imp_log                  00000001800291e8     MSVCRT:MSVCR100.dll
+ 0002:000001f0       \177MSVCR100_NULL_THUNK_DATA 00000001800291f0     MSVCRT:MSVCR100.dll
+ 0002:000001f8       __imp_J2dTraceImpl         00000001800291f8     awt:awt.dll
+ 0002:00000200       __imp_Disposer_AddRecord   0000000180029200     awt:awt.dll
+ 0002:00000208       \177awt_NULL_THUNK_DATA    0000000180029208     awt:awt.dll
+ 0002:00000210       __imp_JNU_ThrowByName      0000000180029210     java:java.dll
+ 0002:00000218       __imp_JNU_ThrowIllegalArgumentException 0000000180029218     java:java.dll
+ 0002:00000220       \177java_NULL_THUNK_DATA   0000000180029220     java:java.dll
+ 0002:00000228       __xc_a                     0000000180029228     MSVCRT:cinitexe.obj
+ 0002:00000230       __xc_z                     0000000180029230     MSVCRT:cinitexe.obj
+ 0002:00000238       __xi_a                     0000000180029238     MSVCRT:cinitexe.obj
+ 0002:00000248       __xi_z                     0000000180029248     MSVCRT:cinitexe.obj
+ 0002:00000270       ??_C@_0BM@DKJNFALL@java?1awt?1color?1CMMException?$AA@ 0000000180029270     LCMS.obj
+ 0002:00000290       ??_C@_0BC@EAADPECE@LCMS?5error?5?$CFd?3?5?$CFs?$AA@ 0000000180029290     LCMS.obj
+ 0002:000002a8       ??_C@_0BL@NGONHNHM@Cannot?5get?5color?5transform?$AA@ 00000001800292a8     LCMS.obj
+ 0002:000002c8       ??_C@_0CL@MBBNKCMD@LCMS_createNativeTransform?3?5sTra@ 00000001800292c8     LCMS.obj
+ 0002:000002f8       ??_C@_0BL@NCIANLHP@getXForm?3?5iccArray?5?$DN?$DN?5NULL?$AA@ 00000001800292f8     LCMS.obj
+ 0002:00000318       ??_C@_0BF@CIGEDMAF@Invalid?5profile?5data?$AA@ 0000000180029318     LCMS.obj
+ 0002:00000330       ??_C@_0CC@DNBPCCEF@Can?5not?5access?5specified?5profile@ 0000000180029330     LCMS.obj
+ 0002:00000358       ??_C@_0BO@HCFCGEHN@Insufficient?5buffer?5capacity?4?$AA@ 0000000180029358     LCMS.obj
+ 0002:00000376       ??_C@_00CNPNBAHC@?$AA@     0000000180029376     LCMS.obj
+ 0002:00000378       ??_C@_0CF@MCBLFNBG@LCMS_colorConvert?3?5transform?5?$DN?$DN?5@ 0000000180029378     LCMS.obj
+ 0002:000003a0       ??_C@_0CA@IKDAGKDP@sun?1java2d?1cmm?1lcms?1LCMSProfile?$AA@ 00000001800293a0     LCMS.obj
+ 0002:000003c0       ??_C@_0L@KBDEPJA@cmmProfile?$AA@ 00000001800293c0     LCMS.obj
+ 0002:000003d0       ??_C@_0BJ@BAOAEIJH@Lsun?1java2d?1cmm?1Profile?$DL?$AA@ 00000001800293d0     LCMS.obj
+ 0002:000003f0       ??_C@_0O@IIJELCFP@nextRowOffset?$AA@ 00000001800293f0     LCMS.obj
+ 0002:00000400       ??_C@_0M@BFDDANOD@imageAtOnce?$AA@ 0000000180029400     LCMS.obj
+ 0002:0000040c       ??_C@_06KLHHMIGM@offset?$AA@ 000000018002940c     LCMS.obj
+ 0002:00000414       ??_C@_06LNLHEAAG@height?$AA@ 0000000180029414     LCMS.obj
+ 0002:0000041c       ??_C@_05IGKADHGO@width?$AA@ 000000018002941c     LCMS.obj
+ 0002:00000428       ??_C@_09LLHCBPIG@dataArray?$AA@ 0000000180029428     LCMS.obj
+ 0002:00000438       ??_C@_0BD@HMGGFBMH@Ljava?1lang?1Object?$DL?$AA@ 0000000180029438     LCMS.obj
+ 0002:00000450       ??_C@_09FECOHCAH@pixelType?$AA@ 0000000180029450     LCMS.obj
+ 0002:00000460       ??_C@_08EIGIMCLE@dataType?$AA@ 0000000180029460     LCMS.obj
+ 0002:00000470       ??_C@_0M@BFEAFNHC@isIntPacked?$AA@ 0000000180029470     LCMS.obj
+ 0002:0000047c       ??_C@_01POHCFINO@Z?$AA@    000000018002947c     LCMS.obj
+ 0002:00000480       ??_C@_02OLOABKKD@ID?$AA@   0000000180029480     LCMS.obj
+ 0002:00000484       ??_C@_01LELAEKIP@J?$AA@    0000000180029484     LCMS.obj
+ 0002:00000488       ??_C@_0L@MNEDCAEF@renderType?$AA@ 0000000180029488     LCMS.obj
+ 0002:00000494       ??_C@_01JPJNBJEM@I?$AA@    0000000180029494     LCMS.obj
+ 0002:00000498       ??_C@_0BK@OPEDDCAA@ICC?5profile?5tag?5not?5found?$AA@ 0000000180029498     LCMS.obj
+ 0002:000004b8       ??_C@_0BG@OLDFEMMB@Can?5not?5get?5tag?5data?4?$AA@ 00000001800294b8     LCMS.obj
+ 0002:000004d0       ??_C@_0BN@NLFDCHLC@ICC?5Profile?5header?5not?5found?$AA@ 00000001800294d0     LCMS.obj
+ 0002:000004f0       ??_C@_0BI@IADIMJMB@Can?5not?5write?5tag?5data?4?$AA@ 00000001800294f0     LCMS.obj
+ 0002:00000508       __real@3fe0000000000000    0000000180029508     cmscam02.obj
+ 0002:00000510       __real@3fc999999999999a    0000000180029510     cmscam02.obj
+ 0002:00000518       __real@3ff0000000000000    0000000180029518     cmscam02.obj
+ 0002:00000520       __real@3fb999999999999a    0000000180029520     cmscam02.obj
+ 0002:00000528       __real@3fd5555555555555    0000000180029528     cmscam02.obj
+ 0002:00000530       __real@4000000000000000    0000000180029530     cmscam02.obj
+ 0002:00000538       __real@4010000000000000    0000000180029538     cmscam02.obj
+ 0002:00000540       __real@4014000000000000    0000000180029540     cmscam02.obj
+ 0002:00000550       __mask@@NegDouble@         0000000180029550     cmscam02.obj
+ 0002:000005e0       __real@4059000000000000    00000001800295e0     cmscam02.obj
+ 0002:000005e8       __real@bff0000000000000    00000001800295e8     cmscam02.obj
+ 0002:000005f0       __real@3fd0000000000000    00000001800295f0     cmscam02.obj
+ 0002:000005f8       __real@4069000000000000    00000001800295f8     cmscam02.obj
+ 0002:00000600       __mask@@AbsDouble@         0000000180029600     cmscam02.obj
+ 0002:00000610       ??_C@_0M@CCEBNHDC@CHI_SQD_PAR?$AA@ 0000000180029610     cmscgats.obj
+ 0002:00000620       ??_C@_08LCDEBKKI@STDEV_DE?$AA@ 0000000180029620     cmscgats.obj
+ 0002:00000630       ??_C@_07NJPNJCCA@STDEV_B?$AA@ 0000000180029630     cmscgats.obj
+ 0002:00000638       ??_C@_07PCNAMBOD@STDEV_A?$AA@ 0000000180029638     cmscgats.obj
+ 0002:00000640       ??_C@_07EHHOLPKO@STDEV_L?$AA@ 0000000180029640     cmscgats.obj
+ 0002:00000648       ??_C@_07FLOGAKHJ@STDEV_Z?$AA@ 0000000180029648     cmscgats.obj
+ 0002:00000650       ??_C@_07HAMLFJLK@STDEV_Y?$AA@ 0000000180029650     cmscgats.obj
+ 0002:00000658       ??_C@_07GJNAGIPL@STDEV_X?$AA@ 0000000180029658     cmscgats.obj
+ 0002:00000660       ??_C@_07HEECBDDN@MEAN_DE?$AA@ 0000000180029660     cmscgats.obj
+ 0002:00000668       ??_C@_0M@HPKLADL@LAB_DE_2000?$AA@ 0000000180029668     cmscgats.obj
+ 0002:00000678       ??_C@_0L@DKBFAEGH@LAB_DE_CMC?$AA@ 0000000180029678     cmscgats.obj
+ 0002:00000688       ??_C@_09OIBLJGHC@LAB_DE_94?$AA@ 0000000180029688     cmscgats.obj
+ 0002:00000694       ??_C@_06GOPMGMME@LAB_DE?$AA@ 0000000180029694     cmscgats.obj
+ 0002:0000069c       ??_C@_05DNGJNJIE@LAB_H?$AA@ 000000018002969c     cmscgats.obj
+ 0002:000006a4       ??_C@_05NOJNAAEP@LAB_C?$AA@ 00000001800296a4     cmscgats.obj
+ 0002:000006ac       ??_C@_05MHIGDBAO@LAB_B?$AA@ 00000001800296ac     cmscgats.obj
+ 0002:000006b4       ??_C@_05OMKLGCMN@LAB_A?$AA@ 00000001800296b4     cmscgats.obj
+ 0002:000006bc       ??_C@_05FJAFBMIA@LAB_L?$AA@ 00000001800296bc     cmscgats.obj
+ 0002:000006c8       ??_C@_08OKLOCDPI@XYY_CAPY?$AA@ 00000001800296c8     cmscgats.obj
+ 0002:000006d8       ??_C@_0L@DOILIGPP@XYY_XXYY_Y?$AA@ 00000001800296d8     cmscgats.obj
+ 0002:000006e4       ??_C@_05BIOHEKOJ@XYZ_Z?$AA@ 00000001800296e4     cmscgats.obj
+ 0002:000006ec       ??_C@_05DDMKBJCK@XYZ_Y?$AA@ 00000001800296ec     cmscgats.obj
+ 0002:000006f4       ??_C@_05CKNBCIGL@XYZ_X?$AA@ 00000001800296f4     cmscgats.obj
+ 0002:00000700       ??_C@_0N@LEJCFEG@SPECTRAL_DEC?$AA@ 0000000180029700     cmscgats.obj
+ 0002:00000710       ??_C@_0N@NFDMBNKK@SPECTRAL_PCT?$AA@ 0000000180029710     cmscgats.obj
+ 0002:00000720       ??_C@_0M@LIGBHIDL@SPECTRAL_NM?$AA@ 0000000180029720     cmscgats.obj
+ 0002:0000072c       ??_C@_05HBBKKHEF@RGB_B?$AA@ 000000018002972c     cmscgats.obj
+ 0002:00000734       ??_C@_05MGNFDAA@RGB_G?$AA@ 0000000180029734     cmscgats.obj
+ 0002:0000073c       ??_C@_05DLNILFBE@RGB_R?$AA@ 000000018002973c     cmscgats.obj
+ 0002:00000748       ??_C@_0P@OLJLEEFM@D_MAJOR_FILTER?$AA@ 0000000180029748     cmscgats.obj
+ 0002:00000758       ??_C@_05GAAMKGJK@D_VIS?$AA@ 0000000180029758     cmscgats.obj
+ 0002:00000760       ??_C@_06DLIHHAHO@D_BLUE?$AA@ 0000000180029760     cmscgats.obj
+ 0002:00000768       ??_C@_07GHIFGAP@D_GREEN?$AA@ 0000000180029768     cmscgats.obj
+ 0002:00000770       ??_C@_05ODPHEMDP@D_RED?$AA@ 0000000180029770     cmscgats.obj
+ 0002:00000778       ??_C@_06KJMNNLBC@CMYK_K?$AA@ 0000000180029778     cmscgats.obj
+ 0002:00000780       ??_C@_06NBDJKLMB@CMYK_Y?$AA@ 0000000180029780     cmscgats.obj
+ 0002:00000788       ??_C@_06PPJHHMJE@CMYK_M?$AA@ 0000000180029788     cmscgats.obj
+ 0002:00000790       ??_C@_06GBBEFBBK@CMYK_C?$AA@ 0000000180029790     cmscgats.obj
+ 0002:00000798       ??_C@_06IGECGLFO@STRING?$AA@ 0000000180029798     cmscgats.obj
+ 0002:000007a0       ??_C@_09IGELLNJJ@SAMPLE_ID?$AA@ 00000001800297a0     cmscgats.obj
+ 0002:000007b0       ??_C@_0L@HJPNOMFH@TABLE_NAME?$AA@ 00000001800297b0     cmscgats.obj
+ 0002:000007c0       ??_C@_0BB@IJIAOGIB@TABLE_DESCRIPTOR?$AA@ 00000001800297c0     cmscgats.obj
+ 0002:000007d8       ??_C@_08LGFJDIAP@COLORANT?$AA@ 00000001800297d8     cmscgats.obj
+ 0002:000007e8       ??_C@_0M@HKJIKBKL@TARGET_TYPE?$AA@ 00000001800297e8     cmscgats.obj
+ 0002:000007f8       ??_C@_0BI@LGGFFBDK@COMPUTATIONAL_PARAMETER?$AA@ 00000001800297f8     cmscgats.obj
+ 0002:00000810       ??_C@_0BD@PMHFGOKD@WEIGHTING_FUNCTION?$AA@ 0000000180029810     cmscgats.obj
+ 0002:00000828       ??_C@_0N@BLIEIPH@POLARIZATION?$AA@ 0000000180029828     cmscgats.obj
+ 0002:00000838       ??_C@_06EKKPGGCG@FILTER?$AA@ 0000000180029838     cmscgats.obj
+ 0002:00000840       ??_C@_0BF@BFDKHDLE@MEASUREMENT_GEOMETRY?$AA@ 0000000180029840     cmscgats.obj
+ 0002:00000858       ??_C@_09JMFPMOIF@CHISQ_DOF?$AA@ 0000000180029858     cmscgats.obj
+ 0002:00000868       ??_C@_0P@KIIFMCBO@SAMPLE_BACKING?$AA@ 0000000180029868     cmscgats.obj
+ 0002:00000878       ??_C@_0BB@CCJPNIDB@PRINT_CONDITIONS?$AA@ 0000000180029878     cmscgats.obj
+ 0002:00000890       ??_C@_0BD@EJAFHPHI@MEASUREMENT_SOURCE?$AA@ 0000000180029890     cmscgats.obj
+ 0002:000008a8       ??_C@_0BA@GCECPBPC@INSTRUMENTATION?$AA@ 00000001800298a8     cmscgats.obj
+ 0002:000008b8       ??_C@_08NCEIPHOL@MATERIAL?$AA@ 00000001800298b8     cmscgats.obj
+ 0002:000008c4       ??_C@_06KGGACEJG@SERIAL?$AA@ 00000001800298c4     cmscgats.obj
+ 0002:000008d0       ??_C@_09CMIELPMF@PROD_DATE?$AA@ 00000001800298d0     cmscgats.obj
+ 0002:000008e0       ??_C@_0M@NCKCGAOL@MANUFACTURE?$AA@ 00000001800298e0     cmscgats.obj
+ 0002:000008f0       ??_C@_0N@LPIHKGEG@MANUFACTURER?$AA@ 00000001800298f0     cmscgats.obj
+ 0002:00000900       ??_C@_0BB@FHCOAJ@DIFFUSE_GEOMETRY?$AA@ 0000000180029900     cmscgats.obj
+ 0002:00000918       ??_C@_0L@HFJNFBAI@DESCRIPTOR?$AA@ 0000000180029918     cmscgats.obj
+ 0002:00000928       ??_C@_07BFKIKKPP@CREATED?$AA@ 0000000180029928     cmscgats.obj
+ 0002:00000930       ??_C@_0BA@LGMGNJKE@FILE_DESCRIPTOR?$AA@ 0000000180029930     cmscgats.obj
+ 0002:00000940       ??_C@_0L@LDGMMHG@ORIGINATOR?$AA@ 0000000180029940     cmscgats.obj
+ 0002:00000950       ??_C@_0P@DOAEDAOK@NUMBER_OF_SETS?$AA@ 0000000180029950     cmscgats.obj
+ 0002:00000960       ??_C@_0BB@HDJDLEKM@NUMBER_OF_FIELDS?$AA@ 0000000180029960     cmscgats.obj
+ 0002:00000978       ??_C@_07GBPBNGKD@KEYWORD?$AA@ 0000000180029978     cmscgats.obj
+ 0002:00000980       ??_C@_0BA@JKEAGHEK@END_DATA_FORMAT?$AA@ 0000000180029980     cmscgats.obj
+ 0002:00000990       ??_C@_08PAHEKPHH@END_DATA?$AA@ 0000000180029990     cmscgats.obj
+ 0002:000009a0       ??_C@_0BH@BKLCBPCO@DATA_FORMAT_IDENTIFIER?$AA@ 00000001800299a0     cmscgats.obj
+ 0002:000009b8       ??_C@_0BC@MJMHIBCL@BEGIN_DATA_FORMAT?$AA@ 00000001800299b8     cmscgats.obj
+ 0002:000009d0       ??_C@_0L@LAOBICO@BEGIN_DATA?$AA@ 00000001800299d0     cmscgats.obj
+ 0002:000009e0       ??_C@_08GDKCMJME@?4INCLUDE?$AA@ 00000001800299e0     cmscgats.obj
+ 0002:000009f0       ??_C@_08PGIMEDFK@$INCLUDE?$AA@ 00000001800299f0     cmscgats.obj
+ 0002:00000a80       __real@4024000000000000    0000000180029a80     cmscgats.obj
+ 0002:00000a88       ??_C@_0BE@FJNFGNJC@File?5?8?$CFs?8?5not?5found?$AA@ 0000000180029a88     cmscgats.obj
+ 0002:00000aa0       __real@4238000000000000    0000000180029aa0     cmscnvrt.obj
+ 0002:00000aa8       __real@40dfffc000000000    0000000180029aa8     cmscnvrt.obj
+ 0002:00000ab0       __real@40efffe000000000    0000000180029ab0     cmscnvrt.obj
+ 0002:00000ab8       __real@3f847ae147ae147b    0000000180029ab8     cmscnvrt.obj
+ 0002:00000ac0       __real@3f60624dd2f1a9fc    0000000180029ac0     cmscnvrt.obj
+ 0002:00000ac8       __real@0000000000000000    0000000180029ac8     cmscnvrt.obj
+ 0002:00000ad0       __real@3fffffe000000000    0000000180029ad0     cmscnvrt.obj
+ 0002:00000ad8       ??_C@_0BE@GPNPIJJB@ColorSpace?5mismatch?$AA@ 0000000180029ad8     cmscnvrt.obj
+ 0002:00000af0       __real@3f08001800180018    0000000180029af0     cmscnvrt.obj
+ 0002:00000af8       ??_C@_0BM@OKJAFLEH@Couldn?8t?5link?5?8?$CFd?8?5profiles?$AA@ 0000000180029af8     cmscnvrt.obj
+ 0002:00000b18       ??_C@_0BI@MPGEHHCF@Unsupported?5intent?5?8?$CFd?8?$AA@ 0000000180029b18     cmscnvrt.obj
+ 0002:00000b30       ??_C@_1IM@JGLEJJHJ@?$AAd?$AA?3?$AA?1?$AAx?$AAy?$AAs?$AAz?$AAi?$AAv?$AA?1?$AAo?$AAp?$AAe?$AAn?$AAj?$AAd?$AAk?$AA?1?$AAj?$AAd?$AAk?$AA?1?$AAs?$AAr?$AAc?$AA?1?$AAs?$AAh?$AAa?$AAr?$AAe?$AA?1@ 0000000180029b30     cmsgamma.obj
+ 0002:00000bc0       ??_C@_0DG@DAENFMPF@Couldn?8t?5create?5tone?5curve?5of?5mo@ 0000000180029bc0     cmsgamma.obj
+ 0002:00000bf8       ??_C@_0DL@NNEGPMHF@Couldn?8t?5create?5tone?5curve?5with?5@ 0000000180029bf8     cmsgamma.obj
+ 0002:00000c38       __real@3f1a36e2eb1c432d    0000000180029c38     cmsgamma.obj
+ 0002:00000c40       __real@c480f0cf00000000    0000000180029c40     cmsgamma.obj
+ 0002:00000c48       ??_C@_1CG@HLMBJFNB@?$AA?$CI?$AAt?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 0000000180029c48     cmsgamma.obj
+ 0002:00000c70       __real@3f50624dd2f1a9fc    0000000180029c70     cmsgamma.obj
+ 0002:00000c78       ??_C@_1DE@GIABPHMP@?$AA?$CI?$AAS?$AAe?$AAg?$AAm?$AAe?$AAn?$AAt?$AAs?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 0000000180029c78     cmsgamma.obj
+ 0002:00000cac       __real@64078678            0000000180029cac     cmsgamma.obj
+ 0002:00000cb0       __real@3f800000            0000000180029cb0     cmsgamma.obj
+ 0002:00000cd0       __real@e4078678            0000000180029cd0     cmsgamma.obj
+ 0002:00000cd8       ??_C@_0CB@BEAJOFEK@Invalid?5parametric?5curve?5type?5?$CFd@ 0000000180029cd8     cmsgamma.obj
+ 0002:00000d00       ??_C@_1DA@IJADAILO@?$AA?$CI?$AAP?$AAa?$AAr?$AAa?$AAm?$AAs?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 0000000180029d00     cmsgamma.obj
+ 0002:00000d30       ??_C@_1CO@OEIADPPA@?$AA?$CI?$AAC?$AAu?$AAr?$AAv?$AAe?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 0000000180029d30     cmsgamma.obj
+ 0002:00000d60       ??_C@_1DC@MKGDKPLN@?$AA?$CI?$AAI?$AAn?$AAC?$AAu?$AAr?$AAv?$AAe?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 0000000180029d60     cmsgamma.obj
+ 0002:00000d98       ??_C@_1DC@JLECBOHN@?$AA?$CI?$AAI?$AAn?$AAG?$AAa?$AAm?$AAm?$AAa?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 0000000180029d98     cmsgamma.obj
+ 0002:00000dcc       __real@477fff00            0000000180029dcc     cmsgamma.obj
+ 0002:00000dd0       ??_C@_1CG@LPLCGKAE@?$AA?$CI?$AAY?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 0000000180029dd0     cmsgamma.obj
+ 0002:00000df8       ??_C@_1CG@CKMCLOJB@?$AA?$CI?$AAX?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 0000000180029df8     cmsgamma.obj
+ 0002:00000e20       ??_C@_0DC@PJJKCCID@Wrong?5position?5of?5PCS?4?51?4?4255?5ex@ 0000000180029e20     cmsgmt.obj
+ 0002:00000e58       ??_C@_0CM@FENLHOGF@Unsupported?5interpolation?5?$CI?$CFd?9?$DO?$CF@ 0000000180029e58     cmsintrp.obj
+ 0002:00000e88       ??_C@_0CO@IFGJIAPD@Too?5many?5input?5channels?5?$CI?$CFd?5chan@ 0000000180029e88     cmsintrp.obj
+ 0002:00000ec0       ??_C@_0EC@HENBOIOF@Read?5from?5memory?5error?4?5Got?5?$CFd?5b@ 0000000180029ec0     cmsio0.obj
+ 0002:00000f08       ??_C@_0CJ@PBMIOLAN@Too?5few?5data?$DL?5probably?5corrupted@ 0000000180029f08     cmsio0.obj
+ 0002:00000f38       ??_C@_0CI@FBACEILJ@Couldn?8t?5allocate?5?$CFld?5bytes?5for?5@ 0000000180029f38     cmsio0.obj
+ 0002:00000f60       ??_C@_0CI@IDACEJJO@Couldn?8t?5read?5profile?5from?5NULL?5@ 0000000180029f60     cmsio0.obj
+ 0002:00000f88       ??_C@_0BJ@HOIDLEMJ@Unknown?5access?5mode?5?8?$CFc?8?$AA@ 0000000180029f88     cmsio0.obj
+ 0002:00000fa8       ??_C@_1DI@HPNBDDLC@?$AA?$CI?$AAA?$AAc?$AAc?$AAe?$AAs?$AAs?$AAM?$AAo?$AAd?$AAe?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 0000000180029fa8     cmsio0.obj
+ 0002:00000fe0       ??_C@_1II@ONLJAKBM@?$AAd?$AA?3?$AA?1?$AAx?$AAy?$AAs?$AAz?$AAi?$AAv?$AA?1?$AAo?$AAp?$AAe?$AAn?$AAj?$AAd?$AAk?$AA?1?$AAj?$AAd?$AAk?$AA?1?$AAs?$AAr?$AAc?$AA?1?$AAs?$AAh?$AAa?$AAr?$AAe?$AA?1@ 0000000180029fe0     cmsio0.obj
+ 0002:00001068       ??_C@_0DG@EGCPMNKB@Read?5error?4?5Got?5?$CFd?5bytes?0?5block?5@ 000000018002a068     cmsio0.obj
+ 0002:000010a0       ??_C@_0CE@FOFFALFI@Seek?5error?$DL?5probably?5corrupted?5f@ 000000018002a0a0     cmsio0.obj
+ 0002:000010c4       ??_C@_02JDPG@rb?$AA@       000000018002a0c4     cmsio0.obj
+ 0002:000010c8       ??_C@_0BF@IOKNJLDN@Couldn?8t?5create?5?8?$CFs?8?$AA@ 000000018002a0c8     cmsio0.obj
+ 0002:000010e0       ??_C@_02GMLFBBN@wb?$AA@    000000018002a0e0     cmsio0.obj
+ 0002:000010e8       ??_C@_1DE@NOOCFEC@?$AA?$CI?$AAF?$AAi?$AAl?$AAe?$AAN?$AAa?$AAm?$AAe?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 000000018002a0e8     cmsio0.obj
+ 0002:00001120       ??_C@_1BC@LLIOLENC@?$AA?$CI?$AAi?$AA?5?$AA?$DO?$AA?$DN?$AA?5?$AA0?$AA?$CJ?$AA?$AA@ 000000018002a120     cmsio0.obj
+ 0002:00001138       ??_C@_1CK@GEMJKMID@?$AA?$CI?$AAI?$AAc?$AAc?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 000000018002a138     cmsio0.obj
+ 0002:00001168       ??_C@_0BD@JMMMDFNL@Too?5many?5tags?5?$CI?$CFd?$CJ?$AA@ 000000018002a168     cmsio0.obj
+ 0002:00001180       ??_C@_0CG@NLDDKNPC@not?5an?5ICC?5profile?0?5invalid?5sign@ 000000018002a180     cmsio0.obj
+ 0002:000011a8       ??_C@_0BJ@FBKOJGB@Couldn?8t?5write?5type?5?8?$CFs?8?$AA@ 000000018002a1a8     cmsio0.obj
+ 0002:000011c8       ??_C@_0CB@FNKNDEEO@?$CIInternal?$CJ?5no?5handler?5for?5tag?5?$CFx@ 000000018002a1c8     cmsio0.obj
+ 0002:000011f0       ??_C@_1DE@LMEMAMAP@?$AA?$CI?$AAh?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 000000018002a1f0     cmsio0.obj
+ 0002:00001224       ??_C@_01NOFIACDB@w?$AA@    000000018002a224     cmsio0.obj
+ 0002:00001228       ??_C@_1DK@MKLHGAPE@?$AA?$CI?$AAB?$AAy?$AAt?$AAe?$AAs?$AAN?$AAe?$AAe?$AAd?$AAe?$AAd?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 000000018002a228     cmsio0.obj
+ 0002:00001268       ??_C@_0DH@DCJPPHOD@?8?$CFs?8?5Inconsistent?5number?5of?5item@ 000000018002a268     cmsio0.obj
+ 0002:000012a0       ??_C@_0BD@BIMHEJDA@Corrupted?5tag?5?8?$CFs?8?$AA@ 000000018002a2a0     cmsio0.obj
+ 0002:000012b8       ??_C@_0BN@LCFMIKBH@Unknown?5tag?5type?5?8?$CFs?8?5found?4?$AA@ 000000018002a2b8     cmsio0.obj
+ 0002:000012d8       ??_C@_0CL@BPICAPKH@Malformed?5struct?5in?5type?5?8?$CFs?8?5fo@ 000000018002a2d8     cmsio0.obj
+ 0002:00001308       ??_C@_0CD@PJOOLCAA@Unsupported?5type?5?8?$CFs?8?5for?5tag?5?8?$CF@ 000000018002a308     cmsio0.obj
+ 0002:00001330       ??_C@_0BF@BDDLIOKO@Unsupported?5tag?5?8?$CFx?8?$AA@ 000000018002a330     cmsio0.obj
+ 0002:00001348       ??_C@_01KDCPPGHE@r?$AA@    000000018002a348     cmsio0.obj
+ 0002:000013f0       ??_C@_1CM@NGLHBDNP@?$AA?$CI?$AAD?$AAe?$AAs?$AAt?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 000000018002a3f0     cmsio1.obj
+ 0002:00001420       ??_C@_1II@CBBDAKIC@?$AAd?$AA?3?$AA?1?$AAx?$AAy?$AAs?$AAz?$AAi?$AAv?$AA?1?$AAo?$AAp?$AAe?$AAn?$AAj?$AAd?$AAk?$AA?1?$AAj?$AAd?$AAk?$AA?1?$AAs?$AAr?$AAc?$AA?1?$AAs?$AAh?$AAa?$AAr?$AAe?$AA?1@ 000000018002a420     cmsio1.obj
+ 0002:000014a8       ??_C@_1CG@LCABGCCN@?$AA?$CI?$AAr?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 000000018002a4a8     cmsio1.obj
+ 0002:000014d0       __real@3fe0001000100010    000000018002a4d0     cmsio1.obj
+ 0002:000014d8       ??_C@_0BK@HHCHMIIC@Unexpected?5direction?5?$CI?$CFd?$CJ?$AA@ 000000018002a4d8     cmsio1.obj
+ 0002:000016f8       ??_C@_1CK@LHGNOKBH@?$AA?$CI?$AAm?$AAp?$AAe?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 000000018002a6f8     cmslut.obj
+ 0002:00001730       ??_C@_1II@OIEBKADK@?$AAd?$AA?3?$AA?1?$AAx?$AAy?$AAs?$AAz?$AAi?$AAv?$AA?1?$AAo?$AAp?$AAe?$AAn?$AAj?$AAd?$AAk?$AA?1?$AAj?$AAd?$AAk?$AA?1?$AAs?$AAr?$AAc?$AA?1?$AAs?$AAh?$AAa?$AAr?$AAe?$AA?1@ 000000018002a730     cmslut.obj
+ 0002:000017b8       ??_C@_1DM@JFBKGHDE@?$AA?$CI?$AAm?$AAp?$AAe?$AA?5?$AA?9?$AA?$DO?$AAO?$AAu?$AAt?$AAp?$AAu?$AAt?$AAC?$AAh?$AAa?$AAn?$AAn?$AAe?$AAl?$AAs?$AA?5?$AA?$DM?$AA?$DN?$AA?5?$AA1?$AA2?$AA8?$AA?$CJ?$AA?$AA@ 000000018002a7b8     cmslut.obj
+ 0002:000017f8       ??_C@_1DK@CFFPJFPG@?$AA?$CI?$AAm?$AAp?$AAe?$AA?5?$AA?9?$AA?$DO?$AAI?$AAn?$AAp?$AAu?$AAt?$AAC?$AAh?$AAa?$AAn?$AAn?$AAe?$AAl?$AAs?$AA?5?$AA?$DM?$AA?$DN?$AA?5?$AA1?$AA2?$AA8?$AA?$CJ?$AA?$AA@ 000000018002a7f8     cmslut.obj
+ 0002:00001838       ??_C@_1CM@LJPGPLKD@?$AA?$CI?$AAD?$AAi?$AAm?$AAs?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 000000018002a838     cmslut.obj
+ 0002:00001868       __real@4060000000000000    000000018002a868     cmslut.obj
+ 0002:00001870       __real@406fe00000000000    000000018002a870     cmslut.obj
+ 0002:00001878       ??_C@_1CK@LKCAMODA@?$AA?$CI?$AAl?$AAu?$AAt?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 000000018002a878     cmslut.obj
+ 0002:000018a4       __real@3a83126f            000000018002a8a4     cmslut.obj
+ 0002:000018a8       __real@3feff7ced9100000    000000018002a8a8     cmslut.obj
+ 0002:000018b0       __real@3e99999a            000000018002a8b0     cmslut.obj
+ 0002:000018b8       __real@4415af1d78b58c40    000000018002a8b8     cmslut.obj
+ 0002:000018c0       ??_C@_1DI@MPOGPCHK@?$AA?$CI?$AAc?$AAl?$AAu?$AAt?$AAP?$AAo?$AAi?$AAn?$AAt?$AAs?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 000000018002a8c0     cmslut.obj
+ 0002:000018f8       __real@3ef0001000100010    000000018002a8f8     cmsmtrx.obj
+ 0002:00001900       ??_C@_0BP@PGHMLJHL@Color?5?$CFd?5out?5of?5range?$DL?5ignored?$AA@ 000000018002a900     cmsnamed.obj
+ 0002:00001920       ??_C@_1CM@OPJLPAEO@?$AA?$CI?$AAd?$AAi?$AAc?$AAt?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 000000018002a920     cmsnamed.obj
+ 0002:00001950       ??_C@_1IM@BAPINJDH@?$AAd?$AA?3?$AA?1?$AAx?$AAy?$AAs?$AAz?$AAi?$AAv?$AA?1?$AAo?$AAp?$AAe?$AAn?$AAj?$AAd?$AAk?$AA?1?$AAj?$AAd?$AAk?$AA?1?$AAs?$AAr?$AAc?$AA?1?$AAs?$AAh?$AAa?$AAr?$AAe?$AA?1@ 000000018002a950     cmsnamed.obj
+ 0002:000019e0       ??_C@_1CM@HLJNNENG@?$AA?$CI?$AAN?$AAa?$AAm?$AAe?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 000000018002a9e0     cmsnamed.obj
+ 0002:00001a10       ??_C@_1DE@GMNGAPNI@?$AA?$CI?$AAo?$AAl?$AAd?$AA_?$AAd?$AAi?$AAc?$AAt?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 000000018002aa10     cmsnamed.obj
+ 0002:00001a48       ??_C@_1DK@BDAFNLJF@?$AA?$CI?$AAL?$AAu?$AAt?$AA?5?$AA?9?$AA?$DO?$AA?5?$AAO?$AAu?$AAt?$AAp?$AAu?$AAt?$AAC?$AAh?$AAa?$AAn?$AAn?$AAe?$AAl?$AAs?$AA?5?$AA?$DM?$AA?5?$AA1?$AA6?$AA?$CJ?$AA?$AA@ 000000018002aa48     cmsopt.obj
+ 0002:00001a88       ??_C@_1DI@EAMFMLDM@?$AA?$CI?$AAL?$AAu?$AAt?$AA?5?$AA?9?$AA?$DO?$AA?5?$AAI?$AAn?$AAp?$AAu?$AAt?$AAC?$AAh?$AAa?$AAn?$AAn?$AAe?$AAl?$AAs?$AA?5?$AA?$DM?$AA?5?$AA1?$AA6?$AA?$CJ?$AA?$AA@ 000000018002aa88     cmsopt.obj
+ 0002:00001ac0       ??_C@_1II@HJPGLJIO@?$AAd?$AA?3?$AA?1?$AAx?$AAy?$AAs?$AAz?$AAi?$AAv?$AA?1?$AAo?$AAp?$AAe?$AAn?$AAj?$AAd?$AAk?$AA?1?$AAj?$AAd?$AAk?$AA?1?$AAs?$AAr?$AAc?$AA?1?$AAs?$AAh?$AAa?$AAr?$AAe?$AA?1@ 000000018002aac0     cmsopt.obj
+ 0002:00001b48       ??_C@_0DF@HOPCOCIH@?$CIinternal?$CJ?5?$CFd?5Channels?5are?5not?5s@ 000000018002ab48     cmsopt.obj
+ 0002:00001b80       ??_C@_0DA@HEOCGKJM@?$CIinternal?$CJ?5Attempt?5to?5PatchLUT?5o@ 000000018002ab80     cmsopt.obj
+ 0002:00001bb0       ??_C@_17GJAOLOGM@?$AA?$CI?$AA0?$AA?$CJ?$AA?$AA@ 000000018002abb0     cmsopt.obj
+ 0002:00001bb8       __real@3f947ae147ae147b    000000018002abb8     cmsopt.obj
+ 0002:00001bc0       __real@40affe0000000000    000000018002abc0     cmsopt.obj
+ 0002:00001bc8       __real@40d0000000000000    000000018002abc8     cmsopt.obj
+ 0002:00001bd0       __real@3f10000000000000    000000018002abd0     cmsopt.obj
+ 0002:00001bd8       __real@40847acccccccccd    000000018002abd8     cmspack.obj
+ 0002:00001be0       __real@42c80000            000000018002abe0     cmspack.obj
+ 0002:00001be4       __real@43000000            000000018002abe4     cmspack.obj
+ 0002:00001be8       __real@4423d666            000000018002abe8     cmspack.obj
+ 0002:00001bf0       __real@3fc1a7b9611a7b96    000000018002abf0     cmspcs.obj
+ 0002:00001bf8       __real@401f25ed097b425f    000000018002abf8     cmspcs.obj
+ 0002:00001c00       __real@3f822354d28f7cd6    000000018002ac00     cmspcs.obj
+ 0002:00001c08       __real@3fc07004ded20922    000000018002ac08     cmspcs.obj
+ 0002:00001c10       __real@3fca7b9611a7b961    000000018002ac10     cmspcs.obj
+ 0002:00001c18       __real@4030000000000000    000000018002ac18     cmspcs.obj
+ 0002:00001c20       __real@405d000000000000    000000018002ac20     cmspcs.obj
+ 0002:00001c28       __real@407f400000000000    000000018002ac28     cmspcs.obj
+ 0002:00001c30       __real@3f747ae147ae147b    000000018002ac30     cmspcs.obj
+ 0002:00001c38       __real@3f70000000000000    000000018002ac38     cmspcs.obj
+ 0002:00001c40       __real@4070100000000000    000000018002ac40     cmspcs.obj
+ 0002:00001c48       __real@c060000000000000    000000018002ac48     cmspcs.obj
+ 0002:00001c50       __real@405fc00000000000    000000018002ac50     cmspcs.obj
+ 0002:00001c58       __real@40e0000000000000    000000018002ac58     cmspcs.obj
+ 0002:00001c60       __real@3ff8000000000000    000000018002ac60     cmspcs.obj
+ 0002:00001c68       __real@4008000000000000    000000018002ac68     cmspcs.obj
+ 0002:00001c70       __real@4049000000000000    000000018002ac70     cmspcs.obj
+ 0002:00001c78       ??_C@_1DA@IKFHMEFE@?$AA?$CI?$AAR?$AAe?$AAs?$AAu?$AAl?$AAt?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 000000018002ac78     cmsplugin.obj
+ 0002:00001cb0       ??_C@_1IO@KOCKGCLD@?$AAd?$AA?3?$AA?1?$AAx?$AAy?$AAs?$AAz?$AAi?$AAv?$AA?1?$AAo?$AAp?$AAe?$AAn?$AAj?$AAd?$AAk?$AA?1?$AAj?$AAd?$AAk?$AA?1?$AAs?$AAr?$AAc?$AA?1?$AAs?$AAh?$AAa?$AAr?$AAe?$AA?1@ 000000018002acb0     cmsplugin.obj
+ 0002:00001d40       ??_C@_1CI@IBMJCBII@?$AA?$CI?$AAi?$AAo?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 000000018002ad40     cmsplugin.obj
+ 0002:00001d68       ??_C@_1CO@GLMFFIJI@?$AA?$CI?$AAA?$AAr?$AAr?$AAa?$AAy?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 000000018002ad68     cmsplugin.obj
+ 0002:00001d98       __real@3ef0000000000000    000000018002ad98     cmsplugin.obj
+ 0002:00001da0       __real@40f0000000000000    000000018002ada0     cmsplugin.obj
+ 0002:00001da8       ??_C@_1DA@HELMLOJA@?$AA?$CI?$AAS?$AAo?$AAu?$AAr?$AAc?$AAe?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 000000018002ada8     cmsplugin.obj
+ 0002:00001dd8       ??_C@_0BD@JNNPAPHB@Bad?5context?5client?$AA@ 000000018002add8     cmsplugin.obj
+ 0002:00001df0       ??_C@_1CK@FAKPOMMB@?$AA?$CI?$AAX?$AAY?$AAZ?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 000000018002adf0     cmsplugin.obj
+ 0002:00001e1c       ??_C@_02LOCGON@?$AA?$AA?$AA@ 000000018002ae1c     cmsps2.obj
+ 0002:00001e20       __real@3ddb7cdfd9d7bdbb    000000018002ae20     cmssamp.obj
+ 0002:00001e28       __real@3f9eb851eb851eb8    000000018002ae28     cmssamp.obj
+ 0002:00001e30       __real@c049000000000000    000000018002ae30     cmssamp.obj
+ 0002:00001f40       ??_C@_1EG@GEILGLJC@?$AA?$CI?$AA?$CB?$AA?$CI?$AAA?$AAr?$AAr?$AAa?$AAy?$AA?5?$AA?$DN?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?5?$AA?$CG?$AA?$CG?$AA?5?$AAn?$AA?5?$AA?$DO?$AA?5?$AA0@ 000000018002af40     cmstypes.obj
+ 0002:00001f90       ??_C@_1IM@LDEOKLPP@?$AAd?$AA?3?$AA?1?$AAx?$AAy?$AAs?$AAz?$AAi?$AAv?$AA?1?$AAo?$AAp?$AAe?$AAn?$AAj?$AAd?$AAk?$AA?1?$AAj?$AAd?$AAk?$AA?1?$AAs?$AAr?$AAc?$AA?1?$AAs?$AAh?$AAa?$AAr?$AAe?$AA?1@ 000000018002af90     cmstypes.obj
+ 0002:0000201c       ??_C@_11LOCGONAA@?$AA?$AA@ 000000018002b01c     cmstypes.obj
+ 0002:00002020       ??_C@_0CD@KCBEPPAD@Unknown?5parametric?5curve?5type?5?8?$CF@ 000000018002b020     cmstypes.obj
+ 0002:00002048       ??_C@_0DN@HNKCCBOO@Multisegment?5or?5Inverted?5paramet@ 000000018002b048     cmstypes.obj
+ 0002:00002088       ??_C@_0BN@EDFFKJHA@Unsupported?5parametric?5curve?$AA@ 000000018002b088     cmstypes.obj
+ 0002:000020a8       ??_C@_0DJ@OPPEBCCK@multiLocalizedUnicodeType?5of?5len@ 000000018002b0a8     cmstypes.obj
+ 0002:000020e8       ??_C@_0CL@PJACHFCE@LUT8?5needs?5256?5entries?5on?5prelin@ 000000018002b0e8     cmstypes.obj
+ 0002:00002118       ??_C@_0CI@FHHBLBLB@LUT?5is?5not?5suitable?5to?5be?5saved?5@ 000000018002b118     cmstypes.obj
+ 0002:00002140       ??_C@_1DA@MLFKDCM@?$AA?$CI?$AAT?$AAa?$AAb?$AAl?$AAe?$AAs?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 000000018002b140     cmstypes.obj
+ 0002:00002170       ??_C@_0CJ@DKPMFIFB@LUT?5is?5not?5suitable?5to?5be?5saved?5@ 000000018002b170     cmstypes.obj
+ 0002:000021a0       ??_C@_0BK@CIIMKOFN@Unknown?5precision?5of?5?8?$CFd?8?$AA@ 000000018002b1a0     cmstypes.obj
+ 0002:000021c0       ??_C@_0BI@HPFEABLE@Unknown?5curve?5type?5?8?$CFs?8?$AA@ 000000018002b1c0     cmstypes.obj
+ 0002:000021d8       ??_C@_0DL@BIOKLLEA@Cannot?5save?5floating?5point?5data?0@ 000000018002b1d8     cmstypes.obj
+ 0002:00002218       ??_C@_0CL@OHDIMNFI@LUT?5is?5not?5suitable?5to?5be?5saved?5@ 000000018002b218     cmstypes.obj
+ 0002:00002248       ??_C@_0CL@ILLFOEEL@LUT?5is?5not?5suitable?5to?5be?5saved?5@ 000000018002b248     cmstypes.obj
+ 0002:00002278       ??_C@_0BI@BFKMBMNC@Too?5many?5colorants?5?8?$CFd?8?$AA@ 000000018002b278     cmstypes.obj
+ 0002:00002290       ??_C@_0CB@KBIFAFKN@Too?5many?5device?5coordinates?5?8?$CFd?8@ 000000018002b290     cmstypes.obj
+ 0002:000022b8       ??_C@_0BL@DNJCAEMJ@Too?5many?5named?5colors?5?8?$CFd?8?$AA@ 000000018002b2b8     cmstypes.obj
+ 0002:000022d4       ??_C@_02PNJEAGMK@PS?$AA@   000000018002b2d4     cmstypes.obj
+ 0002:000022d8       ??_C@_02MONOLLGE@?$CD3?$AA@ 000000018002b2d8     cmstypes.obj
+ 0002:000022dc       ??_C@_02NHMFIKCF@?$CD2?$AA@ 000000018002b2dc     cmstypes.obj
+ 0002:000022e0       ??_C@_02PMOINJOG@?$CD1?$AA@ 000000018002b2e0     cmstypes.obj
+ 0002:000022e4       ??_C@_02OFPDOIKH@?$CD0?$AA@ 000000018002b2e4     cmstypes.obj
+ 0002:000022e8       ??_C@_02JCKENFCN@nm?$AA@   000000018002b2e8     cmstypes.obj
+ 0002:000022f0       ??_C@_0CH@IABCOGPI@Unknown?5curve?5element?5type?5?8?$CFs?8?5@ 000000018002b2f0     cmstypes.obj
+ 0002:00002318       ??_C@_0BN@BJDFIHEG@Unknown?5MPE?5type?5?8?$CFs?8?5found?4?$AA@ 000000018002b318     cmstypes.obj
+ 0002:00002338       ??_C@_0BM@JENPCIEF@Found?5unknown?5MPE?5type?5?8?$CFs?8?$AA@ 000000018002b338     cmstypes.obj
+ 0002:00002358       ??_C@_0CE@HOIBEADJ@Unsupported?5bit?5depth?5for?5VCGT?5?8@ 000000018002b358     cmstypes.obj
+ 0002:00002380       ??_C@_0CN@NNLMDML@Unsupported?5number?5of?5channels?5f@ 000000018002b380     cmstypes.obj
+ 0002:000023b0       ??_C@_0CD@PNHDJBNP@Unsupported?5tag?5type?5for?5VCGT?5?8?$CF@ 000000018002b3b0     cmstypes.obj
+ 0002:000023d8       ??_C@_0BK@NPGMPAFC@Bad?5dictionary?5Name?1Value?$AA@ 000000018002b3d8     cmstypes.obj
+ 0002:000023f8       ??_C@_0CJ@KPEMEFBH@Unknown?5record?5length?5in?5diction@ 000000018002b3f8     cmstypes.obj
+ 0002:00002600       ??_C@_1DC@MIIABLA@?$AAN?$AAo?$AA?5?$AAc?$AAo?$AAp?$AAy?$AAr?$AAi?$AAg?$AAh?$AAt?$AA?0?$AA?5?$AAu?$AAs?$AAe?$AA?5?$AAf?$AAr?$AAe?$AAe?$AAl?$AAy?$AA?$AA@ 000000018002b600     cmsvirt.obj
+ 0002:00002634       ??_C@_02LFNMGJAP@en?$AA@   000000018002b634     cmsvirt.obj
+ 0002:00002638       ??_C@_02PLFPMECB@US?$AA@   000000018002b638     cmsvirt.obj
+ 0002:00002640       ??_C@_1BK@ODNHFBIM@?$AAR?$AAG?$AAB?$AA?5?$AAb?$AAu?$AAi?$AAl?$AAt?$AA?9?$AAi?$AAn?$AA?$AA@ 000000018002b640     cmsvirt.obj
+ 0002:00002660       __real@4011333333333333    000000018002b660     cmsvirt.obj
+ 0002:00002668       ??_C@_1CM@HFBMKACA@?$AAL?$AAa?$AAb?$AA?5?$AAi?$AAd?$AAe?$AAn?$AAt?$AAi?$AAt?$AAy?$AA?5?$AAb?$AAu?$AAi?$AAl?$AAt?$AA?9?$AAi?$AAn?$AA?$AA@ 000000018002b668     cmsvirt.obj
+ 0002:00002698       __real@4000cccccccccccd    000000018002b698     cmsvirt.obj
+ 0002:000026a0       ??_C@_0CE@PHMJNENE@cmsWhitePointFromTemp?3?5invalid?5t@ 000000018002b6a0     cmswtpnt.obj
+ 0002:000026c8       __real@3fd199999999999a    000000018002b6c8     cmswtpnt.obj
+ 0002:000026d0       __real@4006f5c28f5c28f6    000000018002b6d0     cmswtpnt.obj
+ 0002:000026d8       __real@3fce5753a3ec02f3    000000018002b6d8     cmswtpnt.obj
+ 0002:000026e0       __real@3fcfad6cb5350093    000000018002b6e0     cmswtpnt.obj
+ 0002:000026e8       __real@40000d1b71758e22    000000018002b6e8     cmswtpnt.obj
+ 0002:000026f0       __real@3ffe6dc5d6388659    000000018002b6f0     cmswtpnt.obj
+ 0002:000026f8       __real@40d86a0000000000    000000018002b6f8     cmswtpnt.obj
+ 0002:00002700       __real@3fcf3d74d594f26b    000000018002b700     cmswtpnt.obj
+ 0002:00002708       __real@3fb95f45e0b4e11e    000000018002b708     cmswtpnt.obj
+ 0002:00002710       __real@40126d916872b021    000000018002b710     cmswtpnt.obj
+ 0002:00002718       __real@4007be0ded288ce7    000000018002b718     cmswtpnt.obj
+ 0002:00002720       __real@408f400000000000    000000018002b720     cmswtpnt.obj
+ 0002:00002728       __real@41cdcd6500000000    000000018002b728     cmswtpnt.obj
+ 0002:00002730       __real@412e848000000000    000000018002b730     cmswtpnt.obj
+ 0002:00002738       __real@40bb580000000000    000000018002b738     cmswtpnt.obj
+ 0002:00002740       __real@40af400000000000    000000018002b740     cmswtpnt.obj
+ 0002:00002748       ??_C@_1DI@MDOANCBN@?$AA?$CI?$AAW?$AAh?$AAi?$AAt?$AAe?$AAP?$AAo?$AAi?$AAn?$AAt?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 000000018002b748     cmswtpnt.obj
+ 0002:00002780       ??_C@_1IM@NPFJJNLI@?$AAd?$AA?3?$AA?1?$AAx?$AAy?$AAs?$AAz?$AAi?$AAv?$AA?1?$AAo?$AAp?$AAe?$AAn?$AAj?$AAd?$AAk?$AA?1?$AAj?$AAd?$AAk?$AA?1?$AAs?$AAr?$AAc?$AA?1?$AAs?$AAh?$AAa?$AAr?$AAe?$AA?1@ 000000018002b780     cmswtpnt.obj
+ 0002:00002810       __real@4018000000000000    000000018002b810     cmswtpnt.obj
+ 0002:00002818       ??_C@_1CO@KBJEIGOA@?$AA?$CI?$AAT?$AAe?$AAm?$AAp?$AAK?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 000000018002b818     cmswtpnt.obj
+ 0002:00002848       __real@3ff0793dd97f62b7    000000018002b848     cmswtpnt.obj
+ 0002:00002890       ??_C@_1IM@PGIFDLKI@?$AAd?$AA?3?$AA?1?$AAx?$AAy?$AAs?$AAz?$AAi?$AAv?$AA?1?$AAo?$AAp?$AAe?$AAn?$AAj?$AAd?$AAk?$AA?1?$AAj?$AAd?$AAk?$AA?1?$AAs?$AAr?$AAc?$AA?1?$AAs?$AAh?$AAa?$AAr?$AAe?$AA?1@ 000000018002b890     cmsxform.obj
+ 0002:00002920       ??_C@_1CG@EDJBMNEG@?$AA?$CI?$AAp?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?$CJ?$AA?$AA@ 000000018002b920     cmsxform.obj
+ 0002:00002948       ??_C@_0BK@ONICMJAI@Unsupported?5raster?5format?$AA@ 000000018002b948     cmsxform.obj
+ 0002:00002968       ??_C@_0DC@DCLBENE@Channel?5count?5doesn?8t?5match?4?5Pro@ 000000018002b968     cmsxform.obj
+ 0002:000029a0       ??_C@_0BL@CHIHEGM@Couldn?8t?5link?5the?5profiles?$AA@ 000000018002b9a0     cmsxform.obj
+ 0002:000029c0       ??_C@_0CF@KNLABPMG@Wrong?5input?5color?5space?5on?5trans@ 000000018002b9c0     cmsxform.obj
+ 0002:000029e8       ??_C@_0CG@OGDNLNLL@Wrong?5output?5color?5space?5on?5tran@ 000000018002b9e8     cmsxform.obj
+ 0002:00002a10       ??_C@_0CB@CAFJLCLI@NULL?5input?5profiles?5on?5transform@ 000000018002ba10     cmsxform.obj
+ 0002:00002a38       ??_C@_0DF@JGEGJNLA@Wrong?5number?5of?5profiles?4?51?4?4255@ 000000018002ba38     cmsxform.obj
+ 0002:00002a70       _pRawDllMain               000000018002ba70     MSVCRT:crtdll.obj
+ 0002:00002a70       _pDefaultRawDllMain        000000018002ba70     MSVCRT:crtdll.obj
+ 0002:00002b00       __rtc_iaa                  000000018002bb00     MSVCRT:_initsect_.obj
+ 0002:00002b08       __rtc_izz                  000000018002bb08     MSVCRT:_initsect_.obj
+ 0002:00002b10       __rtc_taa                  000000018002bb10     MSVCRT:_initsect_.obj
+ 0002:00002b18       __rtc_tzz                  000000018002bb18     MSVCRT:_initsect_.obj
+ 0002:0000661c       __IMPORT_DESCRIPTOR_awt    000000018002f61c     awt:awt.dll
+ 0002:00006630       __IMPORT_DESCRIPTOR_java   000000018002f630     java:java.dll
+ 0002:00006644       __IMPORT_DESCRIPTOR_MSVCR100 000000018002f644     MSVCRT:MSVCR100.dll
+ 0002:00006658       __IMPORT_DESCRIPTOR_KERNEL32 000000018002f658     kernel32:KERNEL32.dll
+ 0002:0000666c       __NULL_IMPORT_DESCRIPTOR   000000018002f66c     awt:awt.dll
+ 0003:00000de0       _cmsMemPluginChunk         0000000180030de0     cmserr.obj
+ 0003:00000e10       _cmsLogErrorChunk          0000000180030e10     cmserr.obj
+ 0003:00000e20       _cmsMutexPluginChunk       0000000180030e20     cmserr.obj
+ 0003:00006780       _cmsAdaptationStateChunk   0000000180036780     cmsxform.obj
+ 0003:00006790       _cmsAlarmCodesChunk        0000000180036790     cmsxform.obj
+ 0003:000067d0       __security_cookie          00000001800367d0     MSVCRT:gs_cookie.obj
+ 0003:000067d8       __security_cookie_complement 00000001800367d8     MSVCRT:gs_cookie.obj
+ 0003:000067e0       _fltused                   00000001800367e0     MSVCRT:dllsupp.obj
+ 0003:000067f0       __native_dllmain_reason    00000001800367f0     MSVCRT:natstart.obj
+ 0003:000067f4       __native_vcclrit_reason    00000001800367f4     MSVCRT:natstart.obj
+ 0003:00006858       _cmsIntentsPluginChunk     0000000180036858     cmscnvrt.obj
+ 0003:00006870       _cmsCurvesPluginChunk      0000000180036870     cmsgamma.obj
+ 0003:00006878       _cmsInterpPluginChunk      0000000180036878     cmsintrp.obj
+ 0003:00006888       _cmsOptimizationPluginChunk 0000000180036888     cmsopt.obj
+ 0003:00006898       _cmsFormattersPluginChunk  0000000180036898     cmspack.obj
+ 0003:000070d8       _cmsMPETypePluginChunk     00000001800370d8     cmstypes.obj
+ 0003:000070e0       _cmsTagTypePluginChunk     00000001800370e0     cmstypes.obj
+ 0003:000070f8       _cmsTagPluginChunk         00000001800370f8     cmstypes.obj
+ 0003:00007120       _cmsTransformPluginChunk   0000000180037120     cmsxform.obj
+ 0003:000076b0       ?__type_info_root_node@@3U__type_info_node@@A 00000001800376b0     MSVCRT:tncleanup.obj
+ 0003:000076c0       javaVM                     00000001800376c0     <common>
+ 0003:000076c8       __native_startup_state     00000001800376c8     <common>
+ 0003:000076d0       __native_startup_lock      00000001800376d0     <common>
+ 0003:000076d8       __onexitend                00000001800376d8     <common>
+ 0003:000076e0       __onexitbegin              00000001800376e0     <common>
+ 0003:000076e8       __dyn_tls_init_callback    00000001800376e8     <common>
+
+ entry point at        0001:000278b0
+
+ Static symbols
+
+ 0001:00000cf0       _getHeaderInfo             0000000180001cf0 f   LCMS.obj
+ 0001:00000da0       _setHeaderInfo             0000000180001da0 f   LCMS.obj
+ 0001:00000ec0       _writeCookedTag            0000000180001ec0 f   LCMS.obj
+ 0001:00001410       ComputeBlackPointCompensation 0000000180002410 f   cmscnvrt.obj
+ 0001:000015d0       CHAD2Temp                  00000001800025d0 f   cmscnvrt.obj
+ 0001:000016e0       ComputeAbsoluteIntent      00000001800026e0 f   cmscnvrt.obj
+ 0001:00001a40       IsEmptyLayer               0000000180002a40 f   cmscnvrt.obj
+ 0001:00001b90       ComputeConversion          0000000180002b90 f   cmscnvrt.obj
+ 0001:00001d40       AddConversion              0000000180002d40 f   cmscnvrt.obj
+ 0001:00001f00       DefaultICCintents          0000000180002f00 f   cmscnvrt.obj
+ 0001:00002280       BlackPreservingGrayOnlySampler 0000000180003280 f   cmscnvrt.obj
+ 0001:000022e0       BlackPreservingKOnlyIntents 00000001800032e0 f   cmscnvrt.obj
+ 0001:00002540       BlackPreservingSampler     0000000180003540 f   cmscnvrt.obj
+ 0001:00002a70       BlackPreservingKPlaneIntents 0000000180003a70 f   cmscnvrt.obj
+ 0001:00003010       _cmsMallocDefaultFn        0000000180004010 f   cmserr.obj
+ 0001:00003030       _cmsFreeDefaultFn          0000000180004030 f   cmserr.obj
+ 0001:00003050       _cmsReallocDefaultFn       0000000180004050 f   cmserr.obj
+ 0001:000031d0       DefaultLogErrorHandlerFunction 00000001800041d0 f   cmserr.obj
+ 0001:000032e0       defMtxCreate               00000001800042e0 f   cmserr.obj
+ 0001:00003320       defMtxDestroy              0000000180004320 f   cmserr.obj
+ 0001:00003360       defMtxLock                 0000000180004360 f   cmserr.obj
+ 0001:00003380       defMtxUnlock               0000000180004380 f   cmserr.obj
+ 0001:00003490       _cmsMallocZeroDefaultFn    0000000180004490 f   cmserr.obj
+ 0001:000034e0       _cmsCallocDefaultFn        00000001800044e0 f   cmserr.obj
+ 0001:00003550       _cmsDupDefaultFn           0000000180004550 f   cmserr.obj
+ 0001:000035d0       GetParametricCurveByType   00000001800045d0 f   cmsgamma.obj
+ 0001:000036a0       AllocateToneCurveStruct    00000001800046a0 f   cmsgamma.obj
+ 0001:00003980       DefaultEvalParametricFn    0000000180004980 f   cmsgamma.obj
+ 0001:00004050       EvalSegmentedFn            0000000180005050 f   cmsgamma.obj
+ 0001:00004850       GetInterval                0000000180005850 f   cmsgamma.obj
+ 0001:000052d0       ComputeKToLstar            00000001800062d0 f   cmsgmt.obj
+ 0001:00005620       GamutSampler               0000000180006620 f   cmsgmt.obj
+ 0001:00005b00       EstimateTAC                0000000180006b00 f   cmsgmt.obj
+ 0001:00005de0       LinLerp1D                  0000000180006de0 f   cmsintrp.obj
+ 0001:00005e60       LinLerp1Dfloat             0000000180006e60 f   cmsintrp.obj
+ 0001:00005f40       Eval1Input                 0000000180006f40 f   cmsintrp.obj
+ 0001:00006010       Eval1InputFloat            0000000180007010 f   cmsintrp.obj
+ 0001:00006130       BilinearInterpFloat        0000000180007130 f   cmsintrp.obj
+ 0001:00006480       BilinearInterp16           0000000180007480 f   cmsintrp.obj
+ 0001:00006600       TrilinearInterpFloat       0000000180007600 f   cmsintrp.obj
+ 0001:00006c40       TrilinearInterp16          0000000180007c40 f   cmsintrp.obj
+ 0001:00006ee0       TetrahedralInterpFloat     0000000180007ee0 f   cmsintrp.obj
+ 0001:00007300       TetrahedralInterp16        0000000180008300 f   cmsintrp.obj
+ 0001:00007750       Eval4Inputs                0000000180008750 f   cmsintrp.obj
+ 0001:00007e50       Eval4InputsFloat           0000000180008e50 f   cmsintrp.obj
+ 0001:00007fd0       Eval5Inputs                0000000180008fd0 f   cmsintrp.obj
+ 0001:00008140       Eval5InputsFloat           0000000180009140 f   cmsintrp.obj
+ 0001:000082c0       Eval6Inputs                00000001800092c0 f   cmsintrp.obj
+ 0001:00008430       Eval6InputsFloat           0000000180009430 f   cmsintrp.obj
+ 0001:000085b0       Eval7Inputs                00000001800095b0 f   cmsintrp.obj
+ 0001:00008720       Eval7InputsFloat           0000000180009720 f   cmsintrp.obj
+ 0001:000088a0       Eval8Inputs                00000001800098a0 f   cmsintrp.obj
+ 0001:00008a10       Eval8InputsFloat           0000000180009a10 f   cmsintrp.obj
+ 0001:00008b90       DefaultInterpolatorsFactory 0000000180009b90 f   cmsintrp.obj
+ 0001:00009080       NULLRead                   000000018000a080 f   cmsio0.obj
+ 0001:00009090       NULLSeek                   000000018000a090 f   cmsio0.obj
+ 0001:000090a0       NULLTell                   000000018000a0a0 f   cmsio0.obj
+ 0001:000090b0       NULLWrite                  000000018000a0b0 f   cmsio0.obj
+ 0001:000090d0       NULLClose                  000000018000a0d0 f   cmsio0.obj
+ 0001:000091b0       MemoryRead                 000000018000a1b0 f   cmsio0.obj
+ 0001:00009240       MemorySeek                 000000018000a240 f   cmsio0.obj
+ 0001:00009280       MemoryTell                 000000018000a280 f   cmsio0.obj
+ 0001:00009290       MemoryWrite                000000018000a290 f   cmsio0.obj
+ 0001:00009310       MemoryClose                000000018000a310 f   cmsio0.obj
+ 0001:00009530       FileRead                   000000018000a530 f   cmsio0.obj
+ 0001:000095a0       FileSeek                   000000018000a5a0 f   cmsio0.obj
+ 0001:000095f0       FileTell                   000000018000a5f0 f   cmsio0.obj
+ 0001:00009600       FileWrite                  000000018000a600 f   cmsio0.obj
+ 0001:00009640       FileClose                  000000018000a640 f   cmsio0.obj
+ 0001:00009900       _cmsDeleteTagByPos         000000018000a900 f   cmsio0.obj
+ 0001:0000a0a0       BaseToBase                 000000018000b0a0 f   cmsio0.obj
+ 0001:0000a1b0       SanityCheck                000000018000b1b0 f   cmsio0.obj
+ 0001:0000a230       SaveTags                   000000018000b230 f   cmsio0.obj
+ 0001:0000a560       SetLinks                   000000018000b560 f   cmsio0.obj
+ 0001:0000b740       ReadICCMatrixRGB2XYZ       000000018000c740 f   cmsio1.obj
+ 0001:0000b820       BuildGrayInputMatrixPipeline 000000018000c820 f   cmsio1.obj
+ 0001:0000b9e0       BuildRGBInputMatrixShaper  000000018000c9e0 f   cmsio1.obj
+ 0001:0000bbe0       _cmsReadFloatInputTag      000000018000cbe0 f   cmsio1.obj
+ 0001:0000bee0       BuildGrayOutputPipeline    000000018000cee0 f   cmsio1.obj
+ 0001:0000c020       BuildRGBOutputMatrixShaper 000000018000d020 f   cmsio1.obj
+ 0001:0000c2a0       ChangeInterpolationToTrilinear 000000018000d2a0 f   cmsio1.obj
+ 0001:0000c310       _cmsReadFloatOutputTag     000000018000d310 f   cmsio1.obj
+ 0001:0000c590       _cmsReadFloatDevicelinkTag 000000018000d590 f   cmsio1.obj
+ 0001:0000cc40       EvaluateIdentity           000000018000dc40 f   cmslut.obj
+ 0001:0000ccd0       FromFloatTo16              000000018000dcd0 f   cmslut.obj
+ 0001:0000cef0       From16ToFloat              000000018000def0 f   cmslut.obj
+ 0001:0000cff0       EvaluateCurves             000000018000dff0 f   cmslut.obj
+ 0001:0000d0a0       CurveSetElemTypeFree       000000018000e0a0 f   cmslut.obj
+ 0001:0000d140       CurveSetDup                000000018000e140 f   cmslut.obj
+ 0001:0000d250       EvaluateMatrix             000000018000e250 f   cmslut.obj
+ 0001:0000d3c0       MatrixElemDup              000000018000e3c0 f   cmslut.obj
+ 0001:0000d450       MatrixElemTypeFree         000000018000e450 f   cmslut.obj
+ 0001:0000d7a0       EvaluateCLUTfloat          000000018000e7a0 f   cmslut.obj
+ 0001:0000d7c0       EvaluateCLUTfloatIn16      000000018000e7c0 f   cmslut.obj
+ 0001:0000d8a0       CubeSize                   000000018000e8a0 f   cmslut.obj
+ 0001:0000d920       CLUTElemDup                000000018000e920 f   cmslut.obj
+ 0001:0000da00       CLutElemTypeFree           000000018000ea00 f   cmslut.obj
+ 0001:0000da50       IdentitySampler            000000018000ea50 f   cmslut.obj
+ 0001:0000e1a0       EvaluateLab2XYZ            000000018000f1a0 f   cmslut.obj
+ 0001:0000e460       EvaluateXYZ2Lab            000000018000f460 f   cmslut.obj
+ 0001:0000e710       _LUTeval16                 000000018000f710 f   cmslut.obj
+ 0001:0000e7d0       _LUTevalFloat              000000018000f7d0 f   cmslut.obj
+ 0001:000102d0       AddMLUBlock                00000001800112d0 f   cmsnamed.obj
+ 0001:00010930       GrowNamedColorList         0000000180011930 f   cmsnamed.obj
+ 0001:00010e20       FreeNamedColorList         0000000180011e20 f   cmsnamed.obj
+ 0001:00010e60       DupNamedColorList          0000000180011e60 f   cmsnamed.obj
+ 0001:00010e70       EvalNamedColorPCS          0000000180011e70 f   cmsnamed.obj
+ 0001:00010f60       EvalNamedColor             0000000180011f60 f   cmsnamed.obj
+ 0001:00011880       PreOptimize                0000000180012880 f   cmsopt.obj
+ 0001:00011b50       Eval16nop1D                0000000180012b50 f   cmsopt.obj
+ 0001:00011b60       PrelinEval16               0000000180012b60 f   cmsopt.obj
+ 0001:00011c40       PrelinOpt16free            0000000180012c40 f   cmsopt.obj
+ 0001:00011c80       Prelin16dup                0000000180012c80 f   cmsopt.obj
+ 0001:00011d10       PrelinOpt16alloc           0000000180012d10 f   cmsopt.obj
+ 0001:00011e80       XFormSampler16             0000000180012e80 f   cmsopt.obj
+ 0001:000120b0       AllCurvesAreLinear         00000001800130b0 f   cmsopt.obj
+ 0001:00012130       PatchLUT                   0000000180013130 f   cmsopt.obj
+ 0001:00012520       FixWhiteMisalignment       0000000180013520 f   cmsopt.obj
+ 0001:00012810       OptimizeByResampling       0000000180013810 f   cmsopt.obj
+ 0001:00012bb0       SlopeLimiting              0000000180013bb0 f   cmsopt.obj
+ 0001:00012f20       PrelinOpt8alloc            0000000180013f20 f   cmsopt.obj
+ 0001:000130f0       Prelin8free                00000001800140f0 f   cmsopt.obj
+ 0001:00013100       Prelin8dup                 0000000180014100 f   cmsopt.obj
+ 0001:00013110       PrelinEval8                0000000180014110 f   cmsopt.obj
+ 0001:00013430       OptimizeByComputingLinearization 0000000180014430 f   cmsopt.obj
+ 0001:00013b80       CurvesFree                 0000000180014b80 f   cmsopt.obj
+ 0001:00013c00       CurvesDup                  0000000180014c00 f   cmsopt.obj
+ 0001:00013cb0       CurvesAlloc                0000000180014cb0 f   cmsopt.obj
+ 0001:00013e70       FastEvaluateCurves8        0000000180014e70 f   cmsopt.obj
+ 0001:00013ec0       FastEvaluateCurves16       0000000180014ec0 f   cmsopt.obj
+ 0001:00013f10       FastIdentity16             0000000180014f10 f   cmsopt.obj
+ 0001:00013f40       OptimizeByJoiningCurves    0000000180014f40 f   cmsopt.obj
+ 0001:00014540       FreeMatShaper              0000000180015540 f   cmsopt.obj
+ 0001:00014560       DupMatShaper               0000000180015560 f   cmsopt.obj
+ 0001:00014570       MatShaperEval16            0000000180015570 f   cmsopt.obj
+ 0001:000146c0       FillFirstShaper            00000001800156c0 f   cmsopt.obj
+ 0001:00014770       FillSecondShaper           0000000180015770 f   cmsopt.obj
+ 0001:00014900       SetMatShaper               0000000180015900 f   cmsopt.obj
+ 0001:00014ae0       OptimizeMatrixShaper       0000000180015ae0 f   cmsopt.obj
+ 0001:00014ed0       UnrollChunkyBytes          0000000180015ed0 f   cmspack.obj
+ 0001:00014ff0       UnrollPlanarBytes          0000000180015ff0 f   cmspack.obj
+ 0001:000150c0       Unroll4Bytes               00000001800160c0 f   cmspack.obj
+ 0001:00015110       Unroll4BytesReverse        0000000180016110 f   cmspack.obj
+ 0001:00015180       Unroll4BytesSwapFirst      0000000180016180 f   cmspack.obj
+ 0001:000151d0       Unroll4BytesSwap           00000001800161d0 f   cmspack.obj
+ 0001:00015220       Unroll4BytesSwapSwapFirst  0000000180016220 f   cmspack.obj
+ 0001:00015270       Unroll3Bytes               0000000180016270 f   cmspack.obj
+ 0001:000152b0       Unroll3BytesSkip1Swap      00000001800162b0 f   cmspack.obj
+ 0001:000152f0       Unroll3BytesSkip1SwapSwapFirst 00000001800162f0 f   cmspack.obj
+ 0001:00015330       Unroll3BytesSkip1SwapFirst 0000000180016330 f   cmspack.obj
+ 0001:00015370       Unroll3BytesSwap           0000000180016370 f   cmspack.obj
+ 0001:000153b0       UnrollLabV2_8              00000001800163b0 f   cmspack.obj
+ 0001:00015440       UnrollALabV2_8             0000000180016440 f   cmspack.obj
+ 0001:000154d0       UnrollLabV2_16             00000001800164d0 f   cmspack.obj
+ 0001:00015540       Unroll2Bytes               0000000180016540 f   cmspack.obj
+ 0001:00015570       Unroll1Byte                0000000180016570 f   cmspack.obj
+ 0001:00015590       Unroll1ByteSkip1           0000000180016590 f   cmspack.obj
+ 0001:000155b0       Unroll1ByteSkip2           00000001800165b0 f   cmspack.obj
+ 0001:000155d0       Unroll1ByteReversed        00000001800165d0 f   cmspack.obj
+ 0001:00015600       UnrollAnyWords             0000000180016600 f   cmspack.obj
+ 0001:00015730       UnrollPlanarWords          0000000180016730 f   cmspack.obj
+ 0001:00015810       Unroll4Words               0000000180016810 f   cmspack.obj
+ 0001:00015840       Unroll4WordsReverse        0000000180016840 f   cmspack.obj
+ 0001:00015880       Unroll4WordsSwapFirst      0000000180016880 f   cmspack.obj
+ 0001:000158b0       Unroll4WordsSwap           00000001800168b0 f   cmspack.obj
+ 0001:000158e0       Unroll4WordsSwapSwapFirst  00000001800168e0 f   cmspack.obj
+ 0001:00015910       Unroll3Words               0000000180016910 f   cmspack.obj
+ 0001:00015930       Unroll3WordsSwap           0000000180016930 f   cmspack.obj
+ 0001:00015950       Unroll3WordsSkip1Swap      0000000180016950 f   cmspack.obj
+ 0001:00015970       Unroll3WordsSkip1SwapFirst 0000000180016970 f   cmspack.obj
+ 0001:00015990       Unroll1Word                0000000180016990 f   cmspack.obj
+ 0001:000159b0       Unroll1WordReversed        00000001800169b0 f   cmspack.obj
+ 0001:000159d0       Unroll1WordSkip3           00000001800169d0 f   cmspack.obj
+ 0001:000159f0       Unroll2Words               00000001800169f0 f   cmspack.obj
+ 0001:00015a10       UnrollLabDoubleTo16        0000000180016a10 f   cmspack.obj
+ 0001:00015ab0       UnrollLabFloatTo16         0000000180016ab0 f   cmspack.obj
+ 0001:00015b70       UnrollXYZDoubleTo16        0000000180016b70 f   cmspack.obj
+ 0001:00015c10       UnrollXYZFloatTo16         0000000180016c10 f   cmspack.obj
+ 0001:00015cd0       UnrollDoubleTo16           0000000180016cd0 f   cmspack.obj
+ 0001:00016160       UnrollFloatTo16            0000000180017160 f   cmspack.obj
+ 0001:000165e0       UnrollDouble1Chan          00000001800175e0 f   cmspack.obj
+ 0001:00016670       UnrollFloatsToFloat        0000000180017670 f   cmspack.obj
+ 0001:00016990       UnrollDoublesToFloat       0000000180017990 f   cmspack.obj
+ 0001:00016cd0       UnrollLabDoubleToFloat     0000000180017cd0 f   cmspack.obj
+ 0001:00016d90       UnrollLabFloatToFloat      0000000180017d90 f   cmspack.obj
+ 0001:00016e60       UnrollXYZDoubleToFloat     0000000180017e60 f   cmspack.obj
+ 0001:00016f00       UnrollXYZFloatToFloat      0000000180017f00 f   cmspack.obj
+ 0001:00016fb0       PackAnyBytes               0000000180017fb0 f   cmspack.obj
+ 0001:000170d0       PackAnyWords               00000001800180d0 f   cmspack.obj
+ 0001:000171f0       PackPlanarBytes            00000001800181f0 f   cmspack.obj
+ 0001:000172c0       PackPlanarWords            00000001800182c0 f   cmspack.obj
+ 0001:000173a0       Pack6Bytes                 00000001800183a0 f   cmspack.obj
+ 0001:00017430       Pack6BytesSwap             0000000180018430 f   cmspack.obj
+ 0001:000174c0       Pack6Words                 00000001800184c0 f   cmspack.obj
+ 0001:00017500       Pack6WordsSwap             0000000180018500 f   cmspack.obj
+ 0001:00017540       Pack4Bytes                 0000000180018540 f   cmspack.obj
+ 0001:000175a0       Pack4BytesReverse          00000001800185a0 f   cmspack.obj
+ 0001:00017620       Pack4BytesSwapFirst        0000000180018620 f   cmspack.obj
+ 0001:00017680       Pack4BytesSwap             0000000180018680 f   cmspack.obj
+ 0001:000176e0       Pack4BytesSwapSwapFirst    00000001800186e0 f   cmspack.obj
+ 0001:00017740       Pack4Words                 0000000180018740 f   cmspack.obj
+ 0001:00017770       Pack4WordsReverse          0000000180018770 f   cmspack.obj
+ 0001:000177b0       Pack4WordsSwap             00000001800187b0 f   cmspack.obj
+ 0001:000177e0       Pack4WordsBigEndian        00000001800187e0 f   cmspack.obj
+ 0001:00017820       PackLabV2_8                0000000180018820 f   cmspack.obj
+ 0001:000178c0       PackALabV2_8               00000001800188c0 f   cmspack.obj
+ 0001:00017960       PackLabV2_16               0000000180018960 f   cmspack.obj
+ 0001:000179d0       Pack3Bytes                 00000001800189d0 f   cmspack.obj
+ 0001:00017a20       Pack3BytesOptimized        0000000180018a20 f   cmspack.obj
+ 0001:00017a40       Pack3BytesSwap             0000000180018a40 f   cmspack.obj
+ 0001:00017a90       Pack3BytesSwapOptimized    0000000180018a90 f   cmspack.obj
+ 0001:00017ab0       Pack3Words                 0000000180018ab0 f   cmspack.obj
+ 0001:00017ad0       Pack3WordsSwap             0000000180018ad0 f   cmspack.obj
+ 0001:00017af0       Pack3WordsBigEndian        0000000180018af0 f   cmspack.obj
+ 0001:00017b20       Pack3BytesAndSkip1         0000000180018b20 f   cmspack.obj
+ 0001:00017b70       Pack3BytesAndSkip1Optimized 0000000180018b70 f   cmspack.obj
+ 0001:00017b90       Pack3BytesAndSkip1SwapFirst 0000000180018b90 f   cmspack.obj
+ 0001:00017be0       Pack3BytesAndSkip1SwapFirstOptimized 0000000180018be0 f   cmspack.obj
+ 0001:00017c00       Pack3BytesAndSkip1Swap     0000000180018c00 f   cmspack.obj
+ 0001:00017c50       Pack3BytesAndSkip1SwapOptimized 0000000180018c50 f   cmspack.obj
+ 0001:00017c70       Pack3BytesAndSkip1SwapSwapFirst 0000000180018c70 f   cmspack.obj
+ 0001:00017cc0       Pack3BytesAndSkip1SwapSwapFirstOptimized 0000000180018cc0 f   cmspack.obj
+ 0001:00017ce0       Pack3WordsAndSkip1         0000000180018ce0 f   cmspack.obj
+ 0001:00017d00       Pack3WordsAndSkip1Swap     0000000180018d00 f   cmspack.obj
+ 0001:00017d20       Pack3WordsAndSkip1SwapFirst 0000000180018d20 f   cmspack.obj
+ 0001:00017d40       Pack3WordsAndSkip1SwapSwapFirst 0000000180018d40 f   cmspack.obj
+ 0001:00017d60       Pack1Byte                  0000000180018d60 f   cmspack.obj
+ 0001:00017d80       Pack1ByteReversed          0000000180018d80 f   cmspack.obj
+ 0001:00017db0       Pack1ByteSkip1             0000000180018db0 f   cmspack.obj
+ 0001:00017dd0       Pack1ByteSkip1SwapFirst    0000000180018dd0 f   cmspack.obj
+ 0001:00017df0       Pack1Word                  0000000180018df0 f   cmspack.obj
+ 0001:00017e00       Pack1WordReversed          0000000180018e00 f   cmspack.obj
+ 0001:00017e20       Pack1WordBigEndian         0000000180018e20 f   cmspack.obj
+ 0001:00017e30       Pack1WordSkip1             0000000180018e30 f   cmspack.obj
+ 0001:00017e40       Pack1WordSkip1SwapFirst    0000000180018e40 f   cmspack.obj
+ 0001:00017e50       PackLabDoubleFrom16        0000000180018e50 f   cmspack.obj
+ 0001:00017ee0       PackLabFloatFrom16         0000000180018ee0 f   cmspack.obj
+ 0001:00017f70       PackXYZDoubleFrom16        0000000180018f70 f   cmspack.obj
+ 0001:00018000       PackXYZFloatFrom16         0000000180019000 f   cmspack.obj
+ 0001:000180b0       PackDoubleFrom16           00000001800190b0 f   cmspack.obj
+ 0001:000183e0       PackFloatFrom16            00000001800193e0 f   cmspack.obj
+ 0001:00018720       PackFloatsFromFloat        0000000180019720 f   cmspack.obj
+ 0001:00018a40       PackDoublesFromFloat       0000000180019a40 f   cmspack.obj
+ 0001:00018d50       PackLabFloatFromFloat      0000000180019d50 f   cmspack.obj
+ 0001:00018e00       PackLabDoubleFromFloat     0000000180019e00 f   cmspack.obj
+ 0001:00018ea0       PackXYZFloatFromFloat      0000000180019ea0 f   cmspack.obj
+ 0001:00018f50       PackXYZDoubleFromFloat     0000000180019f50 f   cmspack.obj
+ 0001:00018fe0       UnrollHalfTo16             0000000180019fe0 f   cmspack.obj
+ 0001:000192a0       UnrollHalfToFloat          000000018001a2a0 f   cmspack.obj
+ 0001:000194b0       PackHalfFrom16             000000018001a4b0 f   cmspack.obj
+ 0001:000196c0       PackHalfFromFloat          000000018001a6c0 f   cmspack.obj
+ 0001:0001bbc0       CreateRoundtripXForm       000000018001cbc0 f   cmssamp.obj
+ 0001:0001bd00       BlackPointAsDarkerColorant 000000018001cd00 f   cmssamp.obj
+ 0001:0001bec0       BlackPointUsingPerceptualBlack 000000018001cec0 f   cmssamp.obj
+ 0001:0001c130       RootOfLeastSquaresFitQuadraticCurve 000000018001d130 f   cmssamp.obj
+ 0001:0001cbd0       _cmsWriteWCharArray        000000018001dbd0 f   cmstypes.obj
+ 0001:0001cc70       _cmsReadWCharArray         000000018001dc70 f   cmstypes.obj
+ 0001:0001cd10       ReadPositionTable          000000018001dd10 f   cmstypes.obj
+ 0001:0001ce70       WritePositionTable         000000018001de70 f   cmstypes.obj
+ 0001:0001d060       Type_XYZ_Read              000000018001e060 f   cmstypes.obj
+ 0001:0001d0e0       Type_XYZ_Write             000000018001e0e0 f   cmstypes.obj
+ 0001:0001d0f0       Type_XYZ_Dup               000000018001e0f0 f   cmstypes.obj
+ 0001:0001d100       DecideXYZtype              000000018001e100 f   cmstypes.obj
+ 0001:0001d110       Type_Chromaticity_Read     000000018001e110 f   cmstypes.obj
+ 0001:0001d270       SaveOneChromaticity        000000018001e270 f   cmstypes.obj
+ 0001:0001d2d0       Type_Chromaticity_Write    000000018001e2d0 f   cmstypes.obj
+ 0001:0001d360       Type_Chromaticity_Dup      000000018001e360 f   cmstypes.obj
+ 0001:0001d370       Type_ColorantOrderType_Read 000000018001e370 f   cmstypes.obj
+ 0001:0001d440       Type_ColorantOrderType_Write 000000018001e440 f   cmstypes.obj
+ 0001:0001d4b0       Type_ColorantOrderType_Dup 000000018001e4b0 f   cmstypes.obj
+ 0001:0001d4c0       Type_S15Fixed16_Read       000000018001e4c0 f   cmstypes.obj
+ 0001:0001d560       Type_S15Fixed16_Write      000000018001e560 f   cmstypes.obj
+ 0001:0001d5c0       Type_S15Fixed16_Dup        000000018001e5c0 f   cmstypes.obj
+ 0001:0001d5c0       Type_U16Fixed16_Dup        000000018001e5c0 f   cmstypes.obj
+ 0001:0001d5d0       Type_U16Fixed16_Read       000000018001e5d0 f   cmstypes.obj
+ 0001:0001d6b0       Type_U16Fixed16_Write      000000018001e6b0 f   cmstypes.obj
+ 0001:0001d750       Type_Signature_Read        000000018001e750 f   cmstypes.obj
+ 0001:0001d7c0       Type_Signature_Write       000000018001e7c0 f   cmstypes.obj
+ 0001:0001d7d0       Type_Signature_Dup         000000018001e7d0 f   cmstypes.obj
+ 0001:0001d7e0       Type_DateTime_Free         000000018001e7e0 f   cmstypes.obj
+ 0001:0001d7e0       Type_Signature_Free        000000018001e7e0 f   cmstypes.obj
+ 0001:0001d7e0       Type_XYZ_Free              000000018001e7e0 f   cmstypes.obj
+ 0001:0001d7e0       Type_Chromaticity_Free     000000018001e7e0 f   cmstypes.obj
+ 0001:0001d7e0       Type_ViewingConditions_Free 000000018001e7e0 f   cmstypes.obj
+ 0001:0001d7e0       Type_U16Fixed16_Free       000000018001e7e0 f   cmstypes.obj
+ 0001:0001d7e0       Type_Measurement_Free      000000018001e7e0 f   cmstypes.obj
+ 0001:0001d7e0       Type_ColorantOrderType_Free 000000018001e7e0 f   cmstypes.obj
+ 0001:0001d7e0       Type_Data_Free             000000018001e7e0 f   cmstypes.obj
+ 0001:0001d7e0       Type_S15Fixed16_Free       000000018001e7e0 f   cmstypes.obj
+ 0001:0001d7e0       Type_Screening_Free        000000018001e7e0 f   cmstypes.obj
+ 0001:0001d7f0       Type_Text_Read             000000018001e7f0 f   cmstypes.obj
+ 0001:0001d8e0       Type_Text_Write            000000018001e8e0 f   cmstypes.obj
+ 0001:0001d9a0       Type_MLU_Free              000000018001e9a0 f   cmstypes.obj
+ 0001:0001d9a0       Type_Text_Description_Free 000000018001e9a0 f   cmstypes.obj
+ 0001:0001d9a0       Type_Text_Free             000000018001e9a0 f   cmstypes.obj
+ 0001:0001d9a0       Type_CrdInfo_Free          000000018001e9a0 f   cmstypes.obj
+ 0001:0001d9b0       DecideTextType             000000018001e9b0 f   cmstypes.obj
+ 0001:0001d9d0       Type_Data_Read             000000018001e9d0 f   cmstypes.obj
+ 0001:0001daa0       Type_Data_Write            000000018001eaa0 f   cmstypes.obj
+ 0001:0001daf0       Type_Data_Dup              000000018001eaf0 f   cmstypes.obj
+ 0001:0001db00       Type_Text_Description_Read 000000018001eb00 f   cmstypes.obj
+ 0001:0001dcf0       Type_Text_Description_Write 000000018001ecf0 f   cmstypes.obj
+ 0001:0001df50       DecideTextDescType         000000018001ef50 f   cmstypes.obj
+ 0001:0001df70       Type_Curve_Read            000000018001ef70 f   cmstypes.obj
+ 0001:0001e090       Type_Curve_Write           000000018001f090 f   cmstypes.obj
+ 0001:0001e130       Type_ParametricCurve_Dup   000000018001f130 f   cmstypes.obj
+ 0001:0001e130       Type_Curve_Dup             000000018001f130 f   cmstypes.obj
+ 0001:0001e140       DecideCurveType            000000018001f140 f   cmstypes.obj
+ 0001:0001e180       Type_ParametricCurve_Read  000000018001f180 f   cmstypes.obj
+ 0001:0001e2c0       Type_ParametricCurve_Write 000000018001f2c0 f   cmstypes.obj
+ 0001:0001e3d0       Type_Curve_Free            000000018001f3d0 f   cmstypes.obj
+ 0001:0001e3d0       Type_ParametricCurve_Free  000000018001f3d0 f   cmstypes.obj
+ 0001:0001e3e0       Type_DateTime_Read         000000018001f3e0 f   cmstypes.obj
+ 0001:0001e470       Type_DateTime_Write        000000018001f470 f   cmstypes.obj
+ 0001:0001e4d0       Type_DateTime_Dup          000000018001f4d0 f   cmstypes.obj
+ 0001:0001e4e0       Type_Measurement_Read      000000018001f4e0 f   cmstypes.obj
+ 0001:0001e5b0       Type_Measurement_Write     000000018001f5b0 f   cmstypes.obj
+ 0001:0001e630       Type_Measurement_Dup       000000018001f630 f   cmstypes.obj
+ 0001:0001e640       Type_MLU_Read              000000018001f640 f   cmstypes.obj
+ 0001:0001e860       Type_MLU_Write             000000018001f860 f   cmstypes.obj
+ 0001:0001e9b0       DecideLUTtypeA2B           000000018001f9b0 f   cmstypes.obj
+ 0001:0001e9e0       DecideLUTtypeB2A           000000018001f9e0 f   cmstypes.obj
+ 0001:0001ea10       Read8bitTables             000000018001fa10 f   cmstypes.obj
+ 0001:0001ec70       Write8bitTables            000000018001fc70 f   cmstypes.obj
+ 0001:0001eda0       uipow                      000000018001fda0 f   cmstypes.obj
+ 0001:0001ee10       Type_LUT8_Read             000000018001fe10 f   cmstypes.obj
+ 0001:0001f160       Type_LUT8_Write            0000000180020160 f   cmstypes.obj
+ 0001:0001f4a0       Type_MPE_Free              00000001800204a0 f   cmstypes.obj
+ 0001:0001f4a0       Type_LUT8_Free             00000001800204a0 f   cmstypes.obj
+ 0001:0001f4a0       Type_LUT16_Free            00000001800204a0 f   cmstypes.obj
+ 0001:0001f4a0       Type_LUTA2B_Free           00000001800204a0 f   cmstypes.obj
+ 0001:0001f4a0       Type_LUTB2A_Free           00000001800204a0 f   cmstypes.obj
+ 0001:0001f4b0       Read16bitTables            00000001800204b0 f   cmstypes.obj
+ 0001:0001f610       Write16bitTables           0000000180020610 f   cmstypes.obj
+ 0001:0001f6d0       Type_LUT16_Read            00000001800206d0 f   cmstypes.obj
+ 0001:0001f9f0       Type_LUT16_Write           00000001800209f0 f   cmstypes.obj
+ 0001:0001fe10       ReadMatrix                 0000000180020e10 f   cmstypes.obj
+ 0001:0001ff80       ReadCLUT                   0000000180020f80 f   cmstypes.obj
+ 0001:00020160       ReadSetOfCurves            0000000180021160 f   cmstypes.obj
+ 0001:000202e0       Type_LUTA2B_Read           00000001800212e0 f   cmstypes.obj
+ 0001:00020500       WriteMatrix                0000000180021500 f   cmstypes.obj
+ 0001:00020660       WriteSetOfCurves           0000000180021660 f   cmstypes.obj
+ 0001:000207a0       WriteCLUT                  00000001800217a0 f   cmstypes.obj
+ 0001:00020940       Type_LUTA2B_Write          0000000180021940 f   cmstypes.obj
+ 0001:00020d20       Type_LUTB2A_Read           0000000180021d20 f   cmstypes.obj
+ 0001:00020f40       Type_LUTB2A_Write          0000000180021f40 f   cmstypes.obj
+ 0001:00021320       Type_ColorantTable_Read    0000000180022320 f   cmstypes.obj
+ 0001:00021440       Type_ColorantTable_Write   0000000180022440 f   cmstypes.obj
+ 0001:00021540       Type_NamedColor_Read       0000000180022540 f   cmstypes.obj
+ 0001:00021700       Type_NamedColor_Write      0000000180022700 f   cmstypes.obj
+ 0001:000218b0       Type_ColorantTable_Dup     00000001800228b0 f   cmstypes.obj
+ 0001:000218b0       Type_NamedColor_Dup        00000001800228b0 f   cmstypes.obj
+ 0001:000218c0       Type_NamedColor_Free       00000001800228c0 f   cmstypes.obj
+ 0001:000218c0       Type_ColorantTable_Free    00000001800228c0 f   cmstypes.obj
+ 0001:000218d0       ReadEmbeddedText           00000001800228d0 f   cmstypes.obj
+ 0001:000219a0       Type_ProfileSequenceDesc_Read 00000001800229a0 f   cmstypes.obj
+ 0001:00021b10       SaveDescription            0000000180022b10 f   cmstypes.obj
+ 0001:00021bb0       Type_ProfileSequenceDesc_Write 0000000180022bb0 f   cmstypes.obj
+ 0001:00021ca0       Type_ProfileSequenceDesc_Dup 0000000180022ca0 f   cmstypes.obj
+ 0001:00021ca0       Type_ProfileSequenceId_Dup 0000000180022ca0 f   cmstypes.obj
+ 0001:00021cb0       Type_ProfileSequenceDesc_Free 0000000180022cb0 f   cmstypes.obj
+ 0001:00021cb0       Type_ProfileSequenceId_Free 0000000180022cb0 f   cmstypes.obj
+ 0001:00021cc0       ReadSeqID                  0000000180022cc0 f   cmstypes.obj
+ 0001:00021d40       Type_ProfileSequenceId_Read 0000000180022d40 f   cmstypes.obj
+ 0001:00021e00       WriteSeqID                 0000000180022e00 f   cmstypes.obj
+ 0001:00021e80       Type_ProfileSequenceId_Write 0000000180022e80 f   cmstypes.obj
+ 0001:00021f00       Type_UcrBg_Read            0000000180022f00 f   cmstypes.obj
+ 0001:000220b0       Type_UcrBg_Write           00000001800230b0 f   cmstypes.obj
+ 0001:000221d0       Type_UcrBg_Dup             00000001800231d0 f   cmstypes.obj
+ 0001:00022240       Type_UcrBg_Free            0000000180023240 f   cmstypes.obj
+ 0001:00022290       ReadCountAndSting          0000000180023290 f   cmstypes.obj
+ 0001:00022380       WriteCountAndSting         0000000180023380 f   cmstypes.obj
+ 0001:00022440       Type_CrdInfo_Read          0000000180023440 f   cmstypes.obj
+ 0001:00022560       Type_CrdInfo_Write         0000000180023560 f   cmstypes.obj
+ 0001:00022620       Type_Text_Dup              0000000180023620 f   cmstypes.obj
+ 0001:00022620       Type_CrdInfo_Dup           0000000180023620 f   cmstypes.obj
+ 0001:00022620       Type_MLU_Dup               0000000180023620 f   cmstypes.obj
+ 0001:00022620       Type_Text_Description_Dup  0000000180023620 f   cmstypes.obj
+ 0001:00022630       Type_Screening_Read        0000000180023630 f   cmstypes.obj
+ 0001:00022730       Type_Screening_Write       0000000180023730 f   cmstypes.obj
+ 0001:000227e0       Type_ViewingConditions_Read 00000001800237e0 f   cmstypes.obj
+ 0001:00022880       Type_ViewingConditions_Write 0000000180023880 f   cmstypes.obj
+ 0001:000228e0       Type_ViewingConditions_Dup 00000001800238e0 f   cmstypes.obj
+ 0001:000228e0       Type_Screening_Dup         00000001800238e0 f   cmstypes.obj
+ 0001:000228f0       GenericMPEdup              00000001800238f0 f   cmstypes.obj
+ 0001:00022900       GenericMPEfree             0000000180023900 f   cmstypes.obj
+ 0001:00022910       ReadSegmentedCurve         0000000180023910 f   cmstypes.obj
+ 0001:00022ca0       ReadMPECurve               0000000180023ca0 f   cmstypes.obj
+ 0001:00022cd0       Type_MPEcurve_Read         0000000180023cd0 f   cmstypes.obj
+ 0001:00022e10       WriteSegmentedCurve        0000000180023e10 f   cmstypes.obj
+ 0001:00023030       WriteMPECurve              0000000180024030 f   cmstypes.obj
+ 0001:00023050       Type_MPEcurve_Write        0000000180024050 f   cmstypes.obj
+ 0001:00023100       Type_MPEmatrix_Read        0000000180024100 f   cmstypes.obj
+ 0001:000232d0       Type_MPEmatrix_Write       00000001800242d0 f   cmstypes.obj
+ 0001:000233d0       Type_MPEclut_Read          00000001800243d0 f   cmstypes.obj
+ 0001:00023530       Type_MPEclut_Write         0000000180024530 f   cmstypes.obj
+ 0001:00023650       ReadMPEElem                0000000180024650 f   cmstypes.obj
+ 0001:00023750       Type_MPE_Read              0000000180024750 f   cmstypes.obj
+ 0001:00023830       Type_MPE_Write             0000000180024830 f   cmstypes.obj
+ 0001:00023b80       Type_LUT8_Dup              0000000180024b80 f   cmstypes.obj
+ 0001:00023b80       Type_LUTB2A_Dup            0000000180024b80 f   cmstypes.obj
+ 0001:00023b80       Type_LUT16_Dup             0000000180024b80 f   cmstypes.obj
+ 0001:00023b80       Type_LUTA2B_Dup            0000000180024b80 f   cmstypes.obj
+ 0001:00023b80       Type_MPE_Dup               0000000180024b80 f   cmstypes.obj
+ 0001:00023b90       Type_vcgt_Read             0000000180024b90 f   cmstypes.obj
+ 0001:00023f30       Type_vcgt_Write            0000000180024f30 f   cmstypes.obj
+ 0001:000241b0       Type_vcgt_Dup              00000001800251b0 f   cmstypes.obj
+ 0001:00024220       Type_vcgt_Free             0000000180025220 f   cmstypes.obj
+ 0001:00024250       AllocElem                  0000000180025250 f   cmstypes.obj
+ 0001:000242d0       FreeArray                  00000001800252d0 f   cmstypes.obj
+ 0001:000243b0       AllocArray                 00000001800253b0 f   cmstypes.obj
+ 0001:00024460       ReadOneElem                0000000180025460 f   cmstypes.obj
+ 0001:000244d0       ReadOffsetArray            00000001800254d0 f   cmstypes.obj
+ 0001:00024600       WriteOffsetArray           0000000180025600 f   cmstypes.obj
+ 0001:00024720       WriteOneWChar              0000000180025720 f   cmstypes.obj
+ 0001:000247e0       WriteOneMLUC               00000001800257e0 f   cmstypes.obj
+ 0001:00024890       Type_Dictionary_Read       0000000180025890 f   cmstypes.obj
+ 0001:00024c80       Type_Dictionary_Write      0000000180025c80 f   cmstypes.obj
+ 0001:00024fe0       Type_Dictionary_Dup        0000000180025fe0 f   cmstypes.obj
+ 0001:00024ff0       Type_Dictionary_Free       0000000180025ff0 f   cmstypes.obj
+ 0001:000250b0       SetTextTags                00000001800260b0 f   cmsvirt.obj
+ 0001:000259f0       ComputeChromaticAdaptation 00000001800269f0 f   cmswtpnt.obj
+ 0001:00025c00       _cmsAdaptMatrixToD50       0000000180026c00 f   cmswtpnt.obj
+ 0001:00026040       FloatXFORM                 0000000180027040 f   cmsxform.obj
+ 0001:00026170       NullFloatXFORM             0000000180027170 f   cmsxform.obj
+ 0001:00026290       PrecalculatedXFORM         0000000180027290 f   cmsxform.obj
+ 0001:00026330       TransformOnePixelWithGamutCheck 0000000180027330 f   cmsxform.obj
+ 0001:000263e0       PrecalculatedXFORMGamutCheck 00000001800273e0 f   cmsxform.obj
+ 0001:00026500       CachedXFORM                0000000180027500 f   cmsxform.obj
+ 0001:00026640       CachedXFORMGamutCheck      0000000180027640 f   cmsxform.obj
+ 0001:000267f0       AllocEmptyTransform        00000001800277f0 f   cmsxform.obj
+ 0001:00026b00       GetXFormColorSpaces        0000000180027b00 f   cmsxform.obj
+ 0001:00026c20       IsProperColorSpace         0000000180027c20 f   cmsxform.obj
+ 0001:00026c70       SetWhitePoint              0000000180027c70 f   cmsxform.obj
+ 0001:000274b8       pre_c_init                 00000001800284b8 f   MSVCRT:crtdll.obj
+ 0001:00027774       __DllMainCRTStartup        0000000180028774 f   MSVCRT:crtdll.obj
+ 0001:00027d70       __DllMainCRTStartup$filt$0 0000000180028d70 f   MSVCRT:crtdll.obj
+ 0001:00027da0       __DllMainCRTStartup$fin$1  0000000180028da0 f   MSVCRT:crtdll.obj
+ 0001:00027dba       _onexit$fin$0              0000000180028dba f   MSVCRT:atonexit.obj
+ 0001:00027de0       _IsNonwritableInCurrentImage$filt$0 0000000180028de0 f   MSVCRT:pesect.obj

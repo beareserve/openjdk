@@ -1,0 +1,573 @@
+ nio
+
+ Timestamp is 60b79ce0 (Wed Jun 02 15:59:44 2021)
+
+ Preferred load address is 0000000180000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000069b2H .text                   CODE
+ 0001:000069c0 00000092H .text$x                 CODE
+ 0002:00000000 00000518H .idata$5                DATA
+ 0002:00000518 00000008H .CRT$XCA                DATA
+ 0002:00000520 00000008H .CRT$XCZ                DATA
+ 0002:00000528 00000008H .CRT$XIA                DATA
+ 0002:00000530 00000008H .CRT$XIAA               DATA
+ 0002:00000538 00000008H .CRT$XIZ                DATA
+ 0002:00000540 00000908H .rdata                  DATA
+ 0002:00000e48 0000006fH .rdata$debug            DATA
+ 0002:00000eb8 00000008H .rtc$IAA                DATA
+ 0002:00000ec0 00000008H .rtc$IZZ                DATA
+ 0002:00000ec8 00000008H .rtc$TAA                DATA
+ 0002:00000ed0 00000008H .rtc$TZZ                DATA
+ 0002:00000ed8 0000063cH .xdata                  DATA
+ 0002:00001514 00000078H .idata$2                DATA
+ 0002:0000158c 00000014H .idata$3                DATA
+ 0002:000015a0 00000518H .idata$4                DATA
+ 0002:00001ab8 00000ac2H .idata$6                DATA
+ 0002:00002580 00002855H .edata                  DATA
+ 0003:00000000 00000018H .data                   DATA
+ 0003:00000020 00000738H .bss                    DATA
+ 0004:00000000 00000828H .pdata                  DATA
+ 0005:00000000 00000058H .rsrc$01                DATA
+ 0005:00000060 00000348H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
+ 0000:00000000       __ImageBase                0000000180000000     <linker-defined>
+ 0001:00000000       Java_sun_nio_ch_DatagramChannelImpl_initIDs 0000000180001000 f   DatagramChannelImpl.obj
+ 0001:000000e8       purgeOutstandingICMP       00000001800010e8 f   DatagramChannelImpl.obj
+ 0001:00000200       Java_sun_nio_ch_DatagramChannelImpl_disconnect0 0000000180001200 f   DatagramChannelImpl.obj
+ 0001:000002c4       Java_sun_nio_ch_DatagramChannelImpl_receive0 00000001800012c4 f   DatagramChannelImpl.obj
+ 0001:000004d8       Java_sun_nio_ch_DatagramChannelImpl_send0 00000001800014d8 f   DatagramChannelImpl.obj
+ 0001:000005b0       Java_sun_nio_ch_DatagramDispatcher_read0 00000001800015b0 f   DatagramDispatcher.obj
+ 0001:000006a4       Java_sun_nio_ch_DatagramDispatcher_readv0 00000001800016a4 f   DatagramDispatcher.obj
+ 0001:000007d8       Java_sun_nio_ch_DatagramDispatcher_write0 00000001800017d8 f   DatagramDispatcher.obj
+ 0001:000008bc       Java_sun_nio_ch_DatagramDispatcher_writev0 00000001800018bc f   DatagramDispatcher.obj
+ 0001:000009e0       Java_sun_nio_ch_FileChannelImpl_initIDs 00000001800019e0 f   FileChannelImpl.obj
+ 0001:00000a3c       Java_sun_nio_ch_FileChannelImpl_map0 0000000180001a3c f   FileChannelImpl.obj
+ 0001:00000b64       Java_sun_nio_ch_FileChannelImpl_unmap0 0000000180001b64 f   FileChannelImpl.obj
+ 0001:00000b98       Java_sun_nio_ch_FileChannelImpl_position0 0000000180001b98 f   FileChannelImpl.obj
+ 0001:00000c24       Java_sun_nio_ch_FileChannelImpl_transferTo0 0000000180001c24 f   FileChannelImpl.obj
+ 0001:00000c2c       Java_sun_nio_ch_FileDispatcherImpl_read0 0000000180001c2c f   FileDispatcherImpl.obj
+ 0001:00000cc8       Java_sun_nio_ch_FileDispatcherImpl_readv0 0000000180001cc8 f   FileDispatcherImpl.obj
+ 0001:00000db8       Java_sun_nio_ch_FileDispatcherImpl_pread0 0000000180001db8 f   FileDispatcherImpl.obj
+ 0001:00000f00       Java_sun_nio_ch_FileDispatcherImpl_write0 0000000180001f00 f   FileDispatcherImpl.obj
+ 0001:00000f94       Java_sun_nio_ch_FileDispatcherImpl_writev0 0000000180001f94 f   FileDispatcherImpl.obj
+ 0001:0000107c       Java_sun_nio_ch_FileDispatcherImpl_pwrite0 000000018000207c f   FileDispatcherImpl.obj
+ 0001:0000119c       Java_sun_nio_ch_FileDispatcherImpl_force0 000000018000219c f   FileDispatcherImpl.obj
+ 0001:000011ec       Java_sun_nio_ch_FileDispatcherImpl_truncate0 00000001800021ec f   FileDispatcherImpl.obj
+ 0001:00001274       Java_sun_nio_ch_FileDispatcherImpl_size0 0000000180002274 f   FileDispatcherImpl.obj
+ 0001:000012dc       Java_sun_nio_ch_FileDispatcherImpl_lock0 00000001800022dc f   FileDispatcherImpl.obj
+ 0001:000013a0       Java_sun_nio_ch_FileDispatcherImpl_release0 00000001800023a0 f   FileDispatcherImpl.obj
+ 0001:00001420       Java_sun_nio_ch_FileChannelImpl_close0 0000000180002420 f   FileChannelImpl.obj
+ 0001:00001420       Java_sun_nio_ch_FileDispatcherImpl_close0 0000000180002420 f   FileDispatcherImpl.obj
+ 0001:0000145c       Java_sun_nio_ch_FileDispatcherImpl_closeByHandle 000000018000245c f   FileDispatcherImpl.obj
+ 0001:0000148c       Java_sun_nio_ch_FileDispatcherImpl_duplicateHandle 000000018000248c f   FileDispatcherImpl.obj
+ 0001:000014ec       Java_sun_nio_ch_FileKey_initIDs 00000001800024ec f   FileKey.obj
+ 0001:00001570       Java_sun_nio_ch_FileKey_init 0000000180002570 f   FileKey.obj
+ 0001:00001628       Java_sun_nio_ch_IOUtil_initIDs 0000000180002628 f   IOUtil.obj
+ 0001:0000169c       Java_sun_nio_ch_IOUtil_randomBytes 000000018000269c f   IOUtil.obj
+ 0001:000016a4       Java_sun_nio_ch_Net_polloutValue 00000001800026a4 f   Net.obj
+ 0001:000016a4       Java_sun_nio_ch_IOUtil_iovMax 00000001800026a4 f   IOUtil.obj
+ 0001:000016ac       convertReturnVal           00000001800026ac f   IOUtil.obj
+ 0001:000016d8       convertLongReturnVal       00000001800026d8 f   IOUtil.obj
+ 0001:00001708       Java_sun_nio_ch_IOUtil_setfdVal 0000000180002708 f   IOUtil.obj
+ 0001:0000171c       Java_sun_nio_ch_IOUtil_drain 000000018000271c f   IOUtil.obj
+ 0001:000017dc       fdval                      00000001800027dc f   IOUtil.obj
+ 0001:000017f0       handleval                  00000001800027f0 f   IOUtil.obj
+ 0001:00001804       Java_sun_nio_ch_IOUtil_fdVal 0000000180002804 f   IOUtil.obj
+ 0001:00001818       Java_sun_nio_ch_IOUtil_configureBlocking 0000000180002818 f   IOUtil.obj
+ 0001:0000189c       Java_sun_nio_ch_Iocp_initIDs 000000018000289c f   Iocp.obj
+ 0001:00001970       Java_sun_nio_ch_Iocp_osMajorVersion 0000000180002970 f   Iocp.obj
+ 0001:000019c0       Java_sun_nio_ch_Iocp_createIoCompletionPort 00000001800029c0 f   Iocp.obj
+ 0001:00001a0c       Java_sun_nio_ch_Iocp_close0 0000000180002a0c f   Iocp.obj
+ 0001:00001a0c       Java_sun_nio_fs_WindowsNativeDispatcher_CloseHandle 0000000180002a0c f   WindowsNativeDispatcher.obj
+ 0001:00001a0c       Java_sun_nio_ch_WindowsAsynchronousFileChannelImpl_close0 0000000180002a0c f   WindowsAsynchronousFileChannelImpl.obj
+ 0001:00001a18       Java_sun_nio_ch_Iocp_getQueuedCompletionStatus 0000000180002a18 f   Iocp.obj
+ 0001:00001ae8       Java_sun_nio_ch_Iocp_postQueuedCompletionStatus 0000000180002ae8 f   Iocp.obj
+ 0001:00001b20       Java_java_nio_MappedByteBuffer_force0 0000000180002b20 f   MappedByteBuffer.obj
+ 0001:00001c08       Java_sun_nio_ch_Net_initIDs 0000000180002c08 f   Net.obj
+ 0001:00001c08       Java_java_nio_MappedByteBuffer_load0 0000000180002c08 f   MappedByteBuffer.obj
+ 0001:00001c0c       Java_sun_nio_ch_Net_isIPv6Available0 0000000180002c0c f   Net.obj
+ 0001:00001c70       Java_sun_nio_ch_Net_isExclusiveBindAvailable 0000000180002c70 f   Net.obj
+ 0001:00001ccc       Java_sun_nio_ch_Net_canIPv6SocketJoinIPv4Group0 0000000180002ccc f   Net.obj
+ 0001:00001ccc       Java_sun_nio_ch_Net_canJoin6WithIPv4Group0 0000000180002ccc f   Net.obj
+ 0001:00001ccc       Java_java_nio_MappedByteBuffer_isLoaded0 0000000180002ccc f   MappedByteBuffer.obj
+ 0001:00001cd0       Java_sun_nio_ch_Net_socket0 0000000180002cd0 f   Net.obj
+ 0001:00001dc4       Java_sun_nio_ch_Net_bind0  0000000180002dc4 f   Net.obj
+ 0001:00001e68       Java_sun_nio_ch_Net_connect0 0000000180002e68 f   Net.obj
+ 0001:00001fa4       Java_sun_nio_ch_Net_localPort 0000000180002fa4 f   Net.obj
+ 0001:0000202c       Java_sun_nio_ch_Net_localInetAddress 000000018000302c f   Net.obj
+ 0001:000020ac       Java_sun_nio_ch_Net_remotePort 00000001800030ac f   Net.obj
+ 0001:00002134       Java_sun_nio_ch_Net_remoteInetAddress 0000000180003134 f   Net.obj
+ 0001:000021b4       Java_sun_nio_ch_Net_getIntOption0 00000001800031b4 f   Net.obj
+ 0001:000022c4       Java_sun_nio_ch_Net_setIntOption0 00000001800032c4 f   Net.obj
+ 0001:0000239c       Java_sun_nio_ch_Net_joinOrDrop4 000000018000339c f   Net.obj
+ 0001:000024b0       Java_sun_nio_ch_Net_blockOrUnblock4 00000001800034b0 f   Net.obj
+ 0001:00002660       Java_sun_nio_ch_Net_joinOrDrop6 0000000180003660 f   Net.obj
+ 0001:00002748       Java_sun_nio_ch_Net_blockOrUnblock6 0000000180003748 f   Net.obj
+ 0001:00002798       Java_sun_nio_ch_Net_setInterface4 0000000180003798 f   Net.obj
+ 0001:000027fc       Java_sun_nio_ch_Net_getInterface4 00000001800037fc f   Net.obj
+ 0001:00002860       Java_sun_nio_ch_Net_setInterface6 0000000180003860 f   Net.obj
+ 0001:000028b0       Java_sun_nio_ch_Net_getInterface6 00000001800038b0 f   Net.obj
+ 0001:00002910       Java_sun_nio_ch_Net_shutdown 0000000180003910 f   Net.obj
+ 0001:0000296c       Java_sun_nio_ch_Net_poll   000000018000396c f   Net.obj
+ 0001:00002ae8       Java_sun_nio_ch_Net_pollinValue 0000000180003ae8 f   Net.obj
+ 0001:00002af0       Java_sun_nio_ch_Net_pollerrValue 0000000180003af0 f   Net.obj
+ 0001:00002af8       Java_sun_nio_ch_Net_pollhupValue 0000000180003af8 f   Net.obj
+ 0001:00002b00       Java_sun_nio_ch_Net_pollnvalValue 0000000180003b00 f   Net.obj
+ 0001:00002b08       Java_sun_nio_ch_Net_pollconnValue 0000000180003b08 f   Net.obj
+ 0001:00002b10       Java_sun_nio_fs_RegistryFileTypeDetector_queryStringValue 0000000180003b10 f   RegistryFileTypeDetector.obj
+ 0001:00002be8       Java_sun_nio_ch_ServerSocketChannelImpl_initIDs 0000000180003be8 f   ServerSocketChannelImpl.obj
+ 0001:00002c84       Java_sun_nio_ch_ServerSocketChannelImpl_listen 0000000180003c84 f   ServerSocketChannelImpl.obj
+ 0001:00002c84       Java_sun_nio_ch_Net_listen 0000000180003c84 f   Net.obj
+ 0001:00002cd0       Java_sun_nio_ch_ServerSocketChannelImpl_accept0 0000000180003cd0 f   ServerSocketChannelImpl.obj
+ 0001:00002df8       Java_sun_nio_ch_SocketChannelImpl_initIDs 0000000180003df8 f   SocketChannelImpl.obj
+ 0001:00002e3c       handleSocketError          0000000180003e3c f   SocketChannelImpl.obj
+ 0001:00002e54       Java_sun_nio_ch_SocketChannelImpl_checkConnect 0000000180003e54 f   SocketChannelImpl.obj
+ 0001:00003010       Java_sun_nio_ch_SocketChannelImpl_sendOutOfBandData 0000000180004010 f   SocketChannelImpl.obj
+ 0001:00003060       Java_sun_nio_ch_SocketDispatcher_read0 0000000180004060 f   SocketDispatcher.obj
+ 0001:0000311c       Java_sun_nio_ch_SocketDispatcher_readv0 000000018000411c f   SocketDispatcher.obj
+ 0001:00003258       Java_sun_nio_ch_SocketDispatcher_write0 0000000180004258 f   SocketDispatcher.obj
+ 0001:00003330       Java_sun_nio_ch_SocketDispatcher_writev0 0000000180004330 f   SocketDispatcher.obj
+ 0001:000034a4       Java_sun_nio_ch_SocketDispatcher_preClose0 00000001800044a4 f   SocketDispatcher.obj
+ 0001:00003500       Java_sun_nio_ch_SocketDispatcher_close0 0000000180004500 f   SocketDispatcher.obj
+ 0001:00003534       Java_sun_nio_ch_WindowsAsynchronousFileChannelImpl_readFile 0000000180004534 f   WindowsAsynchronousFileChannelImpl.obj
+ 0001:000035b4       Java_sun_nio_ch_WindowsAsynchronousFileChannelImpl_writeFile 00000001800045b4 f   WindowsAsynchronousFileChannelImpl.obj
+ 0001:00003628       Java_sun_nio_ch_WindowsAsynchronousFileChannelImpl_lockFile 0000000180004628 f   WindowsAsynchronousFileChannelImpl.obj
+ 0001:000036bc       Java_sun_nio_ch_WindowsAsynchronousServerSocketChannelImpl_initIDs 00000001800046bc f   WindowsAsynchronousServerSocketChannelImpl.obj
+ 0001:000037a8       Java_sun_nio_ch_WindowsAsynchronousServerSocketChannelImpl_accept0 00000001800047a8 f   WindowsAsynchronousServerSocketChannelImpl.obj
+ 0001:00003854       Java_sun_nio_ch_WindowsAsynchronousServerSocketChannelImpl_updateAcceptContext 0000000180004854 f   WindowsAsynchronousServerSocketChannelImpl.obj
+ 0001:00003884       Java_sun_nio_ch_WindowsAsynchronousServerSocketChannelImpl_closesocket0 0000000180004884 f   WindowsAsynchronousServerSocketChannelImpl.obj
+ 0001:00003884       Java_sun_nio_ch_WindowsAsynchronousSocketChannelImpl_closesocket0 0000000180004884 f   WindowsAsynchronousSocketChannelImpl.obj
+ 0001:000038b0       Java_sun_nio_ch_WindowsAsynchronousSocketChannelImpl_initIDs 00000001800048b0 f   WindowsAsynchronousSocketChannelImpl.obj
+ 0001:0000399c       Java_sun_nio_ch_WindowsAsynchronousSocketChannelImpl_connect0 000000018000499c f   WindowsAsynchronousSocketChannelImpl.obj
+ 0001:00003a68       Java_sun_nio_ch_WindowsAsynchronousSocketChannelImpl_updateConnectContext 0000000180004a68 f   WindowsAsynchronousSocketChannelImpl.obj
+ 0001:00003a90       Java_sun_nio_ch_WindowsAsynchronousSocketChannelImpl_shutdown0 0000000180004a90 f   WindowsAsynchronousSocketChannelImpl.obj
+ 0001:00003ac0       Java_sun_nio_ch_WindowsAsynchronousSocketChannelImpl_read0 0000000180004ac0 f   WindowsAsynchronousSocketChannelImpl.obj
+ 0001:00003b6c       Java_sun_nio_ch_WindowsAsynchronousSocketChannelImpl_write0 0000000180004b6c f   WindowsAsynchronousSocketChannelImpl.obj
+ 0001:00003c48       Java_sun_nio_fs_WindowsNativeDispatcher_initIDs 0000000180004c48 f   WindowsNativeDispatcher.obj
+ 0001:00004090       Java_sun_nio_fs_WindowsNativeDispatcher_FormatMessage 0000000180005090 f   WindowsNativeDispatcher.obj
+ 0001:00004090       Java_sun_nio_ch_Iocp_getErrorMessage 0000000180005090 f   Iocp.obj
+ 0001:00004124       Java_sun_nio_fs_WindowsNativeDispatcher_LocalFree 0000000180005124 f   WindowsNativeDispatcher.obj
+ 0001:00004130       Java_sun_nio_fs_WindowsNativeDispatcher_CreateFile0 0000000180005130 f   WindowsNativeDispatcher.obj
+ 0001:000041c4       Java_sun_nio_fs_WindowsNativeDispatcher_DeviceIoControlSetSparse 00000001800051c4 f   WindowsNativeDispatcher.obj
+ 0001:00004218       Java_sun_nio_fs_WindowsNativeDispatcher_DeviceIoControlGetReparsePoint 0000000180005218 f   WindowsNativeDispatcher.obj
+ 0001:00004270       Java_sun_nio_fs_WindowsNativeDispatcher_DeleteFile0 0000000180005270 f   WindowsNativeDispatcher.obj
+ 0001:0000429c       Java_sun_nio_fs_WindowsNativeDispatcher_CreateDirectory0 000000018000529c f   WindowsNativeDispatcher.obj
+ 0001:000042e8       Java_sun_nio_fs_WindowsNativeDispatcher_RemoveDirectory0 00000001800052e8 f   WindowsNativeDispatcher.obj
+ 0001:00004314       Java_sun_nio_fs_WindowsNativeDispatcher_FindFirstFile0 0000000180005314 f   WindowsNativeDispatcher.obj
+ 0001:00004400       Java_sun_nio_fs_WindowsNativeDispatcher_FindFirstFile1 0000000180005400 f   WindowsNativeDispatcher.obj
+ 0001:00004440       Java_sun_nio_fs_WindowsNativeDispatcher_FindNextFile 0000000180005440 f   WindowsNativeDispatcher.obj
+ 0001:000044b4       Java_sun_nio_fs_WindowsNativeDispatcher_FindFirstStream0 00000001800054b4 f   WindowsNativeDispatcher.obj
+ 0001:000045cc       Java_sun_nio_fs_WindowsNativeDispatcher_FindNextStream 00000001800055cc f   WindowsNativeDispatcher.obj
+ 0001:00004678       Java_sun_nio_fs_WindowsNativeDispatcher_FindClose 0000000180005678 f   WindowsNativeDispatcher.obj
+ 0001:000046a4       Java_sun_nio_fs_WindowsNativeDispatcher_GetFileInformationByHandle 00000001800056a4 f   WindowsNativeDispatcher.obj
+ 0001:000046d4       Java_sun_nio_fs_WindowsNativeDispatcher_CopyFileEx0 00000001800056d4 f   WindowsNativeDispatcher.obj
+ 0001:00004720       Java_sun_nio_fs_WindowsNativeDispatcher_MoveFileEx0 0000000180005720 f   WindowsNativeDispatcher.obj
+ 0001:00004758       Java_sun_nio_fs_WindowsNativeDispatcher_GetLogicalDrives 0000000180005758 f   WindowsNativeDispatcher.obj
+ 0001:00004790       Java_sun_nio_fs_WindowsNativeDispatcher_GetFileAttributes0 0000000180005790 f   WindowsNativeDispatcher.obj
+ 0001:000047cc       Java_sun_nio_fs_WindowsNativeDispatcher_SetFileAttributes0 00000001800057cc f   WindowsNativeDispatcher.obj
+ 0001:000047fc       Java_sun_nio_fs_WindowsNativeDispatcher_GetFileAttributesEx0 00000001800057fc f   WindowsNativeDispatcher.obj
+ 0001:00004830       Java_sun_nio_fs_WindowsNativeDispatcher_SetFileTime 0000000180005830 f   WindowsNativeDispatcher.obj
+ 0001:0000489c       Java_sun_nio_fs_WindowsNativeDispatcher_SetEndOfFile 000000018000589c f   WindowsNativeDispatcher.obj
+ 0001:000048c8       Java_sun_nio_fs_WindowsNativeDispatcher_GetVolumeInformation0 00000001800058c8 f   WindowsNativeDispatcher.obj
+ 0001:00004a20       Java_sun_nio_fs_WindowsNativeDispatcher_GetDriveType0 0000000180005a20 f   WindowsNativeDispatcher.obj
+ 0001:00004a2c       Java_sun_nio_fs_WindowsNativeDispatcher_GetDiskFreeSpaceEx0 0000000180005a2c f   WindowsNativeDispatcher.obj
+ 0001:00004acc       Java_sun_nio_fs_WindowsNativeDispatcher_GetVolumePathName0 0000000180005acc f   WindowsNativeDispatcher.obj
+ 0001:00004b60       Java_sun_nio_fs_WindowsNativeDispatcher_InitializeSecurityDescriptor 0000000180005b60 f   WindowsNativeDispatcher.obj
+ 0001:00004b94       Java_sun_nio_fs_WindowsNativeDispatcher_InitializeAcl 0000000180005b94 f   WindowsNativeDispatcher.obj
+ 0001:00004bcc       Java_sun_nio_fs_WindowsNativeDispatcher_SetFileSecurity0 0000000180005bcc f   WindowsNativeDispatcher.obj
+ 0001:00004c04       Java_sun_nio_fs_WindowsNativeDispatcher_GetFileSecurity0 0000000180005c04 f   WindowsNativeDispatcher.obj
+ 0001:00004c68       Java_sun_nio_fs_WindowsNativeDispatcher_GetSecurityDescriptorOwner 0000000180005c68 f   WindowsNativeDispatcher.obj
+ 0001:00004ca8       Java_sun_nio_fs_WindowsNativeDispatcher_SetSecurityDescriptorOwner 0000000180005ca8 f   WindowsNativeDispatcher.obj
+ 0001:00004ce0       Java_sun_nio_fs_WindowsNativeDispatcher_GetSecurityDescriptorDacl 0000000180005ce0 f   WindowsNativeDispatcher.obj
+ 0001:00004d30       Java_sun_nio_fs_WindowsNativeDispatcher_SetSecurityDescriptorDacl 0000000180005d30 f   WindowsNativeDispatcher.obj
+ 0001:00004d6c       Java_sun_nio_fs_WindowsNativeDispatcher_GetAclInformation0 0000000180005d6c f   WindowsNativeDispatcher.obj
+ 0001:00004df0       Java_sun_nio_fs_WindowsNativeDispatcher_GetAce 0000000180005df0 f   WindowsNativeDispatcher.obj
+ 0001:00004e30       Java_sun_nio_fs_WindowsNativeDispatcher_AddAccessAllowedAceEx 0000000180005e30 f   WindowsNativeDispatcher.obj
+ 0001:00004e7c       Java_sun_nio_fs_WindowsNativeDispatcher_AddAccessDeniedAceEx 0000000180005e7c f   WindowsNativeDispatcher.obj
+ 0001:00004ec8       Java_sun_nio_fs_WindowsNativeDispatcher_LookupAccountSid0 0000000180005ec8 f   WindowsNativeDispatcher.obj
+ 0001:00005010       Java_sun_nio_fs_WindowsNativeDispatcher_LookupAccountName0 0000000180006010 f   WindowsNativeDispatcher.obj
+ 0001:000050ac       Java_sun_nio_fs_WindowsNativeDispatcher_GetLengthSid 00000001800060ac f   WindowsNativeDispatcher.obj
+ 0001:000050b8       Java_sun_nio_fs_WindowsNativeDispatcher_ConvertSidToStringSid 00000001800060b8 f   WindowsNativeDispatcher.obj
+ 0001:00005128       Java_sun_nio_fs_WindowsNativeDispatcher_ConvertStringSidToSid0 0000000180006128 f   WindowsNativeDispatcher.obj
+ 0001:00005160       Java_sun_nio_fs_WindowsNativeDispatcher_GetCurrentProcess 0000000180006160 f   WindowsNativeDispatcher.obj
+ 0001:00005168       Java_sun_nio_fs_WindowsNativeDispatcher_GetCurrentThread 0000000180006168 f   WindowsNativeDispatcher.obj
+ 0001:00005170       Java_sun_nio_fs_WindowsNativeDispatcher_OpenProcessToken 0000000180006170 f   WindowsNativeDispatcher.obj
+ 0001:000051ac       Java_sun_nio_fs_WindowsNativeDispatcher_OpenThreadToken 00000001800061ac f   WindowsNativeDispatcher.obj
+ 0001:00005208       Java_sun_nio_fs_WindowsNativeDispatcher_DuplicateTokenEx 0000000180006208 f   WindowsNativeDispatcher.obj
+ 0001:00005258       Java_sun_nio_fs_WindowsNativeDispatcher_SetThreadToken 0000000180006258 f   WindowsNativeDispatcher.obj
+ 0001:00005288       Java_sun_nio_fs_WindowsNativeDispatcher_GetTokenInformation 0000000180006288 f   WindowsNativeDispatcher.obj
+ 0001:000052e8       Java_sun_nio_fs_WindowsNativeDispatcher_AdjustTokenPrivileges 00000001800062e8 f   WindowsNativeDispatcher.obj
+ 0001:00005364       Java_sun_nio_fs_WindowsNativeDispatcher_AccessCheck 0000000180006364 f   WindowsNativeDispatcher.obj
+ 0001:00005448       Java_sun_nio_fs_WindowsNativeDispatcher_LookupPrivilegeValue0 0000000180006448 f   WindowsNativeDispatcher.obj
+ 0001:000054b8       Java_sun_nio_fs_WindowsNativeDispatcher_CreateSymbolicLink0 00000001800064b8 f   WindowsNativeDispatcher.obj
+ 0001:00005508       Java_sun_nio_fs_WindowsNativeDispatcher_CreateHardLink0 0000000180006508 f   WindowsNativeDispatcher.obj
+ 0001:00005540       Java_sun_nio_fs_WindowsNativeDispatcher_GetFullPathName0 0000000180006540 f   WindowsNativeDispatcher.obj
+ 0001:00005654       Java_sun_nio_fs_WindowsNativeDispatcher_GetFinalPathNameByHandle 0000000180006654 f   WindowsNativeDispatcher.obj
+ 0001:00005784       Java_sun_nio_fs_WindowsNativeDispatcher_CreateIoCompletionPort 0000000180006784 f   WindowsNativeDispatcher.obj
+ 0001:000057d0       Java_sun_nio_fs_WindowsNativeDispatcher_GetQueuedCompletionStatus0 00000001800067d0 f   WindowsNativeDispatcher.obj
+ 0001:00005884       Java_sun_nio_fs_WindowsNativeDispatcher_PostQueuedCompletionStatus 0000000180006884 f   WindowsNativeDispatcher.obj
+ 0001:000058c0       Java_sun_nio_fs_WindowsNativeDispatcher_ReadDirectoryChangesW 00000001800068c0 f   WindowsNativeDispatcher.obj
+ 0001:0000595c       Java_sun_nio_fs_WindowsNativeDispatcher_BackupRead0 000000018000695c f   WindowsNativeDispatcher.obj
+ 0001:00005a10       Java_sun_nio_fs_WindowsNativeDispatcher_BackupSeek 0000000180006a10 f   WindowsNativeDispatcher.obj
+ 0001:00005a6c       Java_sun_nio_ch_WindowsSelectorImpl_00024SubSelector_poll0 0000000180006a6c f   WindowsSelectorImpl.obj
+ 0001:00005e58       Java_sun_nio_ch_WindowsSelectorImpl_setWakeupSocket0 0000000180006e58 f   WindowsSelectorImpl.obj
+ 0001:00005e7c       Java_sun_nio_ch_WindowsSelectorImpl_resetWakeupSocket0 0000000180006e7c f   WindowsSelectorImpl.obj
+ 0001:00005f18       Java_sun_nio_ch_WindowsSelectorImpl_discardUrgentData 0000000180006f18 f   WindowsSelectorImpl.obj
+ 0001:00005f70       __WSAFDIsSet               0000000180006f70 f   ws2_32:WS2_32.dll
+ 0001:00005f76       JNU_ThrowOutOfMemoryError  0000000180006f76 f   java:java.dll
+ 0001:00005f7c       JNU_ThrowByName            0000000180006f7c f   java:java.dll
+ 0001:00005f82       JNU_ThrowIOExceptionWithLastError 0000000180006f82 f   java:java.dll
+ 0001:00005f88       Java_sun_security_provider_NativeSeedGenerator_nativeGenerateSeed 0000000180006f88 f   java:java.dll
+ 0001:00005f8e       JNU_NewObjectByName        0000000180006f8e f   java:java.dll
+ 0001:00005f94       JNU_ThrowInternalError     0000000180006f94 f   java:java.dll
+ 0001:00005f9a       NET_SockaddrToInetAddress  0000000180006f9a f   net:net.dll
+ 0001:00005fa0       NET_GetPortFromSockaddr    0000000180006fa0 f   net:net.dll
+ 0001:00005fa6       NET_SockaddrEqualsInetAddress 0000000180006fa6 f   net:net.dll
+ 0001:00005fac       NET_InetAddressToSockaddr  0000000180006fac f   net:net.dll
+ 0001:00005fb2       ipv6_available             0000000180006fb2 f   net:net.dll
+ 0001:00005fb8       NET_ThrowNew               0000000180006fb8 f   net:net.dll
+ 0001:00005fbe       NET_WinBind                0000000180006fbe f   net:net.dll
+ 0001:00005fc4       NET_GetSockOpt             0000000180006fc4 f   net:net.dll
+ 0001:00005fca       NET_SetSockOpt             0000000180006fca f   net:net.dll
+ 0001:00005fd0       ConvertSidToStringSidW     0000000180006fd0 f   advapi32:ADVAPI32.dll
+ 0001:00005fd6       ConvertStringSidToSidW     0000000180006fd6 f   advapi32:ADVAPI32.dll
+ 0001:00005fdc       __GSHandlerCheckCommon     0000000180006fdc f   MSVCRT:gshandler.obj
+ 0001:00006040       __GSHandlerCheck           0000000180007040 f   MSVCRT:gshandler.obj
+ 0001:00006070       __security_check_cookie    0000000180007070 f   MSVCRT:amdsecgs.obj
+ 0001:00006090       memset                     0000000180007090 f   MSVCRT:MSVCR100.dll
+ 0001:000060b0       _alloca_probe              00000001800070b0     MSVCRT:chkstk.obj
+ 0001:000060b0       __chkstk                   00000001800070b0 f   MSVCRT:chkstk.obj
+ 0001:00006160       _CRT_INIT                  0000000180007160 f   MSVCRT:crtdll.obj
+ 0001:000064f8       _DllMainCRTStartup         00000001800074f8 f   MSVCRT:crtdll.obj
+ 0001:00006538       __report_gsfailure         0000000180007538 f   MSVCRT:gs_report.obj
+ 0001:00006684       __clean_type_info_names    0000000180007684 f   MSVCRT:tncleanup.obj
+ 0001:00006690       _onexit                    0000000180007690 f   MSVCRT:atonexit.obj
+ 0001:00006740       atexit                     0000000180007740 f   MSVCRT:atonexit.obj
+ 0001:00006758       _RTC_Initialize            0000000180007758 f   MSVCRT:_initsect_.obj
+ 0001:00006790       _RTC_Terminate             0000000180007790 f   MSVCRT:_initsect_.obj
+ 0001:000067d0       _ValidateImageBase         00000001800077d0 f   MSVCRT:pesect.obj
+ 0001:00006800       _FindPESection             0000000180007800 f   MSVCRT:pesect.obj
+ 0001:00006850       _IsNonwritableInCurrentImage 0000000180007850 f   MSVCRT:pesect.obj
+ 0001:00006892       _initterm                  0000000180007892 f   MSVCRT:MSVCR100.dll
+ 0001:00006898       _initterm_e                0000000180007898 f   MSVCRT:MSVCR100.dll
+ 0001:0000689e       _amsg_exit                 000000018000789e f   MSVCRT:MSVCR100.dll
+ 0001:000068a4       __C_specific_handler       00000001800078a4 f   MSVCRT:MSVCR100.dll
+ 0001:000068aa       __CppXcptFilter            00000001800078aa f   MSVCRT:MSVCR100.dll
+ 0001:000068b0       DllMain                    00000001800078b0 f   MSVCRT:dllmain.obj
+ 0001:000068d4       __security_init_cookie     00000001800078d4 f   MSVCRT:gs_support.obj
+ 0001:00006988       __crt_debugger_hook        0000000180007988 f   MSVCRT:MSVCR100.dll
+ 0001:0000698e       __clean_type_info_names_internal 000000018000798e f   MSVCRT:MSVCR100.dll
+ 0001:00006994       _unlock                    0000000180007994 f   MSVCRT:MSVCR100.dll
+ 0001:0000699a       __dllonexit                000000018000799a f   MSVCRT:MSVCR100.dll
+ 0001:000069a0       _lock                      00000001800079a0 f   MSVCRT:MSVCR100.dll
+ 0001:000069a6       RtlVirtualUnwind           00000001800079a6 f   kernel32:KERNEL32.dll
+ 0001:000069ac       RtlLookupFunctionEntry     00000001800079ac f   kernel32:KERNEL32.dll
+ 0002:00000000       __imp_GetLengthSid         0000000180008000     advapi32:ADVAPI32.dll
+ 0002:00000008       __imp_LookupPrivilegeValueW 0000000180008008     advapi32:ADVAPI32.dll
+ 0002:00000010       __imp_MapGenericMask       0000000180008010     advapi32:ADVAPI32.dll
+ 0002:00000018       __imp_AccessCheck          0000000180008018     advapi32:ADVAPI32.dll
+ 0002:00000020       __imp_AdjustTokenPrivileges 0000000180008020     advapi32:ADVAPI32.dll
+ 0002:00000028       __imp_GetTokenInformation  0000000180008028     advapi32:ADVAPI32.dll
+ 0002:00000030       __imp_SetThreadToken       0000000180008030     advapi32:ADVAPI32.dll
+ 0002:00000038       __imp_DuplicateTokenEx     0000000180008038     advapi32:ADVAPI32.dll
+ 0002:00000040       __imp_OpenThreadToken      0000000180008040     advapi32:ADVAPI32.dll
+ 0002:00000048       __imp_OpenProcessToken     0000000180008048     advapi32:ADVAPI32.dll
+ 0002:00000050       __imp_ConvertStringSidToSidW 0000000180008050     advapi32:ADVAPI32.dll
+ 0002:00000058       __imp_ConvertSidToStringSidW 0000000180008058     advapi32:ADVAPI32.dll
+ 0002:00000060       __imp_LookupAccountNameW   0000000180008060     advapi32:ADVAPI32.dll
+ 0002:00000068       __imp_LookupAccountSidW    0000000180008068     advapi32:ADVAPI32.dll
+ 0002:00000070       __imp_AddAccessDeniedAceEx 0000000180008070     advapi32:ADVAPI32.dll
+ 0002:00000078       __imp_AddAccessAllowedAceEx 0000000180008078     advapi32:ADVAPI32.dll
+ 0002:00000080       __imp_GetAce               0000000180008080     advapi32:ADVAPI32.dll
+ 0002:00000088       __imp_GetAclInformation    0000000180008088     advapi32:ADVAPI32.dll
+ 0002:00000090       __imp_SetSecurityDescriptorDacl 0000000180008090     advapi32:ADVAPI32.dll
+ 0002:00000098       __imp_GetSecurityDescriptorDacl 0000000180008098     advapi32:ADVAPI32.dll
+ 0002:000000a0       __imp_SetSecurityDescriptorOwner 00000001800080a0     advapi32:ADVAPI32.dll
+ 0002:000000a8       __imp_GetSecurityDescriptorOwner 00000001800080a8     advapi32:ADVAPI32.dll
+ 0002:000000b0       __imp_GetFileSecurityW     00000001800080b0     advapi32:ADVAPI32.dll
+ 0002:000000b8       __imp_SetFileSecurityW     00000001800080b8     advapi32:ADVAPI32.dll
+ 0002:000000c0       __imp_InitializeAcl        00000001800080c0     advapi32:ADVAPI32.dll
+ 0002:000000c8       __imp_InitializeSecurityDescriptor 00000001800080c8     advapi32:ADVAPI32.dll
+ 0002:000000d0       __imp_RegOpenKeyExW        00000001800080d0     advapi32:ADVAPI32.dll
+ 0002:000000d8       __imp_RegQueryValueExW     00000001800080d8     advapi32:ADVAPI32.dll
+ 0002:000000e0       __imp_RegCloseKey          00000001800080e0     advapi32:ADVAPI32.dll
+ 0002:000000e8       \177ADVAPI32_NULL_THUNK_DATA 00000001800080e8     advapi32:ADVAPI32.dll
+ 0002:000000f0       __imp_GetFileAttributesW   00000001800080f0     kernel32:KERNEL32.dll
+ 0002:000000f8       __imp_GetLogicalDrives     00000001800080f8     kernel32:KERNEL32.dll
+ 0002:00000100       __imp_MoveFileExW          0000000180008100     kernel32:KERNEL32.dll
+ 0002:00000108       __imp_CopyFileExW          0000000180008108     kernel32:KERNEL32.dll
+ 0002:00000110       __imp_FindClose            0000000180008110     kernel32:KERNEL32.dll
+ 0002:00000118       __imp_FindNextFileW        0000000180008118     kernel32:KERNEL32.dll
+ 0002:00000120       __imp_SetFileAttributesW   0000000180008120     kernel32:KERNEL32.dll
+ 0002:00000128       __imp_RemoveDirectoryW     0000000180008128     kernel32:KERNEL32.dll
+ 0002:00000130       __imp_CreateDirectoryW     0000000180008130     kernel32:KERNEL32.dll
+ 0002:00000138       __imp_DeleteFileW          0000000180008138     kernel32:KERNEL32.dll
+ 0002:00000140       __imp_DeviceIoControl      0000000180008140     kernel32:KERNEL32.dll
+ 0002:00000148       __imp_LocalFree            0000000180008148     kernel32:KERNEL32.dll
+ 0002:00000150       __imp_CreateFileW          0000000180008150     kernel32:KERNEL32.dll
+ 0002:00000158       __imp_GetFileAttributesExW 0000000180008158     kernel32:KERNEL32.dll
+ 0002:00000160       __imp_SetFileTime          0000000180008160     kernel32:KERNEL32.dll
+ 0002:00000168       __imp_GetVolumeInformationW 0000000180008168     kernel32:KERNEL32.dll
+ 0002:00000170       __imp_GetDriveTypeW        0000000180008170     kernel32:KERNEL32.dll
+ 0002:00000178       __imp_GetDiskFreeSpaceExW  0000000180008178     kernel32:KERNEL32.dll
+ 0002:00000180       __imp_GetVolumePathNameW   0000000180008180     kernel32:KERNEL32.dll
+ 0002:00000188       __imp_GetCurrentThread     0000000180008188     kernel32:KERNEL32.dll
+ 0002:00000190       __imp_LocalAlloc           0000000180008190     kernel32:KERNEL32.dll
+ 0002:00000198       __imp_CreateHardLinkW      0000000180008198     kernel32:KERNEL32.dll
+ 0002:000001a0       __imp_GetFullPathNameW     00000001800081a0     kernel32:KERNEL32.dll
+ 0002:000001a8       __imp_ReadDirectoryChangesW 00000001800081a8     kernel32:KERNEL32.dll
+ 0002:000001b0       __imp_BackupRead           00000001800081b0     kernel32:KERNEL32.dll
+ 0002:000001b8       __imp_BackupSeek           00000001800081b8     kernel32:KERNEL32.dll
+ 0002:000001c0       __imp_EncodePointer        00000001800081c0     kernel32:KERNEL32.dll
+ 0002:000001c8       __imp_DecodePointer        00000001800081c8     kernel32:KERNEL32.dll
+ 0002:000001d0       __imp_TerminateProcess     00000001800081d0     kernel32:KERNEL32.dll
+ 0002:000001d8       __imp_UnhandledExceptionFilter 00000001800081d8     kernel32:KERNEL32.dll
+ 0002:000001e0       __imp_SetUnhandledExceptionFilter 00000001800081e0     kernel32:KERNEL32.dll
+ 0002:000001e8       __imp_IsDebuggerPresent    00000001800081e8     kernel32:KERNEL32.dll
+ 0002:000001f0       __imp_RtlVirtualUnwind     00000001800081f0     kernel32:KERNEL32.dll
+ 0002:000001f8       __imp_RtlLookupFunctionEntry 00000001800081f8     kernel32:KERNEL32.dll
+ 0002:00000200       __imp_RtlCaptureContext    0000000180008200     kernel32:KERNEL32.dll
+ 0002:00000208       __imp_DisableThreadLibraryCalls 0000000180008208     kernel32:KERNEL32.dll
+ 0002:00000210       __imp_QueryPerformanceCounter 0000000180008210     kernel32:KERNEL32.dll
+ 0002:00000218       __imp_GetTickCount         0000000180008218     kernel32:KERNEL32.dll
+ 0002:00000220       __imp_GetCurrentThreadId   0000000180008220     kernel32:KERNEL32.dll
+ 0002:00000228       __imp_GetCurrentProcessId  0000000180008228     kernel32:KERNEL32.dll
+ 0002:00000230       __imp_GetSystemTimeAsFileTime 0000000180008230     kernel32:KERNEL32.dll
+ 0002:00000238       __imp_FindFirstFileW       0000000180008238     kernel32:KERNEL32.dll
+ 0002:00000240       __imp_GetProcAddress       0000000180008240     kernel32:KERNEL32.dll
+ 0002:00000248       __imp_Sleep                0000000180008248     kernel32:KERNEL32.dll
+ 0002:00000250       __imp_SetHandleInformation 0000000180008250     kernel32:KERNEL32.dll
+ 0002:00000258       __imp_FlushViewOfFile      0000000180008258     kernel32:KERNEL32.dll
+ 0002:00000260       __imp_FormatMessageW       0000000180008260     kernel32:KERNEL32.dll
+ 0002:00000268       __imp_PostQueuedCompletionStatus 0000000180008268     kernel32:KERNEL32.dll
+ 0002:00000270       __imp_GetQueuedCompletionStatus 0000000180008270     kernel32:KERNEL32.dll
+ 0002:00000278       __imp_CreateIoCompletionPort 0000000180008278     kernel32:KERNEL32.dll
+ 0002:00000280       __imp_GetVersionExA        0000000180008280     kernel32:KERNEL32.dll
+ 0002:00000288       __imp_GetFileInformationByHandle 0000000180008288     kernel32:KERNEL32.dll
+ 0002:00000290       __imp_GetCurrentProcess    0000000180008290     kernel32:KERNEL32.dll
+ 0002:00000298       __imp_DuplicateHandle      0000000180008298     kernel32:KERNEL32.dll
+ 0002:000002a0       __imp_UnlockFileEx         00000001800082a0     kernel32:KERNEL32.dll
+ 0002:000002a8       __imp_LockFileEx           00000001800082a8     kernel32:KERNEL32.dll
+ 0002:000002b0       __imp_GetFileSize          00000001800082b0     kernel32:KERNEL32.dll
+ 0002:000002b8       __imp_SetEndOfFile         00000001800082b8     kernel32:KERNEL32.dll
+ 0002:000002c0       __imp_FlushFileBuffers     00000001800082c0     kernel32:KERNEL32.dll
+ 0002:000002c8       __imp_WriteFile            00000001800082c8     kernel32:KERNEL32.dll
+ 0002:000002d0       __imp_ReadFile             00000001800082d0     kernel32:KERNEL32.dll
+ 0002:000002d8       __imp_SetFilePointer       00000001800082d8     kernel32:KERNEL32.dll
+ 0002:000002e0       __imp_GetSystemInfo        00000001800082e0     kernel32:KERNEL32.dll
+ 0002:000002e8       __imp_CloseHandle          00000001800082e8     kernel32:KERNEL32.dll
+ 0002:000002f0       __imp_GetLastError         00000001800082f0     kernel32:KERNEL32.dll
+ 0002:000002f8       __imp_MapViewOfFile        00000001800082f8     kernel32:KERNEL32.dll
+ 0002:00000300       __imp_CreateFileMappingA   0000000180008300     kernel32:KERNEL32.dll
+ 0002:00000308       __imp_UnmapViewOfFile      0000000180008308     kernel32:KERNEL32.dll
+ 0002:00000310       __imp_GetModuleHandleExW   0000000180008310     kernel32:KERNEL32.dll
+ 0002:00000318       \177KERNEL32_NULL_THUNK_DATA 0000000180008318     kernel32:KERNEL32.dll
+ 0002:00000320       __imp__lock                0000000180008320     MSVCRT:MSVCR100.dll
+ 0002:00000328       __imp___dllonexit          0000000180008328     MSVCRT:MSVCR100.dll
+ 0002:00000330       __imp__unlock              0000000180008330     MSVCRT:MSVCR100.dll
+ 0002:00000338       __imp___clean_type_info_names_internal 0000000180008338     MSVCRT:MSVCR100.dll
+ 0002:00000340       __imp___crt_debugger_hook  0000000180008340     MSVCRT:MSVCR100.dll
+ 0002:00000348       __imp___CppXcptFilter      0000000180008348     MSVCRT:MSVCR100.dll
+ 0002:00000350       __imp___C_specific_handler 0000000180008350     MSVCRT:MSVCR100.dll
+ 0002:00000358       __imp__amsg_exit           0000000180008358     MSVCRT:MSVCR100.dll
+ 0002:00000360       __imp__encoded_null        0000000180008360     MSVCRT:MSVCR100.dll
+ 0002:00000368       __imp__initterm_e          0000000180008368     MSVCRT:MSVCR100.dll
+ 0002:00000370       __imp__initterm            0000000180008370     MSVCRT:MSVCR100.dll
+ 0002:00000378       __imp__malloc_crt          0000000180008378     MSVCRT:MSVCR100.dll
+ 0002:00000380       __imp__errno               0000000180008380     MSVCRT:MSVCR100.dll
+ 0002:00000388       __imp_wcslen               0000000180008388     MSVCRT:MSVCR100.dll
+ 0002:00000390       __imp__get_osfhandle       0000000180008390     MSVCRT:MSVCR100.dll
+ 0002:00000398       __imp_malloc               0000000180008398     MSVCRT:MSVCR100.dll
+ 0002:000003a0       __imp_free                 00000001800083a0     MSVCRT:MSVCR100.dll
+ 0002:000003a8       __imp_memset               00000001800083a8     MSVCRT:MSVCR100.dll
+ 0002:000003b0       __imp__onexit              00000001800083b0     MSVCRT:MSVCR100.dll
+ 0002:000003b8       \177MSVCR100_NULL_THUNK_DATA 00000001800083b8     MSVCRT:MSVCR100.dll
+ 0002:000003c0       __imp_send                 00000001800083c0     ws2_32:WS2_32.dll
+ 0002:000003c8       __imp_WSAGetLastError      00000001800083c8     ws2_32:WS2_32.dll
+ 0002:000003d0       __imp_recvfrom             00000001800083d0     ws2_32:WS2_32.dll
+ 0002:000003d8       __imp_WSAIoctl             00000001800083d8     ws2_32:WS2_32.dll
+ 0002:000003e0       __imp_connect              00000001800083e0     ws2_32:WS2_32.dll
+ 0002:000003e8       __imp_sendto               00000001800083e8     ws2_32:WS2_32.dll
+ 0002:000003f0       __imp_WSARecv              00000001800083f0     ws2_32:WS2_32.dll
+ 0002:000003f8       __imp_WSASend              00000001800083f8     ws2_32:WS2_32.dll
+ 0002:00000400       __imp_ioctlsocket          0000000180008400     ws2_32:WS2_32.dll
+ 0002:00000408       __imp_WSAEventSelect       0000000180008408     ws2_32:WS2_32.dll
+ 0002:00000410       __imp_setsockopt           0000000180008410     ws2_32:WS2_32.dll
+ 0002:00000418       __imp_socket               0000000180008418     ws2_32:WS2_32.dll
+ 0002:00000420       __imp_listen               0000000180008420     ws2_32:WS2_32.dll
+ 0002:00000428       __imp_getsockopt           0000000180008428     ws2_32:WS2_32.dll
+ 0002:00000430       __imp_getsockname          0000000180008430     ws2_32:WS2_32.dll
+ 0002:00000438       __imp_getpeername          0000000180008438     ws2_32:WS2_32.dll
+ 0002:00000440       __imp_htonl                0000000180008440     ws2_32:WS2_32.dll
+ 0002:00000448       __imp_recv                 0000000180008448     ws2_32:WS2_32.dll
+ 0002:00000450       __imp_closesocket          0000000180008450     ws2_32:WS2_32.dll
+ 0002:00000458       __imp_WSASendDisconnect    0000000180008458     ws2_32:WS2_32.dll
+ 0002:00000460       __imp_select               0000000180008460     ws2_32:WS2_32.dll
+ 0002:00000468       __imp_accept               0000000180008468     ws2_32:WS2_32.dll
+ 0002:00000470       __imp___WSAFDIsSet         0000000180008470     ws2_32:WS2_32.dll
+ 0002:00000478       __imp_shutdown             0000000180008478     ws2_32:WS2_32.dll
+ 0002:00000480       __imp_ntohl                0000000180008480     ws2_32:WS2_32.dll
+ 0002:00000488       \177WS2_32_NULL_THUNK_DATA 0000000180008488     ws2_32:WS2_32.dll
+ 0002:00000490       __imp_JNU_ThrowByName      0000000180008490     java:java.dll
+ 0002:00000498       __imp_JNU_ThrowIOExceptionWithLastError 0000000180008498     java:java.dll
+ 0002:000004a0       __imp_Java_sun_security_provider_NativeSeedGenerator_nativeGenerateSeed 00000001800084a0     java:java.dll
+ 0002:000004a8       __imp_JNU_NewObjectByName  00000001800084a8     java:java.dll
+ 0002:000004b0       __imp_JNU_ThrowInternalError 00000001800084b0     java:java.dll
+ 0002:000004b8       __imp_JNU_ThrowOutOfMemoryError 00000001800084b8     java:java.dll
+ 0002:000004c0       \177java_NULL_THUNK_DATA   00000001800084c0     java:java.dll
+ 0002:000004c8       __imp_NET_SockaddrToInetAddress 00000001800084c8     net:net.dll
+ 0002:000004d0       __imp_NET_GetPortFromSockaddr 00000001800084d0     net:net.dll
+ 0002:000004d8       __imp_NET_SockaddrEqualsInetAddress 00000001800084d8     net:net.dll
+ 0002:000004e0       __imp_NET_InetAddressToSockaddr 00000001800084e0     net:net.dll
+ 0002:000004e8       __imp_ipv6_available       00000001800084e8     net:net.dll
+ 0002:000004f0       __imp_NET_ThrowNew         00000001800084f0     net:net.dll
+ 0002:000004f8       __imp_NET_WinBind          00000001800084f8     net:net.dll
+ 0002:00000500       __imp_NET_GetSockOpt       0000000180008500     net:net.dll
+ 0002:00000508       __imp_NET_SetSockOpt       0000000180008508     net:net.dll
+ 0002:00000510       \177net_NULL_THUNK_DATA    0000000180008510     net:net.dll
+ 0002:00000518       __xc_a                     0000000180008518     MSVCRT:cinitexe.obj
+ 0002:00000520       __xc_z                     0000000180008520     MSVCRT:cinitexe.obj
+ 0002:00000528       __xi_a                     0000000180008528     MSVCRT:cinitexe.obj
+ 0002:00000538       __xi_z                     0000000180008538     MSVCRT:cinitexe.obj
+ 0002:00000560       ??_C@_0BB@JLIPPJNN@cachedSenderPort?$AA@ 0000000180008560     DatagramChannelImpl.obj
+ 0002:00000574       ??_C@_01JPJNBJEM@I?$AA@    0000000180008574     DatagramChannelImpl.obj
+ 0002:00000578       ??_C@_0BI@OANHFGOF@cachedSenderInetAddress?$AA@ 0000000180008578     DatagramChannelImpl.obj
+ 0002:00000590       ??_C@_0BH@FIKCFBLO@Ljava?1net?1InetAddress?$DL?$AA@ 0000000180008590     DatagramChannelImpl.obj
+ 0002:000005a8       ??_C@_06CGHJMPBJ@sender?$AA@ 00000001800085a8     DatagramChannelImpl.obj
+ 0002:000005b0       ??_C@_0BJ@NDFGGFKE@Ljava?1net?1SocketAddress?$DL?$AA@ 00000001800085b0     DatagramChannelImpl.obj
+ 0002:000005d0       ??_C@_0BP@BNFFMBJL@sun?1nio?1ch?1DatagramChannelImpl?$AA@ 00000001800085d0     DatagramChannelImpl.obj
+ 0002:000005f0       ??_C@_06FALKBLGB@?$DMinit?$DO?$AA@ 00000001800085f0     DatagramChannelImpl.obj
+ 0002:000005f8       ??_C@_0BL@KCCEIBDI@?$CILjava?1net?1InetAddress?$DLI?$CJV?$AA@ 00000001800085f8     DatagramChannelImpl.obj
+ 0002:00000618       ??_C@_0BL@HBNNAPLM@java?1net?1InetSocketAddress?$AA@ 0000000180008618     DatagramChannelImpl.obj
+ 0002:00000638       ??_C@_0BH@BDDDBHPI@heap?5allocation?5failed?$AA@ 0000000180008638     DatagramChannelImpl.obj
+ 0002:00000650       ??_C@_0CC@BDDMPFBF@java?1net?1PortUnreachableExceptio@ 0000000180008650     DatagramChannelImpl.obj
+ 0002:00000678       ??_C@_0N@PGCLODBC@Write?5failed?$AA@ 0000000180008678     DatagramDispatcher.obj
+ 0002:00000688       ??_C@_02ENHFDPNM@fd?$AA@   0000000180008688     FileChannelImpl.obj
+ 0002:00000690       ??_C@_0BJ@BDFOFHPL@Ljava?1io?1FileDescriptor?$DL?$AA@ 0000000180008690     FileChannelImpl.obj
+ 0002:000006b0       ??_C@_0L@DPMFILPJ@Map?5failed?$AA@ 00000001800086b0     FileChannelImpl.obj
+ 0002:000006c0       ??_C@_0N@IGMMIDE@Unmap?5failed?$AA@ 00000001800086c0     FileChannelImpl.obj
+ 0002:000006d0       ??_C@_0M@HPFDGGMC@Seek?5failed?$AA@ 00000001800086d0     FileChannelImpl.obj
+ 0002:000006e0       ??_C@_0N@GNNFMAIG@Close?5failed?$AA@ 00000001800086e0     FileChannelImpl.obj
+ 0002:000006f0       ??_C@_0M@DCKEEFAG@Read?5failed?$AA@ 00000001800086f0     FileDispatcherImpl.obj
+ 0002:00000700       ??_C@_0P@EFDAIKIF@Invalid?5handle?$AA@ 0000000180008700     FileDispatcherImpl.obj
+ 0002:00000710       ??_C@_0N@EFKIKJEB@Force?5failed?$AA@ 0000000180008710     FileDispatcherImpl.obj
+ 0002:00000720       ??_C@_0BC@FODOCFKM@Truncation?5failed?$AA@ 0000000180008720     FileDispatcherImpl.obj
+ 0002:00000738       ??_C@_0M@GLCOPFPC@Size?5failed?$AA@ 0000000180008738     FileDispatcherImpl.obj
+ 0002:00000748       ??_C@_0M@OOGODMIM@Lock?5failed?$AA@ 0000000180008748     FileDispatcherImpl.obj
+ 0002:00000758       ??_C@_0P@MAMCLOFD@Release?5failed?$AA@ 0000000180008758     FileDispatcherImpl.obj
+ 0002:00000768       ??_C@_0BH@OPJFPPPK@DuplicateHandle?5failed?$AA@ 0000000180008768     FileDispatcherImpl.obj
+ 0002:00000780       ??_C@_0O@HJEFBNI@nFileIndexLow?$AA@ 0000000180008780     FileKey.obj
+ 0002:00000790       ??_C@_0P@OJOGHFHE@nFileIndexHigh?$AA@ 0000000180008790     FileKey.obj
+ 0002:000007a0       ??_C@_0BF@GJBBDEBO@dwVolumeSerialNumber?$AA@ 00000001800087a0     FileKey.obj
+ 0002:000007b8       ??_C@_01LELAEKIP@J?$AA@    00000001800087b8     FileKey.obj
+ 0002:000007c0       ??_C@_0CC@EJDNCKME@GetFileInformationByHandle?5faile@ 00000001800087c0     FileKey.obj
+ 0002:000007e4       ??_C@_06NCGDPKCC@handle?$AA@ 00000001800087e4     IOUtil.obj
+ 0002:000007f0       ??_C@_0BH@MPHCPCAM@java?1io?1FileDescriptor?$AA@ 00000001800087f0     IOUtil.obj
+ 0002:00000808       ??_C@_0BC@PPBACNOJ@Read?1write?5failed?$AA@ 0000000180008808     IOUtil.obj
+ 0002:0000081c       ??_C@_05GGAEIDGJ@Drain?$AA@ 000000018000881c     IOUtil.obj
+ 0002:00000828       ??_C@_0L@GFMJGGB@overlapped?$AA@ 0000000180008828     Iocp.obj
+ 0002:00000838       ??_C@_0O@HHOLMKBG@completionKey?$AA@ 0000000180008838     Iocp.obj
+ 0002:00000848       ??_C@_0BB@LMCKIICB@bytesTransferred?$AA@ 0000000180008848     Iocp.obj
+ 0002:0000085c       ??_C@_05KKCIMGE@error?$AA@ 000000018000885c     Iocp.obj
+ 0002:00000868       ??_C@_0CB@EANIAHBH@sun?1nio?1ch?1Iocp$CompletionStatus@ 0000000180008868     Iocp.obj
+ 0002:00000890       ??_C@_0BO@HNKCMKLP@CreateIoCompletionPort?5failed?$AA@ 0000000180008890     Iocp.obj
+ 0002:000008b0       ??_C@_0CB@GOEOMHMA@GetQueuedCompletionStatus?5failed@ 00000001800088b0     Iocp.obj
+ 0002:000008d8       ??_C@_0BL@IDOBBHMP@PostQueuedCompletionStatus?$AA@ 00000001800088d8     Iocp.obj
+ 0002:000008f8       ??_C@_0N@MNOMAIIN@Flush?5failed?$AA@ 00000001800088f8     MappedByteBuffer.obj
+ 0002:00000908       ??_C@_06HBELJPBO@socket?$AA@ 0000000180008908     Net.obj
+ 0002:00000910       ??_C@_04NPNJNMMP@bind?$AA@ 0000000180008910     Net.obj
+ 0002:00000918       ??_C@_06OODDLKLE@listen?$AA@ 0000000180008918     Net.obj
+ 0002:00000920       ??_C@_07KAIBNCHO@connect?$AA@ 0000000180008920     Net.obj
+ 0002:00000928       ??_C@_0M@ODFENJLC@getsockname?$AA@ 0000000180008928     Net.obj
+ 0002:00000938       ??_C@_08FIACBBDA@shutdown?$AA@ 0000000180008938     Net.obj
+ 0002:00000948       ??_C@_0O@BMGFIIHF@Accept?5failed?$AA@ 0000000180008948     ServerSocketChannelImpl.obj
+ 0002:00000958       ??_C@_07LHEPONKL@address?$AA@ 0000000180008958     SocketChannelImpl.obj
+ 0002:00000960       ??_C@_0BF@LNJHKELF@java?1net?1InetAddress?$AA@ 0000000180008960     SocketChannelImpl.obj
+ 0002:00000978       ??_C@_0L@DEFCDCGF@getsockopt?$AA@ 0000000180008978     SocketChannelImpl.obj
+ 0002:00000988       ??_C@_0BD@MOAOKNAP@Vector?5read?5failed?$AA@ 0000000180008988     SocketDispatcher.obj
+ 0002:000009a0       ??_C@_0BE@IPALPBFO@Vector?5write?5failed?$AA@ 00000001800089a0     SocketDispatcher.obj
+ 0002:000009b8       ??_C@_0BE@EFPANNNH@Socket?5close?5failed?$AA@ 00000001800089b8     SocketDispatcher.obj
+ 0002:000009d0       ??_C@_0BA@KDJDNLHD@ReadFile?5failed?$AA@ 00000001800089d0     WindowsAsynchronousFileChannelImpl.obj
+ 0002:000009e0       ??_C@_0BB@IBAPLIEE@WriteFile?5failed?$AA@ 00000001800089e0     WindowsAsynchronousFileChannelImpl.obj
+ 0002:000009f8       ??_C@_0BA@PBEMOOLP@WSAIoctl?5failed?$AA@ 00000001800089f8     WindowsAsynchronousServerSocketChannelImpl.obj
+ 0002:00000a08       ??_C@_0O@FPJGNADN@socket?5failed?$AA@ 0000000180008a08     WindowsAsynchronousServerSocketChannelImpl.obj
+ 0002:00000a18       ??_C@_0BA@CMPAPNB@AcceptEx?5failed?$AA@ 0000000180008a18     WindowsAsynchronousServerSocketChannelImpl.obj
+ 0002:00000a28       ??_C@_0BD@FFLNFFAC@closesocket?5failed?$AA@ 0000000180008a28     WindowsAsynchronousServerSocketChannelImpl.obj
+ 0002:00000a40       ??_C@_0BB@COIIDLME@ConnectEx?5failed?$AA@ 0000000180008a40     WindowsAsynchronousSocketChannelImpl.obj
+ 0002:00000a58       ??_C@_0BA@GMHHDNNI@shutdown?5failed?$AA@ 0000000180008a58     WindowsAsynchronousSocketChannelImpl.obj
+ 0002:00000a68       ??_C@_0P@DGIIHHAE@WSARecv?5failed?$AA@ 0000000180008a68     WindowsAsynchronousSocketChannelImpl.obj
+ 0002:00000a78       ??_C@_0P@NKOFNKCM@WSASend?5failed?$AA@ 0000000180008a78     WindowsAsynchronousSocketChannelImpl.obj
+ 0002:00000a88       ??_C@_0BM@FOMEEEOI@sun?1nio?1fs?1WindowsException?$AA@ 0000000180008a88     WindowsNativeDispatcher.obj
+ 0002:00000aa4       ??_C@_04PFANPMCN@?$CII?$CJV?$AA@ 0000000180008aa4     WindowsNativeDispatcher.obj
+ 0002:00000ab0       ??_C@_0BK@PDKDDAF@GetFinalPathNameByHandleW?$AA@ 0000000180008ab0     WindowsNativeDispatcher.obj
+ 0002:00000ad0       ??_C@_0BE@FKKLLFLM@CreateSymbolicLinkW?$AA@ 0000000180008ad0     WindowsNativeDispatcher.obj
+ 0002:00000ae8       ??_C@_0BA@IBDCENBE@FindNextStreamW?$AA@ 0000000180008ae8     WindowsNativeDispatcher.obj
+ 0002:00000af8       ??_C@_0BB@EOFBAKLA@FindFirstStreamW?$AA@ 0000000180008af8     WindowsNativeDispatcher.obj
+ 0002:00000b10       ??_C@_07JKKCBBMM@context?$AA@ 0000000180008b10     WindowsNativeDispatcher.obj
+ 0002:00000b18       ??_C@_0DA@JMJIKPDF@sun?1nio?1fs?1WindowsNativeDispatch@ 0000000180008b18     WindowsNativeDispatcher.obj
+ 0002:00000b48       ??_C@_0DE@MGDINMHA@sun?1nio?1fs?1WindowsNativeDispatch@ 0000000180008b48     WindowsNativeDispatcher.obj
+ 0002:00000b80       ??_C@_08BCFBCIIE@aceCount?$AA@ 0000000180008b80     WindowsNativeDispatcher.obj
+ 0002:00000b90       ??_C@_0DC@CMOGENGN@sun?1nio?1fs?1WindowsNativeDispatch@ 0000000180008b90     WindowsNativeDispatcher.obj
+ 0002:00000bc4       ??_C@_03MMGHDJKG@use?$AA@  0000000180008bc4     WindowsNativeDispatcher.obj
+ 0002:00000bc8       ??_C@_06LKIIGAOE@domain?$AA@ 0000000180008bc8     WindowsNativeDispatcher.obj
+ 0002:00000bd0       ??_C@_0CL@IEKIAJIE@sun?1nio?1fs?1WindowsNativeDispatch@ 0000000180008bd0     WindowsNativeDispatcher.obj
+ 0002:00000c00       ??_C@_0BH@DLDLDEPI@totalNumberOfFreeBytes?$AA@ 0000000180008c00     WindowsNativeDispatcher.obj
+ 0002:00000c18       ??_C@_0BD@FIEGHADN@totalNumberOfBytes?$AA@ 0000000180008c18     WindowsNativeDispatcher.obj
+ 0002:00000c30       ??_C@_0BD@LDNCHAFG@freeBytesAvailable?$AA@ 0000000180008c30     WindowsNativeDispatcher.obj
+ 0002:00000c48       ??_C@_0DB@OGAJBKPO@sun?1nio?1fs?1WindowsNativeDispatch@ 0000000180008c48     WindowsNativeDispatcher.obj
+ 0002:00000c7c       ??_C@_05GECEPKB@flags?$AA@ 0000000180008c7c     WindowsNativeDispatcher.obj
+ 0002:00000c88       ??_C@_0BD@ILMPNPNH@volumeSerialNumber?$AA@ 0000000180008c88     WindowsNativeDispatcher.obj
+ 0002:00000ca0       ??_C@_0L@HCGAGGAJ@volumeName?$AA@ 0000000180008ca0     WindowsNativeDispatcher.obj
+ 0002:00000cb0       ??_C@_0P@BFNHNOMJ@fileSystemName?$AA@ 0000000180008cb0     WindowsNativeDispatcher.obj
+ 0002:00000cc0       ??_C@_0DF@OBLOOIFM@sun?1nio?1fs?1WindowsNativeDispatch@ 0000000180008cc0     WindowsNativeDispatcher.obj
+ 0002:00000cf8       ??_C@_0CP@OGPMEFOM@sun?1nio?1fs?1WindowsNativeDispatch@ 0000000180008cf8     WindowsNativeDispatcher.obj
+ 0002:00000d28       ??_C@_0L@HNMJPKNA@attributes?$AA@ 0000000180008d28     WindowsNativeDispatcher.obj
+ 0002:00000d34       ??_C@_04MEMAJGDJ@name?$AA@ 0000000180008d34     WindowsNativeDispatcher.obj
+ 0002:00000d40       ??_C@_0BD@JFADHEFE@Ljava?1lang?1String?$DL?$AA@ 0000000180008d40     WindowsNativeDispatcher.obj
+ 0002:00000d58       ??_C@_0CN@IAHHKCCP@sun?1nio?1fs?1WindowsNativeDispatch@ 0000000180008d58     WindowsNativeDispatcher.obj
+ 0002:00000d88       ??_C@_0BE@IMJEBAJ@Should?5not?5get?5here?$AA@ 0000000180008d88     WindowsNativeDispatcher.obj
+ 0002:00000da0       ??_C@_0CC@NMODGIKH@Unable?5to?5allocate?5LUID?5structur@ 0000000180008da0     WindowsNativeDispatcher.obj
+ 0002:00000dc8       ??_C@_0CB@DJOGFDBC@native?5memory?5allocation?5failure@ 0000000180008dc8     WindowsNativeDispatcher.obj
+ 0002:00000df0       ??_C@_0BI@COMCEALI@GetFullPathNameW?5failed?$AA@ 0000000180008df0     WindowsNativeDispatcher.obj
+ 0002:00000e08       ??_C@_0CB@BLMDNHEM@GetFinalPathNameByHandleW?5failed@ 0000000180008e08     WindowsNativeDispatcher.obj
+ 0002:00000e30       _pRawDllMain               0000000180008e30     MSVCRT:crtdll.obj
+ 0002:00000e30       _pDefaultRawDllMain        0000000180008e30     MSVCRT:crtdll.obj
+ 0002:00000eb8       __rtc_iaa                  0000000180008eb8     MSVCRT:_initsect_.obj
+ 0002:00000ec0       __rtc_izz                  0000000180008ec0     MSVCRT:_initsect_.obj
+ 0002:00000ec8       __rtc_taa                  0000000180008ec8     MSVCRT:_initsect_.obj
+ 0002:00000ed0       __rtc_tzz                  0000000180008ed0     MSVCRT:_initsect_.obj
+ 0002:00001514       __IMPORT_DESCRIPTOR_WS2_32 0000000180009514     ws2_32:WS2_32.dll
+ 0002:00001528       __IMPORT_DESCRIPTOR_java   0000000180009528     java:java.dll
+ 0002:0000153c       __IMPORT_DESCRIPTOR_net    000000018000953c     net:net.dll
+ 0002:00001550       __IMPORT_DESCRIPTOR_ADVAPI32 0000000180009550     advapi32:ADVAPI32.dll
+ 0002:00001564       __IMPORT_DESCRIPTOR_MSVCR100 0000000180009564     MSVCRT:MSVCR100.dll
+ 0002:00001578       __IMPORT_DESCRIPTOR_KERNEL32 0000000180009578     kernel32:KERNEL32.dll
+ 0002:0000158c       __NULL_IMPORT_DESCRIPTOR   000000018000958c     ws2_32:WS2_32.dll
+ 0003:00000000       __security_cookie          000000018000d000     MSVCRT:gs_cookie.obj
+ 0003:00000008       __security_cookie_complement 000000018000d008     MSVCRT:gs_cookie.obj
+ 0003:00000010       __native_dllmain_reason    000000018000d010     MSVCRT:natstart.obj
+ 0003:00000014       __native_vcclrit_reason    000000018000d014     MSVCRT:natstart.obj
+ 0003:00000720       ?__type_info_root_node@@3U__type_info_node@@A 000000018000d720     MSVCRT:tncleanup.obj
+ 0003:00000730       __native_startup_state     000000018000d730     <common>
+ 0003:00000738       __native_startup_lock      000000018000d738     <common>
+ 0003:00000740       __onexitend                000000018000d740     <common>
+ 0003:00000748       __onexitbegin              000000018000d748     <common>
+ 0003:00000750       __dyn_tls_init_callback    000000018000d750     <common>
+
+ entry point at        0001:000064f8
+
+ Static symbols
+
+ 0001:00002580       setGroupSourceReqOption    0000000180003580 f   Net.obj
+ 0001:00003c10       throwWindowsException      0000000180004c10 f   WindowsNativeDispatcher.obj
+ 0001:00006100       pre_c_init                 0000000180007100 f   MSVCRT:crtdll.obj
+ 0001:000063bc       __DllMainCRTStartup        00000001800073bc f   MSVCRT:crtdll.obj
+ 0001:000069c0       __DllMainCRTStartup$filt$0 00000001800079c0 f   MSVCRT:crtdll.obj
+ 0001:000069f0       __DllMainCRTStartup$fin$1  00000001800079f0 f   MSVCRT:crtdll.obj
+ 0001:00006a0a       _onexit$fin$0              0000000180007a0a f   MSVCRT:atonexit.obj
+ 0001:00006a30       _IsNonwritableInCurrentImage$filt$0 0000000180007a30 f   MSVCRT:pesect.obj

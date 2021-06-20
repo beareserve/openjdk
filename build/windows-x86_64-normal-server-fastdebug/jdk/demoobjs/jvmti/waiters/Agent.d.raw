@@ -1,0 +1,28 @@
+Agent.cpp
+Note: including file: C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stdio.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\sal.h
+Note: including file:    c:\program files (x86)\microsoft visual studio 10.0\vc\include\codeanalysis\sourceannotations.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\vadefs.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\swprintf.inl
+Note: including file: C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stdlib.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\limits.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file: C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\string.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file: C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stddef.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file: d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stdarg.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\javavm\export\jni_md.h
+Note: including file: d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jvmti.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\demo\jvmti\agent_util\agent_util.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jvmti.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\demo\jvmti\waiters\Monitor.hpp
+Note: including file: d:\xysziv\openjdk\jdk\src\share\demo\jvmti\waiters\Thread.hpp
+Note: including file: d:\xysziv\openjdk\jdk\src\share\demo\jvmti\waiters\Agent.hpp
+d:/xysziv/openjdk/jdk/src/share/demo/jvmti/waiters/Agent.cpp(114) : warning C4101: 'err' : unreferenced local variable
+d:/xysziv/openjdk/jdk/src/share/demo/jvmti/waiters/Agent.cpp(132) : warning C4101: 'err' : unreferenced local variable

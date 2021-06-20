@@ -1,0 +1,182 @@
+ npt
+
+ Timestamp is 60b79cdc (Wed Jun 02 15:59:40 2021)
+
+ Preferred load address is 0000000180000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00001702H .text                   CODE
+ 0001:00001710 00000092H .text$x                 CODE
+ 0002:00000000 00000178H .idata$5                DATA
+ 0002:00000178 00000008H .CRT$XCA                DATA
+ 0002:00000180 00000008H .CRT$XCZ                DATA
+ 0002:00000188 00000008H .CRT$XIA                DATA
+ 0002:00000190 00000008H .CRT$XIAA               DATA
+ 0002:00000198 00000008H .CRT$XIZ                DATA
+ 0002:000001a0 00000210H .rdata                  DATA
+ 0002:000003b0 0000006fH .rdata$debug            DATA
+ 0002:00000420 00000008H .rtc$IAA                DATA
+ 0002:00000428 00000008H .rtc$IZZ                DATA
+ 0002:00000430 00000008H .rtc$TAA                DATA
+ 0002:00000438 00000008H .rtc$TZZ                DATA
+ 0002:00000440 000001a4H .xdata                  DATA
+ 0002:000005e4 00000028H .idata$2                DATA
+ 0002:0000060c 00000014H .idata$3                DATA
+ 0002:00000620 00000178H .idata$4                DATA
+ 0002:00000798 0000031aH .idata$6                DATA
+ 0002:00000ac0 0000005fH .edata                  DATA
+ 0003:00000000 00000018H .data                   DATA
+ 0003:00000020 000005b8H .bss                    DATA
+ 0004:00000000 00000180H .pdata                  DATA
+ 0005:00000000 00000058H .rsrc$01                DATA
+ 0005:00000060 00000348H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
+ 0000:00000000       __ImageBase                0000000180000000     <linker-defined>
+ 0001:00000000       nptInitialize              0000000180001000 f   npt.obj
+ 0001:00000140       nptTerminate               0000000180001140 f   npt.obj
+ 0001:00000168       utfError                   0000000180001168 f   utf.obj
+ 0001:000001b8       utf8ToUtf16                00000001800011b8 f   utf.obj
+ 0001:000002dc       utf16ToUtf8m               00000001800012dc f   utf.obj
+ 0001:0000045c       utf16ToUtf8s               000000018000145c f   utf.obj
+ 0001:00000460       utf8sToUtf8mLength         0000000180001460 f   utf.obj
+ 0001:000005a4       utf8sToUtf8m               00000001800015a4 f   utf.obj
+ 0001:00000768       utf8mToUtf8sLength         0000000180001768 f   utf.obj
+ 0001:000008d8       utf8mToUtf8s               00000001800018d8 f   utf.obj
+ 0001:00000aec       utfInitialize              0000000180001aec f   utf_md.obj
+ 0001:00000b60       utfTerminate               0000000180001b60 f   utf_md.obj
+ 0001:00000c34       utf8ToPlatform             0000000180001c34 f   utf_md.obj
+ 0001:00000ce0       utf8FromPlatform           0000000180001ce0 f   utf_md.obj
+ 0001:00000d88       strcmp                     0000000180001d88 f   MSVCRT:MSVCR100.dll
+ 0001:00000d90       __GSHandlerCheckCommon     0000000180001d90 f   MSVCRT:gshandler.obj
+ 0001:00000df4       __GSHandlerCheck           0000000180001df4 f   MSVCRT:gshandler.obj
+ 0001:00000e30       __security_check_cookie    0000000180001e30 f   MSVCRT:amdsecgs.obj
+ 0001:00000eb0       _CRT_INIT                  0000000180001eb0 f   MSVCRT:crtdll.obj
+ 0001:00001248       _DllMainCRTStartup         0000000180002248 f   MSVCRT:crtdll.obj
+ 0001:00001288       __report_gsfailure         0000000180002288 f   MSVCRT:gs_report.obj
+ 0001:000013d4       __clean_type_info_names    00000001800023d4 f   MSVCRT:tncleanup.obj
+ 0001:000013e0       _onexit                    00000001800023e0 f   MSVCRT:atonexit.obj
+ 0001:00001490       atexit                     0000000180002490 f   MSVCRT:atonexit.obj
+ 0001:000014a8       _RTC_Initialize            00000001800024a8 f   MSVCRT:_initsect_.obj
+ 0001:000014e0       _RTC_Terminate             00000001800024e0 f   MSVCRT:_initsect_.obj
+ 0001:00001520       _ValidateImageBase         0000000180002520 f   MSVCRT:pesect.obj
+ 0001:00001550       _FindPESection             0000000180002550 f   MSVCRT:pesect.obj
+ 0001:000015a0       _IsNonwritableInCurrentImage 00000001800025a0 f   MSVCRT:pesect.obj
+ 0001:000015e2       _initterm                  00000001800025e2 f   MSVCRT:MSVCR100.dll
+ 0001:000015e8       _initterm_e                00000001800025e8 f   MSVCRT:MSVCR100.dll
+ 0001:000015ee       _amsg_exit                 00000001800025ee f   MSVCRT:MSVCR100.dll
+ 0001:000015f4       __C_specific_handler       00000001800025f4 f   MSVCRT:MSVCR100.dll
+ 0001:000015fa       __CppXcptFilter            00000001800025fa f   MSVCRT:MSVCR100.dll
+ 0001:00001600       DllMain                    0000000180002600 f   MSVCRT:dllmain.obj
+ 0001:00001624       __security_init_cookie     0000000180002624 f   MSVCRT:gs_support.obj
+ 0001:000016d8       __crt_debugger_hook        00000001800026d8 f   MSVCRT:MSVCR100.dll
+ 0001:000016de       __clean_type_info_names_internal 00000001800026de f   MSVCRT:MSVCR100.dll
+ 0001:000016e4       _unlock                    00000001800026e4 f   MSVCRT:MSVCR100.dll
+ 0001:000016ea       __dllonexit                00000001800026ea f   MSVCRT:MSVCR100.dll
+ 0001:000016f0       _lock                      00000001800026f0 f   MSVCRT:MSVCR100.dll
+ 0001:000016f6       RtlVirtualUnwind           00000001800026f6 f   kernel32:KERNEL32.dll
+ 0001:000016fc       RtlLookupFunctionEntry     00000001800026fc f   kernel32:KERNEL32.dll
+ 0002:00000000       __imp_GetACP               0000000180003000     kernel32:KERNEL32.dll
+ 0002:00000008       __imp_GetSystemTimeAsFileTime 0000000180003008     kernel32:KERNEL32.dll
+ 0002:00000010       __imp_GetCurrentProcessId  0000000180003010     kernel32:KERNEL32.dll
+ 0002:00000018       __imp_GetCurrentThreadId   0000000180003018     kernel32:KERNEL32.dll
+ 0002:00000020       __imp_GetTickCount         0000000180003020     kernel32:KERNEL32.dll
+ 0002:00000028       __imp_QueryPerformanceCounter 0000000180003028     kernel32:KERNEL32.dll
+ 0002:00000030       __imp_DisableThreadLibraryCalls 0000000180003030     kernel32:KERNEL32.dll
+ 0002:00000038       __imp_RtlCaptureContext    0000000180003038     kernel32:KERNEL32.dll
+ 0002:00000040       __imp_RtlLookupFunctionEntry 0000000180003040     kernel32:KERNEL32.dll
+ 0002:00000048       __imp_RtlVirtualUnwind     0000000180003048     kernel32:KERNEL32.dll
+ 0002:00000050       __imp_IsDebuggerPresent    0000000180003050     kernel32:KERNEL32.dll
+ 0002:00000058       __imp_SetUnhandledExceptionFilter 0000000180003058     kernel32:KERNEL32.dll
+ 0002:00000060       __imp_UnhandledExceptionFilter 0000000180003060     kernel32:KERNEL32.dll
+ 0002:00000068       __imp_GetCurrentProcess    0000000180003068     kernel32:KERNEL32.dll
+ 0002:00000070       __imp_TerminateProcess     0000000180003070     kernel32:KERNEL32.dll
+ 0002:00000078       __imp_Sleep                0000000180003078     kernel32:KERNEL32.dll
+ 0002:00000080       __imp_DecodePointer        0000000180003080     kernel32:KERNEL32.dll
+ 0002:00000088       __imp_EncodePointer        0000000180003088     kernel32:KERNEL32.dll
+ 0002:00000090       __imp_WideCharToMultiByte  0000000180003090     kernel32:KERNEL32.dll
+ 0002:00000098       __imp_MultiByteToWideChar  0000000180003098     kernel32:KERNEL32.dll
+ 0002:000000a0       __imp_GetUserDefaultLCID   00000001800030a0     kernel32:KERNEL32.dll
+ 0002:000000a8       __imp_GetLocaleInfoA       00000001800030a8     kernel32:KERNEL32.dll
+ 0002:000000b0       \177KERNEL32_NULL_THUNK_DATA 00000001800030b0     kernel32:KERNEL32.dll
+ 0002:000000b8       __imp__onexit              00000001800030b8     MSVCRT:MSVCR100.dll
+ 0002:000000c0       __imp__lock                00000001800030c0     MSVCRT:MSVCR100.dll
+ 0002:000000c8       __imp___dllonexit          00000001800030c8     MSVCRT:MSVCR100.dll
+ 0002:000000d0       __imp__unlock              00000001800030d0     MSVCRT:MSVCR100.dll
+ 0002:000000d8       __imp___clean_type_info_names_internal 00000001800030d8     MSVCRT:MSVCR100.dll
+ 0002:000000e0       __imp___crt_debugger_hook  00000001800030e0     MSVCRT:MSVCR100.dll
+ 0002:000000e8       __imp___CppXcptFilter      00000001800030e8     MSVCRT:MSVCR100.dll
+ 0002:000000f0       __imp___C_specific_handler 00000001800030f0     MSVCRT:MSVCR100.dll
+ 0002:000000f8       __imp__amsg_exit           00000001800030f8     MSVCRT:MSVCR100.dll
+ 0002:00000100       __imp__encoded_null        0000000180003100     MSVCRT:MSVCR100.dll
+ 0002:00000108       __imp__initterm_e          0000000180003108     MSVCRT:MSVCR100.dll
+ 0002:00000110       __imp__initterm            0000000180003110     MSVCRT:MSVCR100.dll
+ 0002:00000118       __imp__malloc_crt          0000000180003118     MSVCRT:MSVCR100.dll
+ 0002:00000120       __imp_malloc               0000000180003120     MSVCRT:MSVCR100.dll
+ 0002:00000128       __imp_atoi                 0000000180003128     MSVCRT:MSVCR100.dll
+ 0002:00000130       __imp_abort                0000000180003130     MSVCRT:MSVCR100.dll
+ 0002:00000138       __imp_free                 0000000180003138     MSVCRT:MSVCR100.dll
+ 0002:00000140       __imp_calloc               0000000180003140     MSVCRT:MSVCR100.dll
+ 0002:00000148       __imp___iob_func           0000000180003148     MSVCRT:MSVCR100.dll
+ 0002:00000150       __imp_fprintf              0000000180003150     MSVCRT:MSVCR100.dll
+ 0002:00000158       __imp_exit                 0000000180003158     MSVCRT:MSVCR100.dll
+ 0002:00000160       __imp_strcmp               0000000180003160     MSVCRT:MSVCR100.dll
+ 0002:00000168       __imp_strdup               0000000180003168     MSVCRT:MSVCR100.dll
+ 0002:00000168       __imp__strdup              0000000180003168     MSVCRT:MSVCR100.dll
+ 0002:00000170       \177MSVCR100_NULL_THUNK_DATA 0000000180003170     MSVCRT:MSVCR100.dll
+ 0002:00000178       __xc_a                     0000000180003178     MSVCRT:cinitexe.obj
+ 0002:00000180       __xc_z                     0000000180003180     MSVCRT:cinitexe.obj
+ 0002:00000188       __xi_a                     0000000180003188     MSVCRT:cinitexe.obj
+ 0002:00000198       __xi_z                     0000000180003198     MSVCRT:cinitexe.obj
+ 0002:000001bc       ??_C@_05CJAIGNCM@0?40?40?$AA@ 00000001800031bc     npt.obj
+ 0002:000001c8       ??_C@_0BK@LLKHEIF@NPT?5version?5doesn?8t?5match?$AA@ 00000001800031c8     npt.obj
+ 0002:000001e8       ??_C@_0P@KEJEBKCF@NPT?5ERROR?3?5?$CFs?6?$AA@ 00000001800031e8     npt.obj
+ 0002:000001f8       ??_C@_0CJ@CPPDLDHE@Cannot?5allocate?5calloc?5space?5for@ 00000001800031f8     npt.obj
+ 0002:00000228       ??_C@_0BJ@NDKKCKOJ@UTF?5ERROR?5?$FL?$CC?$CFs?$CC?3?$CFd?$FN?3?5?$CFs?6?$AA@ 0000000180003228     utf.obj
+ 0002:00000248       ??_C@_0BM@BJKMEOOG@ASSERT?5ERROR?5outputMaxLen?$DO0?$AA@ 0000000180003248     utf.obj
+ 0002:00000268       ??_C@_0BE@MONHEHKE@ASSERT?5ERROR?5output?$AA@ 0000000180003268     utf.obj
+ 0002:00000280       ??_C@_0BE@EHOOKJPG@ASSERT?5ERROR?5len?$DO?$DN0?$AA@ 0000000180003280     utf.obj
+ 0002:00000294       ??_C@_05HLMOHPHA@utf?4c?$AA@ 0000000180003294     utf.obj
+ 0002:000002a0       ??_C@_0BC@FAJHJFKN@ASSERT?5ERROR?5utf8?$AA@ 00000001800032a0     utf.obj
+ 0002:000002b8       ??_C@_0BD@COPKOCDK@ASSERT?5ERROR?5utf16?$AA@ 00000001800032b8     utf.obj
+ 0002:000002d0       ??_C@_0BK@HADMOKCE@ASSERT?5ERROR?5j?$DN?$DNnewLength?$AA@ 00000001800032d0     utf.obj
+ 0002:000002f0       ??_C@_0BH@PGKNPGMC@ASSERT?5ERROR?5i?$DN?$DNlength?$AA@ 00000001800032f0     utf.obj
+ 0002:00000308       ??_C@_0BG@OELEGHKP@Can?8t?5get?5WIDE?5string?$AA@ 0000000180003308     utf_md.obj
+ 0002:00000320       ??_C@_0BJ@LFBNLHDK@Can?8t?5malloc?$CI?$CJ?5any?5space?$AA@ 0000000180003320     utf_md.obj
+ 0002:00000340       ??_C@_08DHIDLBHK@utf_md?4c?$AA@ 0000000180003340     utf_md.obj
+ 0002:00000350       ??_C@_0BN@ILDOBJEF@Can?8t?5get?5WIDE?5string?5length?$AA@ 0000000180003350     utf_md.obj
+ 0002:00000370       ??_C@_0CI@EJHCPIBO@Can?8t?5convert?5WIDE?5string?5to?5mul@ 0000000180003370     utf_md.obj
+ 0002:00000398       _pRawDllMain               0000000180003398     MSVCRT:crtdll.obj
+ 0002:00000398       _pDefaultRawDllMain        0000000180003398     MSVCRT:crtdll.obj
+ 0002:00000420       __rtc_iaa                  0000000180003420     MSVCRT:_initsect_.obj
+ 0002:00000428       __rtc_izz                  0000000180003428     MSVCRT:_initsect_.obj
+ 0002:00000430       __rtc_taa                  0000000180003430     MSVCRT:_initsect_.obj
+ 0002:00000438       __rtc_tzz                  0000000180003438     MSVCRT:_initsect_.obj
+ 0002:000005e4       __IMPORT_DESCRIPTOR_MSVCR100 00000001800035e4     MSVCRT:MSVCR100.dll
+ 0002:000005f8       __IMPORT_DESCRIPTOR_KERNEL32 00000001800035f8     kernel32:KERNEL32.dll
+ 0002:0000060c       __NULL_IMPORT_DESCRIPTOR   000000018000360c     MSVCRT:MSVCR100.dll
+ 0003:00000000       __security_cookie          0000000180004000     MSVCRT:gs_cookie.obj
+ 0003:00000008       __security_cookie_complement 0000000180004008     MSVCRT:gs_cookie.obj
+ 0003:00000010       __native_dllmain_reason    0000000180004010     MSVCRT:natstart.obj
+ 0003:00000014       __native_vcclrit_reason    0000000180004014     MSVCRT:natstart.obj
+ 0003:000005a0       ?__type_info_root_node@@3U__type_info_node@@A 00000001800045a0     MSVCRT:tncleanup.obj
+ 0003:000005b0       __native_startup_state     00000001800045b0     <common>
+ 0003:000005b8       __native_startup_lock      00000001800045b8     <common>
+ 0003:000005c0       __onexitend                00000001800045c0     <common>
+ 0003:000005c8       __onexitbegin              00000001800045c8     <common>
+ 0003:000005d0       __dyn_tls_init_callback    00000001800045d0     <common>
+
+ entry point at        0001:00001248
+
+ Static symbols
+
+ 0001:00000b68       getWideString              0000000180001b68 f   utf_md.obj
+ 0001:00000e50       pre_c_init                 0000000180001e50 f   MSVCRT:crtdll.obj
+ 0001:0000110c       __DllMainCRTStartup        000000018000210c f   MSVCRT:crtdll.obj
+ 0001:00001710       __DllMainCRTStartup$filt$0 0000000180002710 f   MSVCRT:crtdll.obj
+ 0001:00001740       __DllMainCRTStartup$fin$1  0000000180002740 f   MSVCRT:crtdll.obj
+ 0001:0000175a       _onexit$fin$0              000000018000275a f   MSVCRT:atonexit.obj
+ 0001:00001780       _IsNonwritableInCurrentImage$filt$0 0000000180002780 f   MSVCRT:pesect.obj

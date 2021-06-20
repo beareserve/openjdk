@@ -1,0 +1,1470 @@
+ java
+
+ Timestamp is 60b79cde (Wed Jun 02 15:59:42 2021)
+
+ Preferred load address is 0000000180000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000181deH .text                   CODE
+ 0001:000181e0 00000092H .text$x                 CODE
+ 0002:00000000 000009b0H .idata$5                DATA
+ 0002:000009b0 00000008H .CRT$XCA                DATA
+ 0002:000009b8 00000008H .CRT$XCZ                DATA
+ 0002:000009c0 00000008H .CRT$XIA                DATA
+ 0002:000009c8 00000008H .CRT$XIAA               DATA
+ 0002:000009d0 00000008H .CRT$XIZ                DATA
+ 0002:000009e0 000024b8H .rdata                  DATA
+ 0002:00002e98 00000071H .rdata$debug            DATA
+ 0002:00002f10 00000008H .rtc$IAA                DATA
+ 0002:00002f18 00000008H .rtc$IZZ                DATA
+ 0002:00002f20 00000008H .rtc$TAA                DATA
+ 0002:00002f28 00000008H .rtc$TZZ                DATA
+ 0002:00002f30 00000c2cH .xdata                  DATA
+ 0002:00003b5c 00000020H .didat$2                DATA
+ 0002:00003b7c 00000020H .didat$3                DATA
+ 0002:00003ba0 00000018H .didat$4                DATA
+ 0002:00003bb8 0000002cH .didat$6                DATA
+ 0002:00003be8 00000018H .didat$7                DATA
+ 0002:00003c00 00000064H .idata$2                DATA
+ 0002:00003c64 00000014H .idata$3                DATA
+ 0002:00003c78 000009b0H .idata$4                DATA
+ 0002:00004628 000017ceH .idata$6                DATA
+ 0002:00005e00 00003e59H .edata                  DATA
+ 0003:00000000 00001508H .data                   DATA
+ 0003:00001508 00000018H .didat$5                DATA
+ 0003:00001520 00000870H .bss                    DATA
+ 0004:00000000 00000f3cH .pdata                  DATA
+ 0005:00000000 00000058H .rsrc$01                DATA
+ 0005:00000060 00000350H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
+ 0000:00000000       __ImageBase                0000000180000000     <linker-defined>
+ 0001:00000000       Java_java_security_AccessController_doPrivileged__Ljava_security_PrivilegedAction_2 0000000180001000 f   AccessController.obj
+ 0001:00000018       Java_java_security_AccessController_doPrivileged__Ljava_security_PrivilegedAction_2Ljava_security_AccessControlContext_2 0000000180001018 f   AccessController.obj
+ 0001:0000002c       Java_java_security_AccessController_doPrivileged__Ljava_security_PrivilegedExceptionAction_2 000000018000102c f   AccessController.obj
+ 0001:00000044       Java_java_security_AccessController_doPrivileged__Ljava_security_PrivilegedExceptionAction_2Ljava_security_AccessControlContext_2 0000000180001044 f   AccessController.obj
+ 0001:00000058       Java_java_security_AccessController_getStackAccessControlContext 0000000180001058 f   AccessController.obj
+ 0001:00000060       Java_java_security_AccessController_getInheritedAccessControlContext 0000000180001060 f   AccessController.obj
+ 0001:00000068       Java_java_lang_reflect_Array_getLength 0000000180001068 f   Array.obj
+ 0001:00000070       Java_java_lang_reflect_Array_get 0000000180001070 f   Array.obj
+ 0001:0000007c       Java_java_lang_reflect_Array_getBoolean 000000018000107c f   Array.obj
+ 0001:00000090       Java_java_lang_reflect_Array_getByte 0000000180001090 f   Array.obj
+ 0001:000000a4       Java_java_lang_reflect_Array_getChar 00000001800010a4 f   Array.obj
+ 0001:000000b8       Java_java_lang_reflect_Array_getShort 00000001800010b8 f   Array.obj
+ 0001:000000cc       Java_java_lang_reflect_Array_getInt 00000001800010cc f   Array.obj
+ 0001:000000e0       Java_java_lang_reflect_Array_getLong 00000001800010e0 f   Array.obj
+ 0001:000000f4       Java_java_lang_reflect_Array_getFloat 00000001800010f4 f   Array.obj
+ 0001:0000011c       Java_java_lang_reflect_Array_getDouble 000000018000111c f   Array.obj
+ 0001:00000144       Java_java_lang_reflect_Array_set 0000000180001144 f   Array.obj
+ 0001:00000158       Java_java_lang_reflect_Array_setBoolean 0000000180001158 f   Array.obj
+ 0001:00000184       Java_java_lang_reflect_Array_setByte 0000000180001184 f   Array.obj
+ 0001:000001b0       Java_java_lang_reflect_Array_setChar 00000001800011b0 f   Array.obj
+ 0001:000001dc       Java_java_lang_reflect_Array_setShort 00000001800011dc f   Array.obj
+ 0001:00000208       Java_java_lang_reflect_Array_setInt 0000000180001208 f   Array.obj
+ 0001:00000234       Java_java_lang_reflect_Array_setLong 0000000180001234 f   Array.obj
+ 0001:00000258       Java_java_lang_reflect_Array_setFloat 0000000180001258 f   Array.obj
+ 0001:00000288       Java_java_lang_reflect_Array_setDouble 0000000180001288 f   Array.obj
+ 0001:000002b8       Java_java_lang_reflect_Array_newArray 00000001800012b8 f   Array.obj
+ 0001:000002c4       Java_java_lang_reflect_Array_multiNewArray 00000001800012c4 f   Array.obj
+ 0001:000002d0       Java_java_util_concurrent_atomic_AtomicLong_VMSupportsCS8 00000001800012d0 f   AtomicLong.obj
+ 0001:000002d8       Java_java_nio_Bits_copyFromShortArray 00000001800012d8 f   Bits.obj
+ 0001:000003cc       Java_java_nio_Bits_copyToShortArray 00000001800013cc f   Bits.obj
+ 0001:000004c0       Java_java_nio_Bits_copyFromIntArray 00000001800014c0 f   Bits.obj
+ 0001:000005d8       Java_java_nio_Bits_copyToIntArray 00000001800015d8 f   Bits.obj
+ 0001:000006f0       Java_java_nio_Bits_copyFromLongArray 00000001800016f0 f   Bits.obj
+ 0001:00000880       Java_java_nio_Bits_copyToLongArray 0000000180001880 f   Bits.obj
+ 0001:00000a08       Java_java_lang_Class_registerNatives 0000000180001a08 f   Class.obj
+ 0001:00000a30       Java_java_lang_Class_forName0 0000000180001a30 f   Class.obj
+ 0001:00000b8c       Java_java_lang_Class_isInstance 0000000180001b8c f   Class.obj
+ 0001:00000ba8       Java_java_lang_Class_isAssignableFrom 0000000180001ba8 f   Class.obj
+ 0001:00000bd4       Java_java_lang_Class_getPrimitiveClass 0000000180001bd4 f   Class.obj
+ 0001:00000c50       Java_java_lang_ClassLoader_registerNatives 0000000180001c50 f   ClassLoader.obj
+ 0001:00000c68       getUTF                     0000000180001c68 f   ClassLoader.obj
+ 0001:00000d08       Java_java_lang_ClassLoader_defineClass1 0000000180001d08 f   ClassLoader.obj
+ 0001:00000ec0       Java_java_lang_ClassLoader_defineClass2 0000000180001ec0 f   ClassLoader.obj
+ 0001:000010ac       Java_java_lang_ClassLoader_resolveClass0 00000001800020ac f   ClassLoader.obj
+ 0001:000010c0       Java_java_lang_ClassLoader_findBootstrapClass 00000001800020c0 f   ClassLoader.obj
+ 0001:0000117c       Java_java_lang_ClassLoader_findLoadedClass0 000000018000217c f   ClassLoader.obj
+ 0001:00001360       Java_java_lang_ClassLoader_00024NativeLibrary_load 0000000180002360 f   ClassLoader.obj
+ 0001:0000157c       Java_java_lang_ClassLoader_00024NativeLibrary_unload 000000018000257c f   ClassLoader.obj
+ 0001:00001650       Java_java_lang_ClassLoader_00024NativeLibrary_find 0000000180002650 f   ClassLoader.obj
+ 0001:000016e8       Java_java_lang_ClassLoader_00024NativeLibrary_findBuiltinLib 00000001800026e8 f   ClassLoader.obj
+ 0001:00001848       Java_java_lang_ClassLoader_defineClass0 0000000180002848 f   ClassLoader.obj
+ 0001:0000187c       Java_java_lang_Compiler_registerNatives 000000018000287c f   Compiler.obj
+ 0001:00001894       Java_java_io_Console_istty 0000000180002894 f   Console_md.obj
+ 0001:00001914       Java_java_io_Console_encoding 0000000180002914 f   Console_md.obj
+ 0001:0000197c       Java_java_io_Console_echo  000000018000297c f   Console_md.obj
+ 0001:00001a18       Java_sun_reflect_ConstantPool_getSize0 0000000180002a18 f   ConstantPool.obj
+ 0001:00001a20       Java_sun_reflect_ConstantPool_getClassAt0 0000000180002a20 f   ConstantPool.obj
+ 0001:00001a28       Java_sun_reflect_ConstantPool_getClassAtIfLoaded0 0000000180002a28 f   ConstantPool.obj
+ 0001:00001a30       Java_sun_reflect_ConstantPool_getMethodAt0 0000000180002a30 f   ConstantPool.obj
+ 0001:00001a38       Java_sun_reflect_ConstantPool_getMethodAtIfLoaded0 0000000180002a38 f   ConstantPool.obj
+ 0001:00001a40       Java_sun_reflect_ConstantPool_getFieldAt0 0000000180002a40 f   ConstantPool.obj
+ 0001:00001a48       Java_sun_reflect_ConstantPool_getFieldAtIfLoaded0 0000000180002a48 f   ConstantPool.obj
+ 0001:00001a50       Java_sun_reflect_ConstantPool_getMemberRefInfoAt0 0000000180002a50 f   ConstantPool.obj
+ 0001:00001a58       Java_sun_reflect_ConstantPool_getIntAt0 0000000180002a58 f   ConstantPool.obj
+ 0001:00001a60       Java_sun_reflect_ConstantPool_getLongAt0 0000000180002a60 f   ConstantPool.obj
+ 0001:00001a68       Java_sun_reflect_ConstantPool_getFloatAt0 0000000180002a68 f   ConstantPool.obj
+ 0001:00001a70       Java_sun_reflect_ConstantPool_getDoubleAt0 0000000180002a70 f   ConstantPool.obj
+ 0001:00001a78       Java_sun_reflect_ConstantPool_getStringAt0 0000000180002a78 f   ConstantPool.obj
+ 0001:00001a80       Java_sun_reflect_ConstantPool_getUTF8At0 0000000180002a80 f   ConstantPool.obj
+ 0001:00001a88       Java_java_lang_Double_longBitsToDouble 0000000180002a88 f   Double.obj
+ 0001:00001a94       Java_java_lang_Double_doubleToRawLongBits 0000000180002a94 f   Double.obj
+ 0001:00001aa0       Java_java_lang_reflect_Executable_getParameters0 0000000180002aa0 f   Executable.obj
+ 0001:00001aa8       Java_java_lang_reflect_Executable_getTypeAnnotationBytes0 0000000180002aa8 f   Executable.obj
+ 0001:00001ab0       Java_java_lang_reflect_Field_getTypeAnnotationBytes0 0000000180002ab0 f   Field.obj
+ 0001:00001ab8       Java_java_io_FileDescriptor_initIDs 0000000180002ab8 f   FileDescriptor_md.obj
+ 0001:00001b18       Java_java_io_FileDescriptor_set 0000000180002b18 f   FileDescriptor_md.obj
+ 0001:00001b48       Java_java_io_FileDescriptor_sync 0000000180002b48 f   FileDescriptor_md.obj
+ 0001:00001b8c       Java_java_io_FileInputStream_initIDs 0000000180002b8c f   FileInputStream.obj
+ 0001:00001bb4       Java_java_io_FileInputStream_open0 0000000180002bb4 f   FileInputStream.obj
+ 0001:00001bd0       Java_java_io_FileInputStream_read0 0000000180002bd0 f   FileInputStream.obj
+ 0001:00001bdc       Java_java_io_FileInputStream_readBytes 0000000180002bdc f   FileInputStream.obj
+ 0001:00001c00       Java_java_io_FileInputStream_skip 0000000180002c00 f   FileInputStream.obj
+ 0001:00001ce0       Java_java_io_FileInputStream_available 0000000180002ce0 f   FileInputStream.obj
+ 0001:00001da0       Java_java_io_FileInputStream_close0 0000000180002da0 f   FileInputStream_md.obj
+ 0001:00001dac       Java_java_io_FileOutputStream_initIDs 0000000180002dac f   FileOutputStream_md.obj
+ 0001:00001dd4       Java_java_io_FileOutputStream_open0 0000000180002dd4 f   FileOutputStream_md.obj
+ 0001:00001e04       Java_java_io_FileOutputStream_write 0000000180002e04 f   FileOutputStream_md.obj
+ 0001:00001e20       Java_java_io_FileOutputStream_writeBytes 0000000180002e20 f   FileOutputStream_md.obj
+ 0001:00001e4c       Java_java_io_FileOutputStream_close0 0000000180002e4c f   FileOutputStream_md.obj
+ 0001:00001e58       Java_java_lang_Float_intBitsToFloat 0000000180002e58 f   Float.obj
+ 0001:00001e64       Java_java_lang_Float_floatToRawIntBits 0000000180002e64 f   Float.obj
+ 0001:00001e70       Java_sun_misc_GC_maxObjectInspectionAge 0000000180002e70 f   GC.obj
+ 0001:00001e78       Java_sun_util_locale_provider_HostLocaleProviderAdapterImpl_initialize 0000000180002e78 f   HostLocaleProviderAdapter_md.obj
+ 0001:00001efc       Java_sun_util_locale_provider_HostLocaleProviderAdapterImpl_getDefaultLocale 0000000180002efc f   HostLocaleProviderAdapter_md.obj
+ 0001:00001f70       getLocaleInfoWrapper       0000000180002f70 f   HostLocaleProviderAdapter_md.obj
+ 0001:00001fe0       getCalendarInfoWrapper     0000000180002fe0 f   HostLocaleProviderAdapter_md.obj
+ 0001:00002070       getCalendarID              0000000180003070 f   HostLocaleProviderAdapter_md.obj
+ 0001:00002098       replaceCalendarArrayElems  0000000180003098 f   HostLocaleProviderAdapter_md.obj
+ 0001:000021d0       getNumberPart              00000001800031d0 f   HostLocaleProviderAdapter_md.obj
+ 0001:00002350       getFixPart                 0000000180003350 f   HostLocaleProviderAdapter_md.obj
+ 0001:00002424       Java_sun_util_locale_provider_HostLocaleProviderAdapterImpl_getDateTimePattern 0000000180003424 f   HostLocaleProviderAdapter_md.obj
+ 0001:0000254c       Java_sun_util_locale_provider_HostLocaleProviderAdapterImpl_getCalendarID 000000018000354c f   HostLocaleProviderAdapter_md.obj
+ 0001:000025b4       Java_sun_util_locale_provider_HostLocaleProviderAdapterImpl_getAmPmStrings 00000001800035b4 f   HostLocaleProviderAdapter_md.obj
+ 0001:000026ec       Java_sun_util_locale_provider_HostLocaleProviderAdapterImpl_getEras 00000001800036ec f   HostLocaleProviderAdapter_md.obj
+ 0001:000027d4       Java_sun_util_locale_provider_HostLocaleProviderAdapterImpl_getMonths 00000001800037d4 f   HostLocaleProviderAdapter_md.obj
+ 0001:00002808       Java_sun_util_locale_provider_HostLocaleProviderAdapterImpl_getShortMonths 0000000180003808 f   HostLocaleProviderAdapter_md.obj
+ 0001:0000283c       Java_sun_util_locale_provider_HostLocaleProviderAdapterImpl_getWeekdays 000000018000383c f   HostLocaleProviderAdapter_md.obj
+ 0001:00002870       Java_sun_util_locale_provider_HostLocaleProviderAdapterImpl_getShortWeekdays 0000000180003870 f   HostLocaleProviderAdapter_md.obj
+ 0001:000028a4       Java_sun_util_locale_provider_HostLocaleProviderAdapterImpl_isNativeDigit 00000001800038a4 f   HostLocaleProviderAdapter_md.obj
+ 0001:00002928       Java_sun_util_locale_provider_HostLocaleProviderAdapterImpl_getCurrencySymbol 0000000180003928 f   HostLocaleProviderAdapter_md.obj
+ 0001:000029ec       Java_sun_util_locale_provider_HostLocaleProviderAdapterImpl_getDecimalSeparator 00000001800039ec f   HostLocaleProviderAdapter_md.obj
+ 0001:00002a94       Java_sun_util_locale_provider_HostLocaleProviderAdapterImpl_getGroupingSeparator 0000000180003a94 f   HostLocaleProviderAdapter_md.obj
+ 0001:00002b3c       Java_sun_util_locale_provider_HostLocaleProviderAdapterImpl_getInfinity 0000000180003b3c f   HostLocaleProviderAdapter_md.obj
+ 0001:00002c00       Java_sun_util_locale_provider_HostLocaleProviderAdapterImpl_getInternationalCurrencySymbol 0000000180003c00 f   HostLocaleProviderAdapter_md.obj
+ 0001:00002cc4       Java_sun_util_locale_provider_HostLocaleProviderAdapterImpl_getMinusSign 0000000180003cc4 f   HostLocaleProviderAdapter_md.obj
+ 0001:00002d6c       Java_sun_util_locale_provider_HostLocaleProviderAdapterImpl_getMonetaryDecimalSeparator 0000000180003d6c f   HostLocaleProviderAdapter_md.obj
+ 0001:00002e14       Java_sun_util_locale_provider_HostLocaleProviderAdapterImpl_getNaN 0000000180003e14 f   HostLocaleProviderAdapter_md.obj
+ 0001:00002ed8       Java_sun_util_locale_provider_HostLocaleProviderAdapterImpl_getPercent 0000000180003ed8 f   HostLocaleProviderAdapter_md.obj
+ 0001:00002f80       Java_sun_util_locale_provider_HostLocaleProviderAdapterImpl_getPerMill 0000000180003f80 f   HostLocaleProviderAdapter_md.obj
+ 0001:00003028       Java_sun_util_locale_provider_HostLocaleProviderAdapterImpl_getZeroDigit 0000000180004028 f   HostLocaleProviderAdapter_md.obj
+ 0001:000030d0       Java_sun_util_locale_provider_HostLocaleProviderAdapterImpl_getCalendarDataValue 00000001800040d0 f   HostLocaleProviderAdapter_md.obj
+ 0001:00003158       Java_sun_util_locale_provider_HostLocaleProviderAdapterImpl_getDisplayString 0000000180004158 f   HostLocaleProviderAdapter_md.obj
+ 0001:00003244       getNumberPattern           0000000180004244 f   HostLocaleProviderAdapter_md.obj
+ 0001:000033f4       Java_sun_util_locale_provider_HostLocaleProviderAdapterImpl_getNumberPattern 00000001800043f4 f   HostLocaleProviderAdapter_md.obj
+ 0001:0000356c       Java_sun_misc_MessageUtils_toStderr 000000018000456c f   MessageUtils.obj
+ 0001:0000359c       Java_sun_misc_MessageUtils_toStdout 000000018000459c f   MessageUtils.obj
+ 0001:000035cc       Java_sun_reflect_NativeMethodAccessorImpl_invoke0 00000001800045cc f   NativeAccessors.obj
+ 0001:000035e0       Java_sun_reflect_NativeConstructorAccessorImpl_newInstance0 00000001800045e0 f   NativeAccessors.obj
+ 0001:000035ec       Java_sun_misc_NativeSignalHandler_handle0 00000001800045ec f   NativeSignalHandler.obj
+ 0001:000035f8       Java_java_lang_Object_registerNatives 00000001800045f8 f   Object.obj
+ 0001:00003610       Java_java_lang_Object_getClass 0000000180004610 f   Object.obj
+ 0001:00003634       Java_java_io_ObjectInputStream_bytesToFloats 0000000180004634 f   ObjectInputStream.obj
+ 0001:0000377c       Java_java_io_ObjectInputStream_bytesToDoubles 000000018000477c f   ObjectInputStream.obj
+ 0001:00003900       Java_java_io_ObjectOutputStream_floatsToBytes 0000000180004900 f   ObjectOutputStream.obj
+ 0001:00003a7c       Java_java_io_ObjectOutputStream_doublesToBytes 0000000180004a7c f   ObjectOutputStream.obj
+ 0001:00003c70       Java_java_io_ObjectStreamClass_initNative 0000000180004c70 f   ObjectStreamClass.obj
+ 0001:00003ca8       Java_java_io_ObjectStreamClass_hasStaticInitializer 0000000180004ca8 f   ObjectStreamClass.obj
+ 0001:00003db8       Java_java_lang_Package_getSystemPackage0 0000000180004db8 f   Package.obj
+ 0001:00003dc0       Java_java_lang_Package_getSystemPackages0 0000000180004dc0 f   Package.obj
+ 0001:00003ecc       Java_java_lang_ProcessEnvironment_environmentBlock 0000000180004ecc f   ProcessEnvironment_md.obj
+ 0001:00003f64       os_error_message           0000000180004f64 f   ProcessImpl_md.obj
+ 0001:000044a4       Java_java_lang_ProcessImpl_create 00000001800054a4 f   ProcessImpl_md.obj
+ 0001:00004638       Java_java_lang_ProcessImpl_getExitCodeProcess 0000000180005638 f   ProcessImpl_md.obj
+ 0001:0000466c       Java_java_lang_ProcessImpl_getStillActive 000000018000566c f   ProcessImpl_md.obj
+ 0001:00004674       Java_java_lang_ProcessImpl_waitForInterruptibly 0000000180005674 f   ProcessImpl_md.obj
+ 0001:000046bc       Java_java_lang_ProcessImpl_waitForTimeoutInterruptibly 00000001800056bc f   ProcessImpl_md.obj
+ 0001:00004710       Java_java_lang_ProcessImpl_terminateProcess 0000000180005710 f   ProcessImpl_md.obj
+ 0001:00004720       Java_java_lang_ProcessImpl_isProcessAlive 0000000180005720 f   ProcessImpl_md.obj
+ 0001:00004744       Java_java_lang_ProcessImpl_closeHandle 0000000180005744 f   ProcessImpl_md.obj
+ 0001:00004750       Java_java_lang_ProcessImpl_openForAtomicAppend 0000000180005750 f   ProcessImpl_md.obj
+ 0001:0000483c       Java_java_lang_reflect_Proxy_defineClass0 000000018000583c f   Proxy.obj
+ 0001:000049d0       Java_java_io_RandomAccessFile_initIDs 00000001800059d0 f   RandomAccessFile.obj
+ 0001:000049f8       Java_java_io_RandomAccessFile_open0 00000001800059f8 f   RandomAccessFile.obj
+ 0001:00004a40       Java_java_io_RandomAccessFile_read0 0000000180005a40 f   RandomAccessFile.obj
+ 0001:00004a4c       Java_java_io_RandomAccessFile_readBytes 0000000180005a4c f   RandomAccessFile.obj
+ 0001:00004a70       Java_java_io_RandomAccessFile_write0 0000000180005a70 f   RandomAccessFile.obj
+ 0001:00004a90       Java_java_io_RandomAccessFile_writeBytes 0000000180005a90 f   RandomAccessFile.obj
+ 0001:00004ab8       Java_java_io_RandomAccessFile_getFilePointer 0000000180005ab8 f   RandomAccessFile.obj
+ 0001:00004b60       Java_java_io_RandomAccessFile_length 0000000180005b60 f   RandomAccessFile.obj
+ 0001:00004c48       Java_java_io_RandomAccessFile_seek0 0000000180005c48 f   RandomAccessFile.obj
+ 0001:00004d00       Java_java_io_RandomAccessFile_setLength 0000000180005d00 f   RandomAccessFile.obj
+ 0001:00004de8       Java_java_io_RandomAccessFile_close0 0000000180005de8 f   RandomAccessFile_md.obj
+ 0001:00004df4       Java_sun_reflect_Reflection_getCallerClass__ 0000000180005df4 f   Reflection.obj
+ 0001:00004dfc       Java_sun_reflect_Reflection_getCallerClass__I 0000000180005dfc f   Reflection.obj
+ 0001:00004e04       Java_sun_reflect_Reflection_getClassAccessFlags 0000000180005e04 f   Reflection.obj
+ 0001:00004e0c       Java_java_lang_Runtime_freeMemory 0000000180005e0c f   Runtime.obj
+ 0001:00004e14       Java_java_lang_Runtime_totalMemory 0000000180005e14 f   Runtime.obj
+ 0001:00004e1c       Java_java_lang_Runtime_maxMemory 0000000180005e1c f   Runtime.obj
+ 0001:00004e24       Java_java_lang_Runtime_gc  0000000180005e24 f   Runtime.obj
+ 0001:00004e2c       Java_java_lang_Runtime_traceInstructions 0000000180005e2c f   Runtime.obj
+ 0001:00004e34       Java_java_lang_Runtime_traceMethodCalls 0000000180005e34 f   Runtime.obj
+ 0001:00004e3c       Java_java_lang_Runtime_runFinalization0 0000000180005e3c f   Runtime.obj
+ 0001:00004ea0       Java_java_lang_Runtime_availableProcessors 0000000180005ea0 f   Runtime.obj
+ 0001:00004f60       Java_java_lang_SecurityManager_getClassContext 0000000180005f60 f   SecurityManager.obj
+ 0001:00004f88       Java_java_lang_SecurityManager_currentLoadedClass0 0000000180005f88 f   SecurityManager.obj
+ 0001:00004fb0       Java_java_lang_SecurityManager_currentClassLoader0 0000000180005fb0 f   SecurityManager.obj
+ 0001:00004fd8       Java_java_lang_SecurityManager_classDepth 0000000180005fd8 f   SecurityManager.obj
+ 0001:0000501c       Java_java_lang_SecurityManager_classLoaderDepth0 000000018000601c f   SecurityManager.obj
+ 0001:00005044       Java_java_lang_Shutdown_halt0 0000000180006044 f   Shutdown.obj
+ 0001:0000504c       Java_java_lang_Shutdown_runAllFinalizers 000000018000604c f   Shutdown.obj
+ 0001:000050b0       Java_sun_misc_Signal_findSignal 00000001800060b0 f   Signal.obj
+ 0001:00005118       Java_sun_misc_Signal_handle0 0000000180006118 f   Signal.obj
+ 0001:00005124       Java_sun_misc_Signal_raise0 0000000180006124 f   Signal.obj
+ 0001:0000512c       Java_java_lang_StrictMath_cos 000000018000612c f   StrictMath.obj
+ 0001:0000513c       Java_java_lang_StrictMath_sin 000000018000613c f   StrictMath.obj
+ 0001:0000514c       Java_java_lang_StrictMath_tan 000000018000614c f   StrictMath.obj
+ 0001:0000515c       Java_java_lang_StrictMath_asin 000000018000615c f   StrictMath.obj
+ 0001:0000516c       Java_java_lang_StrictMath_acos 000000018000616c f   StrictMath.obj
+ 0001:0000517c       Java_java_lang_StrictMath_atan 000000018000617c f   StrictMath.obj
+ 0001:0000518c       Java_java_lang_StrictMath_exp 000000018000618c f   StrictMath.obj
+ 0001:0000519c       Java_java_lang_StrictMath_log 000000018000619c f   StrictMath.obj
+ 0001:000051ac       Java_java_lang_StrictMath_log10 00000001800061ac f   StrictMath.obj
+ 0001:000051bc       Java_java_lang_StrictMath_sqrt 00000001800061bc f   StrictMath.obj
+ 0001:000051cc       Java_java_lang_StrictMath_cbrt 00000001800061cc f   StrictMath.obj
+ 0001:000051dc       Java_java_lang_StrictMath_atan2 00000001800061dc f   StrictMath.obj
+ 0001:000051f4       Java_java_lang_StrictMath_pow 00000001800061f4 f   StrictMath.obj
+ 0001:0000520c       Java_java_lang_StrictMath_IEEEremainder 000000018000620c f   StrictMath.obj
+ 0001:00005224       Java_java_lang_StrictMath_cosh 0000000180006224 f   StrictMath.obj
+ 0001:00005234       Java_java_lang_StrictMath_sinh 0000000180006234 f   StrictMath.obj
+ 0001:00005244       Java_java_lang_StrictMath_tanh 0000000180006244 f   StrictMath.obj
+ 0001:00005254       Java_java_lang_StrictMath_hypot 0000000180006254 f   StrictMath.obj
+ 0001:0000526c       Java_java_lang_StrictMath_log1p 000000018000626c f   StrictMath.obj
+ 0001:0000527c       Java_java_lang_StrictMath_expm1 000000018000627c f   StrictMath.obj
+ 0001:0000528c       Java_java_lang_String_intern 000000018000628c f   String.obj
+ 0001:00005294       Java_java_lang_System_registerNatives 0000000180006294 f   System.obj
+ 0001:000052ac       Java_java_lang_System_identityHashCode 00000001800062ac f   System.obj
+ 0001:000052b4       fillI18nProps              00000001800062b4 f   System.obj
+ 0001:000056fc       Java_java_lang_System_initProperties 00000001800066fc f   System.obj
+ 0001:0000717c       Java_java_lang_System_setIn0 000000018000817c f   System.obj
+ 0001:000071d8       Java_java_lang_System_setOut0 00000001800081d8 f   System.obj
+ 0001:00007234       Java_java_lang_System_setErr0 0000000180008234 f   System.obj
+ 0001:00007290       Java_java_lang_System_mapLibraryName 0000000180008290 f   System.obj
+ 0001:000073c8       Java_java_lang_Thread_registerNatives 00000001800083c8 f   Thread.obj
+ 0001:000073e0       Java_java_lang_Throwable_fillInStackTrace 00000001800083e0 f   Throwable.obj
+ 0001:000073f8       Java_java_lang_Throwable_getStackTraceDepth 00000001800083f8 f   Throwable.obj
+ 0001:00007400       Java_java_lang_Throwable_getStackTraceElement 0000000180008400 f   Throwable.obj
+ 0001:00007408       Java_java_util_TimeZone_getSystemTimeZoneID 0000000180008408 f   TimeZone.obj
+ 0001:00007498       Java_java_util_TimeZone_getSystemGMTOffsetID 0000000180008498 f   TimeZone.obj
+ 0001:00007d00       findJavaTZ_md              0000000180008d00 f   TimeZone_md.obj
+ 0001:00007d88       getGMTOffsetID             0000000180008d88 f   TimeZone_md.obj
+ 0001:00007d8c       Java_sun_misc_URLClassPath_knownToNotExist0 0000000180008d8c f   URLClassPath.obj
+ 0001:00007e54       Java_sun_misc_URLClassPath_getLookupCacheURLs 0000000180008e54 f   URLClassPath.obj
+ 0001:00007e5c       Java_sun_misc_URLClassPath_getLookupCacheForClassLoader 0000000180008e5c f   URLClassPath.obj
+ 0001:00007fb0       Java_sun_misc_VM_getThreadStateValues 0000000180008fb0 f   VM.obj
+ 0001:0000811c       Java_sun_misc_VM_latestUserDefinedLoader 000000018000911c f   VM.obj
+ 0001:00008124       Java_sun_misc_VM_initialize 0000000180009124 f   VM.obj
+ 0001:000081a8       Java_sun_misc_VMSupport_initAgentProperties 00000001800091a8 f   VMSupport.obj
+ 0001:0000821c       Java_sun_misc_VMSupport_getVMTemporaryDirectory 000000018000921c f   VMSupport.obj
+ 0001:000082bc       Java_sun_misc_Version_getJvmVersionInfo 00000001800092bc f   Version.obj
+ 0001:00008428       Java_sun_misc_Version_getJvmSpecialVersion 0000000180009428 f   Version.obj
+ 0001:00008450       Java_sun_misc_Version_getJdkVersionInfo 0000000180009450 f   Version.obj
+ 0001:00008588       Java_sun_misc_Version_getJdkSpecialVersion 0000000180009588 f   Version.obj
+ 0001:000085b0       Java_sun_io_Win32ErrorMode_setErrorMode 00000001800095b0 f   Win32ErrorMode.obj
+ 0001:000085c4       Java_sun_security_provider_NativeSeedGenerator_nativeGenerateSeed 00000001800095c4 f   WinCAPISeedGenerator.obj
+ 0001:000086b0       Java_java_io_WinNTFileSystem_initIDs 00000001800096b0 f   WinNTFileSystem_md.obj
+ 0001:000089b0       getFinalAttributesIfReparsePoint 00000001800099b0 f   WinNTFileSystem_md.obj
+ 0001:000089f8       getFinalAttributes         00000001800099f8 f   WinNTFileSystem_md.obj
+ 0001:00008aa4       Java_java_io_WinNTFileSystem_canonicalize0 0000000180009aa4 f   WinNTFileSystem_md.obj
+ 0001:00008c08       Java_java_io_WinNTFileSystem_canonicalizeWithPrefix0 0000000180009c08 f   WinNTFileSystem_md.obj
+ 0001:00008ee4       Java_java_io_WinNTFileSystem_getBooleanAttributes 0000000180009ee4 f   WinNTFileSystem_md.obj
+ 0001:00008f50       Java_java_io_WinNTFileSystem_checkAccess 0000000180009f50 f   WinNTFileSystem_md.obj
+ 0001:00008fe8       Java_java_io_WinNTFileSystem_setPermission 0000000180009fe8 f   WinNTFileSystem_md.obj
+ 0001:000090bc       Java_java_io_WinNTFileSystem_getLastModifiedTime 000000018000a0bc f   WinNTFileSystem_md.obj
+ 0001:00009190       Java_java_io_WinNTFileSystem_getLength 000000018000a190 f   WinNTFileSystem_md.obj
+ 0001:00009260       Java_java_io_WinNTFileSystem_createFileExclusively 000000018000a260 f   WinNTFileSystem_md.obj
+ 0001:00009338       Java_java_io_WinNTFileSystem_delete0 000000018000a338 f   WinNTFileSystem_md.obj
+ 0001:000093b8       Java_java_io_WinNTFileSystem_list 000000018000a3b8 f   WinNTFileSystem_md.obj
+ 0001:000096e4       Java_java_io_WinNTFileSystem_createDirectory 000000018000a6e4 f   WinNTFileSystem_md.obj
+ 0001:0000972c       Java_java_io_WinNTFileSystem_rename0 000000018000a72c f   WinNTFileSystem_md.obj
+ 0001:000097c0       Java_java_io_WinNTFileSystem_setLastModifiedTime 000000018000a7c0 f   WinNTFileSystem_md.obj
+ 0001:00009890       Java_java_io_WinNTFileSystem_setReadOnly 000000018000a890 f   WinNTFileSystem_md.obj
+ 0001:00009938       Java_java_io_WinNTFileSystem_getDriveDirectory 000000018000a938 f   WinNTFileSystem_md.obj
+ 0001:000099c0       Java_java_io_WinNTFileSystem_listRoots0 000000018000a9c0 f   WinNTFileSystem_md.obj
+ 0001:000099c8       Java_java_io_WinNTFileSystem_getSpace0 000000018000a9c8 f   WinNTFileSystem_md.obj
+ 0001:00009aa8       Java_java_util_prefs_WindowsPreferences_WindowsRegOpenKey 000000018000aaa8 f   WindowsPreferences.obj
+ 0001:00009b78       Java_java_util_prefs_WindowsPreferences_WindowsRegCloseKey 000000018000ab78 f   WindowsPreferences.obj
+ 0001:00009b84       Java_java_util_prefs_WindowsPreferences_WindowsRegCreateKeyEx 000000018000ab84 f   WindowsPreferences.obj
+ 0001:00009c8c       Java_java_util_prefs_WindowsPreferences_WindowsRegDeleteKey 000000018000ac8c f   WindowsPreferences.obj
+ 0001:00009d00       Java_java_util_prefs_WindowsPreferences_WindowsRegFlushKey 000000018000ad00 f   WindowsPreferences.obj
+ 0001:00009d0c       Java_java_util_prefs_WindowsPreferences_WindowsRegQueryValueEx 000000018000ad0c f   WindowsPreferences.obj
+ 0001:00009e6c       Java_java_util_prefs_WindowsPreferences_WindowsRegSetValueEx 000000018000ae6c f   WindowsPreferences.obj
+ 0001:00009f5c       Java_java_util_prefs_WindowsPreferences_WindowsRegDeleteValue 000000018000af5c f   WindowsPreferences.obj
+ 0001:00009fd8       Java_java_util_prefs_WindowsPreferences_WindowsRegQueryInfoKey 000000018000afd8 f   WindowsPreferences.obj
+ 0001:0000a0d0       Java_java_util_prefs_WindowsPreferences_WindowsRegEnumKeyEx 000000018000b0d0 f   WindowsPreferences.obj
+ 0001:0000a1b0       Java_java_util_prefs_WindowsPreferences_WindowsRegEnumValue 000000018000b1b0 f   WindowsPreferences.obj
+ 0001:0000a33c       lastErrorReportable        000000018000b33c f   canonicalize_md.obj
+ 0001:0000a380       canonicalize               000000018000b380 f   canonicalize_md.obj
+ 0001:0000a6d8       getPrefixed                000000018000b6d8 f   canonicalize_md.obj
+ 0001:0000a770       wcanonicalize              000000018000b770 f   canonicalize_md.obj
+ 0001:0000aafc       wcanonicalizeWithPrefix    000000018000bafc f   canonicalize_md.obj
+ 0001:0000ac94       JNI_OnLoad                 000000018000bc94 f   check_version.obj
+ 0001:0000ad24       readSingle                 000000018000bd24 f   io_util.obj
+ 0001:0000add4       readBytes                  000000018000bdd4 f   io_util.obj
+ 0001:0000af78       writeSingle                000000018000bf78 f   io_util.obj
+ 0001:0000b034       writeBytes                 000000018000c034 f   io_util.obj
+ 0001:0000b1f8       throwFileNotFoundException 000000018000c1f8 f   io_util.obj
+ 0001:0000b2a4       currentDir                 000000018000c2a4 f   io_util_md.obj
+ 0001:0000b31c       currentDirLength           000000018000c31c f   io_util_md.obj
+ 0001:0000b3cc       prefixAbpath               000000018000c3cc f   io_util_md.obj
+ 0001:0000b474       pathToNTPath               000000018000c474 f   io_util_md.obj
+ 0001:0000b610       winFileHandleOpen          000000018000c610 f   io_util_md.obj
+ 0001:0000b708       fileOpen                   000000018000c708 f   io_util_md.obj
+ 0001:0000b8e8       handleSync                 000000018000c8e8 f   io_util_md.obj
+ 0001:0000b910       handleSetLength            000000018000c910 f   io_util_md.obj
+ 0001:0000b964       handleRead                 000000018000c964 f   io_util_md.obj
+ 0001:0000b9a4       handleWrite                000000018000c9a4 f   io_util_md.obj
+ 0001:0000b9dc       handleAppend               000000018000c9dc f   io_util_md.obj
+ 0001:0000ba24       handleClose                000000018000ca24 f   io_util_md.obj
+ 0001:0000bb00       handleLseek                000000018000cb00 f   io_util_md.obj
+ 0001:0000bb4c       getLastErrorString         000000018000cb4c f   io_util_md.obj
+ 0001:0000bce0       fileToNTPath               000000018000cce0 f   io_util_md.obj
+ 0001:0000bd0c       handleAvailable            000000018000cd0c f   io_util_md.obj
+ 0001:0000c038       getEncodingFromLangID      000000018000d038 f   java_props_md.obj
+ 0001:0000c040       getHomeFromShell32         000000018000d040 f   java_props_md.obj
+ 0001:0000c3b4       GetJavaProperties          000000018000d3b4 f   java_props_md.obj
+ 0001:0000c940       GetStringPlatform          000000018000d940 f   java_props_md.obj
+ 0001:0000c984       getJavaIDFromLangID        000000018000d984 f   java_props_md.obj
+ 0001:0000ca54       JDK_GetVersionInfo0        000000018000da54 f   jdk_util.obj
+ 0001:0000cc18       JDK_InitJvmHandle          000000018000dc18 f   jdk_util_md.obj
+ 0001:0000cc40       JDK_FindJvmEntry           000000018000dc40 f   jdk_util_md.obj
+ 0001:0000cc54       JDK_LoadSystemLibrary      000000018000dc54 f   jdk_util_md.obj
+ 0001:0000cd24       jio_snprintf               000000018000dd24 f   jio.obj
+ 0001:0000cd44       jio_fprintf                000000018000dd44 f   jio.obj
+ 0001:0000cd68       JNU_ThrowByName            000000018000dd68 f   jni_util.obj
+ 0001:0000cda0       JNU_ThrowNullPointerException 000000018000dda0 f   jni_util.obj
+ 0001:0000cdb0       JNU_ThrowArrayIndexOutOfBoundsException 000000018000ddb0 f   jni_util.obj
+ 0001:0000cdc0       JNU_ThrowOutOfMemoryError  000000018000ddc0 f   jni_util.obj
+ 0001:0000cdd0       JNU_ThrowIllegalArgumentException 000000018000ddd0 f   jni_util.obj
+ 0001:0000cde0       JNU_ThrowIllegalAccessError 000000018000dde0 f   jni_util.obj
+ 0001:0000cdf0       JNU_ThrowIllegalAccessException 000000018000ddf0 f   jni_util.obj
+ 0001:0000ce00       JNU_ThrowInternalError     000000018000de00 f   jni_util.obj
+ 0001:0000ce10       JNU_ThrowNoSuchFieldException 000000018000de10 f   jni_util.obj
+ 0001:0000ce20       JNU_ThrowNoSuchMethodException 000000018000de20 f   jni_util.obj
+ 0001:0000ce30       JNU_ThrowClassNotFoundException 000000018000de30 f   jni_util.obj
+ 0001:0000ce40       JNU_ThrowNumberFormatException 000000018000de40 f   jni_util.obj
+ 0001:0000ce50       JNU_ThrowIOException       000000018000de50 f   jni_util.obj
+ 0001:0000ce60       JNU_ThrowNoSuchFieldError  000000018000de60 f   jni_util.obj
+ 0001:0000ce70       JNU_ThrowNoSuchMethodError 000000018000de70 f   jni_util.obj
+ 0001:0000ce80       JNU_ThrowStringIndexOutOfBoundsException 000000018000de80 f   jni_util.obj
+ 0001:0000ce90       JNU_ThrowInstantiationException 000000018000de90 f   jni_util.obj
+ 0001:0000cea0       JNU_CallStaticMethodByName 000000018000dea0 f   jni_util.obj
+ 0001:0000d094       JNU_CallMethodByNameV      000000018000e094 f   jni_util.obj
+ 0001:0000d2d8       JNU_NewObjectByName        000000018000e2d8 f   jni_util.obj
+ 0001:0000da8c       getFastEncoding            000000018000ea8c f   jni_util.obj
+ 0001:0000dae0       JNU_ReleaseStringPlatformChars 000000018000eae0 f   jni_util.obj
+ 0001:0000daec       Canonicalize               000000018000eaec f   jni_util.obj
+ 0001:0000db00       JNU_ClassString            000000018000eb00 f   jni_util.obj
+ 0001:0000db7c       JNU_ClassClass             000000018000eb7c f   jni_util.obj
+ 0001:0000dbf8       JNU_ClassObject            000000018000ebf8 f   jni_util.obj
+ 0001:0000dc74       JNU_ClassThrowable         000000018000ec74 f   jni_util.obj
+ 0001:0000dcf0       JNU_CopyObjectArray        000000018000ecf0 f   jni_util.obj
+ 0001:0000dd90       JNU_GetEnv                 000000018000ed90 f   jni_util.obj
+ 0001:0000ddac       JNU_IsInstanceOfByName     000000018000edac f   jni_util.obj
+ 0001:0000de34       JNU_Equals                 000000018000ee34 f   jni_util.obj
+ 0001:0000deb0       JNU_MonitorWait            000000018000eeb0 f   jni_util.obj
+ 0001:0000df48       JNU_Notify                 000000018000ef48 f   jni_util.obj
+ 0001:0000dfd0       JNU_NotifyAll              000000018000efd0 f   jni_util.obj
+ 0001:0000e058       JNU_GetFieldByName         000000018000f058 f   jni_util.obj
+ 0001:0000e228       JNU_SetFieldByName         000000018000f228 f   jni_util.obj
+ 0001:0000e3dc       JNU_GetStaticFieldByName   000000018000f3dc f   jni_util.obj
+ 0001:0000e5a8       JNU_SetStaticFieldByName   000000018000f5a8 f   jni_util.obj
+ 0001:0000e760       JNU_CallMethodByName       000000018000f760 f   jni_util.obj
+ 0001:0000e784       initializeEncoding         000000018000f784 f   jni_util.obj
+ 0001:0000e99c       JNU_NewStringPlatform      000000018000f99c f   jni_util.obj
+ 0001:0000eb20       JNU_GetStringPlatformChars 000000018000fb20 f   jni_util.obj
+ 0001:0000ece8       JNU_PrintString            000000018000fce8 f   jni_util.obj
+ 0001:0000ed60       JNU_ToString               000000018000fd60 f   jni_util.obj
+ 0001:0000eda0       JNU_ThrowByNameWithLastError 000000018000fda0 f   jni_util.obj
+ 0001:0000ee4c       JNU_ThrowIOExceptionWithLastError 000000018000fe4c f   jni_util.obj
+ 0001:0000ee5c       NewStringPlatform          000000018000fe5c f   jni_util.obj
+ 0001:0000ee64       GetStringPlatformChars     000000018000fe64 f   jni_util.obj
+ 0001:0000ee6c       JNU_PrintClass             000000018000fe6c f   jni_util.obj
+ 0001:0000ef0c       useNativeConverter         000000018000ff0c f   jni_util_md.obj
+ 0001:0000f054       nativeNewStringPlatform    0000000180010054 f   jni_util_md.obj
+ 0001:0000f190       nativeGetStringPlatformChars 0000000180010190 f   jni_util_md.obj
+ 0001:0000f260       getProcessHandle           0000000180010260 f   jni_util_md.obj
+ 0001:0000f26c       buildJniFunctionName       000000018001026c f   jni_util_md.obj
+ 0001:0000f330       Java_java_util_logging_FileHandler_isSetUID 0000000180010330 f   logging.obj
+ 0001:0000f334       VerifyClassCodes           0000000180010334 f   verify_stub.obj
+ 0001:0000f33c       VerifyClassCodesForMajorVersion 000000018001033c f   verify_stub.obj
+ 0001:0000f354       JVM_DoPrivileged           0000000180010354 f   jvm:jvm.dll
+ 0001:0000f35a       JVM_GetStackAccessControlContext 000000018001035a f   jvm:jvm.dll
+ 0001:0000f360       JVM_GetInheritedAccessControlContext 0000000180010360 f   jvm:jvm.dll
+ 0001:0000f366       JVM_GetArrayLength         0000000180010366 f   jvm:jvm.dll
+ 0001:0000f36c       JVM_GetArrayElement        000000018001036c f   jvm:jvm.dll
+ 0001:0000f372       JVM_GetPrimitiveArrayElement 0000000180010372 f   jvm:jvm.dll
+ 0001:0000f378       JVM_SetArrayElement        0000000180010378 f   jvm:jvm.dll
+ 0001:0000f37e       JVM_SetPrimitiveArrayElement 000000018001037e f   jvm:jvm.dll
+ 0001:0000f384       JVM_NewArray               0000000180010384 f   jvm:jvm.dll
+ 0001:0000f38a       JVM_NewMultiArray          000000018001038a f   jvm:jvm.dll
+ 0001:0000f390       JVM_SupportsCX8            0000000180010390 f   jvm:jvm.dll
+ 0001:0000f396       JVM_GetClassTypeAnnotations 0000000180010396 f   jvm:jvm.dll
+ 0001:0000f39c       JVM_GetEnclosingMethodInfo 000000018001039c f   jvm:jvm.dll
+ 0001:0000f3a2       JVM_DesiredAssertionStatus 00000001800103a2 f   jvm:jvm.dll
+ 0001:0000f3a8       JVM_GetClassConstantPool   00000001800103a8 f   jvm:jvm.dll
+ 0001:0000f3ae       JVM_GetClassAnnotations    00000001800103ae f   jvm:jvm.dll
+ 0001:0000f3b4       JVM_GetClassSignature      00000001800103b4 f   jvm:jvm.dll
+ 0001:0000f3ba       JVM_GetDeclaringClass      00000001800103ba f   jvm:jvm.dll
+ 0001:0000f3c0       JVM_GetDeclaredClasses     00000001800103c0 f   jvm:jvm.dll
+ 0001:0000f3c6       JVM_GetProtectionDomain    00000001800103c6 f   jvm:jvm.dll
+ 0001:0000f3cc       JVM_GetClassDeclaredConstructors 00000001800103cc f   jvm:jvm.dll
+ 0001:0000f3d2       JVM_GetClassDeclaredMethods 00000001800103d2 f   jvm:jvm.dll
+ 0001:0000f3d8       JVM_GetClassDeclaredFields 00000001800103d8 f   jvm:jvm.dll
+ 0001:0000f3de       JVM_GetClassModifiers      00000001800103de f   jvm:jvm.dll
+ 0001:0000f3e4       JVM_GetComponentType       00000001800103e4 f   jvm:jvm.dll
+ 0001:0000f3ea       JVM_IsPrimitiveClass       00000001800103ea f   jvm:jvm.dll
+ 0001:0000f3f0       JVM_IsArrayClass           00000001800103f0 f   jvm:jvm.dll
+ 0001:0000f3f6       JVM_SetClassSigners        00000001800103f6 f   jvm:jvm.dll
+ 0001:0000f3fc       JVM_GetClassSigners        00000001800103fc f   jvm:jvm.dll
+ 0001:0000f402       JVM_IsInterface            0000000180010402 f   jvm:jvm.dll
+ 0001:0000f408       JVM_GetClassInterfaces     0000000180010408 f   jvm:jvm.dll
+ 0001:0000f40e       JVM_GetClassName           000000018001040e f   jvm:jvm.dll
+ 0001:0000f414       JVM_FindClassFromCaller    0000000180010414 f   jvm:jvm.dll
+ 0001:0000f41a       JVM_FindPrimitiveClass     000000018001041a f   jvm:jvm.dll
+ 0001:0000f420       JVM_AssertionStatusDirectives 0000000180010420 f   jvm:jvm.dll
+ 0001:0000f426       JVM_DefineClassWithSource  0000000180010426 f   jvm:jvm.dll
+ 0001:0000f42c       JVM_ResolveClass           000000018001042c f   jvm:jvm.dll
+ 0001:0000f432       JVM_FindClassFromBootLoader 0000000180010432 f   jvm:jvm.dll
+ 0001:0000f438       JVM_FindLoadedClass        0000000180010438 f   jvm:jvm.dll
+ 0001:0000f43e       JVM_FindLibraryEntry       000000018001043e f   jvm:jvm.dll
+ 0001:0000f444       JVM_IsSupportedJNIVersion  0000000180010444 f   jvm:jvm.dll
+ 0001:0000f44a       JVM_UnloadLibrary          000000018001044a f   jvm:jvm.dll
+ 0001:0000f450       JVM_LoadLibrary            0000000180010450 f   jvm:jvm.dll
+ 0001:0000f456       JVM_DisableCompiler        0000000180010456 f   jvm:jvm.dll
+ 0001:0000f45c       JVM_EnableCompiler         000000018001045c f   jvm:jvm.dll
+ 0001:0000f462       JVM_CompilerCommand        0000000180010462 f   jvm:jvm.dll
+ 0001:0000f468       JVM_CompileClasses         0000000180010468 f   jvm:jvm.dll
+ 0001:0000f46e       JVM_CompileClass           000000018001046e f   jvm:jvm.dll
+ 0001:0000f474       JVM_ConstantPoolGetSize    0000000180010474 f   jvm:jvm.dll
+ 0001:0000f47a       JVM_ConstantPoolGetClassAt 000000018001047a f   jvm:jvm.dll
+ 0001:0000f480       JVM_ConstantPoolGetClassAtIfLoaded 0000000180010480 f   jvm:jvm.dll
+ 0001:0000f486       JVM_ConstantPoolGetMethodAt 0000000180010486 f   jvm:jvm.dll
+ 0001:0000f48c       JVM_ConstantPoolGetMethodAtIfLoaded 000000018001048c f   jvm:jvm.dll
+ 0001:0000f492       JVM_ConstantPoolGetFieldAt 0000000180010492 f   jvm:jvm.dll
+ 0001:0000f498       JVM_ConstantPoolGetFieldAtIfLoaded 0000000180010498 f   jvm:jvm.dll
+ 0001:0000f49e       JVM_ConstantPoolGetMemberRefInfoAt 000000018001049e f   jvm:jvm.dll
+ 0001:0000f4a4       JVM_ConstantPoolGetIntAt   00000001800104a4 f   jvm:jvm.dll
+ 0001:0000f4aa       JVM_ConstantPoolGetLongAt  00000001800104aa f   jvm:jvm.dll
+ 0001:0000f4b0       JVM_ConstantPoolGetFloatAt 00000001800104b0 f   jvm:jvm.dll
+ 0001:0000f4b6       JVM_ConstantPoolGetDoubleAt 00000001800104b6 f   jvm:jvm.dll
+ 0001:0000f4bc       JVM_ConstantPoolGetStringAt 00000001800104bc f   jvm:jvm.dll
+ 0001:0000f4c2       JVM_ConstantPoolGetUTF8At  00000001800104c2 f   jvm:jvm.dll
+ 0001:0000f4c8       JVM_GetMethodParameters    00000001800104c8 f   jvm:jvm.dll
+ 0001:0000f4ce       JVM_GetMethodTypeAnnotations 00000001800104ce f   jvm:jvm.dll
+ 0001:0000f4d4       JVM_GetFieldTypeAnnotations 00000001800104d4 f   jvm:jvm.dll
+ 0001:0000f4da       JVM_MaxObjectInspectionAge 00000001800104da f   jvm:jvm.dll
+ 0001:0000f4e0       JVM_InvokeMethod           00000001800104e0 f   jvm:jvm.dll
+ 0001:0000f4e6       JVM_NewInstanceFromConstructor 00000001800104e6 f   jvm:jvm.dll
+ 0001:0000f4ec       JVM_Clone                  00000001800104ec f   jvm:jvm.dll
+ 0001:0000f4f2       JVM_MonitorNotifyAll       00000001800104f2 f   jvm:jvm.dll
+ 0001:0000f4f8       JVM_MonitorNotify          00000001800104f8 f   jvm:jvm.dll
+ 0001:0000f4fe       JVM_MonitorWait            00000001800104fe f   jvm:jvm.dll
+ 0001:0000f504       JVM_IHashCode              0000000180010504 f   jvm:jvm.dll
+ 0001:0000f50a       JVM_GetSystemPackage       000000018001050a f   jvm:jvm.dll
+ 0001:0000f510       JVM_GetSystemPackages      0000000180010510 f   jvm:jvm.dll
+ 0001:0000f516       JVM_GetThreadInterruptEvent 0000000180010516 f   jvm:jvm.dll
+ 0001:0000f51c       JVM_GetCallerClass         000000018001051c f   jvm:jvm.dll
+ 0001:0000f522       JVM_GetClassAccessFlags    0000000180010522 f   jvm:jvm.dll
+ 0001:0000f528       JVM_FreeMemory             0000000180010528 f   jvm:jvm.dll
+ 0001:0000f52e       JVM_TotalMemory            000000018001052e f   jvm:jvm.dll
+ 0001:0000f534       JVM_MaxMemory              0000000180010534 f   jvm:jvm.dll
+ 0001:0000f53a       JVM_GC                     000000018001053a f   jvm:jvm.dll
+ 0001:0000f540       JVM_TraceInstructions      0000000180010540 f   jvm:jvm.dll
+ 0001:0000f546       JVM_TraceMethodCalls       0000000180010546 f   jvm:jvm.dll
+ 0001:0000f54c       JVM_ActiveProcessorCount   000000018001054c f   jvm:jvm.dll
+ 0001:0000f552       JVM_GetClassContext        0000000180010552 f   jvm:jvm.dll
+ 0001:0000f558       JVM_CurrentLoadedClass     0000000180010558 f   jvm:jvm.dll
+ 0001:0000f55e       JVM_CurrentClassLoader     000000018001055e f   jvm:jvm.dll
+ 0001:0000f564       JVM_ClassDepth             0000000180010564 f   jvm:jvm.dll
+ 0001:0000f56a       JVM_ClassLoaderDepth       000000018001056a f   jvm:jvm.dll
+ 0001:0000f570       JVM_Halt                   0000000180010570 f   jvm:jvm.dll
+ 0001:0000f576       JVM_FindSignal             0000000180010576 f   jvm:jvm.dll
+ 0001:0000f57c       JVM_RegisterSignal         000000018001057c f   jvm:jvm.dll
+ 0001:0000f582       JVM_RaiseSignal            0000000180010582 f   jvm:jvm.dll
+ 0001:0000f588       JVM_InternString           0000000180010588 f   jvm:jvm.dll
+ 0001:0000f58e       JVM_ArrayCopy              000000018001058e f   jvm:jvm.dll
+ 0001:0000f594       JVM_NanoTime               0000000180010594 f   jvm:jvm.dll
+ 0001:0000f59a       JVM_CurrentTimeMillis      000000018001059a f   jvm:jvm.dll
+ 0001:0000f5a0       JVM_InitProperties         00000001800105a0 f   jvm:jvm.dll
+ 0001:0000f5a6       JVM_SetNativeThreadName    00000001800105a6 f   jvm:jvm.dll
+ 0001:0000f5ac       JVM_DumpThreads            00000001800105ac f   jvm:jvm.dll
+ 0001:0000f5b2       JVM_GetAllThreads          00000001800105b2 f   jvm:jvm.dll
+ 0001:0000f5b8       JVM_HoldsLock              00000001800105b8 f   jvm:jvm.dll
+ 0001:0000f5be       JVM_IsInterrupted          00000001800105be f   jvm:jvm.dll
+ 0001:0000f5c4       JVM_Interrupt              00000001800105c4 f   jvm:jvm.dll
+ 0001:0000f5ca       JVM_CountStackFrames       00000001800105ca f   jvm:jvm.dll
+ 0001:0000f5d0       JVM_CurrentThread          00000001800105d0 f   jvm:jvm.dll
+ 0001:0000f5d6       JVM_Sleep                  00000001800105d6 f   jvm:jvm.dll
+ 0001:0000f5dc       JVM_Yield                  00000001800105dc f   jvm:jvm.dll
+ 0001:0000f5e2       JVM_SetThreadPriority      00000001800105e2 f   jvm:jvm.dll
+ 0001:0000f5e8       JVM_ResumeThread           00000001800105e8 f   jvm:jvm.dll
+ 0001:0000f5ee       JVM_SuspendThread          00000001800105ee f   jvm:jvm.dll
+ 0001:0000f5f4       JVM_IsThreadAlive          00000001800105f4 f   jvm:jvm.dll
+ 0001:0000f5fa       JVM_StopThread             00000001800105fa f   jvm:jvm.dll
+ 0001:0000f600       JVM_StartThread            0000000180010600 f   jvm:jvm.dll
+ 0001:0000f606       JVM_FillInStackTrace       0000000180010606 f   jvm:jvm.dll
+ 0001:0000f60c       JVM_GetStackTraceDepth     000000018001060c f   jvm:jvm.dll
+ 0001:0000f612       JVM_GetStackTraceElement   0000000180010612 f   jvm:jvm.dll
+ 0001:0000f618       JVM_KnownToNotExist        0000000180010618 f   jvm:jvm.dll
+ 0001:0000f61e       JVM_GetResourceLookupCacheURLs 000000018001061e f   jvm:jvm.dll
+ 0001:0000f624       JVM_GetResourceLookupCache 0000000180010624 f   jvm:jvm.dll
+ 0001:0000f62a       JVM_LatestUserDefinedLoader 000000018001062a f   jvm:jvm.dll
+ 0001:0000f630       JVM_GetTemporaryDirectory  0000000180010630 f   jvm:jvm.dll
+ 0001:0000f636       JVM_GetInterfaceVersion    0000000180010636 f   jvm:jvm.dll
+ 0001:0000f63c       jio_vsnprintf              000000018001063c f   jvm:jvm.dll
+ 0001:0000f642       jio_vfprintf               0000000180010642 f   jvm:jvm.dll
+ 0001:0000f648       JVM_GetLastErrorString     0000000180010648 f   jvm:jvm.dll
+ 0001:0000f650       jcos                       0000000180010650 f   fdlibm:s_cos.obj
+ 0001:0000f7a0       jsin                       00000001800107a0 f   fdlibm:s_sin.obj
+ 0001:0000f8f0       jtan                       00000001800108f0 f   fdlibm:s_tan.obj
+ 0001:0000f9b0       jasin                      00000001800109b0 f   fdlibm:w_asin.obj
+ 0001:0000f9d0       jacos                      00000001800109d0 f   fdlibm:w_acos.obj
+ 0001:0000f9f0       jatan                      00000001800109f0 f   fdlibm:s_atan.obj
+ 0001:0000fde0       jexp                       0000000180010de0 f   fdlibm:w_exp.obj
+ 0001:0000fe00       jlog                       0000000180010e00 f   fdlibm:w_log.obj
+ 0001:0000fe20       jlog10                     0000000180010e20 f   fdlibm:w_log10.obj
+ 0001:0000fe40       jsqrt                      0000000180010e40 f   fdlibm:w_sqrt.obj
+ 0001:0000fe60       jcbrt                      0000000180010e60 f   fdlibm:s_cbrt.obj
+ 0001:00010060       jatan2                     0000000180011060 f   fdlibm:w_atan2.obj
+ 0001:00010090       jpow                       0000000180011090 f   fdlibm:w_pow.obj
+ 0001:000100c0       jremainder                 00000001800110c0 f   fdlibm:w_remainder.obj
+ 0001:000100f0       jcosh                      00000001800110f0 f   fdlibm:w_cosh.obj
+ 0001:00010110       jsinh                      0000000180011110 f   fdlibm:w_sinh.obj
+ 0001:00010130       jtanh                      0000000180011130 f   fdlibm:s_tanh.obj
+ 0001:00010300       jhypot                     0000000180011300 f   fdlibm:w_hypot.obj
+ 0001:00010330       jlog1p                     0000000180011330 f   fdlibm:s_log1p.obj
+ 0001:00010890       jexpm1                     0000000180011890 f   fdlibm:s_expm1.obj
+ 0001:00010f10       __kernel_sin               0000000180011f10 f   fdlibm:k_sin.obj
+ 0001:00011090       __ieee754_rem_pio2         0000000180012090 f   fdlibm:e_rem_pio2.obj
+ 0001:00011730       __kernel_cos               0000000180012730 f   fdlibm:k_cos.obj
+ 0001:00011920       __kernel_tan               0000000180012920 f   fdlibm:k_tan.obj
+ 0001:00011ed0       __ieee754_asin             0000000180012ed0 f   fdlibm:e_asin.obj
+ 0001:00012410       __ieee754_acos             0000000180013410 f   fdlibm:e_acos.obj
+ 0001:00012a40       jfabs                      0000000180013a40 f   fdlibm:s_fabs.obj
+ 0001:00012a60       __ieee754_exp              0000000180013a60 f   fdlibm:e_exp.obj
+ 0001:00012e00       __ieee754_log              0000000180013e00 f   fdlibm:e_log.obj
+ 0001:000132c0       __ieee754_log10            00000001800142c0 f   fdlibm:e_log10.obj
+ 0001:00013450       __ieee754_sqrt             0000000180014450 f   fdlibm:e_sqrt.obj
+ 0001:00013920       __ieee754_atan2            0000000180014920 f   fdlibm:e_atan2.obj
+ 0001:00013d60       __ieee754_pow              0000000180014d60 f   fdlibm:e_pow.obj
+ 0001:00014f30       __ieee754_remainder        0000000180015f30 f   fdlibm:e_remainder.obj
+ 0001:00015160       __ieee754_cosh             0000000180016160 f   fdlibm:e_cosh.obj
+ 0001:00015340       __ieee754_sinh             0000000180016340 f   fdlibm:e_sinh.obj
+ 0001:00015560       __ieee754_hypot            0000000180016560 f   fdlibm:e_hypot.obj
+ 0001:00015950       __kernel_rem_pio2          0000000180016950 f   fdlibm:k_rem_pio2.obj
+ 0001:000169e0       scalbn                     00000001800179e0 f   fdlibm:s_scalbn.obj
+ 0001:00016bc0       __ieee754_fmod             0000000180017bc0 f   fdlibm:e_fmod.obj
+ 0001:00017180       jfloor                     0000000180018180 f   fdlibm:s_floor.obj
+ 0001:000173c0       copysign                   00000001800183c0 f   fdlibm:s_copysign.obj
+ 0001:000173ec       VerifyClassname            00000001800183ec f   verify:verify.dll
+ 0001:000173f2       VerifyFixClassname         00000001800183f2 f   verify:verify.dll
+ 0001:000173f8       __imp_load_SHGetFolderPathW 00000001800183f8     shell32:SHELL32.dll
+ 0001:00017404       __tailMerge_SHELL32_dll    0000000180018404     shell32:SHELL32.dll
+ 0001:0001747d       __imp_load_SHGetKnownFolderPath 000000018001847d     shell32:SHELL32.dll
+ 0001:00017489       SHGetKnownFolderPath       0000000180018489 f   shell32:SHELL32.dll
+ 0001:00017490       __delayLoadHelper2         0000000180018490 f   delayimp:delayhlp.obj
+ 0001:00017754       __GSHandlerCheckCommon     0000000180018754 f   MSVCRT:gshandler.obj
+ 0001:000177b8       __GSHandlerCheck           00000001800187b8 f   MSVCRT:gshandler.obj
+ 0001:000177f0       __security_check_cookie    00000001800187f0 f   MSVCRT:amdsecgs.obj
+ 0001:00017810       strlen                     0000000180018810 f   MSVCRT:MSVCR100.dll
+ 0001:00017816       strcpy                     0000000180018816 f   MSVCRT:MSVCR100.dll
+ 0001:0001781c       memset                     000000018001881c f   MSVCRT:MSVCR100.dll
+ 0001:00017822       strcmp                     0000000180018822 f   MSVCRT:MSVCR100.dll
+ 0001:00017828       memcmp                     0000000180018828 f   MSVCRT:MSVCR100.dll
+ 0001:0001782e       strcat                     000000018001882e f   MSVCRT:MSVCR100.dll
+ 0001:00017834       memcpy                     0000000180018834 f   MSVCRT:MSVCR100.dll
+ 0001:00017850       __chkstk                   0000000180018850 f   MSVCRT:chkstk.obj
+ 0001:00017850       _alloca_probe              0000000180018850     MSVCRT:chkstk.obj
+ 0001:000178a0       __GSHandlerCheck_SEH       00000001800188a0 f   MSVCRT:gshandlerseh.obj
+ 0001:00017994       _CRT_INIT                  0000000180018994 f   MSVCRT:crtdll.obj
+ 0001:00017d2c       _DllMainCRTStartup         0000000180018d2c f   MSVCRT:crtdll.obj
+ 0001:00017d6c       __report_gsfailure         0000000180018d6c f   MSVCRT:gs_report.obj
+ 0001:00017eb6       __C_specific_handler       0000000180018eb6 f   MSVCRT:MSVCR100.dll
+ 0001:00017ebc       __clean_type_info_names    0000000180018ebc f   MSVCRT:tncleanup.obj
+ 0001:00017ec8       _onexit                    0000000180018ec8 f   MSVCRT:atonexit.obj
+ 0001:00017f78       atexit                     0000000180018f78 f   MSVCRT:atonexit.obj
+ 0001:00017f90       _RTC_Initialize            0000000180018f90 f   MSVCRT:_initsect_.obj
+ 0001:00017fc8       _RTC_Terminate             0000000180018fc8 f   MSVCRT:_initsect_.obj
+ 0001:00018000       _ValidateImageBase         0000000180019000 f   MSVCRT:pesect.obj
+ 0001:00018030       _FindPESection             0000000180019030 f   MSVCRT:pesect.obj
+ 0001:00018080       _IsNonwritableInCurrentImage 0000000180019080 f   MSVCRT:pesect.obj
+ 0001:000180c2       _initterm                  00000001800190c2 f   MSVCRT:MSVCR100.dll
+ 0001:000180c8       _initterm_e                00000001800190c8 f   MSVCRT:MSVCR100.dll
+ 0001:000180ce       _amsg_exit                 00000001800190ce f   MSVCRT:MSVCR100.dll
+ 0001:000180d4       __CppXcptFilter            00000001800190d4 f   MSVCRT:MSVCR100.dll
+ 0001:000180dc       DllMain                    00000001800190dc f   MSVCRT:dllmain.obj
+ 0001:00018100       __security_init_cookie     0000000180019100 f   MSVCRT:gs_support.obj
+ 0001:000181b4       __crt_debugger_hook        00000001800191b4 f   MSVCRT:MSVCR100.dll
+ 0001:000181ba       __clean_type_info_names_internal 00000001800191ba f   MSVCRT:MSVCR100.dll
+ 0001:000181c0       _unlock                    00000001800191c0 f   MSVCRT:MSVCR100.dll
+ 0001:000181c6       __dllonexit                00000001800191c6 f   MSVCRT:MSVCR100.dll
+ 0001:000181cc       _lock                      00000001800191cc f   MSVCRT:MSVCR100.dll
+ 0001:000181d2       RtlVirtualUnwind           00000001800191d2 f   kernel32:KERNEL32.dll
+ 0001:000181d8       RtlLookupFunctionEntry     00000001800191d8 f   kernel32:KERNEL32.dll
+ 0002:00000000       __imp_RegQueryValueExW     000000018001a000     advapi32:ADVAPI32.dll
+ 0002:00000008       __imp_RegOpenKeyExW        000000018001a008     advapi32:ADVAPI32.dll
+ 0002:00000010       __imp_RegEnumKeyExA        000000018001a010     advapi32:ADVAPI32.dll
+ 0002:00000018       __imp_RegQueryInfoKeyA     000000018001a018     advapi32:ADVAPI32.dll
+ 0002:00000020       __imp_RegCloseKey          000000018001a020     advapi32:ADVAPI32.dll
+ 0002:00000028       __imp_RegOpenKeyExA        000000018001a028     advapi32:ADVAPI32.dll
+ 0002:00000030       __imp_CryptReleaseContext  000000018001a030     advapi32:ADVAPI32.dll
+ 0002:00000038       __imp_CryptGenRandom       000000018001a038     advapi32:ADVAPI32.dll
+ 0002:00000040       __imp_CryptAcquireContextA 000000018001a040     advapi32:ADVAPI32.dll
+ 0002:00000048       __imp_RegCreateKeyExA      000000018001a048     advapi32:ADVAPI32.dll
+ 0002:00000050       __imp_RegDeleteKeyA        000000018001a050     advapi32:ADVAPI32.dll
+ 0002:00000058       __imp_RegFlushKey          000000018001a058     advapi32:ADVAPI32.dll
+ 0002:00000060       __imp_RegSetValueExA       000000018001a060     advapi32:ADVAPI32.dll
+ 0002:00000068       __imp_RegDeleteValueA      000000018001a068     advapi32:ADVAPI32.dll
+ 0002:00000070       __imp_RegEnumValueA        000000018001a070     advapi32:ADVAPI32.dll
+ 0002:00000078       __imp_GetUserNameW         000000018001a078     advapi32:ADVAPI32.dll
+ 0002:00000080       __imp_RegQueryValueExA     000000018001a080     advapi32:ADVAPI32.dll
+ 0002:00000088       \177ADVAPI32_NULL_THUNK_DATA 000000018001a088     advapi32:ADVAPI32.dll
+ 0002:00000090       __imp_FreeLibrary          000000018001a090     kernel32:KERNEL32.dll
+ 0002:00000098       __imp_LocalAlloc           000000018001a098     kernel32:KERNEL32.dll
+ 0002:000000a0       __imp_GetModuleFileNameA   000000018001a0a0     kernel32:KERNEL32.dll
+ 0002:000000a8       __imp_GetSystemDirectoryA  000000018001a0a8     kernel32:KERNEL32.dll
+ 0002:000000b0       __imp_LoadLibraryA         000000018001a0b0     kernel32:KERNEL32.dll
+ 0002:000000b8       __imp_GetTempPathW         000000018001a0b8     kernel32:KERNEL32.dll
+ 0002:000000c0       __imp_GetSystemDefaultLCID 000000018001a0c0     kernel32:KERNEL32.dll
+ 0002:000000c8       __imp_GetCurrentDirectoryW 000000018001a0c8     kernel32:KERNEL32.dll
+ 0002:000000d0       __imp_GetSystemInfo        000000018001a0d0     kernel32:KERNEL32.dll
+ 0002:000000d8       __imp_IsProcessorFeaturePresent 000000018001a0d8     kernel32:KERNEL32.dll
+ 0002:000000e0       __imp_GetLocaleInfoA       000000018001a0e0     kernel32:KERNEL32.dll
+ 0002:000000e8       __imp_IsValidCodePage      000000018001a0e8     kernel32:KERNEL32.dll
+ 0002:000000f0       __imp_GetWindowsDirectoryA 000000018001a0f0     kernel32:KERNEL32.dll
+ 0002:000000f8       __imp_GetFileSizeEx        000000018001a0f8     kernel32:KERNEL32.dll
+ 0002:00000100       __imp_SetFilePointerEx     000000018001a100     kernel32:KERNEL32.dll
+ 0002:00000108       __imp_WriteFile            000000018001a108     kernel32:KERNEL32.dll
+ 0002:00000110       __imp_ReadFile             000000018001a110     kernel32:KERNEL32.dll
+ 0002:00000118       __imp_SetFilePointer       000000018001a118     kernel32:KERNEL32.dll
+ 0002:00000120       __imp_SetEndOfFile         000000018001a120     kernel32:KERNEL32.dll
+ 0002:00000128       __imp_FlushFileBuffers     000000018001a128     kernel32:KERNEL32.dll
+ 0002:00000130       __imp_GetNumberOfConsoleInputEvents 000000018001a130     kernel32:KERNEL32.dll
+ 0002:00000138       __imp_PeekConsoleInputA    000000018001a138     kernel32:KERNEL32.dll
+ 0002:00000140       __imp_PeekNamedPipe        000000018001a140     kernel32:KERNEL32.dll
+ 0002:00000148       __imp_GetDriveTypeW        000000018001a148     kernel32:KERNEL32.dll
+ 0002:00000150       __imp_FindFirstFileA       000000018001a150     kernel32:KERNEL32.dll
+ 0002:00000158       __imp_IsDBCSLeadByte       000000018001a158     kernel32:KERNEL32.dll
+ 0002:00000160       __imp_GetVolumePathNameW   000000018001a160     kernel32:KERNEL32.dll
+ 0002:00000168       __imp_GetDiskFreeSpaceExW  000000018001a168     kernel32:KERNEL32.dll
+ 0002:00000170       __imp_GetLogicalDrives     000000018001a170     kernel32:KERNEL32.dll
+ 0002:00000178       __imp_SetFileTime          000000018001a178     kernel32:KERNEL32.dll
+ 0002:00000180       __imp_CreateDirectoryW     000000018001a180     kernel32:KERNEL32.dll
+ 0002:00000188       __imp_FindNextFileW        000000018001a188     kernel32:KERNEL32.dll
+ 0002:00000190       __imp_RemoveDirectoryW     000000018001a190     kernel32:KERNEL32.dll
+ 0002:00000198       __imp_DeleteFileW          000000018001a198     kernel32:KERNEL32.dll
+ 0002:000001a0       __imp_GetFileTime          000000018001a1a0     kernel32:KERNEL32.dll
+ 0002:000001a8       __imp_RaiseException       000000018001a1a8     kernel32:KERNEL32.dll
+ 0002:000001b0       __imp_GetFileAttributesW   000000018001a1b0     kernel32:KERNEL32.dll
+ 0002:000001b8       __imp_GetFullPathNameW     000000018001a1b8     kernel32:KERNEL32.dll
+ 0002:000001c0       __imp_GetFileAttributesExW 000000018001a1c0     kernel32:KERNEL32.dll
+ 0002:000001c8       __imp_FindFirstFileW       000000018001a1c8     kernel32:KERNEL32.dll
+ 0002:000001d0       __imp_FindClose            000000018001a1d0     kernel32:KERNEL32.dll
+ 0002:000001d8       __imp_GetFileInformationByHandle 000000018001a1d8     kernel32:KERNEL32.dll
+ 0002:000001e0       __imp_SetLastError         000000018001a1e0     kernel32:KERNEL32.dll
+ 0002:000001e8       __imp_GetModuleHandleExW   000000018001a1e8     kernel32:KERNEL32.dll
+ 0002:000001f0       __imp_SetErrorMode         000000018001a1f0     kernel32:KERNEL32.dll
+ 0002:000001f8       __imp_GetTimeZoneInformation 000000018001a1f8     kernel32:KERNEL32.dll
+ 0002:00000200       __imp_GetVersionExA        000000018001a200     kernel32:KERNEL32.dll
+ 0002:00000208       __imp_MultiByteToWideChar  000000018001a208     kernel32:KERNEL32.dll
+ 0002:00000210       __imp_CreateFileW          000000018001a210     kernel32:KERNEL32.dll
+ 0002:00000218       __imp_TerminateProcess     000000018001a218     kernel32:KERNEL32.dll
+ 0002:00000220       __imp_WaitForMultipleObjects 000000018001a220     kernel32:KERNEL32.dll
+ 0002:00000228       __imp_GetExitCodeProcess   000000018001a228     kernel32:KERNEL32.dll
+ 0002:00000230       __imp_GetConsoleWindow     000000018001a230     kernel32:KERNEL32.dll
+ 0002:00000238       __imp_CreateProcessW       000000018001a238     kernel32:KERNEL32.dll
+ 0002:00000240       __imp_CreatePipe           000000018001a240     kernel32:KERNEL32.dll
+ 0002:00000248       __imp_SetHandleInformation 000000018001a248     kernel32:KERNEL32.dll
+ 0002:00000250       __imp_GetHandleInformation 000000018001a250     kernel32:KERNEL32.dll
+ 0002:00000258       __imp_CloseHandle          000000018001a258     kernel32:KERNEL32.dll
+ 0002:00000260       __imp_GetLastError         000000018001a260     kernel32:KERNEL32.dll
+ 0002:00000268       __imp_WideCharToMultiByte  000000018001a268     kernel32:KERNEL32.dll
+ 0002:00000270       __imp_FormatMessageW       000000018001a270     kernel32:KERNEL32.dll
+ 0002:00000278       __imp_GetEnvironmentStringsW 000000018001a278     kernel32:KERNEL32.dll
+ 0002:00000280       __imp_FreeEnvironmentStringsW 000000018001a280     kernel32:KERNEL32.dll
+ 0002:00000288       __imp_GetEnvironmentStrings 000000018001a288     kernel32:KERNEL32.dll
+ 0002:00000290       __imp_FreeEnvironmentStringsA 000000018001a290     kernel32:KERNEL32.dll
+ 0002:00000298       __imp_GetUserDefaultLCID   000000018001a298     kernel32:KERNEL32.dll
+ 0002:000002a0       __imp_GetUserDefaultUILanguage 000000018001a2a0     kernel32:KERNEL32.dll
+ 0002:000002a8       __imp_GetModuleHandleA     000000018001a2a8     kernel32:KERNEL32.dll
+ 0002:000002b0       __imp_GetProcAddress       000000018001a2b0     kernel32:KERNEL32.dll
+ 0002:000002b8       __imp_GetConsoleMode       000000018001a2b8     kernel32:KERNEL32.dll
+ 0002:000002c0       __imp_SetConsoleMode       000000018001a2c0     kernel32:KERNEL32.dll
+ 0002:000002c8       __imp_GetConsoleCP         000000018001a2c8     kernel32:KERNEL32.dll
+ 0002:000002d0       __imp_GetStdHandle         000000018001a2d0     kernel32:KERNEL32.dll
+ 0002:000002d8       __imp_GetFileType          000000018001a2d8     kernel32:KERNEL32.dll
+ 0002:000002e0       __imp_EncodePointer        000000018001a2e0     kernel32:KERNEL32.dll
+ 0002:000002e8       __imp_DecodePointer        000000018001a2e8     kernel32:KERNEL32.dll
+ 0002:000002f0       __imp_Sleep                000000018001a2f0     kernel32:KERNEL32.dll
+ 0002:000002f8       __imp_GetCurrentProcess    000000018001a2f8     kernel32:KERNEL32.dll
+ 0002:00000300       __imp_UnhandledExceptionFilter 000000018001a300     kernel32:KERNEL32.dll
+ 0002:00000308       __imp_SetUnhandledExceptionFilter 000000018001a308     kernel32:KERNEL32.dll
+ 0002:00000310       __imp_IsDebuggerPresent    000000018001a310     kernel32:KERNEL32.dll
+ 0002:00000318       __imp_RtlVirtualUnwind     000000018001a318     kernel32:KERNEL32.dll
+ 0002:00000320       __imp_RtlLookupFunctionEntry 000000018001a320     kernel32:KERNEL32.dll
+ 0002:00000328       __imp_RtlCaptureContext    000000018001a328     kernel32:KERNEL32.dll
+ 0002:00000330       __imp_DisableThreadLibraryCalls 000000018001a330     kernel32:KERNEL32.dll
+ 0002:00000338       __imp_QueryPerformanceCounter 000000018001a338     kernel32:KERNEL32.dll
+ 0002:00000340       __imp_GetTickCount         000000018001a340     kernel32:KERNEL32.dll
+ 0002:00000348       __imp_GetCurrentThreadId   000000018001a348     kernel32:KERNEL32.dll
+ 0002:00000350       __imp_GetCurrentProcessId  000000018001a350     kernel32:KERNEL32.dll
+ 0002:00000358       __imp_GetSystemTimeAsFileTime 000000018001a358     kernel32:KERNEL32.dll
+ 0002:00000360       __imp_SetFileAttributesW   000000018001a360     kernel32:KERNEL32.dll
+ 0002:00000368       \177KERNEL32_NULL_THUNK_DATA 000000018001a368     kernel32:KERNEL32.dll
+ 0002:00000370       __imp_strrchr              000000018001a370     MSVCRT:MSVCR100.dll
+ 0002:00000378       __imp_fprintf              000000018001a378     MSVCRT:MSVCR100.dll
+ 0002:00000380       __imp_isdigit              000000018001a380     MSVCRT:MSVCR100.dll
+ 0002:00000388       __imp__wgetenv             000000018001a388     MSVCRT:MSVCR100.dll
+ 0002:00000390       __imp_sscanf               000000018001a390     MSVCRT:MSVCR100.dll
+ 0002:00000398       __imp_atoi                 000000018001a398     MSVCRT:MSVCR100.dll
+ 0002:000003a0       __imp_strncpy              000000018001a3a0     MSVCRT:MSVCR100.dll
+ 0002:000003a8       __imp__wcserror            000000018001a3a8     MSVCRT:MSVCR100.dll
+ 0002:000003b0       __imp_wcsncpy              000000018001a3b0     MSVCRT:MSVCR100.dll
+ 0002:000003b8       __imp__wgetcwd             000000018001a3b8     MSVCRT:MSVCR100.dll
+ 0002:000003c0       __imp__wgetdcwd            000000018001a3c0     MSVCRT:MSVCR100.dll
+ 0002:000003c8       __imp__wfullpath           000000018001a3c8     MSVCRT:MSVCR100.dll
+ 0002:000003d0       __imp_towupper             000000018001a3d0     MSVCRT:MSVCR100.dll
+ 0002:000003d8       __imp_memcpy               000000018001a3d8     MSVCRT:MSVCR100.dll
+ 0002:000003e0       __imp__fullpath            000000018001a3e0     MSVCRT:MSVCR100.dll
+ 0002:000003e8       __imp_isalpha              000000018001a3e8     MSVCRT:MSVCR100.dll
+ 0002:000003f0       __imp_toupper              000000018001a3f0     MSVCRT:MSVCR100.dll
+ 0002:000003f8       __imp_wcschr               000000018001a3f8     MSVCRT:MSVCR100.dll
+ 0002:00000400       __imp_strchr               000000018001a400     MSVCRT:MSVCR100.dll
+ 0002:00000408       __imp_calloc               000000018001a408     MSVCRT:MSVCR100.dll
+ 0002:00000410       __imp_mbstowcs             000000018001a410     MSVCRT:MSVCR100.dll
+ 0002:00000418       __imp_wcstombs             000000018001a418     MSVCRT:MSVCR100.dll
+ 0002:00000420       __imp___C_specific_handler 000000018001a420     MSVCRT:MSVCR100.dll
+ 0002:00000428       __imp__malloc_crt          000000018001a428     MSVCRT:MSVCR100.dll
+ 0002:00000430       __imp__initterm            000000018001a430     MSVCRT:MSVCR100.dll
+ 0002:00000438       __imp__initterm_e          000000018001a438     MSVCRT:MSVCR100.dll
+ 0002:00000440       __imp__encoded_null        000000018001a440     MSVCRT:MSVCR100.dll
+ 0002:00000448       __imp__amsg_exit           000000018001a448     MSVCRT:MSVCR100.dll
+ 0002:00000450       __imp___CppXcptFilter      000000018001a450     MSVCRT:MSVCR100.dll
+ 0002:00000458       __imp___crt_debugger_hook  000000018001a458     MSVCRT:MSVCR100.dll
+ 0002:00000460       __imp___clean_type_info_names_internal 000000018001a460     MSVCRT:MSVCR100.dll
+ 0002:00000468       __imp__unlock              000000018001a468     MSVCRT:MSVCR100.dll
+ 0002:00000470       __imp___dllonexit          000000018001a470     MSVCRT:MSVCR100.dll
+ 0002:00000478       __imp__lock                000000018001a478     MSVCRT:MSVCR100.dll
+ 0002:00000480       __imp__onexit              000000018001a480     MSVCRT:MSVCR100.dll
+ 0002:00000488       __imp_setlocale            000000018001a488     MSVCRT:MSVCR100.dll
+ 0002:00000490       __imp_free                 000000018001a490     MSVCRT:MSVCR100.dll
+ 0002:00000498       __imp_malloc               000000018001a498     MSVCRT:MSVCR100.dll
+ 0002:000004a0       __imp__wassert             000000018001a4a0     MSVCRT:MSVCR100.dll
+ 0002:000004a8       __imp_strlen               000000018001a4a8     MSVCRT:MSVCR100.dll
+ 0002:000004b0       __imp_strcpy               000000018001a4b0     MSVCRT:MSVCR100.dll
+ 0002:000004b8       __imp_sprintf              000000018001a4b8     MSVCRT:MSVCR100.dll
+ 0002:000004c0       __imp_wcscmp               000000018001a4c0     MSVCRT:MSVCR100.dll
+ 0002:000004c8       __imp_wcslen               000000018001a4c8     MSVCRT:MSVCR100.dll
+ 0002:000004d0       __imp_wcscat_s             000000018001a4d0     MSVCRT:MSVCR100.dll
+ 0002:000004d8       __imp_wcscpy               000000018001a4d8     MSVCRT:MSVCR100.dll
+ 0002:000004e0       __imp__wcsdup              000000018001a4e0     MSVCRT:MSVCR100.dll
+ 0002:000004e8       __imp___iob_func           000000018001a4e8     MSVCRT:MSVCR100.dll
+ 0002:000004f0       __imp__isnan               000000018001a4f0     MSVCRT:MSVCR100.dll
+ 0002:000004f8       __imp__vswprintf_c_l       000000018001a4f8     MSVCRT:MSVCR100.dll
+ 0002:00000500       __imp_memset               000000018001a500     MSVCRT:MSVCR100.dll
+ 0002:00000508       __imp_strcmp               000000018001a508     MSVCRT:MSVCR100.dll
+ 0002:00000510       __imp_memcmp               000000018001a510     MSVCRT:MSVCR100.dll
+ 0002:00000518       __imp__strdup              000000018001a518     MSVCRT:MSVCR100.dll
+ 0002:00000520       __imp_fclose               000000018001a520     MSVCRT:MSVCR100.dll
+ 0002:00000528       __imp_fgets                000000018001a528     MSVCRT:MSVCR100.dll
+ 0002:00000530       __imp_fopen                000000018001a530     MSVCRT:MSVCR100.dll
+ 0002:00000538       __imp_strcat               000000018001a538     MSVCRT:MSVCR100.dll
+ 0002:00000540       __imp_realloc              000000018001a540     MSVCRT:MSVCR100.dll
+ 0002:00000548       __imp_wcsncmp              000000018001a548     MSVCRT:MSVCR100.dll
+ 0002:00000550       __imp__wcsupr              000000018001a550     MSVCRT:MSVCR100.dll
+ 0002:00000558       __imp__wstat64             000000018001a558     MSVCRT:MSVCR100.dll
+ 0002:00000560       __imp_wcscat               000000018001a560     MSVCRT:MSVCR100.dll
+ 0002:00000568       __imp__errno               000000018001a568     MSVCRT:MSVCR100.dll
+ 0002:00000570       __imp__wrename             000000018001a570     MSVCRT:MSVCR100.dll
+ 0002:00000578       __imp_iswctype             000000018001a578     MSVCRT:MSVCR100.dll
+ 0002:00000580       \177MSVCR100_NULL_THUNK_DATA 000000018001a580     MSVCRT:MSVCR100.dll
+ 0002:00000588       __imp_JVM_InvokeMethod     000000018001a588     jvm:jvm.dll
+ 0002:00000590       __imp_JVM_GetStackAccessControlContext 000000018001a590     jvm:jvm.dll
+ 0002:00000598       __imp_JVM_GetInheritedAccessControlContext 000000018001a598     jvm:jvm.dll
+ 0002:000005a0       __imp_JVM_GetArrayLength   000000018001a5a0     jvm:jvm.dll
+ 0002:000005a8       __imp_JVM_GetArrayElement  000000018001a5a8     jvm:jvm.dll
+ 0002:000005b0       __imp_JVM_GetLastErrorString 000000018001a5b0     jvm:jvm.dll
+ 0002:000005b8       __imp_jio_vfprintf         000000018001a5b8     jvm:jvm.dll
+ 0002:000005c0       __imp_jio_vsnprintf        000000018001a5c0     jvm:jvm.dll
+ 0002:000005c8       __imp_JVM_GetInterfaceVersion 000000018001a5c8     jvm:jvm.dll
+ 0002:000005d0       __imp_JVM_GetTemporaryDirectory 000000018001a5d0     jvm:jvm.dll
+ 0002:000005d8       __imp_JVM_LatestUserDefinedLoader 000000018001a5d8     jvm:jvm.dll
+ 0002:000005e0       __imp_JVM_GetResourceLookupCache 000000018001a5e0     jvm:jvm.dll
+ 0002:000005e8       __imp_JVM_GetResourceLookupCacheURLs 000000018001a5e8     jvm:jvm.dll
+ 0002:000005f0       __imp_JVM_KnownToNotExist  000000018001a5f0     jvm:jvm.dll
+ 0002:000005f8       __imp_JVM_GetStackTraceElement 000000018001a5f8     jvm:jvm.dll
+ 0002:00000600       __imp_JVM_GetStackTraceDepth 000000018001a600     jvm:jvm.dll
+ 0002:00000608       __imp_JVM_FillInStackTrace 000000018001a608     jvm:jvm.dll
+ 0002:00000610       __imp_JVM_StartThread      000000018001a610     jvm:jvm.dll
+ 0002:00000618       __imp_JVM_StopThread       000000018001a618     jvm:jvm.dll
+ 0002:00000620       __imp_JVM_IsThreadAlive    000000018001a620     jvm:jvm.dll
+ 0002:00000628       __imp_JVM_SuspendThread    000000018001a628     jvm:jvm.dll
+ 0002:00000630       __imp_JVM_ResumeThread     000000018001a630     jvm:jvm.dll
+ 0002:00000638       __imp_JVM_SetThreadPriority 000000018001a638     jvm:jvm.dll
+ 0002:00000640       __imp_JVM_Yield            000000018001a640     jvm:jvm.dll
+ 0002:00000648       __imp_JVM_Sleep            000000018001a648     jvm:jvm.dll
+ 0002:00000650       __imp_JVM_CurrentThread    000000018001a650     jvm:jvm.dll
+ 0002:00000658       __imp_JVM_CountStackFrames 000000018001a658     jvm:jvm.dll
+ 0002:00000660       __imp_JVM_Interrupt        000000018001a660     jvm:jvm.dll
+ 0002:00000668       __imp_JVM_IsInterrupted    000000018001a668     jvm:jvm.dll
+ 0002:00000670       __imp_JVM_HoldsLock        000000018001a670     jvm:jvm.dll
+ 0002:00000678       __imp_JVM_GetAllThreads    000000018001a678     jvm:jvm.dll
+ 0002:00000680       __imp_JVM_DumpThreads      000000018001a680     jvm:jvm.dll
+ 0002:00000688       __imp_JVM_SetNativeThreadName 000000018001a688     jvm:jvm.dll
+ 0002:00000690       __imp_JVM_InitProperties   000000018001a690     jvm:jvm.dll
+ 0002:00000698       __imp_JVM_CurrentTimeMillis 000000018001a698     jvm:jvm.dll
+ 0002:000006a0       __imp_JVM_NanoTime         000000018001a6a0     jvm:jvm.dll
+ 0002:000006a8       __imp_JVM_ArrayCopy        000000018001a6a8     jvm:jvm.dll
+ 0002:000006b0       __imp_JVM_InternString     000000018001a6b0     jvm:jvm.dll
+ 0002:000006b8       __imp_JVM_RaiseSignal      000000018001a6b8     jvm:jvm.dll
+ 0002:000006c0       __imp_JVM_RegisterSignal   000000018001a6c0     jvm:jvm.dll
+ 0002:000006c8       __imp_JVM_FindSignal       000000018001a6c8     jvm:jvm.dll
+ 0002:000006d0       __imp_JVM_Halt             000000018001a6d0     jvm:jvm.dll
+ 0002:000006d8       __imp_JVM_ClassLoaderDepth 000000018001a6d8     jvm:jvm.dll
+ 0002:000006e0       __imp_JVM_ClassDepth       000000018001a6e0     jvm:jvm.dll
+ 0002:000006e8       __imp_JVM_CurrentClassLoader 000000018001a6e8     jvm:jvm.dll
+ 0002:000006f0       __imp_JVM_CurrentLoadedClass 000000018001a6f0     jvm:jvm.dll
+ 0002:000006f8       __imp_JVM_GetClassContext  000000018001a6f8     jvm:jvm.dll
+ 0002:00000700       __imp_JVM_ActiveProcessorCount 000000018001a700     jvm:jvm.dll
+ 0002:00000708       __imp_JVM_TraceMethodCalls 000000018001a708     jvm:jvm.dll
+ 0002:00000710       __imp_JVM_TraceInstructions 000000018001a710     jvm:jvm.dll
+ 0002:00000718       __imp_JVM_GC               000000018001a718     jvm:jvm.dll
+ 0002:00000720       __imp_JVM_MaxMemory        000000018001a720     jvm:jvm.dll
+ 0002:00000728       __imp_JVM_TotalMemory      000000018001a728     jvm:jvm.dll
+ 0002:00000730       __imp_JVM_FreeMemory       000000018001a730     jvm:jvm.dll
+ 0002:00000738       __imp_JVM_GetClassAccessFlags 000000018001a738     jvm:jvm.dll
+ 0002:00000740       __imp_JVM_GetCallerClass   000000018001a740     jvm:jvm.dll
+ 0002:00000748       __imp_JVM_GetThreadInterruptEvent 000000018001a748     jvm:jvm.dll
+ 0002:00000750       __imp_JVM_GetSystemPackages 000000018001a750     jvm:jvm.dll
+ 0002:00000758       __imp_JVM_GetSystemPackage 000000018001a758     jvm:jvm.dll
+ 0002:00000760       __imp_JVM_IHashCode        000000018001a760     jvm:jvm.dll
+ 0002:00000768       __imp_JVM_MonitorWait      000000018001a768     jvm:jvm.dll
+ 0002:00000770       __imp_JVM_MonitorNotify    000000018001a770     jvm:jvm.dll
+ 0002:00000778       __imp_JVM_MonitorNotifyAll 000000018001a778     jvm:jvm.dll
+ 0002:00000780       __imp_JVM_Clone            000000018001a780     jvm:jvm.dll
+ 0002:00000788       __imp_JVM_NewInstanceFromConstructor 000000018001a788     jvm:jvm.dll
+ 0002:00000790       __imp_JVM_DoPrivileged     000000018001a790     jvm:jvm.dll
+ 0002:00000798       __imp_JVM_MaxObjectInspectionAge 000000018001a798     jvm:jvm.dll
+ 0002:000007a0       __imp_JVM_GetFieldTypeAnnotations 000000018001a7a0     jvm:jvm.dll
+ 0002:000007a8       __imp_JVM_GetMethodTypeAnnotations 000000018001a7a8     jvm:jvm.dll
+ 0002:000007b0       __imp_JVM_GetMethodParameters 000000018001a7b0     jvm:jvm.dll
+ 0002:000007b8       __imp_JVM_ConstantPoolGetUTF8At 000000018001a7b8     jvm:jvm.dll
+ 0002:000007c0       __imp_JVM_ConstantPoolGetStringAt 000000018001a7c0     jvm:jvm.dll
+ 0002:000007c8       __imp_JVM_ConstantPoolGetDoubleAt 000000018001a7c8     jvm:jvm.dll
+ 0002:000007d0       __imp_JVM_ConstantPoolGetFloatAt 000000018001a7d0     jvm:jvm.dll
+ 0002:000007d8       __imp_JVM_ConstantPoolGetLongAt 000000018001a7d8     jvm:jvm.dll
+ 0002:000007e0       __imp_JVM_ConstantPoolGetIntAt 000000018001a7e0     jvm:jvm.dll
+ 0002:000007e8       __imp_JVM_ConstantPoolGetMemberRefInfoAt 000000018001a7e8     jvm:jvm.dll
+ 0002:000007f0       __imp_JVM_ConstantPoolGetFieldAtIfLoaded 000000018001a7f0     jvm:jvm.dll
+ 0002:000007f8       __imp_JVM_ConstantPoolGetFieldAt 000000018001a7f8     jvm:jvm.dll
+ 0002:00000800       __imp_JVM_ConstantPoolGetMethodAtIfLoaded 000000018001a800     jvm:jvm.dll
+ 0002:00000808       __imp_JVM_ConstantPoolGetMethodAt 000000018001a808     jvm:jvm.dll
+ 0002:00000810       __imp_JVM_ConstantPoolGetClassAtIfLoaded 000000018001a810     jvm:jvm.dll
+ 0002:00000818       __imp_JVM_ConstantPoolGetClassAt 000000018001a818     jvm:jvm.dll
+ 0002:00000820       __imp_JVM_ConstantPoolGetSize 000000018001a820     jvm:jvm.dll
+ 0002:00000828       __imp_JVM_CompileClass     000000018001a828     jvm:jvm.dll
+ 0002:00000830       __imp_JVM_CompileClasses   000000018001a830     jvm:jvm.dll
+ 0002:00000838       __imp_JVM_CompilerCommand  000000018001a838     jvm:jvm.dll
+ 0002:00000840       __imp_JVM_EnableCompiler   000000018001a840     jvm:jvm.dll
+ 0002:00000848       __imp_JVM_DisableCompiler  000000018001a848     jvm:jvm.dll
+ 0002:00000850       __imp_JVM_LoadLibrary      000000018001a850     jvm:jvm.dll
+ 0002:00000858       __imp_JVM_UnloadLibrary    000000018001a858     jvm:jvm.dll
+ 0002:00000860       __imp_JVM_IsSupportedJNIVersion 000000018001a860     jvm:jvm.dll
+ 0002:00000868       __imp_JVM_FindLibraryEntry 000000018001a868     jvm:jvm.dll
+ 0002:00000870       __imp_JVM_FindLoadedClass  000000018001a870     jvm:jvm.dll
+ 0002:00000878       __imp_JVM_FindClassFromBootLoader 000000018001a878     jvm:jvm.dll
+ 0002:00000880       __imp_JVM_ResolveClass     000000018001a880     jvm:jvm.dll
+ 0002:00000888       __imp_JVM_DefineClassWithSource 000000018001a888     jvm:jvm.dll
+ 0002:00000890       __imp_JVM_AssertionStatusDirectives 000000018001a890     jvm:jvm.dll
+ 0002:00000898       __imp_JVM_FindPrimitiveClass 000000018001a898     jvm:jvm.dll
+ 0002:000008a0       __imp_JVM_FindClassFromCaller 000000018001a8a0     jvm:jvm.dll
+ 0002:000008a8       __imp_JVM_GetClassName     000000018001a8a8     jvm:jvm.dll
+ 0002:000008b0       __imp_JVM_GetClassInterfaces 000000018001a8b0     jvm:jvm.dll
+ 0002:000008b8       __imp_JVM_IsInterface      000000018001a8b8     jvm:jvm.dll
+ 0002:000008c0       __imp_JVM_GetClassSigners  000000018001a8c0     jvm:jvm.dll
+ 0002:000008c8       __imp_JVM_SetClassSigners  000000018001a8c8     jvm:jvm.dll
+ 0002:000008d0       __imp_JVM_IsArrayClass     000000018001a8d0     jvm:jvm.dll
+ 0002:000008d8       __imp_JVM_IsPrimitiveClass 000000018001a8d8     jvm:jvm.dll
+ 0002:000008e0       __imp_JVM_GetComponentType 000000018001a8e0     jvm:jvm.dll
+ 0002:000008e8       __imp_JVM_GetClassModifiers 000000018001a8e8     jvm:jvm.dll
+ 0002:000008f0       __imp_JVM_GetClassDeclaredFields 000000018001a8f0     jvm:jvm.dll
+ 0002:000008f8       __imp_JVM_GetClassDeclaredMethods 000000018001a8f8     jvm:jvm.dll
+ 0002:00000900       __imp_JVM_GetClassDeclaredConstructors 000000018001a900     jvm:jvm.dll
+ 0002:00000908       __imp_JVM_GetProtectionDomain 000000018001a908     jvm:jvm.dll
+ 0002:00000910       __imp_JVM_GetDeclaredClasses 000000018001a910     jvm:jvm.dll
+ 0002:00000918       __imp_JVM_GetDeclaringClass 000000018001a918     jvm:jvm.dll
+ 0002:00000920       __imp_JVM_GetClassSignature 000000018001a920     jvm:jvm.dll
+ 0002:00000928       __imp_JVM_GetClassAnnotations 000000018001a928     jvm:jvm.dll
+ 0002:00000930       __imp_JVM_GetClassConstantPool 000000018001a930     jvm:jvm.dll
+ 0002:00000938       __imp_JVM_DesiredAssertionStatus 000000018001a938     jvm:jvm.dll
+ 0002:00000940       __imp_JVM_GetEnclosingMethodInfo 000000018001a940     jvm:jvm.dll
+ 0002:00000948       __imp_JVM_GetClassTypeAnnotations 000000018001a948     jvm:jvm.dll
+ 0002:00000950       __imp_JVM_SupportsCX8      000000018001a950     jvm:jvm.dll
+ 0002:00000958       __imp_JVM_NewMultiArray    000000018001a958     jvm:jvm.dll
+ 0002:00000960       __imp_JVM_NewArray         000000018001a960     jvm:jvm.dll
+ 0002:00000968       __imp_JVM_SetPrimitiveArrayElement 000000018001a968     jvm:jvm.dll
+ 0002:00000970       __imp_JVM_SetArrayElement  000000018001a970     jvm:jvm.dll
+ 0002:00000978       __imp_JVM_GetPrimitiveArrayElement 000000018001a978     jvm:jvm.dll
+ 0002:00000980       \177jvm_NULL_THUNK_DATA    000000018001a980     jvm:jvm.dll
+ 0002:00000988       __imp_VerifyFixClassname   000000018001a988     verify:verify.dll
+ 0002:00000990       __imp_VerifyClass          000000018001a990     verify:verify.dll
+ 0002:00000998       __imp_VerifyClassForMajorVersion 000000018001a998     verify:verify.dll
+ 0002:000009a0       __imp_VerifyClassname      000000018001a9a0     verify:verify.dll
+ 0002:000009a8       \177verify_NULL_THUNK_DATA 000000018001a9a8     verify:verify.dll
+ 0002:000009b0       __xc_a                     000000018001a9b0     MSVCRT:cinitexe.obj
+ 0002:000009b8       __xc_z                     000000018001a9b8     MSVCRT:cinitexe.obj
+ 0002:000009c0       __xi_a                     000000018001a9c0     MSVCRT:cinitexe.obj
+ 0002:000009d0       __xi_z                     000000018001a9d0     MSVCRT:cinitexe.obj
+ 0002:00000a00       ??_C@_0BE@COIKCEDE@Unable?5to?5get?5array?$AA@ 000000018001aa00     Bits.obj
+ 0002:00000a18       ??_C@_0BG@CNILIFMJ@getRawTypeAnnotations?$AA@ 000000018001aa18     Class.obj
+ 0002:00000a30       ??_C@_0BE@OLDEPMPN@getEnclosingMethod0?$AA@ 000000018001aa30     Class.obj
+ 0002:00000a48       ??_C@_0BF@CBMAAKJJ@?$CILjava?1lang?1Class?$DL?$CJZ?$AA@ 000000018001aa48     Class.obj
+ 0002:00000a60       ??_C@_0BI@EOEBGMEG@desiredAssertionStatus0?$AA@ 000000018001aa60     Class.obj
+ 0002:00000a78       ??_C@_0BN@EKDNFIIL@?$CI?$CJLsun?1reflect?1ConstantPool?$DL?$AA@ 000000018001aa78     Class.obj
+ 0002:00000a98       ??_C@_0BA@DLHKEBGM@getConstantPool?$AA@ 000000018001aa98     Class.obj
+ 0002:00000aa8       ??_C@_04LHPAGAEF@?$CI?$CJ?$FLB?$AA@ 000000018001aaa8     Class.obj
+ 0002:00000ab0       ??_C@_0BC@CDJDGCDH@getRawAnnotations?$AA@ 000000018001aab0     Class.obj
+ 0002:00000ac8       ??_C@_0BF@KFMFPKNK@getGenericSignature0?$AA@ 000000018001aac8     Class.obj
+ 0002:00000ae0       ??_C@_0BD@NHPDOJGF@getDeclaringClass0?$AA@ 000000018001aae0     Class.obj
+ 0002:00000af8       ??_C@_0BE@CIFNAIBM@getDeclaredClasses0?$AA@ 000000018001aaf8     Class.obj
+ 0002:00000b10       ??_C@_0CD@LEMBAENN@?$CI?$CJLjava?1security?1ProtectionDomai@ 000000018001ab10     Class.obj
+ 0002:00000b38       ??_C@_0BF@CGNPOFHG@getProtectionDomain0?$AA@ 000000018001ab38     Class.obj
+ 0002:00000b50       ??_C@_0CE@FDMOFPI@?$CIZ?$CJ?$FLLjava?1lang?1reflect?1Construct@ 000000018001ab50     Class.obj
+ 0002:00000b78       ??_C@_0BJ@KLPKFLFA@getDeclaredConstructors0?$AA@ 000000018001ab78     Class.obj
+ 0002:00000b98       ??_C@_0BP@IIIKNIKA@?$CIZ?$CJ?$FLLjava?1lang?1reflect?1Method?$DL?$AA@ 000000018001ab98     Class.obj
+ 0002:00000bb8       ??_C@_0BE@LOILJEHC@getDeclaredMethods0?$AA@ 000000018001abb8     Class.obj
+ 0002:00000bd0       ??_C@_0BO@KFNILMGC@?$CIZ?$CJ?$FLLjava?1lang?1reflect?1Field?$DL?$AA@ 000000018001abd0     Class.obj
+ 0002:00000bf0       ??_C@_0BD@BEKBHNDA@getDeclaredFields0?$AA@ 000000018001abf0     Class.obj
+ 0002:00000c04       ??_C@_03KNBKCOBB@?$CI?$CJI?$AA@ 000000018001ac04     Class.obj
+ 0002:00000c08       ??_C@_0N@MKAAFCEB@getModifiers?$AA@ 000000018001ac08     Class.obj
+ 0002:00000c18       ??_C@_0BB@GHIIKNJ@getComponentType?$AA@ 000000018001ac18     Class.obj
+ 0002:00000c30       ??_C@_0M@DJOEILEB@isPrimitive?$AA@ 000000018001ac30     Class.obj
+ 0002:00000c40       ??_C@_07LJDBDAGJ@isArray?$AA@ 000000018001ac40     Class.obj
+ 0002:00000c48       ??_C@_0BH@JBNAJHIH@?$CI?$FLLjava?1lang?1Object?$DL?$CJV?$AA@ 000000018001ac48     Class.obj
+ 0002:00000c60       ??_C@_0L@MANCLNOL@setSigners?$AA@ 000000018001ac60     Class.obj
+ 0002:00000c70       ??_C@_0BG@PFDHKCPA@?$CI?$CJ?$FLLjava?1lang?1Object?$DL?$AA@ 000000018001ac70     Class.obj
+ 0002:00000c88       ??_C@_0L@NOPNAKKC@getSigners?$AA@ 000000018001ac88     Class.obj
+ 0002:00000c94       ??_C@_03MMPFGPID@?$CI?$CJZ?$AA@ 000000018001ac94     Class.obj
+ 0002:00000c98       ??_C@_0M@NAJCIFFF@isInterface?$AA@ 000000018001ac98     Class.obj
+ 0002:00000ca8       ??_C@_0BF@BNKCIMJP@?$CI?$CJ?$FLLjava?1lang?1Class?$DL?$AA@ 000000018001aca8     Class.obj
+ 0002:00000cc0       ??_C@_0P@FLDOEJHK@getInterfaces0?$AA@ 000000018001acc0     Class.obj
+ 0002:00000cd0       ??_C@_0BE@IIFEGCLG@?$CI?$CJLjava?1lang?1Class?$DL?$AA@ 000000018001acd0     Class.obj
+ 0002:00000ce8       ??_C@_0O@BCDKKCAE@getSuperclass?$AA@ 000000018001ace8     Class.obj
+ 0002:00000cf8       ??_C@_0BF@FOHFOJOB@?$CI?$CJLjava?1lang?1String?$DL?$AA@ 000000018001acf8     Class.obj
+ 0002:00000d10       ??_C@_08GIMOHINM@getName0?$AA@ 000000018001ad10     Class.obj
+ 0002:00000d20       ??_C@_0CI@FCANAINE@?$CI?$CJLjava?1lang?1AssertionStatusDire@ 000000018001ad20     ClassLoader.obj
+ 0002:00000d48       ??_C@_0BD@EELMJMNJ@retrieveDirectives?$AA@ 000000018001ad48     ClassLoader.obj
+ 0002:00000d60       ??_C@_1IA@MOBHHOPC@?$AA?$CI?$AA?$CK?$AAe?$AAn?$AAv?$AA?$CJ?$AA?9?$AA?$DO?$AAG?$AAe?$AAt?$AAD?$AAi?$AAr?$AAe?$AAc?$AAt?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AAC?$AAa?$AAp?$AAa?$AAc?$AAi?$AAt?$AAy?$AA?$CI@ 000000018001ad60     ClassLoader.obj
+ 0002:00000de0       ??_C@_1BI@DFOJBALC@?$AAl?$AAe?$AAn?$AAg?$AAt?$AAh?$AA?5?$AA?$DO?$AA?$DN?$AA?5?$AA0?$AA?$AA@ 000000018001ade0     ClassLoader.obj
+ 0002:00000df8       ??_C@_1BK@EBKCJIJP@?$AAd?$AAa?$AAt?$AAa?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AAN?$AAU?$AAL?$AAL?$AA?$AA@ 000000018001adf8     ClassLoader.obj
+ 0002:00000e20       ??_C@_1HO@CCILGJMK@?$AAd?$AA?3?$AA?1?$AAx?$AAy?$AAs?$AAz?$AAi?$AAv?$AA?1?$AAo?$AAp?$AAe?$AAn?$AAj?$AAd?$AAk?$AA?1?$AAj?$AAd?$AAk?$AA?1?$AAs?$AAr?$AAc?$AA?1?$AAs?$AAh?$AAa?$AAr?$AAe?$AA?1@ 000000018001ae20     ClassLoader.obj
+ 0002:00000ea0       ??_C@_06IILMCCFO@loaded?$AA@ 000000018001aea0     ClassLoader.obj
+ 0002:00000ea8       ??_C@_01POHCFINO@Z?$AA@    000000018001aea8     ClassLoader.obj
+ 0002:00000eb0       ??_C@_0L@FFGJFOPI@jniVersion?$AA@ 000000018001aeb0     ClassLoader.obj
+ 0002:00000ebc       ??_C@_01JPJNBJEM@I?$AA@    000000018001aebc     ClassLoader.obj
+ 0002:00000ec0       ??_C@_06NCGDPKCC@handle?$AA@ 000000018001aec0     ClassLoader.obj
+ 0002:00000ec8       ??_C@_01LELAEKIP@J?$AA@    000000018001aec8     ClassLoader.obj
+ 0002:00000ed0       ??_C@_0CE@JCAGBDAJ@java?1lang?1ClassLoader$NativeLibr@ 000000018001aed0     ClassLoader.obj
+ 0002:00000ef8       ??_C@_0N@LLELHEHJ@JNI_OnUnload?$AA@ 000000018001aef8     ClassLoader.obj
+ 0002:00000f08       ??_C@_0BA@LDELBKAG@_JNI_OnUnload?$EA8?$AA@ 000000018001af08     ClassLoader.obj
+ 0002:00000f18       ??_C@_0L@OIKEFKEO@JNI_OnLoad?$AA@ 000000018001af18     ClassLoader.obj
+ 0002:00000f28       ??_C@_0O@CNBBEDNA@_JNI_OnLoad?$EA8?$AA@ 000000018001af28     ClassLoader.obj
+ 0002:00000f38       ??_C@_0BP@JABHMODJ@java?1lang?1UnsatisfiedLinkError?$AA@ 000000018001af38     ClassLoader.obj
+ 0002:00000f58       ??_C@_0CO@NLJCNFHA@unsupported?5JNI?5version?50x?$CF08X?5r@ 000000018001af58     ClassLoader.obj
+ 0002:00000f88       ??_C@_0CB@CKDHIJCP@NULL?5filename?5for?5native?5library@ 000000018001af88     ClassLoader.obj
+ 0002:00000fac       ??_C@_04HLONOPDM@?4dll?$AA@ 000000018001afac     ClassLoader.obj
+ 0002:00000fb1       ??_C@_00CNPNBAHC@?$AA@     000000018001afb1     ClassLoader.obj
+ 0002:00000fb8       ??_C@_07DBNODEFN@disable?$AA@ 000000018001afb8     Compiler.obj
+ 0002:00000fc0       ??_C@_03GAEACAIP@?$CI?$CJV?$AA@ 000000018001afc0     Compiler.obj
+ 0002:00000fc4       ??_C@_06OFNJOBDK@enable?$AA@ 000000018001afc4     Compiler.obj
+ 0002:00000fd0       ??_C@_0CH@JHKCBJOB@?$CILjava?1lang?1Object?$DL?$CJLjava?1lang?1O@ 000000018001afd0     Compiler.obj
+ 0002:00000ff8       ??_C@_07KMMNMMFF@command?$AA@ 000000018001aff8     Compiler.obj
+ 0002:00001000       ??_C@_0BG@CGIGLAGP@?$CILjava?1lang?1String?$DL?$CJZ?$AA@ 000000018001b000     Compiler.obj
+ 0002:00001018       ??_C@_0P@JPFPNCNC@compileClasses?$AA@ 000000018001b018     Compiler.obj
+ 0002:00001028       ??_C@_0N@NOEGMNKO@compileClass?$AA@ 000000018001b028     Compiler.obj
+ 0002:00001038       ??_C@_04LDGHIPEL@cp?$CFd?$AA@ 000000018001b038     Console_md.obj
+ 0002:00001040       ??_C@_04BOOCJOME@ms?$CFd?$AA@ 000000018001b040     Console_md.obj
+ 0002:00001048       ??_C@_0BG@CBAKADNB@SetConsoleMode?5failed?$AA@ 000000018001b048     Console_md.obj
+ 0002:00001060       ??_C@_0BG@NEFMNKJA@GetConsoleMode?5failed?$AA@ 000000018001b060     Console_md.obj
+ 0002:00001078       ??_C@_02ENHFDPNM@fd?$AA@   000000018001b078     FileDescriptor_md.obj
+ 0002:00001080       ??_C@_0BM@MBMINGIL@java?1io?1SyncFailedException?$AA@ 000000018001b080     FileDescriptor_md.obj
+ 0002:000010a0       ??_C@_0M@IALGLCNJ@sync?5failed?$AA@ 000000018001b0a0     FileDescriptor_md.obj
+ 0002:000010b0       ??_C@_0BJ@BDFOFHPL@Ljava?1io?1FileDescriptor?$DL?$AA@ 000000018001b0b0     FileInputStream.obj
+ 0002:000010d0       ??_C@_0O@KLFONINF@Stream?5Closed?$AA@ 000000018001b0d0     FileInputStream.obj
+ 0002:000010e0       ??_C@_0L@FCLNKJKA@Seek?5error?$AA@ 000000018001b0e0     FileInputStream.obj
+ 0002:000010f0       ??_C@_17GIOOANCL@?$AA?9?$AA?5?$AA?$CF?$AA?$AA@ 000000018001b0f0     HostLocaleProviderAdapter_md.obj
+ 0002:000010f8       ??_C@_17GGJCKBKG@?$AA?5?$AA?$CF?$AA?9?$AA?$AA@ 000000018001b0f8     HostLocaleProviderAdapter_md.obj
+ 0002:00001100       ??_C@_17DMBMPBIM@?$AA?5?$AA?$KE?$AA?$CJ?$AA?$AA@ 000000018001b100     HostLocaleProviderAdapter_md.obj
+ 0002:00001108       ??_C@_17DNALNMHF@?$AA?9?$AA?5?$AA?$KE?$AA?$AA@ 000000018001b108     HostLocaleProviderAdapter_md.obj
+ 0002:00001110       ??_C@_17LDHOGGNL@?$AA?5?$AA?$KE?$AA?9?$AA?$AA@ 000000018001b110     HostLocaleProviderAdapter_md.obj
+ 0002:00001118       ??_C@_15BBIKONBA@?$AA?$KE?$AA?$CJ?$AA?$AA@ 000000018001b118     HostLocaleProviderAdapter_md.obj
+ 0002:00001120       ??_C@_15BLMJCMIJ@?$AA?5?$AA?9?$AA?$AA@ 000000018001b120     HostLocaleProviderAdapter_md.obj
+ 0002:00001128       ??_C@_13HOIJIPNN@?$AA?5?$AA?$AA@ 000000018001b128     HostLocaleProviderAdapter_md.obj
+ 0002:0000112c       ??_C@_13DIBMAFH@?$AA?$CJ?$AA?$AA@ 000000018001b12c     HostLocaleProviderAdapter_md.obj
+ 0002:00001130       ??_C@_15NOHNAEGG@?$AA?5?$AA?$CF?$AA?$AA@ 000000018001b130     HostLocaleProviderAdapter_md.obj
+ 0002:00001138       ??_C@_15ILJINFDI@?$AA?5?$AA?$KE?$AA?$AA@ 000000018001b138     HostLocaleProviderAdapter_md.obj
+ 0002:00001140       ??_C@_17HOLPDOHB@?$AA?$CF?$AA?5?$AA?9?$AA?$AA@ 000000018001b140     HostLocaleProviderAdapter_md.obj
+ 0002:00001148       ??_C@_17PPNGMKK@?$AA?9?$AA?$CF?$AA?5?$AA?$AA@ 000000018001b148     HostLocaleProviderAdapter_md.obj
+ 0002:00001150       ??_C@_15ELAELNDK@?$AA?$CF?$AA?9?$AA?$AA@ 000000018001b150     HostLocaleProviderAdapter_md.obj
+ 0002:00001158       ??_C@_15GCODBHLI@?$AA?9?$AA?$CF?$AA?$AA@ 000000018001b158     HostLocaleProviderAdapter_md.obj
+ 0002:00001160       ??_C@_17JCPBKFLD@?$AA?$CI?$AA?$KE?$AA?5?$AA?$AA@ 000000018001b160     HostLocaleProviderAdapter_md.obj
+ 0002:00001168       ??_C@_17OBCOLLDF@?$AA?$KE?$AA?5?$AA?9?$AA?$AA@ 000000018001b168     HostLocaleProviderAdapter_md.obj
+ 0002:00001170       ??_C@_17NKBBKLNH@?$AA?9?$AA?$KE?$AA?5?$AA?$AA@ 000000018001b170     HostLocaleProviderAdapter_md.obj
+ 0002:00001178       ??_C@_15JOOIHKEH@?$AA?$KE?$AA?9?$AA?$AA@ 000000018001b178     HostLocaleProviderAdapter_md.obj
+ 0002:00001180       ??_C@_15DHAGMGOG@?$AA?9?$AA?$KE?$AA?$AA@ 000000018001b180     HostLocaleProviderAdapter_md.obj
+ 0002:00001188       ??_C@_15GHMLFHFF@?$AA?$CI?$AA?$KE?$AA?$AA@ 000000018001b188     HostLocaleProviderAdapter_md.obj
+ 0002:00001190       ??_C@_15FFDNOHIK@?$AA?9?$AA?5?$AA?$AA@ 000000018001b190     HostLocaleProviderAdapter_md.obj
+ 0002:00001198       ??_C@_13IMODFHAA@?$AA?9?$AA?$AA@ 000000018001b198     HostLocaleProviderAdapter_md.obj
+ 0002:0000119c       ??_C@_13LLDNKHDC@?$AA?$CI?$AA?$AA@ 000000018001b19c     HostLocaleProviderAdapter_md.obj
+ 0002:000011a0       ??_C@_15LJGOGFOH@?$AA?$CF?$AA?5?$AA?$AA@ 000000018001b1a0     HostLocaleProviderAdapter_md.obj
+ 0002:000011a8       ??_C@_13EJFHHPOP@?$AA?$CF?$AA?$AA@ 000000018001b1a8     HostLocaleProviderAdapter_md.obj
+ 0002:000011ac       ??_C@_15GMICKCJK@?$AA?$KE?$AA?5?$AA?$AA@ 000000018001b1ac     HostLocaleProviderAdapter_md.obj
+ 0002:000011b4       ??_C@_13BMLCKOLB@?$AA?$KE?$AA?$AA@ 000000018001b1b4     HostLocaleProviderAdapter_md.obj
+ 0002:000011b8       ??_C@_11LOCGONAA@?$AA?$AA@ 000000018001b1b8     HostLocaleProviderAdapter_md.obj
+ 0002:000011c0       ??_C@_0BC@NJJJJEJP@GetCalendarInfoEx?$AA@ 000000018001b1c0     HostLocaleProviderAdapter_md.obj
+ 0002:000011d8       ??_C@_0BA@ONOKGCMP@GetLocaleInfoEx?$AA@ 000000018001b1d8     HostLocaleProviderAdapter_md.obj
+ 0002:000011e8       ??_C@_0N@MDJJJHMB@kernel32?4dll?$AA@ 000000018001b1e8     HostLocaleProviderAdapter_md.obj
+ 0002:000011f8       ??_C@_0BI@FKAGBMCL@memory?5allocation?5error?$AA@ 000000018001b1f8     HostLocaleProviderAdapter_md.obj
+ 0002:00001210       ??_C@_15MNPNEAIF@?$AAe?$AAn?$AA?$AA@ 000000018001b210     HostLocaleProviderAdapter_md.obj
+ 0002:00001218       ??_C@_17PINHLBBM@?$AAu?$AAn?$AAd?$AA?$AA@ 000000018001b218     HostLocaleProviderAdapter_md.obj
+ 0002:00001220       ??_C@_13PJJBFPED@?$AA?$DL?$AA?$AA@ 000000018001b220     HostLocaleProviderAdapter_md.obj
+ 0002:00001224       ??_C@_02DKCKIIND@?$CFs?$AA@ 000000018001b224     MessageUtils.obj
+ 0002:00001228       ??_C@_04MLLLIHIP@null?$AA@ 000000018001b228     MessageUtils.obj
+ 0002:00001230       ??_C@_0BF@LHBAMMHC@?$CI?$CJLjava?1lang?1Object?$DL?$AA@ 000000018001b230     Object.obj
+ 0002:00001248       ??_C@_05KFBJCHHJ@clone?$AA@ 000000018001b248     Object.obj
+ 0002:00001250       ??_C@_09OHPHDMCN@notifyAll?$AA@ 000000018001b250     Object.obj
+ 0002:0000125c       ??_C@_06LIGDCBBN@notify?$AA@ 000000018001b25c     Object.obj
+ 0002:00001264       ??_C@_04OHLIFDMD@?$CIJ?$CJV?$AA@ 000000018001b264     Object.obj
+ 0002:0000126c       ??_C@_04PNOAOIAG@wait?$AA@ 000000018001b26c     Object.obj
+ 0002:00001278       ??_C@_08PAGJBGJL@hashCode?$AA@ 000000018001b278     Object.obj
+ 0002:00001288       ??_C@_0BM@LKJNLDJK@java?1lang?1NoSuchMethodError?$AA@ 000000018001b288     ObjectStreamClass.obj
+ 0002:000012a8       ??_C@_08JOGLKNJI@?$DMclinit?$DO?$AA@ 000000018001b2a8     ObjectStreamClass.obj
+ 0002:000012b8       ??_C@_0BN@PKAKOFME@GetEnvironmentStrings?5failed?$AA@ 000000018001b2b8     ProcessEnvironment_md.obj
+ 0002:000012d8       ??_C@_06FALKBLGB@?$DMinit?$DO?$AA@ 000000018001b2d8     ProcessEnvironment_md.obj
+ 0002:000012e0       ??_C@_05GBDANG@?$CI?$FLB?$CJV?$AA@ 000000018001b2e0     ProcessEnvironment_md.obj
+ 0002:000012e8       ??_C@_0CM@EAKDBECK@Secondary?5error?5while?5OS?5message@ 000000018001b2e8     ProcessImpl_md.obj
+ 0002:00001318       ??_C@_1CI@OBOFAJOJ@?$AA?$CF?$AAs?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?0?$AA?5?$AAe?$AAr?$AAr?$AAo?$AAr?$AA?$DN?$AA?$CF?$AAd?$AA?$AA@ 000000018001b318     ProcessImpl_md.obj
+ 0002:00001340       ??_C@_1CA@BNEMBNGE@?$AA?$CF?$AAs?$AA?5?$AAe?$AAr?$AAr?$AAo?$AAr?$AA?$DN?$AA?$CF?$AAd?$AA?0?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 000000018001b340     ProcessImpl_md.obj
+ 0002:00001360       ??_C@_1BG@HKMEIOD@?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAP?$AAi?$AAp?$AAe?$AA?$AA@ 000000018001b360     ProcessImpl_md.obj
+ 0002:00001378       ??_C@_1BM@MMIOBBBF@?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAP?$AAr?$AAo?$AAc?$AAe?$AAs?$AAs?$AA?$AA@ 000000018001b378     ProcessImpl_md.obj
+ 0002:00001398       ??_C@_1CG@LCLEBLIK@?$AAG?$AAe?$AAt?$AAE?$AAx?$AAi?$AAt?$AAC?$AAo?$AAd?$AAe?$AAP?$AAr?$AAo?$AAc?$AAe?$AAs?$AAs?$AA?$AA@ 000000018001b398     ProcessImpl_md.obj
+ 0002:000013c0       ??_C@_1CO@PLEHGDKC@?$AAW?$AAa?$AAi?$AAt?$AAF?$AAo?$AAr?$AAM?$AAu?$AAl?$AAt?$AAi?$AAp?$AAl?$AAe?$AAO?$AAb?$AAj?$AAe?$AAc?$AAt?$AAs?$AA?$AA@ 000000018001b3c0     ProcessImpl_md.obj
+ 0002:000013f0       ??_C@_0M@GPOOGHPH@CreateFileW?$AA@ 000000018001b3f0     ProcessImpl_md.obj
+ 0002:00001400       ??_C@_0M@HPFDGGMC@Seek?5failed?$AA@ 000000018001b400     RandomAccessFile.obj
+ 0002:00001410       ??_C@_0BF@HDGNMJHD@Negative?5seek?5offset?$AA@ 000000018001b410     RandomAccessFile.obj
+ 0002:00001428       ??_C@_0BB@GOOEHMBA@setLength?5failed?$AA@ 000000018001b428     RandomAccessFile.obj
+ 0002:00001440       ??_C@_0BA@KBMBPIMJ@runFinalization?$AA@ 000000018001b440     Runtime.obj
+ 0002:00001450       ??_C@_0BI@EEGABGMA@java?1lang?1ref?1Finalizer?$AA@ 000000018001b450     Runtime.obj
+ 0002:00001468       ??_C@_0CC@HPKFBHGI@security?5manager?5not?5initialized@ 000000018001b468     SecurityManager.obj
+ 0002:00001490       ??_C@_0BM@MPFHLPCE@java?1lang?1SecurityException?$AA@ 000000018001b490     SecurityManager.obj
+ 0002:000014b0       ??_C@_0M@PBLAKOBI@initialized?$AA@ 000000018001b4b0     SecurityManager.obj
+ 0002:000014c0       ??_C@_0BK@FOJCHAGK@java?1lang?1SecurityManager?$AA@ 000000018001b4c0     SecurityManager.obj
+ 0002:000014e0       ??_C@_0BB@PNLCCAJG@runAllFinalizers?$AA@ 000000018001b4e0     Shutdown.obj
+ 0002:000014f8       ??_C@_0CL@DPOGMIND@?$CILjava?1lang?1Object?$DLILjava?1lang?1O@ 000000018001b4f8     System.obj
+ 0002:00001528       ??_C@_09EEHNOAG@arraycopy?$AA@ 000000018001b528     System.obj
+ 0002:00001538       ??_C@_08GAAFINGG@nanoTime?$AA@ 000000018001b538     System.obj
+ 0002:00001544       ??_C@_03IGDHHNNC@?$CI?$CJJ?$AA@ 000000018001b544     System.obj
+ 0002:00001548       ??_C@_0BC@JMDLHMGP@currentTimeMillis?$AA@ 000000018001b548     System.obj
+ 0002:00001560       ??_C@_09MJAPJFKN@?$CFs?4format?$AA@ 000000018001b560     System.obj
+ 0002:00001570       ??_C@_0L@MMANBJOI@?$CFs?4display?$AA@ 000000018001b570     System.obj
+ 0002:0000157c       ??_C@_04LOAJBDKD@true?$AA@ 000000018001b57c     System.obj
+ 0002:00001588       ??_C@_0BL@FDPINJBC@sun?4locale?4formatasdefault?$AA@ 000000018001b588     System.obj
+ 0002:000015a8       ??_C@_0M@LLAEMPMH@sun?4desktop?$AA@ 000000018001b5a8     System.obj
+ 0002:000015b8       ??_C@_08IOMDCONK@user?4dir?$AA@ 000000018001b5b8     System.obj
+ 0002:000015c8       ??_C@_0O@FKMKHEGF@user?4timezone?$AA@ 000000018001b5c8     System.obj
+ 0002:000015d8       ??_C@_09IJODDBJG@user?4home?$AA@ 000000018001b5d8     System.obj
+ 0002:000015e8       ??_C@_09OGHMLDAF@user?4name?$AA@ 000000018001b5e8     System.obj
+ 0002:000015f8       ??_C@_0P@JIMDBPAK@java?4io?4tmpdir?$AA@ 000000018001b5f8     System.obj
+ 0002:00001608       ??_C@_0BE@BAAMABKP@sun?4java2d?4fontpath?$AA@ 000000018001b608     System.obj
+ 0002:00001620       ??_C@_0BF@EKEAJFNI@java?4awt?4graphicsenv?$AA@ 000000018001b620     System.obj
+ 0002:00001638       ??_C@_0BD@ELJFNNDH@sun?4os?4patch?4level?$AA@ 000000018001b638     System.obj
+ 0002:00001650       ??_C@_0BE@EHGHNJFA@sun?4arch?4data?4model?$AA@ 000000018001b650     System.obj
+ 0002:00001664       ??_C@_02JLHCEMDI@64?$AA@   000000018001b664     System.obj
+ 0002:00001668       ??_C@_0BE@HFHNEHBI@java?4awt?4printerjob?$AA@ 000000018001b668     System.obj
+ 0002:00001680       ??_C@_0P@EOOEEPOA@sun?4cpu?4endian?$AA@ 000000018001b680     System.obj
+ 0002:00001690       ??_C@_0BA@PDNGFEIL@sun?4cpu?4isalist?$AA@ 000000018001b690     System.obj
+ 0002:000016a0       ??_C@_0BI@KFHOHPJL@sun?4io?4unicode?4encoding?$AA@ 000000018001b6a0     System.obj
+ 0002:000016b8       ??_C@_06CHHAOAKD@sun?4io?$AA@ 000000018001b6b8     System.obj
+ 0002:000016c0       ??_C@_0BC@MKODONGO@file?4encoding?4pkg?$AA@ 000000018001b6c0     System.obj
+ 0002:000016d8       ??_C@_0BE@FGOMLHAD@sun?4stderr?4encoding?$AA@ 000000018001b6d8     System.obj
+ 0002:000016f0       ??_C@_0BE@PAJOPCOJ@sun?4stdout?4encoding?$AA@ 000000018001b6f0     System.obj
+ 0002:00001708       ??_C@_0BB@PEJNKEBD@sun?4jnu?4encoding?$AA@ 000000018001b708     System.obj
+ 0002:00001720       ??_C@_0O@FMHCFFFK@file?4encoding?$AA@ 000000018001b720     System.obj
+ 0002:00001730       ??_C@_0N@ICDOLPAO@user?4variant?$AA@ 000000018001b730     System.obj
+ 0002:00001740       ??_C@_0N@IOCKJEEA@user?4country?$AA@ 000000018001b740     System.obj
+ 0002:00001750       ??_C@_0M@NDBKMHED@user?4script?$AA@ 000000018001b750     System.obj
+ 0002:00001760       ??_C@_0O@IPEJOPEC@user?4language?$AA@ 000000018001b760     System.obj
+ 0002:00001770       ??_C@_0P@EPBOHHHF@line?4separator?$AA@ 000000018001b770     System.obj
+ 0002:00001780       ??_C@_0P@GNCHJOPK@path?4separator?$AA@ 000000018001b780     System.obj
+ 0002:00001790       ??_C@_0P@EIENLPCI@file?4separator?$AA@ 000000018001b790     System.obj
+ 0002:000017a0       ??_C@_07PBOBJOEN@os?4arch?$AA@ 000000018001b7a0     System.obj
+ 0002:000017a8       ??_C@_0L@LFOLPEHK@os?4version?$AA@ 000000018001b7a8     System.obj
+ 0002:000017b8       ??_C@_07IOCNKCKK@os?4name?$AA@ 000000018001b7b8     System.obj
+ 0002:000017c0       ??_C@_0M@EFKDJKKO@awt?4toolkit?$AA@ 000000018001b7c0     System.obj
+ 0002:000017d0       ??_C@_0BD@FIJFIPLK@java?4class?4version?$AA@ 000000018001b7d0     System.obj
+ 0002:000017e4       ??_C@_05KBEOJPB@?$CFd?4?$CFd?$AA@ 000000018001b7e4     System.obj
+ 0002:000017f0       ??_C@_0CE@JAJJMNC@http?3?1?1bugreport?4sun?4com?1bugrepo@ 000000018001b7f0     System.obj
+ 0002:00001818       ??_C@_0BE@MPKMHPGL@java?4vendor?4url?4bug?$AA@ 000000018001b818     System.obj
+ 0002:00001830       ??_C@_0BI@CNJIMLIM@http?3?1?1java?4oracle?4com?1?$AA@ 000000018001b830     System.obj
+ 0002:00001848       ??_C@_0BA@HDNLIEKP@java?4vendor?4url?$AA@ 000000018001b848     System.obj
+ 0002:00001858       ??_C@_0M@JAODKBLE@java?4vendor?$AA@ 000000018001b858     System.obj
+ 0002:00001868       ??_C@_0BJ@DEMFLFMB@1?48?40?9internal?9fastdebug?$AA@ 000000018001b868     System.obj
+ 0002:00001888       ??_C@_0N@KAKDDEJA@java?4version?$AA@ 000000018001b888     System.obj
+ 0002:00001898       ??_C@_0BD@HKAOFKOF@Oracle?5Corporation?$AA@ 000000018001b898     System.obj
+ 0002:000018b0       ??_C@_0BK@NJLHMCPF@java?4specification?4vendor?$AA@ 000000018001b8b0     System.obj
+ 0002:000018d0       ??_C@_0CA@KOJBOKHO@Java?5Platform?5API?5Specification?$AA@ 000000018001b8d0     System.obj
+ 0002:000018f0       ??_C@_0BI@OKHEICGJ@java?4specification?4name?$AA@ 000000018001b8f0     System.obj
+ 0002:00001908       ??_C@_03LDGAGIDG@1?48?$AA@ 000000018001b908     System.obj
+ 0002:00001910       ??_C@_0BL@KBDBBBPF@java?4specification?4version?$AA@ 000000018001b910     System.obj
+ 0002:00001930       ??_C@_0M@NBNLNHMA@getProperty?$AA@ 000000018001b930     System.obj
+ 0002:00001940       ??_C@_0CH@NCPCFFHJ@?$CILjava?1lang?1String?$DL?$CJLjava?1lang?1S@ 000000018001b940     System.obj
+ 0002:00001968       ??_C@_06LEMKAMD@remove?$AA@ 000000018001b968     System.obj
+ 0002:00001970       ??_C@_03KMONJGDG@put?$AA@  000000018001b970     System.obj
+ 0002:00001978       ??_C@_0DJ@FLFJBGBN@?$CILjava?1lang?1Object?$DLLjava?1lang?1Ob@ 000000018001b978     System.obj
+ 0002:000019b4       ??_C@_02LMMGJAGL@in?$AA@   000000018001b9b4     System.obj
+ 0002:000019b8       ??_C@_0BG@GPDHLGHH@Ljava?1io?1InputStream?$DL?$AA@ 000000018001b9b8     System.obj
+ 0002:000019d0       ??_C@_03KEJHNBPP@out?$AA@  000000018001b9d0     System.obj
+ 0002:000019d8       ??_C@_0BG@FPECDKGJ@Ljava?1io?1PrintStream?$DL?$AA@ 000000018001b9d8     System.obj
+ 0002:000019f0       ??_C@_03JIDPIAJI@err?$AA@  000000018001b9f0     System.obj
+ 0002:000019f8       ??_C@_0O@OLOAHEKB@name?5too?5long?$AA@ 000000018001b9f8     System.obj
+ 0002:00001a08       ??_C@_0BG@IKDDPPGD@?$CILjava?1lang?1String?$DL?$CJV?$AA@ 000000018001ba08     Thread.obj
+ 0002:00001a20       ??_C@_0O@LPHHHNKJ@setNativeName?$AA@ 000000018001ba20     Thread.obj
+ 0002:00001a30       ??_C@_0DF@ELFIABCA@?$CI?$FLLjava?1lang?1Thread?$DL?$CJ?$FL?$FLLjava?1lan@ 000000018001ba30     Thread.obj
+ 0002:00001a68       ??_C@_0M@ECOKKOKF@dumpThreads?$AA@ 000000018001ba68     Thread.obj
+ 0002:00001a78       ??_C@_0BG@CJDMDLMO@?$CI?$CJ?$FLLjava?1lang?1Thread?$DL?$AA@ 000000018001ba78     Thread.obj
+ 0002:00001a90       ??_C@_0L@MBENOCKD@getThreads?$AA@ 000000018001ba90     Thread.obj
+ 0002:00001aa0       ??_C@_0BG@DHOOFEJE@?$CILjava?1lang?1Object?$DL?$CJZ?$AA@ 000000018001baa0     Thread.obj
+ 0002:00001ab8       ??_C@_09BKEKKKBN@holdsLock?$AA@ 000000018001bab8     Thread.obj
+ 0002:00001ac4       ??_C@_04BLBEELFA@?$CIZ?$CJZ?$AA@ 000000018001bac4     Thread.obj
+ 0002:00001ad0       ??_C@_0O@NBKAIMLM@isInterrupted?$AA@ 000000018001bad0     Thread.obj
+ 0002:00001ae0       ??_C@_0L@KOCFLKPP@interrupt0?$AA@ 000000018001bae0     Thread.obj
+ 0002:00001af0       ??_C@_0BB@DMGBDJPC@countStackFrames?$AA@ 000000018001baf0     Thread.obj
+ 0002:00001b08       ??_C@_0BF@GLBLFFEM@?$CI?$CJLjava?1lang?1Thread?$DL?$AA@ 000000018001bb08     Thread.obj
+ 0002:00001b20       ??_C@_0O@GIDKOGNF@currentThread?$AA@ 000000018001bb20     Thread.obj
+ 0002:00001b30       ??_C@_05PCJCMMHD@sleep?$AA@ 000000018001bb30     Thread.obj
+ 0002:00001b38       ??_C@_05LKJGIMLP@yield?$AA@ 000000018001bb38     Thread.obj
+ 0002:00001b40       ??_C@_04PFANPMCN@?$CII?$CJV?$AA@ 000000018001bb40     Thread.obj
+ 0002:00001b48       ??_C@_0N@GOFHJCMI@setPriority0?$AA@ 000000018001bb48     Thread.obj
+ 0002:00001b58       ??_C@_07EJLENFAP@resume0?$AA@ 000000018001bb58     Thread.obj
+ 0002:00001b60       ??_C@_08PIHJGBMA@suspend0?$AA@ 000000018001bb60     Thread.obj
+ 0002:00001b70       ??_C@_07BOOHCBLM@isAlive?$AA@ 000000018001bb70     Thread.obj
+ 0002:00001b78       ??_C@_0BG@JLFLBLJI@?$CILjava?1lang?1Object?$DL?$CJV?$AA@ 000000018001bb78     Thread.obj
+ 0002:00001b90       ??_C@_05CHCLNOMK@stop0?$AA@ 000000018001bb90     Thread.obj
+ 0002:00001b98       ??_C@_06MGHKGFHF@start0?$AA@ 000000018001bb98     Thread.obj
+ 0002:00001ba0       ??_C@_03FFGKOOIA@Std?$AA@  000000018001bba0     TimeZone_md.obj
+ 0002:00001ba8       ??_C@_17GFIDPLDA@?$AAS?$AAt?$AAd?$AA?$AA@ 000000018001bba8     TimeZone_md.obj
+ 0002:00001bb0       ??_C@_0N@PEHDGIGO@StandardName?$AA@ 000000018001bbb0     TimeZone_md.obj
+ 0002:00001bc0       ??_C@_1BK@BOBBLECB@?$AAS?$AAt?$AAa?$AAn?$AAd?$AAa?$AAr?$AAd?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 000000018001bbc0     TimeZone_md.obj
+ 0002:00001bdc       ??_C@_03HOONMGKE@GMT?$AA@  000000018001bbdc     TimeZone_md.obj
+ 0002:00001be0       ??_C@_0P@EKMDNJBA@GMT?$CFc?$CF02d?3?$CF02d?$AA@ 000000018001bbe0     TimeZone_md.obj
+ 0002:00001bf0       ??_C@_05NJMIIFMB@MapID?$AA@ 000000018001bbf0     TimeZone_md.obj
+ 0002:00001bf8       ??_C@_03NKEEOHDM@TZI?$AA@  000000018001bbf8     TimeZone_md.obj
+ 0002:00001c00       ??_C@_0DF@JEJGGGGH@SOFTWARE?2Microsoft?2Windows?2Curre@ 000000018001bc00     TimeZone_md.obj
+ 0002:00001c38       ??_C@_0DI@LLEGOPFO@SOFTWARE?2Microsoft?2Windows?5NT?2Cu@ 000000018001bc38     TimeZone_md.obj
+ 0002:00001c70       ??_C@_0BA@GCKJIEGO@TimeZoneKeyName?$AA@ 000000018001bc70     TimeZone_md.obj
+ 0002:00001c80       ??_C@_0BM@HEGPJGEC@DynamicDaylightTimeDisabled?$AA@ 000000018001bc80     TimeZone_md.obj
+ 0002:00001ca0       ??_C@_0BL@KGOKKEDK@DisableAutoDaylightTimeSet?$AA@ 000000018001bca0     TimeZone_md.obj
+ 0002:00001cc0       ??_C@_0DF@OCPBGDJE@System?2CurrentControlSet?2Control@ 000000018001bcc0     TimeZone_md.obj
+ 0002:00001cf8       ??_C@_0CI@LOCDCEDD@tzmappings?3?5Illegal?5format?5at?5li@ 000000018001bcf8     TimeZone_md.obj
+ 0002:00001d20       ??_C@_0BA@PMGFJNJD@can?8t?5open?5?$CFs?4?6?$AA@ 000000018001bd20     TimeZone_md.obj
+ 0002:00001d30       ??_C@_01KDCPPGHE@r?$AA@    000000018001bd30     TimeZone_md.obj
+ 0002:00001d38       ??_C@_0BA@PBEHAGHA@?2lib?2tzmappings?$AA@ 000000018001bd38     TimeZone_md.obj
+ 0002:00001d48       ??_C@_0DH@NCDMGMP@Mismatched?5VM?5version?3?5Thread?5st@ 000000018001bd48     VM.obj
+ 0002:00001d80       ??_C@_0EN@BFPNHFEP@Mismatched?5VM?5version?3?5JAVA_THRE@ 000000018001bd80     VM.obj
+ 0002:00001dd0       ??_C@_0DJ@LDKHLPGB@Mismatched?5VM?5version?3?5JVM_GetTh@ 000000018001bdd0     VM.obj
+ 0002:00001e10       ??_C@_0BI@ILKAHLDG@JVM_GetThreadStateNames?$AA@ 000000018001be10     VM.obj
+ 0002:00001e28       ??_C@_0DK@HOJGCLOJ@Mismatched?5VM?5version?3?5JVM_GetTh@ 000000018001be28     VM.obj
+ 0002:00001e68       ??_C@_0BJ@OKMAGMJD@JVM_GetThreadStateValues?$AA@ 000000018001be68     VM.obj
+ 0002:00001e88       ??_C@_0BD@MMOMEHNP@JVM_GetVersionInfo?$AA@ 000000018001be88     VM.obj
+ 0002:00001ea0       ??_C@_0CL@NBAOCADG@Handle?5for?5JVM?5not?5found?5for?5sym@ 000000018001bea0     VM.obj
+ 0002:00001ed0       ??_C@_0DJ@BIJAJCPP@Mismatched?5VM?5version?3?5JVM_InitA@ 000000018001bed0     VMSupport.obj
+ 0002:00001f10       ??_C@_0BI@NBGDONIH@JVM_InitAgentProperties?$AA@ 000000018001bf10     VMSupport.obj
+ 0002:00001f28       ??_C@_0BO@CKONEJJD@Static?5int?5field?5?$CFs?5not?5found?$AA@ 000000018001bf28     Version.obj
+ 0002:00001f48       ??_C@_0BD@BALHFMEF@jvm_update_version?$AA@ 000000018001bf48     Version.obj
+ 0002:00001f60       ??_C@_0BB@KIPCMFBN@jvm_build_number?$AA@ 000000018001bf60     Version.obj
+ 0002:00001f78       ??_C@_0BC@DHAGLIAO@jvm_micro_version?$AA@ 000000018001bf78     Version.obj
+ 0002:00001f90       ??_C@_0BC@BOJLDKHE@jvm_minor_version?$AA@ 000000018001bf90     Version.obj
+ 0002:00001fa8       ??_C@_0BC@EHJONCGG@jvm_major_version?$AA@ 000000018001bfa8     Version.obj
+ 0002:00001fc0       ??_C@_0BD@JMPENMNG@jdk_update_version?$AA@ 000000018001bfc0     Version.obj
+ 0002:00001fd8       ??_C@_0BB@OLIPAKBC@jdk_build_number?$AA@ 000000018001bfd8     Version.obj
+ 0002:00001ff0       ??_C@_0BC@KHPKNIFA@jdk_micro_version?$AA@ 000000018001bff0     Version.obj
+ 0002:00002008       ??_C@_0BC@IOGHFKCK@jdk_minor_version?$AA@ 000000018001c008     Version.obj
+ 0002:00002020       ??_C@_0BC@NHGCLCDI@jdk_major_version?$AA@ 000000018001c020     Version.obj
+ 0002:00002034       ??_C@_04JCEIFDIJ@J2SE?$AA@ 000000018001c034     WinCAPISeedGenerator.obj
+ 0002:00002040       ??_C@_0BK@PDKDDAF@GetFinalPathNameByHandleW?$AA@ 000000018001c040     WinNTFileSystem_md.obj
+ 0002:0000205c       ??_C@_04LNEJFJGI@path?$AA@ 000000018001c05c     WinNTFileSystem_md.obj
+ 0002:00002068       ??_C@_0BD@JFADHEFE@Ljava?1lang?1String?$DL?$AA@ 000000018001c068     WinNTFileSystem_md.obj
+ 0002:00002080       ??_C@_0N@IOFABHFH@java?1io?1File?$AA@ 000000018001c080     WinNTFileSystem_md.obj
+ 0002:00002090       ??_C@_0CA@NIIGFDJD@native?5memory?5allocation?5failed?$AA@ 000000018001c090     WinNTFileSystem_md.obj
+ 0002:000020b0       ??_C@_0N@NMICNPLE@Bad?5pathname?$AA@ 000000018001c0b0     WinNTFileSystem_md.obj
+ 0002:000020c0       ??_C@_17KMAOGHDG@?$AAL?$AAP?$AAT?$AA?$AA@ 000000018001c0c0     WinNTFileSystem_md.obj
+ 0002:000020c8       ??_C@_17KKLPNNMB@?$AAC?$AAO?$AAM?$AA?$AA@ 000000018001c0c8     WinNTFileSystem_md.obj
+ 0002:000020d0       ??_C@_17CLELIOII@?$AAN?$AAU?$AAL?$AA?$AA@ 000000018001c0d0     WinNTFileSystem_md.obj
+ 0002:000020d8       ??_C@_17CNBAFMOM@?$AAA?$AAU?$AAX?$AA?$AA@ 000000018001c0d8     WinNTFileSystem_md.obj
+ 0002:000020e0       ??_C@_17PFHGFFKC@?$AAP?$AAR?$AAN?$AA?$AA@ 000000018001c0e0     WinNTFileSystem_md.obj
+ 0002:000020e8       ??_C@_17LIAKHCCP@?$AAC?$AAO?$AAN?$AA?$AA@ 000000018001c0e8     WinNTFileSystem_md.obj
+ 0002:000020f0       ??_C@_13COJANIEC@?$AA0?$AA?$AA@ 000000018001c0f0     WinNTFileSystem_md.obj
+ 0002:00002100       ??_C@_1IM@GJBENDEE@?$AAd?$AA?3?$AA?1?$AAx?$AAy?$AAs?$AAz?$AAi?$AAv?$AA?1?$AAo?$AAp?$AAe?$AAn?$AAj?$AAd?$AAk?$AA?1?$AAj?$AAd?$AAk?$AA?1?$AAs?$AAr?$AAc?$AA?1?$AAw?$AAi?$AAn?$AAd?$AAo?$AAw@ 000000018001c100     WinNTFileSystem_md.obj
+ 0002:00002190       ??_C@_0BE@LONNMHBH@Could?5not?5open?5file?$AA@ 000000018001c190     WinNTFileSystem_md.obj
+ 0002:000021a4       ??_C@_15DDHGOCBH@?$AA?4?$AA?4?$AA?$AA@ 000000018001c1a4     WinNTFileSystem_md.obj
+ 0002:000021ac       ??_C@_13JOFGPIOO@?$AA?4?$AA?$AA@ 000000018001c1ac     WinNTFileSystem_md.obj
+ 0002:000021b0       ??_C@_15PKPONJIK@?$AA?2?$AA?$CK?$AA?$AA@ 000000018001c1b0     WinNTFileSystem_md.obj
+ 0002:000021b8       ??_C@_13BBDEGPLJ@?$AA?$CK?$AA?$AA@ 000000018001c1b8     WinNTFileSystem_md.obj
+ 0002:000021c0       ??_C@_0CB@HJHFDKEA@native?5memory?5allocation?5faiuled@ 000000018001c1c0     WinNTFileSystem_md.obj
+ 0002:000021e8       ??_C@_19BKJMDJK@?$AA?2?$AA?2?$AA?4?$AA?2?$AA?$AA@ 000000018001c1e8     canonicalize_md.obj
+ 0002:000021f8       ??_C@_1BK@GNKJDLNB@?$AA?$CK?$AAs?$AAr?$AAc?$AA?5?$AA?$DN?$AA?$DN?$AA?5?$AA?8?$AA?2?$AA?2?$AA?8?$AA?$AA@ 000000018001c1f8     canonicalize_md.obj
+ 0002:00002220       ??_C@_1IG@MKNKFIEE@?$AAd?$AA?3?$AA?1?$AAx?$AAy?$AAs?$AAz?$AAi?$AAv?$AA?1?$AAo?$AAp?$AAe?$AAn?$AAj?$AAd?$AAk?$AA?1?$AAj?$AAd?$AAk?$AA?1?$AAs?$AAr?$AAc?$AA?1?$AAw?$AAi?$AAn?$AAd?$AAo?$AAw@ 000000018001c220     canonicalize_md.obj
+ 0002:000022a8       ??_C@_1M@DJNCMBIG@?$AA?2?$AA?2?$AA?$DP?$AA?2?$AA?$AA?$AA?$AA@ 000000018001c2a8     canonicalize_md.obj
+ 0002:000022b8       ??_C@_1BC@FBJNHMLC@?$AA?2?$AA?2?$AA?$DP?$AA?2?$AAU?$AAN?$AAC?$AA?$AA?$AA?$AA@ 000000018001c2b8     canonicalize_md.obj
+ 0002:000022d0       ??_C@_1BM@CCEBKMDP@?$AA?$CK?$AAs?$AAr?$AAc?$AA?5?$AA?$DN?$AA?$DN?$AA?5?$AAL?$AA?8?$AA?2?$AA?2?$AA?8?$AA?$AA@ 000000018001c2d0     canonicalize_md.obj
+ 0002:000022f0       ??_C@_0DG@ONCIMJCB@JVM?5interface?5version?5mismatch?3?5@ 000000018001c2f0     check_version.obj
+ 0002:00002328       ??_C@_0L@BHPPDFMA@Read?5error?$AA@ 000000018001c328     io_util.obj
+ 0002:00002338       ??_C@_0CE@JOEPHHFN@java?1lang?1IndexOutOfBoundsExcept@ 000000018001c338     io_util.obj
+ 0002:00002360       ??_C@_0M@PJBDJJDJ@Write?5error?$AA@ 000000018001c360     io_util.obj
+ 0002:00002370       ??_C@_0BO@FDOOLAPO@java?1io?1FileNotFoundException?$AA@ 000000018001c370     io_util.obj
+ 0002:00002390       ??_C@_0CI@HEGLGDKJ@?$CILjava?1lang?1String?$DLLjava?1lang?1St@ 000000018001c390     io_util.obj
+ 0002:000023b8       ??_C@_0N@NOKLILHD@close?5failed?$AA@ 000000018001c3b8     io_util_md.obj
+ 0002:000023c8       ??_C@_0O@NALGGDJF@Out?5of?5memory?$AA@ 000000018001c3c8     io_util_md.obj
+ 0002:000023d8       ??_C@_0BH@NKFNLGAB@?2FONTS?2SimSun18030?4ttc?$AA@ 000000018001c3d8     java_props_md.obj
+ 0002:000023f0       ??_C@_0P@JHCFFHNK@MS950_HKSCS_XP?$AA@ 000000018001c3f0     java_props_md.obj
+ 0002:00002400       ??_C@_05PCINFEFG@MS950?$AA@ 000000018001c400     java_props_md.obj
+ 0002:00002408       ??_C@_05EGJIMALK@UTF?98?$AA@ 000000018001c408     java_props_md.obj
+ 0002:00002410       ??_C@_03LIOLIPAH@GBK?$AA@  000000018001c410     java_props_md.obj
+ 0002:00002418       ??_C@_07DNCGDNOG@GB18030?$AA@ 000000018001c418     java_props_md.obj
+ 0002:00002420       ??_C@_08IPFADFGF@i386?5i86?$AA@ 000000018001c420     java_props_md.obj
+ 0002:00002430       ??_C@_0O@MAAOGNKJ@i486?5i386?5i86?$AA@ 000000018001c430     java_props_md.obj
+ 0002:00002440       ??_C@_0BG@CMPGKFGL@pentium?5i486?5i386?5i86?$AA@ 000000018001c440     java_props_md.obj
+ 0002:00002458       ??_C@_0CC@PPFBHJAM@pentium?$CLmmx?5pentium?5i486?5i386?5i8@ 000000018001c458     java_props_md.obj
+ 0002:00002480       ??_C@_0CC@BIODACBF@pentium_pro?5pentium?5i486?5i386?5i8@ 000000018001c480     java_props_md.obj
+ 0002:000024a8       ??_C@_0DO@DIFICBBG@pentium_pro?$CLmmx?5pentium_pro?5pent@ 000000018001c4a8     java_props_md.obj
+ 0002:000024e8       ??_C@_04LFKJOHGN@ia64?$AA@ 000000018001c4e8     java_props_md.obj
+ 0002:000024f0       ??_C@_05MDLPDLNO@amd64?$AA@ 000000018001c4f0     java_props_md.obj
+ 0002:000024f8       ??_C@_02BBMDGADK@NY?$AA@   000000018001c4f8     java_props_md.obj
+ 0002:000024fc       ??_C@_02LJIJIGOO@nn?$AA@   000000018001c4fc     java_props_md.obj
+ 0002:00002500       ??_C@_02NFLNFON@NO?$AA@    000000018001c500     java_props_md.obj
+ 0002:00002504       ??_C@_02KAJCLHKP@no?$AA@   000000018001c504     java_props_md.obj
+ 0002:00002508       ??_C@_02BFDMMJOC@nb?$AA@   000000018001c508     java_props_md.obj
+ 0002:0000250c       ??_C@_02PLFPMECB@US?$AA@   000000018001c50c     java_props_md.obj
+ 0002:00002510       ??_C@_02LFNMGJAP@en?$AA@   000000018001c510     java_props_md.obj
+ 0002:00002518       ??_C@_0BH@NIHCMEPJ@?$CF?$CK?$FLa?9z?2?9?$FN?$CF1?$FLA?9Z?$FN?$CF?$FLa?9z?$FN?$AA@ 000000018001c518     java_props_md.obj
+ 0002:00002530       ??_C@_02PCIJFNDE@?$AN?6?$AA@ 000000018001c530     java_props_md.obj
+ 0002:00002534       ??_C@_01ICJEACDI@?$DL?$AA@ 000000018001c534     java_props_md.obj
+ 0002:00002538       ??_C@_01KICIPPFI@?2?$AA@   000000018001c538     java_props_md.obj
+ 0002:00002540       ??_C@_0O@KBEEOPPB@UnicodeLittle?$AA@ 000000018001c540     java_props_md.obj
+ 0002:00002550       ??_C@_0M@JNHAKOPM@MS950_HKSCS?$AA@ 000000018001c550     java_props_md.obj
+ 0002:00002560       ??_C@_17BJPFHBEJ@?$AAC?$AA?3?$AA?2?$AA?$AA@ 000000018001c560     java_props_md.obj
+ 0002:00002568       ??_C@_1BA@KDMGPDJH@?$AAu?$AAn?$AAk?$AAn?$AAo?$AAw?$AAn?$AA?$AA@ 000000018001c568     java_props_md.obj
+ 0002:00002578       ??_C@_1BC@GGLDBIGJ@?$AAU?$AAS?$AAE?$AAR?$AAN?$AAA?$AAM?$AAE?$AA?$AA@ 000000018001c578     java_props_md.obj
+ 0002:0000258c       ??_C@_06LADGIEOA@little?$AA@ 000000018001c58c     java_props_md.obj
+ 0002:00002598       ??_C@_07EKMDLNDL@windows?$AA@ 000000018001c598     java_props_md.obj
+ 0002:000025a0       ??_C@_0M@FDJCPBAL@Windows?53?41?$AA@ 000000018001c5a0     java_props_md.obj
+ 0002:000025b0       ??_C@_0L@NEBNHFIE@Windows?595?$AA@ 000000018001c5b0     java_props_md.obj
+ 0002:000025c0       ??_C@_0L@GBLDALMJ@Windows?598?$AA@ 000000018001c5c0     java_props_md.obj
+ 0002:000025d0       ??_C@_0L@DNFOOIFM@Windows?5Me?$AA@ 000000018001c5d0     java_props_md.obj
+ 0002:000025e0       ??_C@_0BF@KOJMMOAG@Windows?59X?5?$CIunknown?$CJ?$AA@ 000000018001c5e0     java_props_md.obj
+ 0002:000025f8       ??_C@_0BE@GHBPPLPA@Windows?5Server?52008?$AA@ 000000018001c5f8     java_props_md.obj
+ 0002:00002610       ??_C@_0BH@ONPOEHKF@Windows?5Server?52008?5R2?$AA@ 000000018001c610     java_props_md.obj
+ 0002:00002628       ??_C@_0BE@JMDCHJEN@Windows?5Server?52012?$AA@ 000000018001c628     java_props_md.obj
+ 0002:00002640       ??_C@_0BH@GMBCIMKB@Windows?5Server?52012?5R2?$AA@ 000000018001c640     java_props_md.obj
+ 0002:00002658       ??_C@_0O@IFKHFILP@Windows?5Vista?$AA@ 000000018001c658     java_props_md.obj
+ 0002:00002668       ??_C@_09GOHFIPMO@Windows?57?$AA@ 000000018001c668     java_props_md.obj
+ 0002:00002678       ??_C@_09OJONJDAB@Windows?58?$AA@ 000000018001c678     java_props_md.obj
+ 0002:00002688       ??_C@_0M@IEJDHGAK@Windows?58?41?$AA@ 000000018001c688     java_props_md.obj
+ 0002:00002698       ??_C@_0N@MEKDBOKB@Windows?52000?$AA@ 000000018001c698     java_props_md.obj
+ 0002:000026a8       ??_C@_0N@OPIOENGC@Windows?52003?$AA@ 000000018001c6a8     java_props_md.obj
+ 0002:000026b8       ??_C@_0L@IFICELHB@Windows?5XP?$AA@ 000000018001c6b8     java_props_md.obj
+ 0002:000026c8       ??_C@_0BF@GMBBPJFL@Windows?5NT?5?$CIunknown?$CJ?$AA@ 000000018001c6c8     java_props_md.obj
+ 0002:000026e0       ??_C@_0L@PJEFFBLH@Windows?5NT?$AA@ 000000018001c6e0     java_props_md.obj
+ 0002:000026f0       ??_C@_0BC@JFKFADHL@Windows?5?$CIunknown?$CJ?$AA@ 000000018001c6f0     java_props_md.obj
+ 0002:00002708       ??_C@_0BE@HLKFLAJF@GetNativeSystemInfo?$AA@ 000000018001c708     java_props_md.obj
+ 0002:00002720       ??_C@_0CB@BDHJBLNP@sun?4awt?4Win32GraphicsEnvironment@ 000000018001c720     java_props_md.obj
+ 0002:00002748       ??_C@_0BM@DKPHMFNL@sun?4awt?4windows?4WPrinterJob?$AA@ 000000018001c748     java_props_md.obj
+ 0002:00002768       ??_C@_1CA@GPNFACCO@?$AAJ?$AAA?$AAV?$AAA?$AA2?$AAD?$AA_?$AAF?$AAO?$AAN?$AAT?$AAP?$AAA?$AAT?$AAH?$AA?$AA@ 000000018001c768     java_props_md.obj
+ 0002:00002788       ??_C@_0BJ@LLNEBFHD@sun?4awt?4windows?4WToolkit?$AA@ 000000018001c788     java_props_md.obj
+ 0002:000027a4       ??_C@_01JOAMLHOP@?9?$AA@   000000018001c7a4     java_props_md.obj
+ 0002:000027a8       ??_C@_02PLJDPFIO@00?$AA@   000000018001c7a8     jdk_util.obj
+ 0002:000027b0       ??_C@_1GC@CJHEOIAC@?$AAj?$AAd?$AAk?$AA_?$AAb?$AAu?$AAi?$AAl?$AAd?$AA_?$AAn?$AAu?$AAm?$AAb?$AAe?$AAr?$AA?5?$AA?$DO?$AA?$DN?$AA?5?$AA0?$AA?5?$AA?$CG?$AA?$CG?$AA?5?$AAj?$AAd?$AAk?$AA_?$AAb?$AAu?$AAi@ 000000018001c7b0     jdk_util.obj
+ 0002:00002820       ??_C@_1HC@DDOKFBDO@?$AAd?$AA?3?$AA?1?$AAx?$AAy?$AAs?$AAz?$AAi?$AAv?$AA?1?$AAo?$AAp?$AAe?$AAn?$AAj?$AAd?$AAk?$AA?1?$AAj?$AAd?$AAk?$AA?1?$AAs?$AAr?$AAc?$AA?1?$AAs?$AAh?$AAa?$AAr?$AAe?$AA?1@ 000000018001c820     jdk_util.obj
+ 0002:00002894       ??_C@_03LELJMMAI@b00?$AA@  000000018001c894     jdk_util.obj
+ 0002:00002898       ??_C@_01GBGANLPD@0?$AA@    000000018001c898     jdk_util.obj
+ 0002:0000289c       ??_C@_01KJLJFBPL@8?$AA@    000000018001c89c     jdk_util.obj
+ 0002:000028a0       ??_C@_01HIHLOKLC@1?$AA@    000000018001c8a0     jdk_util.obj
+ 0002:000028a8       ??_C@_07KCBEICKO@jvm?4dll?$AA@ 000000018001c8a8     jdk_util_md.obj
+ 0002:000028b0       ??_C@_0BP@GJLHLAKJ@java?1lang?1NullPointerException?$AA@ 000000018001c8b0     jni_util.obj
+ 0002:000028d0       ??_C@_0CJ@ODBKFPOB@java?1lang?1ArrayIndexOutOfBoundsE@ 000000018001c8d0     jni_util.obj
+ 0002:00002900       ??_C@_0BL@ENCPOIKC@java?1lang?1OutOfMemoryError?$AA@ 000000018001c900     jni_util.obj
+ 0002:00002920       ??_C@_0CD@MOHADDFA@java?1lang?1IllegalArgumentExcepti@ 000000018001c920     jni_util.obj
+ 0002:00002948       ??_C@_0BN@BNEPGEKD@java?1lang?1IllegalAccessError?$AA@ 000000018001c948     jni_util.obj
+ 0002:00002968       ??_C@_0CB@DKOJJLNI@java?1lang?1IllegalAccessException@ 000000018001c968     jni_util.obj
+ 0002:00002990       ??_C@_0BI@NBLNIHIB@java?1lang?1InternalError?$AA@ 000000018001c990     jni_util.obj
+ 0002:000029a8       ??_C@_0BP@OCPHDAGE@java?1lang?1NoSuchFieldException?$AA@ 000000018001c9a8     jni_util.obj
+ 0002:000029c8       ??_C@_0CA@MELAJOJA@java?1lang?1NoSuchMethodException?$AA@ 000000018001c9c8     jni_util.obj
+ 0002:000029e8       ??_C@_0CB@KCPANAMN@java?1lang?1ClassNotFoundException@ 000000018001c9e8     jni_util.obj
+ 0002:00002a10       ??_C@_0CA@EACDMHAF@java?1lang?1NumberFormatException?$AA@ 000000018001ca10     jni_util.obj
+ 0002:00002a30       ??_C@_0BE@EBAPEBGJ@java?1io?1IOException?$AA@ 000000018001ca30     jni_util.obj
+ 0002:00002a48       ??_C@_0BL@MDAGAKCG@java?1lang?1NoSuchFieldError?$AA@ 000000018001ca48     jni_util.obj
+ 0002:00002a68       ??_C@_0CK@GIGMFKA@java?1lang?1StringIndexOutOfBounds@ 000000018001ca68     jni_util.obj
+ 0002:00002a98       ??_C@_0CB@DFBEHFCE@java?1lang?1InstantiationException@ 000000018001ca98     jni_util.obj
+ 0002:00002ac0       ??_C@_0CO@NPADHBGE@JNU_CallStaticMethodByName?3?5ille@ 000000018001cac0     jni_util.obj
+ 0002:00002af0       ??_C@_0CJ@MELNKLJP@JNU_CallMethodByNameV?3?5illegal?5s@ 000000018001caf0     jni_util.obj
+ 0002:00002b20       ??_C@_0BJ@ECKJLLIP@java?1nio?1charset?1Charset?$AA@ 000000018001cb20     jni_util.obj
+ 0002:00002b40       ??_C@_0M@CPFODPBC@isSupported?$AA@ 000000018001cb40     jni_util.obj
+ 0002:00002b50       ??_C@_0BB@FLFAIHG@java?1lang?1String?$AA@ 000000018001cb50     jni_util.obj
+ 0002:00002b68       ??_C@_0BA@JJLOPNCP@java?1lang?1Class?$AA@ 000000018001cb68     jni_util.obj
+ 0002:00002b78       ??_C@_0BB@DDFKOHA@java?1lang?1Object?$AA@ 000000018001cb78     jni_util.obj
+ 0002:00002b90       ??_C@_0BE@ILKHHCBH@java?1lang?1Throwable?$AA@ 000000018001cb90     jni_util.obj
+ 0002:00002ba4       ??_C@_06IMBEHKAP@equals?$AA@ 000000018001cba4     jni_util.obj
+ 0002:00002bb0       ??_C@_0BJ@GFFKIMMI@JNU_MonitorWait?5argument?$AA@ 000000018001cbb0     jni_util.obj
+ 0002:00002bd0       ??_C@_0BE@MJCNDKI@JNU_Notify?5argument?$AA@ 000000018001cbd0     jni_util.obj
+ 0002:00002be8       ??_C@_0BH@GMHIOCNA@JNU_NotifyAll?5argument?$AA@ 000000018001cbe8     jni_util.obj
+ 0002:00002c00       ??_C@_0CG@ENHAICHD@JNU_GetFieldByName?3?5illegal?5sign@ 000000018001cc00     jni_util.obj
+ 0002:00002c28       ??_C@_0CG@PKMPNPAI@JNU_SetFieldByName?3?5illegal?5sign@ 000000018001cc28     jni_util.obj
+ 0002:00002c50       ??_C@_0CM@FFECHOAH@JNU_GetStaticFieldByName?3?5illega@ 000000018001cc50     jni_util.obj
+ 0002:00002c80       ??_C@_0CM@HBCEDOCG@JNU_SetStaticFieldByName?3?5illega@ 000000018001cc80     jni_util.obj
+ 0002:00002cb0       ??_C@_0BI@KCGPNIE@?$CI?$FLBLjava?1lang?1String?$DL?$CJV?$AA@ 000000018001ccb0     jni_util.obj
+ 0002:00002cc8       ??_C@_08LJNJGADH@getBytes?$AA@ 000000018001ccc8     jni_util.obj
+ 0002:00002cd8       ??_C@_0BH@BOKGLNMJ@?$CILjava?1lang?1String?$DL?$CJ?$FLB?$AA@ 000000018001ccd8     jni_util.obj
+ 0002:00002cf0       ??_C@_08MIMKAGHL@utf?916le?$AA@ 000000018001ccf0     jni_util.obj
+ 0002:00002cfc       ??_C@_06BFOBJALC@Cp1252?$AA@ 000000018001ccfc     jni_util.obj
+ 0002:00002d08       ??_C@_09BGDIBLML@ISO646?9US?$AA@ 000000018001cd08     jni_util.obj
+ 0002:00002d18       ??_C@_09PDECJGAG@ISO8859_1?$AA@ 000000018001cd18     jni_util.obj
+ 0002:00002d28       ??_C@_09KEDHCKDI@ISO8859?91?$AA@ 000000018001cd28     jni_util.obj
+ 0002:00002d34       ??_C@_06FEGJKAJG@8859_1?$AA@ 000000018001cd34     jni_util.obj
+ 0002:00002d40       ??_C@_0BB@NAICLKDB@java?1lang?1System?$AA@ 000000018001cd40     jni_util.obj
+ 0002:00002d58       ??_C@_07KJFPOMFC@?$CFs?3?5?$CFs?6?$AA@ 000000018001cd58     jni_util.obj
+ 0002:00002d60       ??_C@_0N@CDIMKML@?$CFs?3?5is?5NULL?6?$AA@ 000000018001cd60     jni_util.obj
+ 0002:00002d70       ??_C@_08JCDFGHAO@toString?$AA@ 000000018001cd70     jni_util.obj
+ 0002:00002d7c       ??_C@_04HIBGFPH@NULL?$AA@  000000018001cd7c     jni_util.obj
+ 0002:00002d88       ??_C@_0BE@JBOGKGNB@?$CFs?3?5object?5is?5NULL?6?$AA@ 000000018001cd88     jni_util.obj
+ 0002:00002d9c       ??_C@_06GMKELIII@kernel?$AA@ 000000018001cd9c     jni_util_md.obj
+ 0002:00002da4       ??_C@_03KAPDGIM@jvm?$AA@   000000018001cda4     jni_util_md.obj
+ 0002:00002da8       ??_C@_05LINNFHLD@?$CI?$FLC?$CJV?$AA@ 000000018001cda8     jni_util_md.obj
+ 0002:00002db0       ??_C@_01IDAFKMJL@_?$AA@    000000018001cdb0     jni_util_md.obj
+ 0002:00002dc0       __mask@@NegDouble@         000000018001cdc0     fdlibm:s_cos.obj
+ 0002:00002dd0       __real@bff0000000000000    000000018001cdd0     fdlibm:s_atan.obj
+ 0002:00002dd8       __real@3ff8000000000000    000000018001cdd8     fdlibm:s_atan.obj
+ 0002:00002de0       __real@4000000000000000    000000018001cde0     fdlibm:s_atan.obj
+ 0002:00002de8       __real@3fe5555555555555    000000018001cde8     fdlibm:s_log1p.obj
+ 0002:00002df0       __real@3ff0000000000000    000000018001cdf0     fdlibm:s_log1p.obj
+ 0002:00002df8       __real@3fe0000000000000    000000018001cdf8     fdlibm:s_log1p.obj
+ 0002:00002e00       __real@c000000000000000    000000018001ce00     fdlibm:s_expm1.obj
+ 0002:00002e08       __real@bfd0000000000000    000000018001ce08     fdlibm:s_expm1.obj
+ 0002:00002e10       __real@4018000000000000    000000018001ce10     fdlibm:s_expm1.obj
+ 0002:00002e18       __real@4008000000000000    000000018001ce18     fdlibm:s_expm1.obj
+ 0002:00002e20       __real@bfe0000000000000    000000018001ce20     fdlibm:s_expm1.obj
+ 0002:00002e28       __real@3fd2000000000000    000000018001ce28     fdlibm:k_cos.obj
+ 0002:00002e30       __real@3fd5555555555555    000000018001ce30     fdlibm:e_log.obj
+ 0002:00002e38       __real@c008000000000000    000000018001ce38     fdlibm:e_atan2.obj
+ 0002:00002e40       __real@3fd0000000000000    000000018001ce40     fdlibm:e_pow.obj
+ 0002:00002e48       __real@0000000000000000    000000018001ce48     fdlibm:k_rem_pio2.obj
+ 0002:00002e50       __real@4020000000000000    000000018001ce50     fdlibm:k_rem_pio2.obj
+ 0002:00002e58       __real@3fc0000000000000    000000018001ce58     fdlibm:k_rem_pio2.obj
+ 0002:00002e60       __sz_SHELL32_dll           000000018001ce60     shell32:SHELL32.dll
+ 0002:00002e70       FOLDERID_Profile           000000018001ce70     shell32:shguid.obj
+ 0002:00002e80       _pRawDllMain               000000018001ce80     MSVCRT:crtdll.obj
+ 0002:00002e80       _pDefaultRawDllMain        000000018001ce80     MSVCRT:crtdll.obj
+ 0002:00002f10       __rtc_iaa                  000000018001cf10     MSVCRT:_initsect_.obj
+ 0002:00002f18       __rtc_izz                  000000018001cf18     MSVCRT:_initsect_.obj
+ 0002:00002f20       __rtc_taa                  000000018001cf20     MSVCRT:_initsect_.obj
+ 0002:00002f28       __rtc_tzz                  000000018001cf28     MSVCRT:_initsect_.obj
+ 0002:00003b5c       __DELAY_IMPORT_DESCRIPTOR_SHELL32_dll 000000018001db5c     shell32:SHELL32.dll
+ 0002:00003b7c       __NULL_DELAY_IMPORT_DESCRIPTOR 000000018001db7c     shell32:SHELL32.dll
+ 0002:00003bb0       \177SHELL32_NULL_THUNK_DATA_DLN 000000018001dbb0     shell32:SHELL32.dll
+ 0002:00003bf0       \177SHELL32_NULL_THUNK_DATA_DLB 000000018001dbf0     shell32:SHELL32.dll
+ 0002:00003c00       __IMPORT_DESCRIPTOR_jvm    000000018001dc00     jvm:jvm.dll
+ 0002:00003c14       __IMPORT_DESCRIPTOR_verify 000000018001dc14     verify:verify.dll
+ 0002:00003c28       __IMPORT_DESCRIPTOR_ADVAPI32 000000018001dc28     advapi32:ADVAPI32.dll
+ 0002:00003c3c       __IMPORT_DESCRIPTOR_MSVCR100 000000018001dc3c     MSVCRT:MSVCR100.dll
+ 0002:00003c50       __IMPORT_DESCRIPTOR_KERNEL32 000000018001dc50     kernel32:KERNEL32.dll
+ 0002:00003c64       __NULL_IMPORT_DESCRIPTOR   000000018001dc64     jvm:jvm.dll
+ 0003:000002c0       monthsType                 00000001800242c0     HostLocaleProviderAdapter_md.obj
+ 0003:000002f8       sMonthsType                00000001800242f8     HostLocaleProviderAdapter_md.obj
+ 0003:00000330       wDaysType                  0000000180024330     HostLocaleProviderAdapter_md.obj
+ 0003:00000350       sWDaysType                 0000000180024350     HostLocaleProviderAdapter_md.obj
+ 0003:00000370       fixes                      0000000180024370     HostLocaleProviderAdapter_md.obj
+ 0003:000014e8       _fltused                   00000001800254e8     MSVCRT:dllsupp.obj
+ 0003:000014f0       __security_cookie          00000001800254f0     MSVCRT:gs_cookie.obj
+ 0003:000014f8       __security_cookie_complement 00000001800254f8     MSVCRT:gs_cookie.obj
+ 0003:00001500       __native_dllmain_reason    0000000180025500     MSVCRT:natstart.obj
+ 0003:00001504       __native_vcclrit_reason    0000000180025504     MSVCRT:natstart.obj
+ 0003:00001508       __imp_SHGetKnownFolderPath 0000000180025508     shell32:SHELL32.dll
+ 0003:00001510       __imp_SHGetFolderPathW     0000000180025510     shell32:SHELL32.dll
+ 0003:00001518       \177SHELL32_NULL_THUNK_DATA_DLA 0000000180025518     shell32:SHELL32.dll
+ 0003:00001540       initialized                0000000180025540     HostLocaleProviderAdapter_md.obj
+ 0003:00001578       jvm_special_version        0000000180025578     Version.obj
+ 0003:00001579       jdk_special_version        0000000180025579     Version.obj
+ 0003:00001780       __hmod__SHELL32_dll        0000000180025780     shell32:SHELL32.dll
+ 0003:00001788       __puiHead                  0000000180025788     delayimp:delayhlp.obj
+ 0003:00001790       __pfnDliFailureHook2       0000000180025790     delayimp:delayhk1.obj
+ 0003:00001798       __pfnDliNotifyHook2        0000000180025798     delayimp:delayhk2.obj
+ 0003:00001d20       ?__type_info_root_node@@3U__type_info_node@@A 0000000180025d20     MSVCRT:tncleanup.obj
+ 0003:00001d30       raf_fd                     0000000180025d30     <common>
+ 0003:00001d38       pGetLocaleInfoEx           0000000180025d38     <common>
+ 0003:00001d40       pGetCalendarInfoEx         0000000180025d40     <common>
+ 0003:00001d48       fos_fd                     0000000180025d48     <common>
+ 0003:00001d50       fis_fd                     0000000180025d50     <common>
+ 0003:00001d58       IO_handle_fdID             0000000180025d58     <common>
+ 0003:00001d60       IO_fd_fdID                 0000000180025d60     <common>
+ 0003:00001d68       __native_startup_state     0000000180025d68     <common>
+ 0003:00001d70       __native_startup_lock      0000000180025d70     <common>
+ 0003:00001d78       __onexitend                0000000180025d78     <common>
+ 0003:00001d80       __onexitbegin              0000000180025d80     <common>
+ 0003:00001d88       __dyn_tls_init_callback    0000000180025d88     <common>
+
+ entry point at        0001:00017d2c
+
+ Static symbols
+
+ 0001:0000118c       initIDs                    000000018000218c f   ClassLoader.obj
+ 0001:0000125c       findJniFunction            000000018000225c f   ClassLoader.obj
+ 0001:00003490       printToFile                0000000180004490 f   MessageUtils.obj
+ 0001:00003dc8       environmentBlock9x         0000000180004dc8 f   ProcessEnvironment_md.obj
+ 0001:00003f3c       swprintf                   0000000180004f3c f   ProcessImpl_md.obj
+ 0001:00003fcc       win32Error                 0000000180004fcc f   ProcessImpl_md.obj
+ 0001:000040e4       initHolder                 00000001800050e4 f   ProcessImpl_md.obj
+ 0001:00004188       releaseHolder              0000000180005188 f   ProcessImpl_md.obj
+ 0001:000041d4       processCreate              00000001800051d4 f   ProcessImpl_md.obj
+ 0001:00004ea8       check                      0000000180005ea8 f   SecurityManager.obj
+ 0001:000074e4       getValueInRegistry         00000001800084e4 f   TimeZone_md.obj
+ 0001:000075dc       getWinTimeZone             00000001800085dc f   TimeZone_md.obj
+ 0001:00007b0c       matchJavaTZ                0000000180008b0c f   TimeZone_md.obj
+ 0001:00007ef8       get_thread_state_info      0000000180008ef8 f   VM.obj
+ 0001:00008224       setStaticIntField          0000000180009224 f   Version.obj
+ 0001:0000872c       getFinalPath               000000018000972c f   WinNTFileSystem_md.obj
+ 0001:0000892c       getFileInformation         000000018000992c f   WinNTFileSystem_md.obj
+ 0001:00008db4       isReservedDeviceNameW      0000000180009db4 f   WinNTFileSystem_md.obj
+ 0001:0000a290       wcp                        000000018000b290 f   canonicalize_md.obj
+ 0001:0000a2f8       nextsep                    000000018000b2f8 f   canonicalize_md.obj
+ 0001:0000b7a0       handleStdinAvailable       000000018000c7a0 f   io_util_md.obj
+ 0001:0000bdfc       getEncodingInternal        000000018000cdfc f   java_props_md.obj
+ 0001:0000bfe8       getConsoleEncoding         000000018000cfe8 f   java_props_md.obj
+ 0001:0000c108       cpu_isalist                000000018000d108 f   java_props_md.obj
+ 0001:0000c1ac       SetupI18nProps             000000018000d1ac f   java_props_md.obj
+ 0001:0000d370       newString8859_1            000000018000e370 f   jni_util.obj
+ 0001:0000d44c       getString8859_1Chars       000000018000e44c f   jni_util.obj
+ 0001:0000d544       newString646_US            000000018000e544 f   jni_util.obj
+ 0001:0000d630       getString646_USChars       000000018000e630 f   jni_util.obj
+ 0001:0000d724       newStringCp1252            000000018000e724 f   jni_util.obj
+ 0001:0000d820       getStringCp1252Chars       000000018000e820 f   jni_util.obj
+ 0001:0000da94       jnuEncodingSupported       000000018000ea94 f   jni_util.obj
+ 0001:00017934       pre_c_init                 0000000180018934 f   MSVCRT:crtdll.obj
+ 0001:00017bf0       __DllMainCRTStartup        0000000180018bf0 f   MSVCRT:crtdll.obj
+ 0001:000181e0       __DllMainCRTStartup$filt$0 00000001800191e0 f   MSVCRT:crtdll.obj
+ 0001:00018210       __DllMainCRTStartup$fin$1  0000000180019210 f   MSVCRT:crtdll.obj
+ 0001:0001822a       _onexit$fin$0              000000018001922a f   MSVCRT:atonexit.obj
+ 0001:00018250       _IsNonwritableInCurrentImage$filt$0 0000000180019250 f   MSVCRT:pesect.obj

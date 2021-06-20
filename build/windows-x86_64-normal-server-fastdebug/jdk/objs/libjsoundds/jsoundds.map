@@ -1,0 +1,248 @@
+ jsoundds
+
+ Timestamp is 60b79cdf (Wed Jun 02 15:59:43 2021)
+
+ Preferred load address is 0000000180000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00003f0cH .text                   CODE
+ 0001:00003f10 00000092H .text$x                 CODE
+ 0001:00003fa4 00000020H .text$yc                CODE
+ 0001:00003fc4 0000000cH .text$yd                CODE
+ 0002:00000000 000001e0H .idata$5                DATA
+ 0002:000001e0 00000008H .CRT$XCA                DATA
+ 0002:000001e8 00000008H .CRT$XCU                DATA
+ 0002:000001f0 00000008H .CRT$XCZ                DATA
+ 0002:000001f8 00000008H .CRT$XIA                DATA
+ 0002:00000200 00000008H .CRT$XIAA               DATA
+ 0002:00000208 00000008H .CRT$XIZ                DATA
+ 0002:00000210 000001a0H .rdata                  DATA
+ 0002:000003b0 00000079H .rdata$debug            DATA
+ 0002:00000430 00000008H .rtc$IAA                DATA
+ 0002:00000438 00000008H .rtc$IZZ                DATA
+ 0002:00000440 00000008H .rtc$TAA                DATA
+ 0002:00000448 00000008H .rtc$TZZ                DATA
+ 0002:00000450 00000290H .xdata                  DATA
+ 0002:000006e0 00000078H .idata$2                DATA
+ 0002:00000758 00000014H .idata$3                DATA
+ 0002:00000770 000001e0H .idata$4                DATA
+ 0002:00000950 000003c2H .idata$6                DATA
+ 0002:00000d20 00000496H .edata                  DATA
+ 0003:00000000 00000038H .data                   DATA
+ 0003:00000040 00000f88H .bss                    DATA
+ 0004:00000000 00000330H .pdata                  DATA
+ 0005:00000000 00000058H .rsrc$01                DATA
+ 0005:00000060 00000360H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
+ 0000:00000000       __ImageBase                0000000180000000     <linker-defined>
+ 0001:00000000       handleSignEndianConversion 0000000180001000 f   DirectAudioDevice.obj
+ 0001:000000f0       handleGainAndConversion    00000001800010f0 f   DirectAudioDevice.obj
+ 0001:0000198c       DAUDIO_AddAudioFormat      000000018000298c f   DirectAudioDevice.obj
+ 0001:00001a1c       Java_com_sun_media_sound_DirectAudioDevice_nGetFormats 0000000180002a1c f   DirectAudioDevice.obj
+ 0001:00001a80       Java_com_sun_media_sound_DirectAudioDevice_nOpen 0000000180002a80 f   DirectAudioDevice.obj
+ 0001:00001b98       Java_com_sun_media_sound_DirectAudioDevice_nStart 0000000180002b98 f   DirectAudioDevice.obj
+ 0001:00001bb8       Java_com_sun_media_sound_DirectAudioDevice_nStop 0000000180002bb8 f   DirectAudioDevice.obj
+ 0001:00001bd8       Java_com_sun_media_sound_DirectAudioDevice_nClose 0000000180002bd8 f   DirectAudioDevice.obj
+ 0001:00001c14       Java_com_sun_media_sound_DirectAudioDevice_nWrite 0000000180002c14 f   DirectAudioDevice.obj
+ 0001:00001e4c       Java_com_sun_media_sound_DirectAudioDevice_nRead 0000000180002e4c f   DirectAudioDevice.obj
+ 0001:00001f08       Java_com_sun_media_sound_DirectAudioDevice_nGetBufferSize 0000000180002f08 f   DirectAudioDevice.obj
+ 0001:00001f2c       Java_com_sun_media_sound_DirectAudioDevice_nIsStillDraining 0000000180002f2c f   DirectAudioDevice.obj
+ 0001:00001f58       Java_com_sun_media_sound_DirectAudioDevice_nFlush 0000000180002f58 f   DirectAudioDevice.obj
+ 0001:00001f78       Java_com_sun_media_sound_DirectAudioDevice_nAvailable 0000000180002f78 f   DirectAudioDevice.obj
+ 0001:00001f9c       Java_com_sun_media_sound_DirectAudioDevice_nGetBytePosition 0000000180002f9c f   DirectAudioDevice.obj
+ 0001:00001fc4       Java_com_sun_media_sound_DirectAudioDevice_nSetBytePosition 0000000180002fc4 f   DirectAudioDevice.obj
+ 0001:00001fe8       Java_com_sun_media_sound_DirectAudioDevice_nRequiresServicing 0000000180002fe8 f   DirectAudioDevice.obj
+ 0001:0000200c       Java_com_sun_media_sound_DirectAudioDevice_nService 000000018000300c f   DirectAudioDevice.obj
+ 0001:0000202c       getDirectAudioDeviceDescription 000000018000302c f   DirectAudioDeviceProvider.obj
+ 0001:000020a8       Java_com_sun_media_sound_DirectAudioDeviceProvider_nGetNumDevices 00000001800030a8 f   DirectAudioDeviceProvider.obj
+ 0001:000020b0       Java_com_sun_media_sound_DirectAudioDeviceProvider_nNewDirectAudioDeviceInfo 00000001800030b0 f   DirectAudioDeviceProvider.obj
+ 0001:00002214       ?isEqualGUID@@YAHPEAU_GUID@@0@Z 0000000180003214 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:00002260       ?findCacheItemByGUID@@YAHPEAU_GUID@@H@Z 0000000180003260 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:000022dc       ?findCacheItemByMixerIndex@@YAHH@Z 00000001800032dc f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:00002304       ?DS_RefreshCacheEnum@@YAHPEAU_GUID@@PEBD1PEAUDS_RefreshCacheStruct@@@Z 0000000180003304 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:000023a4       DAUDIO_GetDirectAudioDeviceCount 00000001800033a4 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:000024b4       ?DS_GetDescEnum@@YAHPEAU_GUID@@PEBD1PEAUtag_DirectAudioDeviceDescription@@@Z 00000001800034b4 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:0000250c       DAUDIO_GetDirectAudioDeviceDescription 000000018000350c f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:0000258c       DAUDIO_GetFormats          000000018000358c f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:00002668       ??1Data@DS_StartBufferHelper@@QEAA@XZ 0000000180003668 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:000026b0       ?ThreadProc@DS_StartBufferHelper@@KAKPEAX@Z 00000001800036b0 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:00002730       ?StartBuffer@DS_StartBufferHelper@@SAJPEAUDS_Info@@@Z 0000000180003730 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:00002798       ?DS_addDeviceRef@@YAHH@Z   0000000180003798 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:00002868       ?DS_removeDeviceRef@@YAXH@Z 0000000180003868 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:000028b8       ?createWaveFormat@@YAXPEAUWAVEFORMATEXTENSIBLE@@HHHH@Z 00000001800038b8 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:00002988       ?DS_clearBuffer@@YAXPEAUDS_Info@@H@Z 0000000180003988 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:00002b70       ?DS_createSoundBuffer@@YAPEAXPEAUDS_Info@@MHHH@Z 0000000180003b70 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:00002c90       ?DS_destroySoundBuffer@@YAXPEAUDS_Info@@@Z 0000000180003c90 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:00002cc8       DAUDIO_Open                0000000180003cc8 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:00002e08       DAUDIO_Start               0000000180003e08 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:00002eb4       DAUDIO_Stop                0000000180003eb4 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:00002ee8       DAUDIO_Close               0000000180003ee8 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:00002f10       ?DS_CheckUnderrun@@YAXPEAUDS_Info@@KK@Z 0000000180003f10 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:00002f40       ?DS_GetAvailable@@YAHPEAUDS_Info@@PEAK1PEAHH@Z 0000000180003f40 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:00003094       DAUDIO_Write               0000000180004094 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:0000323c       DAUDIO_Read                000000018000423c f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:00003370       DAUDIO_GetBufferSize       0000000180004370 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:00003374       DAUDIO_StillDraining       0000000180004374 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:000033b8       DAUDIO_Flush               00000001800043b8 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:0000341c       DAUDIO_GetAvailable        000000018000441c f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:00003440       DAUDIO_GetBytePosition     0000000180004440 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:00003488       DAUDIO_SetBytePosition     0000000180004488 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:0000348c       DAUDIO_RequiresServicing   000000018000448c f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:00003494       DAUDIO_Service             0000000180004494 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:000034e8       ??0Data@DS_StartBufferHelper@@QEAA@XZ 00000001800044e8 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:00003566       DirectSoundCaptureEnumerateA 0000000180004566 f   dsound:DSOUND.dll
+ 0001:0000356c       DirectSoundEnumerateA      000000018000456c f   dsound:DSOUND.dll
+ 0001:00003572       DirectSoundCaptureCreate   0000000180004572 f   dsound:DSOUND.dll
+ 0001:00003578       DirectSoundCreate          0000000180004578 f   dsound:DSOUND.dll
+ 0001:0000357e       strcpy                     000000018000457e f   MSVCRT:MSVCR100.dll
+ 0001:00003584       __GSHandlerCheckCommon     0000000180004584 f   MSVCRT:gshandler.obj
+ 0001:000035e8       __GSHandlerCheck           00000001800045e8 f   MSVCRT:gshandler.obj
+ 0001:00003620       __security_check_cookie    0000000180004620 f   MSVCRT:amdsecgs.obj
+ 0001:00003640       memcmp                     0000000180004640 f   MSVCRT:MSVCR100.dll
+ 0001:00003646       memcpy                     0000000180004646 f   MSVCRT:MSVCR100.dll
+ 0001:0000364c       memset                     000000018000464c f   MSVCRT:MSVCR100.dll
+ 0001:00003654       _onexit                    0000000180004654 f   MSVCRT:atonexit.obj
+ 0001:00003704       atexit                     0000000180004704 f   MSVCRT:atonexit.obj
+ 0001:0000377c       _CRT_INIT                  000000018000477c f   MSVCRT:crtdll.obj
+ 0001:00003b14       _DllMainCRTStartup         0000000180004b14 f   MSVCRT:crtdll.obj
+ 0001:00003b54       __report_gsfailure         0000000180004b54 f   MSVCRT:gs_report.obj
+ 0001:00003c9e       __C_specific_handler       0000000180004c9e f   MSVCRT:MSVCR100.dll
+ 0001:00003ca4       _unlock                    0000000180004ca4 f   MSVCRT:MSVCR100.dll
+ 0001:00003caa       __dllonexit                0000000180004caa f   MSVCRT:MSVCR100.dll
+ 0001:00003cb0       _lock                      0000000180004cb0 f   MSVCRT:MSVCR100.dll
+ 0001:00003cb8       __clean_type_info_names    0000000180004cb8 f   MSVCRT:tncleanup.obj
+ 0001:00003cc4       _RTC_Initialize            0000000180004cc4 f   MSVCRT:_initsect_.obj
+ 0001:00003cfc       _RTC_Terminate             0000000180004cfc f   MSVCRT:_initsect_.obj
+ 0001:00003d40       _ValidateImageBase         0000000180004d40 f   MSVCRT:pesect.obj
+ 0001:00003d70       _FindPESection             0000000180004d70 f   MSVCRT:pesect.obj
+ 0001:00003dc0       _IsNonwritableInCurrentImage 0000000180004dc0 f   MSVCRT:pesect.obj
+ 0001:00003e02       _initterm                  0000000180004e02 f   MSVCRT:MSVCR100.dll
+ 0001:00003e08       _initterm_e                0000000180004e08 f   MSVCRT:MSVCR100.dll
+ 0001:00003e0e       _amsg_exit                 0000000180004e0e f   MSVCRT:MSVCR100.dll
+ 0001:00003e14       __CppXcptFilter            0000000180004e14 f   MSVCRT:MSVCR100.dll
+ 0001:00003e1c       DllMain                    0000000180004e1c f   MSVCRT:dllmain.obj
+ 0001:00003e40       __security_init_cookie     0000000180004e40 f   MSVCRT:gs_support.obj
+ 0001:00003ef4       __crt_debugger_hook        0000000180004ef4 f   MSVCRT:MSVCR100.dll
+ 0001:00003efa       __clean_type_info_names_internal 0000000180004efa f   MSVCRT:MSVCR100.dll
+ 0001:00003f00       RtlVirtualUnwind           0000000180004f00 f   kernel32:KERNEL32.dll
+ 0001:00003f06       RtlLookupFunctionEntry     0000000180004f06 f   kernel32:KERNEL32.dll
+ 0002:00000000       __imp_DirectSoundEnumerateA 0000000180005000     dsound:DSOUND.dll
+ 0002:00000008       __imp_DirectSoundCaptureCreate 0000000180005008     dsound:DSOUND.dll
+ 0002:00000010       __imp_DirectSoundCreate    0000000180005010     dsound:DSOUND.dll
+ 0002:00000018       __imp_DirectSoundCaptureEnumerateA 0000000180005018     dsound:DSOUND.dll
+ 0002:00000020       \177DSOUND_NULL_THUNK_DATA 0000000180005020     dsound:DSOUND.dll
+ 0002:00000028       __imp_GetSystemTimeAsFileTime 0000000180005028     kernel32:KERNEL32.dll
+ 0002:00000030       __imp_GetCurrentProcessId  0000000180005030     kernel32:KERNEL32.dll
+ 0002:00000038       __imp_GetCurrentThreadId   0000000180005038     kernel32:KERNEL32.dll
+ 0002:00000040       __imp_GetTickCount         0000000180005040     kernel32:KERNEL32.dll
+ 0002:00000048       __imp_QueryPerformanceCounter 0000000180005048     kernel32:KERNEL32.dll
+ 0002:00000050       __imp_DisableThreadLibraryCalls 0000000180005050     kernel32:KERNEL32.dll
+ 0002:00000058       __imp_RtlCaptureContext    0000000180005058     kernel32:KERNEL32.dll
+ 0002:00000060       __imp_RtlLookupFunctionEntry 0000000180005060     kernel32:KERNEL32.dll
+ 0002:00000068       __imp_RtlVirtualUnwind     0000000180005068     kernel32:KERNEL32.dll
+ 0002:00000070       __imp_IsDebuggerPresent    0000000180005070     kernel32:KERNEL32.dll
+ 0002:00000078       __imp_SetUnhandledExceptionFilter 0000000180005078     kernel32:KERNEL32.dll
+ 0002:00000080       __imp_UnhandledExceptionFilter 0000000180005080     kernel32:KERNEL32.dll
+ 0002:00000088       __imp_GetCurrentProcess    0000000180005088     kernel32:KERNEL32.dll
+ 0002:00000090       __imp_TerminateProcess     0000000180005090     kernel32:KERNEL32.dll
+ 0002:00000098       __imp_Sleep                0000000180005098     kernel32:KERNEL32.dll
+ 0002:000000a0       __imp_DecodePointer        00000001800050a0     kernel32:KERNEL32.dll
+ 0002:000000a8       __imp_EncodePointer        00000001800050a8     kernel32:KERNEL32.dll
+ 0002:000000b0       __imp_InitializeCriticalSection 00000001800050b0     kernel32:KERNEL32.dll
+ 0002:000000b8       __imp_CreateEventA         00000001800050b8     kernel32:KERNEL32.dll
+ 0002:000000c0       __imp_CreateThread         00000001800050c0     kernel32:KERNEL32.dll
+ 0002:000000c8       __imp_WaitForSingleObject  00000001800050c8     kernel32:KERNEL32.dll
+ 0002:000000d0       __imp_EnterCriticalSection 00000001800050d0     kernel32:KERNEL32.dll
+ 0002:000000d8       __imp_SetEvent             00000001800050d8     kernel32:KERNEL32.dll
+ 0002:000000e0       __imp_CloseHandle          00000001800050e0     kernel32:KERNEL32.dll
+ 0002:000000e8       __imp_LeaveCriticalSection 00000001800050e8     kernel32:KERNEL32.dll
+ 0002:000000f0       \177KERNEL32_NULL_THUNK_DATA 00000001800050f0     kernel32:KERNEL32.dll
+ 0002:000000f8       __imp___crt_debugger_hook  00000001800050f8     MSVCRT:MSVCR100.dll
+ 0002:00000100       __imp___clean_type_info_names_internal 0000000180005100     MSVCRT:MSVCR100.dll
+ 0002:00000108       __imp__amsg_exit           0000000180005108     MSVCRT:MSVCR100.dll
+ 0002:00000110       __imp__encoded_null        0000000180005110     MSVCRT:MSVCR100.dll
+ 0002:00000118       __imp__initterm_e          0000000180005118     MSVCRT:MSVCR100.dll
+ 0002:00000120       __imp__initterm            0000000180005120     MSVCRT:MSVCR100.dll
+ 0002:00000128       __imp__malloc_crt          0000000180005128     MSVCRT:MSVCR100.dll
+ 0002:00000130       __imp__onexit              0000000180005130     MSVCRT:MSVCR100.dll
+ 0002:00000138       __imp__lock                0000000180005138     MSVCRT:MSVCR100.dll
+ 0002:00000140       __imp___dllonexit          0000000180005140     MSVCRT:MSVCR100.dll
+ 0002:00000148       __imp__unlock              0000000180005148     MSVCRT:MSVCR100.dll
+ 0002:00000150       __imp___C_specific_handler 0000000180005150     MSVCRT:MSVCR100.dll
+ 0002:00000158       __imp_strncpy              0000000180005158     MSVCRT:MSVCR100.dll
+ 0002:00000160       __imp_memset               0000000180005160     MSVCRT:MSVCR100.dll
+ 0002:00000168       __imp_memcpy               0000000180005168     MSVCRT:MSVCR100.dll
+ 0002:00000170       __imp_memcmp               0000000180005170     MSVCRT:MSVCR100.dll
+ 0002:00000178       __imp_strcpy               0000000180005178     MSVCRT:MSVCR100.dll
+ 0002:00000180       __imp_malloc               0000000180005180     MSVCRT:MSVCR100.dll
+ 0002:00000188       __imp_free                 0000000180005188     MSVCRT:MSVCR100.dll
+ 0002:00000190       __imp___CppXcptFilter      0000000180005190     MSVCRT:MSVCR100.dll
+ 0002:00000198       \177MSVCR100_NULL_THUNK_DATA 0000000180005198     MSVCRT:MSVCR100.dll
+ 0002:000001a0       __imp_GetDesktopWindow     00000001800051a0     user32:USER32.dll
+ 0002:000001a8       __imp_GetForegroundWindow  00000001800051a8     user32:USER32.dll
+ 0002:000001b0       \177USER32_NULL_THUNK_DATA 00000001800051b0     user32:USER32.dll
+ 0002:000001b8       __imp_timeGetTime          00000001800051b8     winmm:WINMM.dll
+ 0002:000001c0       \177WINMM_NULL_THUNK_DATA  00000001800051c0     winmm:WINMM.dll
+ 0002:000001c8       __imp_CoInitialize         00000001800051c8     ole32:ole32.dll
+ 0002:000001d0       __imp_CoUninitialize       00000001800051d0     ole32:ole32.dll
+ 0002:000001d8       \177ole32_NULL_THUNK_DATA  00000001800051d8     ole32:ole32.dll
+ 0002:000001e0       __xc_a                     00000001800051e0     MSVCRT:cinitexe.obj
+ 0002:000001f0       __xc_z                     00000001800051f0     MSVCRT:cinitexe.obj
+ 0002:000001f8       __xi_a                     00000001800051f8     MSVCRT:cinitexe.obj
+ 0002:00000208       __xi_z                     0000000180005208     MSVCRT:cinitexe.obj
+ 0002:0000022c       __real@3f800000            000000018000522c     DirectAudioDevice.obj
+ 0002:00000230       __mask@@AbsFloat@          0000000180005230     DirectAudioDevice.obj
+ 0002:00000240       ??_C@_09OBBPPKHG@addFormat?$AA@ 0000000180005240     DirectAudioDevice.obj
+ 0002:00000250       ??_C@_0BN@PPKEDFNA@?$CILjava?1util?1Vector?$DLIIIFIZZ?$CJV?$AA@ 0000000180005250     DirectAudioDevice.obj
+ 0002:00000270       __real@3f847ae147ae147b    0000000180005270     DirectAudioDevice.obj
+ 0002:00000278       ??_C@_0BA@LFHNEBGG@Unknown?5Version?$AA@ 0000000180005278     DirectAudioDeviceProvider.obj
+ 0002:00000288       ??_C@_0BE@GEPKBKKC@Unknown?5Description?$AA@ 0000000180005288     DirectAudioDeviceProvider.obj
+ 0002:000002a0       ??_C@_0P@JELLBOOJ@Unknown?5Vendor?$AA@ 00000001800052a0     DirectAudioDeviceProvider.obj
+ 0002:000002b0       ??_C@_0N@FMCAPCBL@Unknown?5Name?$AA@ 00000001800052b0     DirectAudioDeviceProvider.obj
+ 0002:000002c0       ??_C@_06FALKBLGB@?$DMinit?$DO?$AA@ 00000001800052c0     DirectAudioDeviceProvider.obj
+ 0002:000002d0       ??_C@_0EP@IBGEIIFD@?$CIIIILjava?1lang?1String?$DLLjava?1lang@ 00000001800052d0     DirectAudioDeviceProvider.obj
+ 0002:00000320       ??_C@_0EE@IPKJIHIL@com?1sun?1media?1sound?1DirectAudioD@ 0000000180005320     DirectAudioDeviceProvider.obj
+ 0002:00000368       ??_C@_0BE@OBEMNMJC@DirectSound?5Capture?$AA@ 0000000180005368     PLATFORM_API_WinOS_DirectSound.obj
+ 0002:00000380       ??_C@_0BF@HPHHCMEI@DirectSound?5Playback?$AA@ 0000000180005380     PLATFORM_API_WinOS_DirectSound.obj
+ 0002:00000398       _pDefaultRawDllMain        0000000180005398     MSVCRT:crtdll.obj
+ 0002:00000398       _pRawDllMain               0000000180005398     MSVCRT:crtdll.obj
+ 0002:00000430       __rtc_iaa                  0000000180005430     MSVCRT:_initsect_.obj
+ 0002:00000438       __rtc_izz                  0000000180005438     MSVCRT:_initsect_.obj
+ 0002:00000440       __rtc_taa                  0000000180005440     MSVCRT:_initsect_.obj
+ 0002:00000448       __rtc_tzz                  0000000180005448     MSVCRT:_initsect_.obj
+ 0002:000006e0       __IMPORT_DESCRIPTOR_DSOUND 00000001800056e0     dsound:DSOUND.dll
+ 0002:000006f4       __IMPORT_DESCRIPTOR_WINMM  00000001800056f4     winmm:WINMM.dll
+ 0002:00000708       __IMPORT_DESCRIPTOR_USER32 0000000180005708     user32:USER32.dll
+ 0002:0000071c       __IMPORT_DESCRIPTOR_ole32  000000018000571c     ole32:ole32.dll
+ 0002:00000730       __IMPORT_DESCRIPTOR_MSVCR100 0000000180005730     MSVCRT:MSVCR100.dll
+ 0002:00000744       __IMPORT_DESCRIPTOR_KERNEL32 0000000180005744     kernel32:KERNEL32.dll
+ 0002:00000758       __NULL_IMPORT_DESCRIPTOR   0000000180005758     dsound:DSOUND.dll
+ 0003:00000018       _fltused                   0000000180007018     MSVCRT:dllsupp.obj
+ 0003:00000020       __security_cookie          0000000180007020     MSVCRT:gs_cookie.obj
+ 0003:00000028       __security_cookie_complement 0000000180007028     MSVCRT:gs_cookie.obj
+ 0003:00000030       __native_dllmain_reason    0000000180007030     MSVCRT:natstart.obj
+ 0003:00000034       __native_vcclrit_reason    0000000180007034     MSVCRT:natstart.obj
+ 0003:000009c0       ?data@DS_StartBufferHelper@@1VData@1@A 00000001800079c0     PLATFORM_API_WinOS_DirectSound.obj
+ 0003:00000f90       ?__type_info_root_node@@3U__type_info_node@@A 0000000180007f90     MSVCRT:tncleanup.obj
+ 0003:00000fa0       __native_startup_state     0000000180007fa0     <common>
+ 0003:00000fa8       __native_startup_lock      0000000180007fa8     <common>
+ 0003:00000fb0       __dyn_tls_init_callback    0000000180007fb0     <common>
+ 0003:00000fb8       __onexitend                0000000180007fb8     <common>
+ 0003:00000fc0       __onexitbegin              0000000180007fc0     <common>
+
+ entry point at        0001:00003b14
+
+ Static symbols
+
+ 0001:0000371c       pre_c_init                 000000018000471c f   MSVCRT:crtdll.obj
+ 0001:000039d8       __DllMainCRTStartup        00000001800049d8 f   MSVCRT:crtdll.obj
+ 0001:00003f10       _onexit$fin$0              0000000180004f10 f   MSVCRT:atonexit.obj
+ 0001:00003f2b       __DllMainCRTStartup$filt$0 0000000180004f2b f   MSVCRT:crtdll.obj
+ 0001:00003f5b       __DllMainCRTStartup$fin$1  0000000180004f5b f   MSVCRT:crtdll.obj
+ 0001:00003f80       _IsNonwritableInCurrentImage$filt$0 0000000180004f80 f   MSVCRT:pesect.obj
+ 0001:00003fa4       ??__E?data@DS_StartBufferHelper@@1VData@1@A@@YAXXZ 0000000180004fa4 f   PLATFORM_API_WinOS_DirectSound.obj
+ 0001:00003fc4       ??__F?data@DS_StartBufferHelper@@1VData@1@A@@YAXXZ 0000000180004fc4 f   PLATFORM_API_WinOS_DirectSound.obj

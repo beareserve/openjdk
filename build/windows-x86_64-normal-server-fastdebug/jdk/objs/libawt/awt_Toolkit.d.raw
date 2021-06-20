@@ -1,0 +1,514 @@
+awt_Toolkit.cpp
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\stdhdrs.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\windows.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\sdkddkver.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\excpt.h
+Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\sal.h
+Note: including file:       c:\program files (x86)\microsoft visual studio 10.0\vc\include\codeanalysis\sourceannotations.h
+Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\vadefs.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stdarg.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\windef.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winnt.h
+Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\ctype.h
+Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:      C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\specstrings.h
+Note: including file:       c:\program files (x86)\microsoft sdks\windows\v7.0a\include\sal_supp.h
+Note: including file:       c:\program files (x86)\microsoft sdks\windows\v7.0a\include\specstrings_supp.h
+Note: including file:       C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\specstrings_strict.h
+Note: including file:        C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\specstrings_undef.h
+Note: including file:       C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\driverspecs.h
+Note: including file:        c:\program files (x86)\microsoft sdks\windows\v7.0a\include\sdv_driverspecs.h
+Note: including file:      C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\kernelspecs.h
+Note: including file:      C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\basetsd.h
+Note: including file:      C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\guiddef.h
+Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\string.h
+Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:      c:\program files (x86)\microsoft sdks\windows\v7.0a\include\pshpack4.h
+Note: including file:      c:\program files (x86)\microsoft sdks\windows\v7.0a\include\poppack.h
+Note: including file:      C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack4.h
+Note: including file:      C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:      c:\program files (x86)\microsoft sdks\windows\v7.0a\include\pshpack4.h
+Note: including file:      c:\program files (x86)\microsoft sdks\windows\v7.0a\include\pshpack2.h
+Note: including file:      c:\program files (x86)\microsoft sdks\windows\v7.0a\include\poppack.h
+Note: including file:      c:\program files (x86)\microsoft sdks\windows\v7.0a\include\pshpack2.h
+Note: including file:      C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack2.h
+Note: including file:      C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:      c:\program files (x86)\microsoft sdks\windows\v7.0a\include\poppack.h
+Note: including file:      c:\program files (x86)\microsoft sdks\windows\v7.0a\include\pshpack8.h
+Note: including file:      c:\program files (x86)\microsoft sdks\windows\v7.0a\include\poppack.h
+Note: including file:      c:\program files (x86)\microsoft sdks\windows\v7.0a\include\poppack.h
+Note: including file:      C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\ktmtypes.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winbase.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winerror.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\wingdi.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack2.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack2.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack4.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack4.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winuser.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack2.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\tvout.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winnls.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\wincon.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winver.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\verrsrc.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winreg.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\reason.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winnetwk.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\wnnc.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\stralign.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winsvc.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\mcx.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\imm.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\ime_cmodes.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stdlib.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\limits.h
+Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stdio.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\swprintf.inl
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\assert.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\tchar.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\wchar.h
+Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\wtime.inl
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\javavm\export\jni_md.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\common\jni_util.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\share\native\common\jlong.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\windows\native\common\jlong_md.h
+Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stddef.h
+Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\common\jdk_util.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\share\javavm\export\jvm.h
+Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\sys/stat.h
+Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\sys/types.h
+Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\sys/stat.inl
+Note: including file:     d:\xysziv\openjdk\jdk\src\share\javavm\export\jni.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\windows\javavm\export\jvm_md.h
+Note: including file:      d:\xysziv\openjdk\jdk\src\share\javavm\export\jni.h
+Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\fcntl.h
+Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\errno.h
+Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\signal.h
+Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\share\javavm\export\classfile_constants.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\common\jdk_util_md.h
+Note: including file:     d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\float.h
+Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtwrn.h
+Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\alloc.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\stdhdrs.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\common\sizecalc.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stdint.h
+Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\yvals.h
+Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\use_ansi.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Debug.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\awt\debug\debug_assert.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\share\native\sun\awt\debug\debug_util.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\share\javavm\export\jvm.h
+Note: including file:     d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\share\native\common\jni_util.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\share\javavm\export\jvm.h
+Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\assert.h
+Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\share\native\sun\awt\debug\debug_mem.h
+Note: including file:      d:\xysziv\openjdk\jdk\src\share\native\sun\awt\debug\debug_util.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\share\native\sun\awt\debug\debug_assert.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\share\native\sun\awt\debug\debug_trace.h
+Note: including file:      d:\xysziv\openjdk\jdk\src\share\native\sun\awt\debug\debug_util.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\awt\debug\debug_trace.h
+Note: including file: C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\windowsx.h
+Note: including file: C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\process.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_DrawingSurface.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\stdhdrs.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jawt.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\javavm\export\jawt_md.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jawt.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Component.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awtmsg.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Object.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Toolkit.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awtmsg.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\Trace.h
+Note: including file:      d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:      d:\xysziv\openjdk\jdk\src\share\native\sun\awt\debug\debug_trace.h
+Note: including file:     d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_awt_windows_WToolkit.h
+Note: including file:      d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_Event.h
+Note: including file:     d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_AWTEvent.h
+Note: including file:     d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_awt_windows_WObjectPeer.h
+Note: including file:     d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Font.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Object.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_Font.h
+Note: including file:     d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_awt_windows_WFontMetrics.h
+Note: including file:     d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_awt_FontDescriptor.h
+Note: including file:     d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_awt_PlatformFont.h
+Note: including file:     d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Brush.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_GDIObject.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\Hashtable.h
+Note: including file:      d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt.h
+Note: including file:      d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Toolkit.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\GDIHashtable.h
+Note: including file:      d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\Hashtable.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\GDIHashtable.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Pen.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_GDIObject.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\GDIHashtable.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Win32GraphicsDevice.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\share\native\sun\awt\image\cvutils\img_globals.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\colordata.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\share\native\sun\awt\image\cvutils\img_globals.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Palette.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Win32GraphicsDevice.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\Devices.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Toolkit.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Win32GraphicsDevice.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\windows\native\sun\java2d\windows\GDIWindowSurfaceData.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\SurfaceData.h
+Note: including file:     d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\colordata.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Brush.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Pen.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Win32GraphicsDevice.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\stdhdrs.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_Component.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_awt_windows_WComponentPeer.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_event_KeyEvent.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_event_MouseEvent.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_event_WindowEvent.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_Dimension.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\ObjectList.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Toolkit.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Object.h
+Note: including file:  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\ddraw.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objbase.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\rpc.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\rpcdce.h
+Note: including file:      C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\rpcdcep.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\rpcnsi.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\rpcnterr.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\rpcasync.h
+Note: including file:      C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+Note: including file:      C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\rpcndr.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\rpcnsip.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\rpcsal.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\wtypes.h
+Note: including file:     c:\program files (x86)\microsoft sdks\windows\v7.0a\include\guiddef.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\unknwn.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\guiddef.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\cguid.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\urlmon.h
+Note: including file:     c:\program files (x86)\microsoft sdks\windows\v7.0a\include\oleidl.h
+Note: including file:     c:\program files (x86)\microsoft sdks\windows\v7.0a\include\servprov.h
+Note: including file:     c:\program files (x86)\microsoft sdks\windows\v7.0a\include\msxml.h
+Note: including file:      c:\program files (x86)\microsoft sdks\windows\v7.0a\include\oaidl.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\propidl.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_AWTEvent.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\common\jni_util.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt.h
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Component.h
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Canvas.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Component.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_awt_windows_WCanvasPeer.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Clipboard.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt.h
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Frame.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Window.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Canvas.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_Window.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_awt_windows_WWindowPeer.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_MenuBar.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Menu.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_MenuItem.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Object.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Component.h
+Note: including file:     d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_MenuItem.h
+Note: including file:      d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:     d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_awt_windows_WMenuItemPeer.h
+Note: including file:      d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:     d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_Menu.h
+Note: including file:      d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:     d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_awt_windows_WMenuPeer.h
+Note: including file:      d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:     d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_MenuComponent.h
+Note: including file:      d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:     d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_FontMetrics.h
+Note: including file:      d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_MenuItem.h
+Note: including file:     d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_awt_windows_WMenuItemPeer.h
+Note: including file:     d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_Menu.h
+Note: including file:     d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_awt_windows_WMenuPeer.h
+Note: including file:     d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_MenuBar.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_awt_windows_WMenuBarPeer.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_awt_windows_WFramePeer.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Toolkit.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\Hashtable.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_Frame.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_awt_windows_WFramePeer.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Dialog.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Frame.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_Dialog.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_awt_windows_WDialogPeer.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Font.h
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Cursor.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\ObjectList.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Object.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Toolkit.h
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_InputEvent.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\common\jni_util.h
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_KeyEvent.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\common\jni_util.h
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_List.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Component.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_awt_windows_WListPeer.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Palette.h
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_PopupMenu.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Menu.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_MenuItem.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_awt_windows_WMenuItemPeer.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_awt_windows_WPopupMenuPeer.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Toolkit.h
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_DesktopProperties.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_FileDialog.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\stdhdrs.h
+Note: including file:  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\commdlg.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\prsht.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Toolkit.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Component.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Dialog.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_FileDialog.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_awt_windows_WFileDialogPeer.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\CmdIDList.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Object.h
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_new.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\awt\debug\debug_trace.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\awt\debug\debug_mem.h
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\ComCtl32Util.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Component.h
+Note: including file:  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\commctrl.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\prsht.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\DllUtil.h
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\java2d\d3d\D3DPipelineManager.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\java2d\d3d\D3DPipeline.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\d3d9.h
+Note: including file:    c:\program files (x86)\microsoft sdks\windows\v7.0a\include\d3d9types.h
+Note: including file:    c:\program files (x86)\microsoft sdks\windows\v7.0a\include\d3d9caps.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\Trace.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\java2d\d3d\D3DContext.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_Transparency.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_java2d_pipe_BufferedContext.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_java2d_d3d_D3DContext_D3DContextCaps.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_java2d_d3d_D3DSurfaceData.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_java2d_pipe_hw_AccelDeviceEventNotifier.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\ShaderList.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\share\native\common\jlong.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\windows\native\sun\java2d\d3d\D3DMaskCache.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\sun\java2d\d3d\D3DContext.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\windows\native\sun\java2d\d3d\D3DVertexCacher.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\sun\java2d\d3d\D3DContext.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\windows\native\sun\java2d\d3d\D3DResourceManager.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\sun\java2d\d3d\D3DContext.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\sun\java2d\d3d\D3DSurfaceData.h
+Note: including file:     d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_image_AffineTransformOp.h
+Note: including file:      d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:     d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_java2d_d3d_D3DSurfaceData.h
+Note: including file:      d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:     d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_java2d_pipe_hw_AccelSurface.h
+Note: including file:      d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\SurfaceData.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\d3d9.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\windows\native\sun\java2d\j2d_md.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\share\native\common\gdefs.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\windows\native\common\gdefs_md.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Toolkit.h
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_DnDDT.h
+Note: including file:  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\Ole2.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\oleauto.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\shlobj.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\shlguid.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\isguids.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\exdisp.h
+Note: including file:     c:\program files (x86)\microsoft sdks\windows\v7.0a\include\ocidl.h
+Note: including file:     c:\program files (x86)\microsoft sdks\windows\v7.0a\include\docobj.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\shldisp.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\knownfolders.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\shtypes.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\shobjidl.h
+Note: including file:    c:\program files (x86)\microsoft sdks\windows\v7.0a\include\comcat.h
+Note: including file:    c:\program files (x86)\microsoft sdks\windows\v7.0a\include\prsht.h
+Note: including file:    c:\program files (x86)\microsoft sdks\windows\v7.0a\include\propsys.h
+Note: including file:     c:\program files (x86)\microsoft sdks\windows\v7.0a\include\StructuredQueryCondition.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\propkeydef.h
+Note: including file:    c:\program files (x86)\microsoft sdks\windows\v7.0a\include\ObjectArray.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\sherrors.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\prsht.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\common\jni_util.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Object.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Component.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Window.h
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_DnDDS.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\javavm\export\jvm.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\common\jni_util.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Object.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Component.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Window.h
+Note: including file: d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_Toolkit.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file: d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_event_InputMethodEvent.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h

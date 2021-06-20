@@ -1,0 +1,279 @@
+ java_crw_demo
+
+ Timestamp is 60b79cdd (Wed Jun 02 15:59:41 2021)
+
+ Preferred load address is 0000000180000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000042b2H .text                   CODE
+ 0001:000042c0 00000092H .text$x                 CODE
+ 0002:00000000 00000178H .idata$5                DATA
+ 0002:00000178 00000008H .CRT$XCA                DATA
+ 0002:00000180 00000008H .CRT$XCZ                DATA
+ 0002:00000188 00000008H .CRT$XIA                DATA
+ 0002:00000190 00000008H .CRT$XIAA               DATA
+ 0002:00000198 00000008H .CRT$XIZ                DATA
+ 0002:000001a0 00000910H .rdata                  DATA
+ 0002:00000ab0 00000083H .rdata$debug            DATA
+ 0002:00000b38 00000008H .rtc$IAA                DATA
+ 0002:00000b40 00000008H .rtc$IZZ                DATA
+ 0002:00000b48 00000008H .rtc$TAA                DATA
+ 0002:00000b50 00000008H .rtc$TZZ                DATA
+ 0002:00000b58 000002f0H .xdata                  DATA
+ 0002:00000e48 00000028H .idata$2                DATA
+ 0002:00000e70 00000014H .idata$3                DATA
+ 0002:00000e88 00000178H .idata$4                DATA
+ 0002:00001000 000002f6H .idata$6                DATA
+ 0002:00001300 00000074H .edata                  DATA
+ 0003:00000000 000000e8H .data                   DATA
+ 0003:000000f0 000005b8H .bss                    DATA
+ 0004:00000000 00000348H .pdata                  DATA
+ 0005:00000000 00000058H .rsrc$01                DATA
+ 0005:00000060 00000370H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
+ 0000:00000000       __ImageBase                0000000180000000     <linker-defined>
+ 0001:0000338c       java_crw_demo              000000018000438c f   java_crw_demo.obj
+ 0001:00003820       java_crw_demo_classname    0000000180004820 f   java_crw_demo.obj
+ 0001:0000393c       __GSHandlerCheckCommon     000000018000493c f   MSVCRT:gshandler.obj
+ 0001:000039a0       __GSHandlerCheck           00000001800049a0 f   MSVCRT:gshandler.obj
+ 0001:000039d0       __security_check_cookie    00000001800049d0 f   MSVCRT:amdsecgs.obj
+ 0001:000039f0       memcpy                     00000001800049f0 f   MSVCRT:MSVCR100.dll
+ 0001:000039f6       strlen                     00000001800049f6 f   MSVCRT:MSVCR100.dll
+ 0001:000039fc       strcmp                     00000001800049fc f   MSVCRT:MSVCR100.dll
+ 0001:00003a02       memset                     0000000180004a02 f   MSVCRT:MSVCR100.dll
+ 0001:00003a68       _CRT_INIT                  0000000180004a68 f   MSVCRT:crtdll.obj
+ 0001:00003e00       _DllMainCRTStartup         0000000180004e00 f   MSVCRT:crtdll.obj
+ 0001:00003e40       __report_gsfailure         0000000180004e40 f   MSVCRT:gs_report.obj
+ 0001:00003f8c       __clean_type_info_names    0000000180004f8c f   MSVCRT:tncleanup.obj
+ 0001:00003f98       _onexit                    0000000180004f98 f   MSVCRT:atonexit.obj
+ 0001:00004048       atexit                     0000000180005048 f   MSVCRT:atonexit.obj
+ 0001:00004060       _RTC_Initialize            0000000180005060 f   MSVCRT:_initsect_.obj
+ 0001:00004098       _RTC_Terminate             0000000180005098 f   MSVCRT:_initsect_.obj
+ 0001:000040d0       _ValidateImageBase         00000001800050d0 f   MSVCRT:pesect.obj
+ 0001:00004100       _FindPESection             0000000180005100 f   MSVCRT:pesect.obj
+ 0001:00004150       _IsNonwritableInCurrentImage 0000000180005150 f   MSVCRT:pesect.obj
+ 0001:00004192       _initterm                  0000000180005192 f   MSVCRT:MSVCR100.dll
+ 0001:00004198       _initterm_e                0000000180005198 f   MSVCRT:MSVCR100.dll
+ 0001:0000419e       _amsg_exit                 000000018000519e f   MSVCRT:MSVCR100.dll
+ 0001:000041a4       __C_specific_handler       00000001800051a4 f   MSVCRT:MSVCR100.dll
+ 0001:000041aa       __CppXcptFilter            00000001800051aa f   MSVCRT:MSVCR100.dll
+ 0001:000041b0       DllMain                    00000001800051b0 f   MSVCRT:dllmain.obj
+ 0001:000041d4       __security_init_cookie     00000001800051d4 f   MSVCRT:gs_support.obj
+ 0001:00004288       __crt_debugger_hook        0000000180005288 f   MSVCRT:MSVCR100.dll
+ 0001:0000428e       __clean_type_info_names_internal 000000018000528e f   MSVCRT:MSVCR100.dll
+ 0001:00004294       _unlock                    0000000180005294 f   MSVCRT:MSVCR100.dll
+ 0001:0000429a       __dllonexit                000000018000529a f   MSVCRT:MSVCR100.dll
+ 0001:000042a0       _lock                      00000001800052a0 f   MSVCRT:MSVCR100.dll
+ 0001:000042a6       RtlVirtualUnwind           00000001800052a6 f   kernel32:KERNEL32.dll
+ 0001:000042ac       RtlLookupFunctionEntry     00000001800052ac f   kernel32:KERNEL32.dll
+ 0002:00000000       __imp_GetCurrentProcessId  0000000180006000     kernel32:KERNEL32.dll
+ 0002:00000008       __imp_GetCurrentThreadId   0000000180006008     kernel32:KERNEL32.dll
+ 0002:00000010       __imp_GetTickCount         0000000180006010     kernel32:KERNEL32.dll
+ 0002:00000018       __imp_QueryPerformanceCounter 0000000180006018     kernel32:KERNEL32.dll
+ 0002:00000020       __imp_DisableThreadLibraryCalls 0000000180006020     kernel32:KERNEL32.dll
+ 0002:00000028       __imp_RtlCaptureContext    0000000180006028     kernel32:KERNEL32.dll
+ 0002:00000030       __imp_RtlLookupFunctionEntry 0000000180006030     kernel32:KERNEL32.dll
+ 0002:00000038       __imp_RtlVirtualUnwind     0000000180006038     kernel32:KERNEL32.dll
+ 0002:00000040       __imp_IsDebuggerPresent    0000000180006040     kernel32:KERNEL32.dll
+ 0002:00000048       __imp_SetUnhandledExceptionFilter 0000000180006048     kernel32:KERNEL32.dll
+ 0002:00000050       __imp_UnhandledExceptionFilter 0000000180006050     kernel32:KERNEL32.dll
+ 0002:00000058       __imp_GetCurrentProcess    0000000180006058     kernel32:KERNEL32.dll
+ 0002:00000060       __imp_TerminateProcess     0000000180006060     kernel32:KERNEL32.dll
+ 0002:00000068       __imp_Sleep                0000000180006068     kernel32:KERNEL32.dll
+ 0002:00000070       __imp_DecodePointer        0000000180006070     kernel32:KERNEL32.dll
+ 0002:00000078       __imp_EncodePointer        0000000180006078     kernel32:KERNEL32.dll
+ 0002:00000080       __imp_GetSystemTimeAsFileTime 0000000180006080     kernel32:KERNEL32.dll
+ 0002:00000088       \177KERNEL32_NULL_THUNK_DATA 0000000180006088     kernel32:KERNEL32.dll
+ 0002:00000090       __imp__encoded_null        0000000180006090     MSVCRT:MSVCR100.dll
+ 0002:00000098       __imp__amsg_exit           0000000180006098     MSVCRT:MSVCR100.dll
+ 0002:000000a0       __imp___C_specific_handler 00000001800060a0     MSVCRT:MSVCR100.dll
+ 0002:000000a8       __imp___CppXcptFilter      00000001800060a8     MSVCRT:MSVCR100.dll
+ 0002:000000b0       __imp__initterm_e          00000001800060b0     MSVCRT:MSVCR100.dll
+ 0002:000000b8       __imp___clean_type_info_names_internal 00000001800060b8     MSVCRT:MSVCR100.dll
+ 0002:000000c0       __imp__unlock              00000001800060c0     MSVCRT:MSVCR100.dll
+ 0002:000000c8       __imp___dllonexit          00000001800060c8     MSVCRT:MSVCR100.dll
+ 0002:000000d0       __imp__lock                00000001800060d0     MSVCRT:MSVCR100.dll
+ 0002:000000d8       __imp__onexit              00000001800060d8     MSVCRT:MSVCR100.dll
+ 0002:000000e0       __imp__initterm            00000001800060e0     MSVCRT:MSVCR100.dll
+ 0002:000000e8       __imp__malloc_crt          00000001800060e8     MSVCRT:MSVCR100.dll
+ 0002:000000f0       __imp_memset               00000001800060f0     MSVCRT:MSVCR100.dll
+ 0002:000000f8       __imp_strchr               00000001800060f8     MSVCRT:MSVCR100.dll
+ 0002:00000100       __imp_strcmp               0000000180006100     MSVCRT:MSVCR100.dll
+ 0002:00000108       __imp_strncmp              0000000180006108     MSVCRT:MSVCR100.dll
+ 0002:00000110       __imp__snprintf_s          0000000180006110     MSVCRT:MSVCR100.dll
+ 0002:00000118       __imp_strlen               0000000180006118     MSVCRT:MSVCR100.dll
+ 0002:00000120       __imp_free                 0000000180006120     MSVCRT:MSVCR100.dll
+ 0002:00000128       __imp_memcpy               0000000180006128     MSVCRT:MSVCR100.dll
+ 0002:00000130       __imp_calloc               0000000180006130     MSVCRT:MSVCR100.dll
+ 0002:00000138       __imp_realloc              0000000180006138     MSVCRT:MSVCR100.dll
+ 0002:00000140       __imp_malloc               0000000180006140     MSVCRT:MSVCR100.dll
+ 0002:00000148       __imp_sprintf              0000000180006148     MSVCRT:MSVCR100.dll
+ 0002:00000150       __imp___iob_func           0000000180006150     MSVCRT:MSVCR100.dll
+ 0002:00000158       __imp_fprintf              0000000180006158     MSVCRT:MSVCR100.dll
+ 0002:00000160       __imp___crt_debugger_hook  0000000180006160     MSVCRT:MSVCR100.dll
+ 0002:00000168       __imp_abort                0000000180006168     MSVCRT:MSVCR100.dll
+ 0002:00000170       \177MSVCR100_NULL_THUNK_DATA 0000000180006170     MSVCRT:MSVCR100.dll
+ 0002:00000178       __xc_a                     0000000180006178     MSVCRT:cinitexe.obj
+ 0002:00000180       __xc_z                     0000000180006180     MSVCRT:cinitexe.obj
+ 0002:00000188       __xi_a                     0000000180006188     MSVCRT:cinitexe.obj
+ 0002:00000198       __xi_z                     0000000180006198     MSVCRT:cinitexe.obj
+ 0002:000001c0       ??_C@_0BB@BKCDLAKA@CRW?3?5?$CFs?5?$FL?$CFs?3?$CFd?$FN?6?$AA@ 00000001800061c0     java_crw_demo.obj
+ 0002:000001d8       ??_C@_0CF@EBDBPIHP@CRW?5ASSERTION?5FAILURE?3?5?$CFs?5?$CI?$CFs?3?$CFs@ 00000001800061d8     java_crw_demo.obj
+ 0002:00000200       ??_C@_01OGPIMHDM@?$DP?$AA@ 0000000180006200     java_crw_demo.obj
+ 0002:00000208       ??_C@_0BJ@DEPBLKHG@Ran?5out?5of?5malloc?5memory?$AA@ 0000000180006208     java_crw_demo.obj
+ 0002:00000228       ??_C@_0BL@LGJCEOI@Cannot?5allocate?5?$DM?$DN?50?5bytes?$AA@ 0000000180006228     java_crw_demo.obj
+ 0002:00000248       ??_C@_0BA@NADODIIN@java_crw_demo?4c?$AA@ 0000000180006248     java_crw_demo.obj
+ 0002:00000258       ??_C@_0BN@MGOIBEOL@Cannot?5reallocate?5?$DM?$DN?50?5bytes?$AA@ 0000000180006258     java_crw_demo.obj
+ 0002:00000278       ??_C@_0BH@KHGJEGKN@Cannot?5deallocate?5NULL?$AA@ 0000000180006278     java_crw_demo.obj
+ 0002:00000290       ??_C@_0GI@KOABMKEP@?$CI?5?$CIci?$CJ?5?$CB?$DN?5NULL?5?$CG?$CG?5?$CIci?$CJ?9?$DOinput_po@ 0000000180006290     java_crw_demo.obj
+ 0002:000002f8       ??_C@_0M@OBNHJLEF@bytes?$CB?$DNNULL?$AA@ 00000001800062f8     java_crw_demo.obj
+ 0002:00000308       ??_C@_0CG@MKGMHOAN@i?5?$DO?50?5?$CG?$CG?5i?5?$DM?5ci?9?$DOcpool_count_plu@ 0000000180006308     java_crw_demo.obj
+ 0002:00000330       ??_C@_0BE@NLMFMPIA@len?$DN?$DN?$CIlen?5?$CG?50xFFFF?$CJ?$AA@ 0000000180006330     java_crw_demo.obj
+ 0002:00000348       ??_C@_0BB@MCIAEODB@Unknown?5constant?$AA@ 0000000180006348     java_crw_demo.obj
+ 0002:00000360       ??_C@_0DC@JEGLKNJP@ci?9?$DOcpool_count_plus_one?5?$DM?5ci?9?$DOc@ 0000000180006360     java_crw_demo.obj
+ 0002:00000398       ??_C@_0BB@EKMENADH@class_name?$CB?$DNNULL?$AA@ 0000000180006398     java_crw_demo.obj
+ 0002:000003b0       ??_C@_0M@PHGKAKME@descr?$CB?$DNNULL?$AA@ 00000001800063b0     java_crw_demo.obj
+ 0002:000003c0       ??_C@_0L@HCKKBPAB@name?$CB?$DNNULL?$AA@ 00000001800063c0     java_crw_demo.obj
+ 0002:000003d0       ??_C@_0DC@POFOCGJA@c_index?5?$DO?50?5?$CG?$CG?5c_index?5?$DM?5ci?9?$DOcpo@ 00000001800063d0     java_crw_demo.obj
+ 0002:00000408       ??_C@_0BN@IDOLECFE@Unknown?5tag?3?5?$CFd?0?5at?5ipos?5?$CFhu?$AA@ 0000000180006408     java_crw_demo.obj
+ 0002:00000428       ??_C@_0BB@KEIEAGJE@count_plus_one?$DO1?$AA@ 0000000180006428     java_crw_demo.obj
+ 0002:00000440       ??_C@_0BC@PHLJJOJF@nbytes?$DMmax_nbytes?$AA@ 0000000180006440     java_crw_demo.obj
+ 0002:00000458       ??_C@_0BK@EHFHMOJC@ci?9?$DOclass_number_index?$CB?$DN0?$AA@ 0000000180006458     java_crw_demo.obj
+ 0002:00000478       ??_C@_0BA@KCCBOFEE@bytecodes?$CB?$DNNULL?$AA@ 0000000180006478     java_crw_demo.obj
+ 0002:00000488       ??_C@_0L@HFLFKKIN@?$CImi?$CJ?$CB?$DNNULL?$AA@ 0000000180006488     java_crw_demo.obj
+ 0002:00000498       ??_C@_0BB@DEALLPBN@injection?4len?$DN?$DN0?$AA@ 0000000180006498     java_crw_demo.obj
+ 0002:000004b0       ??_C@_0CH@DMNBNMEG@injection?4len?$CLlen?5?$DM?$DN?5LARGEST_INJ@ 00000001800064b0     java_crw_demo.obj
+ 0002:000004d8       ??_C@_0BL@HDLMLOGD@len?5?$DM?$DN?5LARGEST_INJECTION?12?$AA@ 00000001800064d8     java_crw_demo.obj
+ 0002:000004f8       ??_C@_0BD@CMCPFKKG@at?5?$DM?$DN?5mi?9?$DOcode_len?$AA@ 00000001800064f8     java_crw_demo.obj
+ 0002:00000510       ??_C@_0CH@FBKNDLHC@Invalid?5opcode?5supplied?5to?5wide?5@ 0000000180006510     java_crw_demo.obj
+ 0002:00000538       ??_C@_0CL@FOPOJEON@Invalid?5opcode?5supplied?5to?5opcod@ 0000000180006538     java_crw_demo.obj
+ 0002:00000568       ??_C@_0BE@EDGDEPIO@pos?5?$DM?$DN?5mi?9?$DOcode_len?$AA@ 0000000180006568     java_crw_demo.obj
+ 0002:00000580       ??_C@_0BE@DPAKJLDB@Unexpected?5widening?$AA@ 0000000180006580     java_crw_demo.obj
+ 0002:00000598       ??_C@_0BC@OLNAILFP@Unexpected?5opcode?$AA@ 0000000180006598     java_crw_demo.obj
+ 0002:000005b0       ??_C@_0BC@LGJGDDGP@unexpected?5opcode?$AA@ 00000001800065b0     java_crw_demo.obj
+ 0002:000005c8       ??_C@_0BJ@BJEAHM@new_attr_len?5?$DO?$DN?5attr_len?$AA@ 00000001800065c8     java_crw_demo.obj
+ 0002:000005e8       ??_C@_0CA@NMLBDKLB@last_new_pc?5?$DM?$DN?5mi?9?$DOnew_code_len?$AA@ 00000001800065e8     java_crw_demo.obj
+ 0002:00000608       ??_C@_0BI@OAFNLOPM@last_pc?5?$DM?$DN?5mi?9?$DOcode_len?$AA@ 0000000180006608     java_crw_demo.obj
+ 0002:00000620       ??_C@_0P@JCMPCMNA@new_delta?5?$DO?$DN?50?$AA@ 0000000180006620     java_crw_demo.obj
+ 0002:00000630       ??_C@_0L@MAJNKI@delta?5?$DO?$DN?50?$AA@ 0000000180006630     java_crw_demo.obj
+ 0002:00000640       ??_C@_0CO@LAEHEHNL@Unknown?5frame?5type?5in?5StackMapTa@ 0000000180006640     java_crw_demo.obj
+ 0002:00000670       ??_C@_0M@CFHIGEMH@attr_len?$DN?$DN2?$AA@ 0000000180006670     java_crw_demo.obj
+ 0002:00000680       ??_C@_08DICECNHA@StackMap?$AA@ 0000000180006680     java_crw_demo.obj
+ 0002:00000690       ??_C@_0O@HIHEEDNJ@StackMapTable?$AA@ 0000000180006690     java_crw_demo.obj
+ 0002:000006a0       ??_C@_0BH@NMBDNHBD@LocalVariableTypeTable?$AA@ 00000001800066a0     java_crw_demo.obj
+ 0002:000006b8       ??_C@_0BD@CPAEPILC@LocalVariableTable?$AA@ 00000001800066b8     java_crw_demo.obj
+ 0002:000006d0       ??_C@_0BA@OCLMCFKC@LineNumberTable?$AA@ 00000001800066d0     java_crw_demo.obj
+ 0002:000006e0       ??_C@_06FALKBLGB@?$DMinit?$DO?$AA@ 00000001800066e0     java_crw_demo.obj
+ 0002:000006e8       ??_C@_08JOGLKNJI@?$DMclinit?$DO?$AA@ 00000001800066e8     java_crw_demo.obj
+ 0002:000006f8       ??_C@_08LKAKBDAJ@finalize?$AA@ 00000001800066f8     java_crw_demo.obj
+ 0002:00000708       ??_C@_0O@GIDKOGNF@currentThread?$AA@ 0000000180006708     java_crw_demo.obj
+ 0002:00000718       ??_C@_0BM@KPAMCHII@mi?9?$DOnew_max_stack?5?$DM?$DN?50xFFFF?$AA@ 0000000180006718     java_crw_demo.obj
+ 0002:00000734       ??_C@_03GAEACAIP@?$CI?$CJV?$AA@ 0000000180006734     java_crw_demo.obj
+ 0002:00000738       ??_C@_04BCJPDBDA@Code?$AA@ 0000000180006738     java_crw_demo.obj
+ 0002:00000740       ??_C@_0CH@EGBELGKB@strcmp?$CIci?9?$DOname?0?$CCjava?1lang?1Objec@ 0000000180006740     java_crw_demo.obj
+ 0002:00000768       ??_C@_0BB@DDFKOHA@java?1lang?1Object?$AA@ 0000000180006768     java_crw_demo.obj
+ 0002:00000780       ??_C@_0EG@FMMKGKPD@?$CIint?$CJstrlen?$CIci?9?$DOname?$CJ?$DN?$DNcs?4len?5?$CG?$CG@ 0000000180006780     java_crw_demo.obj
+ 0002:000007c8       ??_C@_0BL@GLFDAEAM@strchr?$CIci?9?$DOname?0?8?4?8?$CJ?$DN?$DNNULL?$AA@ 00000001800067c8     java_crw_demo.obj
+ 0002:000007f0       ??_C@_0KN@GBJNAIEJ@?$CIclassfileMajorVersion?5?$DM?$DN?5JVM_CL@ 00000001800067f0     java_crw_demo.obj
+ 0002:000008a0       ??_C@_0BC@PKEFOCLB@magic?$DN?$DN0xCAFEBABE?$AA@ 00000001800068a0     java_crw_demo.obj
+ 0002:000008b8       ??_C@_0BO@CNKHCOAP@strchr?$CItclass_name?0?8?4?8?$CJ?$DN?$DNNULL?$AA@ 00000001800068b8     java_crw_demo.obj
+ 0002:000008d8       ??_C@_0L@PGIJMPEN@buf_len?$CB?$DN0?$AA@ 00000001800068d8     java_crw_demo.obj
+ 0002:000008e8       ??_C@_09IKKFCHCM@buf?$CB?$DNNULL?$AA@ 00000001800068e8     java_crw_demo.obj
+ 0002:000008f8       ??_C@_0BB@NOKBFPFO@java?1lang?1Thread?$AA@ 00000001800068f8     java_crw_demo.obj
+ 0002:00000910       ??_C@_0BH@GLGLNOL@strchr?$CIname?0?8?4?8?$CJ?$DN?$DNNULL?$AA@ 0000000180006910     java_crw_demo.obj
+ 0002:00000928       ??_C@_0CK@NNOKKDOC@newarray_sig?5is?5not?5?$CILjava?1lang?1@ 0000000180006928     java_crw_demo.obj
+ 0002:00000958       ??_C@_0CK@CLCDOOJG@obj_init_sig?5is?5not?5?$CILjava?1lang?1@ 0000000180006958     java_crw_demo.obj
+ 0002:00000988       ??_C@_0BG@JLFLBLJI@?$CILjava?1lang?1Object?$DL?$CJV?$AA@ 0000000180006988     java_crw_demo.obj
+ 0002:000009a0       ??_C@_0BI@IHOOLJKF@return_sig?5is?5not?5?$CIII?$CJV?$AA@ 00000001800069a0     java_crw_demo.obj
+ 0002:000009b8       ??_C@_0BG@HGOFKPJC@call_sig?5is?5not?5?$CIII?$CJV?$AA@ 00000001800069b8     java_crw_demo.obj
+ 0002:000009d0       ??_C@_05MNEAHDDF@?$CIII?$CJV?$AA@ 00000001800069d0     java_crw_demo.obj
+ 0002:000009d8       ??_C@_0CK@HCDPGGCL@tclass_sig?5is?5not?5a?5valid?5class?5@ 00000001800069d8     java_crw_demo.obj
+ 0002:00000a08       ??_C@_0BE@KBKPKHPI@tclass_name?5?$DN?$DN?5NULL?$AA@ 0000000180006a08     java_crw_demo.obj
+ 0002:00000a20       ??_C@_0BL@LIJPLLJM@system_class?5is?5not?50?5or?51?$AA@ 0000000180006a20     java_crw_demo.obj
+ 0002:00000a40       ??_C@_0N@NLIOAPJJ@file_len?5?$DM?50?$AA@ 0000000180006a40     java_crw_demo.obj
+ 0002:00000a50       ??_C@_0BD@EJGEPBHM@file_image?5?$DN?$DN?5NULL?$AA@ 0000000180006a50     java_crw_demo.obj
+ 0002:00000a68       ??_C@_0BE@BLEOJIHO@pnew_file_len?$DN?$DNNULL?$AA@ 0000000180006a68     java_crw_demo.obj
+ 0002:00000a80       ??_C@_0BG@LGAGMCFK@pnew_file_image?$DN?$DNNULL?$AA@ 0000000180006a80     java_crw_demo.obj
+ 0002:00000a98       _pDefaultRawDllMain        0000000180006a98     MSVCRT:crtdll.obj
+ 0002:00000a98       _pRawDllMain               0000000180006a98     MSVCRT:crtdll.obj
+ 0002:00000b38       __rtc_iaa                  0000000180006b38     MSVCRT:_initsect_.obj
+ 0002:00000b40       __rtc_izz                  0000000180006b40     MSVCRT:_initsect_.obj
+ 0002:00000b48       __rtc_taa                  0000000180006b48     MSVCRT:_initsect_.obj
+ 0002:00000b50       __rtc_tzz                  0000000180006b50     MSVCRT:_initsect_.obj
+ 0002:00000e48       __IMPORT_DESCRIPTOR_MSVCR100 0000000180006e48     MSVCRT:MSVCR100.dll
+ 0002:00000e5c       __IMPORT_DESCRIPTOR_KERNEL32 0000000180006e5c     kernel32:KERNEL32.dll
+ 0002:00000e70       __NULL_IMPORT_DESCRIPTOR   0000000180006e70     MSVCRT:MSVCR100.dll
+ 0003:000000d0       __security_cookie          00000001800080d0     MSVCRT:gs_cookie.obj
+ 0003:000000d8       __security_cookie_complement 00000001800080d8     MSVCRT:gs_cookie.obj
+ 0003:000000e0       __native_dllmain_reason    00000001800080e0     MSVCRT:natstart.obj
+ 0003:000000e4       __native_vcclrit_reason    00000001800080e4     MSVCRT:natstart.obj
+ 0003:00000670       ?__type_info_root_node@@3U__type_info_node@@A 0000000180008670     MSVCRT:tncleanup.obj
+ 0003:00000680       __native_startup_state     0000000180008680     <common>
+ 0003:00000688       __native_startup_lock      0000000180008688     <common>
+ 0003:00000690       __onexitend                0000000180008690     <common>
+ 0003:00000698       __onexitbegin              0000000180008698     <common>
+ 0003:000006a0       __dyn_tls_init_callback    00000001800086a0     <common>
+
+ entry point at        0001:00003e00
+
+ Static symbols
+
+ 0001:00000000       fatal_error                0000000180001000 f   java_crw_demo.obj
+ 0001:00000070       assert_error               0000000180001070 f   java_crw_demo.obj
+ 0001:00000120       allocate                   0000000180001120 f   java_crw_demo.obj
+ 0001:00000188       allocate_clean             0000000180001188 f   java_crw_demo.obj
+ 0001:000001f8       duplicate                  00000001800011f8 f   java_crw_demo.obj
+ 0001:00000240       deallocate                 0000000180001240 f   java_crw_demo.obj
+ 0001:00000278       readU1                     0000000180001278 f   java_crw_demo.obj
+ 0001:000002c8       readU2                     00000001800012c8 f   java_crw_demo.obj
+ 0001:000002f4       readU4                     00000001800012f4 f   java_crw_demo.obj
+ 0001:00000320       writeU1                    0000000180001320 f   java_crw_demo.obj
+ 0001:0000037c       writeU2                    000000018000137c f   java_crw_demo.obj
+ 0001:000003a8       writeU4                    00000001800013a8 f   java_crw_demo.obj
+ 0001:000003d4       copyU1                     00000001800013d4 f   java_crw_demo.obj
+ 0001:00000400       copyU2                     0000000180001400 f   java_crw_demo.obj
+ 0001:0000042c       copyU4                     000000018000142c f   java_crw_demo.obj
+ 0001:00000458       copy                       0000000180001458 f   java_crw_demo.obj
+ 0001:000004f4       skip                       00000001800014f4 f   java_crw_demo.obj
+ 0001:00000540       write_bytes                0000000180001540 f   java_crw_demo.obj
+ 0001:000005d4       random_writeU2             00000001800015d4 f   java_crw_demo.obj
+ 0001:00000648       random_writeU4             0000000180001648 f   java_crw_demo.obj
+ 0001:000006bc       fillin_cpool_entry         00000001800016bc f   java_crw_demo.obj
+ 0001:00000790       add_new_cpool_entry        0000000180001790 f   java_crw_demo.obj
+ 0001:00000990       add_new_method_cpool_entry 0000000180001990 f   java_crw_demo.obj
+ 0001:00000ac0       cpool_entry                0000000180001ac0 f   java_crw_demo.obj
+ 0001:00000b74       cpool_setup                0000000180001b74 f   java_crw_demo.obj
+ 0001:00000fc4       injection_template         0000000180001fc4 f   java_crw_demo.obj
+ 0001:000011cc       inject_bytecodes           00000001800021cc f   java_crw_demo.obj
+ 0001:00001308       method_init                0000000180002308 f   java_crw_demo.obj
+ 0001:000013d4       input_code_offset          00000001800023d4 f   java_crw_demo.obj
+ 0001:0000140c       rewind_to_beginning_of_input_bytecodes 000000018000240c f   java_crw_demo.obj
+ 0001:00001444       adjust_map                 0000000180002444 f   java_crw_demo.obj
+ 0001:000014a8       widen                      00000001800024a8 f   java_crw_demo.obj
+ 0001:00001528       verify_opc_wide            0000000180002528 f   java_crw_demo.obj
+ 0001:00001570       inject_for_opcode          0000000180002570 f   java_crw_demo.obj
+ 0001:000017a0       method_code_map            00000001800027a0 f   java_crw_demo.obj
+ 0001:00001804       adjust_instruction         0000000180002804 f   java_crw_demo.obj
+ 0001:00001a9c       write_instruction          0000000180002a9c f   java_crw_demo.obj
+ 0001:00001fbc       method_inject_and_write_code 0000000180002fbc f   java_crw_demo.obj
+ 0001:00002114       write_var_table            0000000180003114 f   java_crw_demo.obj
+ 0001:000021ec       writeUoffset               00000001800031ec f   java_crw_demo.obj
+ 0001:00002220       copy_verification_types    0000000180003220 f   java_crw_demo.obj
+ 0001:00002290       write_stackmap_table       0000000180003290 f   java_crw_demo.obj
+ 0001:000026dc       write_cldc_stackmap_table  00000001800036dc f   java_crw_demo.obj
+ 0001:00002820       method_write_exception_table 0000000180003820 f   java_crw_demo.obj
+ 0001:00002900       attribute_match            0000000180003900 f   java_crw_demo.obj
+ 0001:000029cc       method_write_bytecodes     00000001800039cc f   java_crw_demo.obj
+ 0001:00002dc4       method_write_all           0000000180003dc4 f   java_crw_demo.obj
+ 0001:00002f14       cleanup                    0000000180003f14 f   java_crw_demo.obj
+ 0001:00003008       inject_class               0000000180004008 f   java_crw_demo.obj
+ 0001:00003a08       pre_c_init                 0000000180004a08 f   MSVCRT:crtdll.obj
+ 0001:00003cc4       __DllMainCRTStartup        0000000180004cc4 f   MSVCRT:crtdll.obj
+ 0001:000042c0       __DllMainCRTStartup$filt$0 00000001800052c0 f   MSVCRT:crtdll.obj
+ 0001:000042f0       __DllMainCRTStartup$fin$1  00000001800052f0 f   MSVCRT:crtdll.obj
+ 0001:0000430a       _onexit$fin$0              000000018000530a f   MSVCRT:atonexit.obj
+ 0001:00004330       _IsNonwritableInCurrentImage$filt$0 0000000180005330 f   MSVCRT:pesect.obj

@@ -1,0 +1,61 @@
+awt_ImagingLib.c
+Note: including file: C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stdio.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\sal.h
+Note: including file:    c:\program files (x86)\microsoft visual studio 10.0\vc\include\codeanalysis\sourceannotations.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\vadefs.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\swprintf.inl
+Note: including file: C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stdlib.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\limits.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file: C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\string.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file: d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_awt_image_ImagingLib.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stdarg.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\windows\javavm\export\jni_md.h
+Note: including file: d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_Transparency.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file: d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_image_AffineTransformOp.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file: d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_image_BufferedImage.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file: d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_color_ColorSpace.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file: d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_image_ConvolveOp.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file: d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_awt_image_IntegerComponentRaster.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\awt\medialib\awt_ImagingLib.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\awt\medialib\mlib_types.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\float.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtwrn.h
+Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stddef.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\awt\medialib\mlib_status.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\awt\medialib\mlib_image_types.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\awt\medialib\mlib_image_get.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\awt\image\awt_parseImage.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\common\jni_util.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\common\jlong.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\common\jlong_md.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\awt\image\imageInitIDs.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file: d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\common\jni_util.h
+Note: including file: C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\assert.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\windows\awt_Mlib.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\awt\medialib\awt_ImagingLib.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\common\gdefs.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\common\gdefs_md.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\awt\medialib\safe_alloc.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\sun\java2d\j2d_md.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\common\gdefs.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\windows\native\common\gdefs_md.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\awt\medialib\safe_math.h

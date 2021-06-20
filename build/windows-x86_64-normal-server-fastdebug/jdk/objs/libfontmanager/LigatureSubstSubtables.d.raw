@@ -1,0 +1,58 @@
+LigatureSubstSubtables.cpp
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LEStandalone.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stdlib.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\sal.h
+Note: including file:      c:\program files (x86)\microsoft visual studio 10.0\vc\include\codeanalysis\sourceannotations.h
+Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\vadefs.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\limits.h
+Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\string.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LEStandalone.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LEGlyphFilter.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\OpenTypeTables.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETableReference.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LEFontInstance.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\GlyphSubstitutionTables.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\OpenTypeTables.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\Lookups.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\OpenTypeTables.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\GlyphLookupTables.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\OpenTypeTables.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LigatureSubstSubtables.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LEGlyphFilter.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\OpenTypeTables.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\GlyphSubstitutionTables.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\GlyphIterator.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\OpenTypeTables.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\GlyphDefinitionTables.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\OpenTypeTables.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\ClassDefinitionTables.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\OpenTypeTables.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\GlyphIterator.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LESwaps.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETableReference.h(440) : warning C4267: '=' : conversion from 'size_t' to 'le_uint32', possible loss of data
+        d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETableReference.h(435) : while compiling class template member function 'LEReferenceToArrayOf<T>::LEReferenceToArrayOf(const LETableReference &,LEErrorCode &,const T *,le_uint32)'
+        with
+        [
+            T=Offset
+        ]
+        d:/xysziv/openjdk/jdk/src/share/native/sun/font/layout/LigatureSubstSubtables.cpp(52) : see reference to class template instantiation 'LEReferenceToArrayOf<T>' being compiled
+        with
+        [
+            T=Offset
+        ]

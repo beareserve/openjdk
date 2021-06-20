@@ -1,0 +1,13 @@
+/cygdrive/d/xysziv/openjdk/build/windows-x86_64-normal-server-fastdebug/jdk/objs/libawt/MapAccelFunc.obj: \
+/cygdrive/d/xysziv/openjdk/jdk/src/share/native/sun/java2d/loops/GraphicsPrimitiveMgr.h \
+/cygdrive/d/xysziv/openjdk/build/windows-x86_64-normal-server-fastdebug/jdk/gensrc_headers/java_awt_AlphaComposite.h \
+/cygdrive/d/xysziv/openjdk/build/windows-x86_64-normal-server-fastdebug/jdk/include/jni.h \
+/cygdrive/d/xysziv/openjdk/jdk/src/windows/javavm/export/jni_md.h \
+/cygdrive/d/xysziv/openjdk/jdk/src/share/native/sun/java2d/SurfaceData.h \
+/cygdrive/d/xysziv/openjdk/build/windows-x86_64-normal-server-fastdebug/jdk/include/jni.h \
+/cygdrive/d/xysziv/openjdk/jdk/src/share/native/sun/java2d/pipe/SpanIterator.h \
+/cygdrive/d/xysziv/openjdk/jdk/src/windows/native/sun/java2d/j2d_md.h \
+/cygdrive/d/xysziv/openjdk/jdk/src/share/native/common/gdefs.h \
+/cygdrive/d/xysziv/openjdk/jdk/src/windows/native/common/gdefs_md.h \
+/cygdrive/d/xysziv/openjdk/jdk/src/share/native/sun/java2d/loops/AlphaMath.h \
+/cygdrive/d/xysziv/openjdk/jdk/src/share/native/sun/java2d/loops/GlyphImageRef.h \

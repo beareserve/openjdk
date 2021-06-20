@@ -1,0 +1,66 @@
+GlyphSubstitutionTables.cpp
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LEStandalone.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stdlib.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\sal.h
+Note: including file:      c:\program files (x86)\microsoft visual studio 10.0\vc\include\codeanalysis\sourceannotations.h
+Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\vadefs.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\limits.h
+Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\string.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LEStandalone.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LEGlyphFilter.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\OpenTypeTables.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETableReference.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LEFontInstance.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\Lookups.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\OpenTypeTables.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\GlyphDefinitionTables.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\OpenTypeTables.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\ClassDefinitionTables.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\OpenTypeTables.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\GlyphSubstitutionTables.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\OpenTypeTables.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\Lookups.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\GlyphLookupTables.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\OpenTypeTables.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\GlyphSubstLookupProc.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LEGlyphFilter.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LEFontInstance.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\OpenTypeTables.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\Lookups.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\ICUFeatures.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\OpenTypeTables.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\GlyphDefinitionTables.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\GlyphSubstitutionTables.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\GlyphIterator.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\OpenTypeTables.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\GlyphDefinitionTables.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LookupProcessor.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LEFontInstance.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\OpenTypeTables.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETableReference.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\ScriptAndLanguage.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\OpenTypeTables.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LEGlyphStorage.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LEInsertionList.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LESwaps.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\font\layout\LETypes.h

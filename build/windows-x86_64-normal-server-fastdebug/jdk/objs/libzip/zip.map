@@ -1,0 +1,472 @@
+ zip
+
+ Timestamp is 60b79cde (Wed Jun 02 15:59:42 2021)
+
+ Preferred load address is 0000000180000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000aaf2H .text                   CODE
+ 0001:0000ab00 00000092H .text$x                 CODE
+ 0002:00000000 00000258H .idata$5                DATA
+ 0002:00000258 00000008H .CRT$XCA                DATA
+ 0002:00000260 00000008H .CRT$XCZ                DATA
+ 0002:00000268 00000008H .CRT$XIA                DATA
+ 0002:00000270 00000008H .CRT$XIAA               DATA
+ 0002:00000278 00000008H .CRT$XIZ                DATA
+ 0002:00000280 00004ca0H .rdata                  DATA
+ 0002:00004f20 0000006fH .rdata$debug            DATA
+ 0002:00004f90 00000008H .rtc$IAA                DATA
+ 0002:00004f98 00000008H .rtc$IZZ                DATA
+ 0002:00004fa0 00000008H .rtc$TAA                DATA
+ 0002:00004fa8 00000008H .rtc$TZZ                DATA
+ 0002:00004fb0 0000045cH .xdata                  DATA
+ 0002:0000540c 00000050H .idata$2                DATA
+ 0002:0000545c 00000014H .idata$3                DATA
+ 0002:00005470 00000258H .idata$4                DATA
+ 0002:000056c8 00000518H .idata$6                DATA
+ 0002:00005be0 000007ffH .edata                  DATA
+ 0003:00000000 00000088H .data                   DATA
+ 0003:00000090 00000638H .bss                    DATA
+ 0004:00000000 0000054cH .pdata                  DATA
+ 0005:00000000 00000058H .rsrc$01                DATA
+ 0005:00000060 00000348H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
+ 0000:00000000       __ImageBase                0000000180000000     <linker-defined>
+ 0001:00000000       Java_java_util_zip_Adler32_update 0000000180001000 f   Adler32.obj
+ 0001:00000024       Java_java_util_zip_Adler32_updateBytes 0000000180001024 f   Adler32.obj
+ 0001:0000009c       Java_java_util_zip_Adler32_updateByteBuffer 000000018000109c f   Adler32.obj
+ 0001:000000c4       Java_java_util_zip_CRC32_update 00000001800010c4 f   CRC32.obj
+ 0001:000000e8       Java_java_util_zip_CRC32_updateBytes 00000001800010e8 f   CRC32.obj
+ 0001:00000160       ZIP_CRC32                  0000000180001160 f   CRC32.obj
+ 0001:00000168       Java_java_util_zip_CRC32_updateByteBuffer 0000000180001168 f   CRC32.obj
+ 0001:00000190       Java_java_util_zip_Deflater_initIDs 0000000180001190 f   Deflater.obj
+ 0001:000002c8       Java_java_util_zip_Deflater_init 00000001800012c8 f   Deflater.obj
+ 0001:000003a8       Java_java_util_zip_Deflater_setDictionary 00000001800013a8 f   Deflater.obj
+ 0001:0000044c       Java_java_util_zip_Deflater_deflateBytes 000000018000144c f   Deflater.obj
+ 0001:000007e4       Java_java_util_zip_Deflater_getAdler 00000001800017e4 f   Deflater.obj
+ 0001:000007e4       Java_java_util_zip_Inflater_getAdler 00000001800017e4 f   Inflater.obj
+ 0001:000007ec       Java_java_util_zip_Deflater_reset 00000001800017ec f   Deflater.obj
+ 0001:00000814       Java_java_util_zip_Deflater_end 0000000180001814 f   Deflater.obj
+ 0001:00000854       Java_java_util_zip_Inflater_initIDs 0000000180001854 f   Inflater.obj
+ 0001:00000920       Java_java_util_zip_Inflater_init 0000000180001920 f   Inflater.obj
+ 0001:000009e0       Java_java_util_zip_Inflater_setDictionary 00000001800019e0 f   Inflater.obj
+ 0001:00000a8c       Java_java_util_zip_Inflater_inflateBytes 0000000180001a8c f   Inflater.obj
+ 0001:00000cec       Java_java_util_zip_Inflater_reset 0000000180001cec f   Inflater.obj
+ 0001:00000d14       Java_java_util_zip_Inflater_end 0000000180001d14 f   Inflater.obj
+ 0001:00000d54       Java_java_util_zip_ZipFile_initIDs 0000000180001d54 f   ZipFile.obj
+ 0001:00000de0       Java_java_util_zip_ZipFile_open 0000000180001de0 f   ZipFile.obj
+ 0001:00000efc       Java_java_util_zip_ZipFile_getTotal 0000000180001efc f   ZipFile.obj
+ 0001:00000f04       Java_java_util_zip_ZipFile_startsWithLOC 0000000180001f04 f   ZipFile.obj
+ 0001:00000f0c       Java_java_util_zip_ZipFile_close 0000000180001f0c f   ZipFile.obj
+ 0001:00000f14       Java_java_util_zip_ZipFile_getEntry 0000000180001f14 f   ZipFile.obj
+ 0001:00000ff8       Java_java_util_zip_ZipFile_freeEntry 0000000180001ff8 f   ZipFile.obj
+ 0001:00001004       Java_java_util_zip_ZipFile_getNextEntry 0000000180002004 f   ZipFile.obj
+ 0001:00001010       Java_java_util_zip_ZipFile_getEntryMethod 0000000180002010 f   ZipFile.obj
+ 0001:00001020       Java_java_util_zip_ZipFile_getEntryFlag 0000000180002020 f   ZipFile.obj
+ 0001:00001028       Java_java_util_zip_ZipFile_getEntryCSize 0000000180002028 f   ZipFile.obj
+ 0001:00001038       Java_java_util_zip_ZipFile_getEntrySize 0000000180002038 f   ZipFile.obj
+ 0001:00001040       Java_java_util_zip_ZipFile_getEntryTime 0000000180002040 f   ZipFile.obj
+ 0001:00001048       Java_java_util_zip_ZipFile_getEntryCrc 0000000180002048 f   ZipFile.obj
+ 0001:00001050       Java_java_util_zip_ZipFile_getCommentBytes 0000000180002050 f   ZipFile.obj
+ 0001:000010b8       Java_java_util_zip_ZipFile_getEntryBytes 00000001800020b8 f   ZipFile.obj
+ 0001:000011bc       Java_java_util_zip_ZipFile_read 00000001800021bc f   ZipFile.obj
+ 0001:000012cc       Java_java_util_jar_JarFile_getMetaInfEntryNames 00000001800022cc f   ZipFile.obj
+ 0001:0000140c       Java_java_util_zip_ZipFile_getZipMessage 000000018000240c f   ZipFile.obj
+ 0001:00001420       deflateResetKeep           0000000180002420 f   deflate.obj
+ 0001:00001538       deflateEnd                 0000000180002538 f   deflate.obj
+ 0001:00002e4c       deflateSetDictionary       0000000180003e4c f   deflate.obj
+ 0001:00003030       deflateReset               0000000180004030 f   deflate.obj
+ 0001:00003060       deflate                    0000000180004060 f   deflate.obj
+ 0001:000039b4       deflateInit2_              00000001800049b4 f   deflate.obj
+ 0001:00003c20       deflateParams              0000000180004c20 f   deflate.obj
+ 0001:00003d28       inflate_fast               0000000180004d28 f   inffast.obj
+ 0001:0000427c       inflateResetKeep           000000018000527c f   inflate.obj
+ 0001:00004320       inflateReset               0000000180005320 f   inflate.obj
+ 0001:00004344       inflateReset2              0000000180005344 f   inflate.obj
+ 0001:000043d8       inflateInit2_              00000001800053d8 f   inflate.obj
+ 0001:000045c8       inflate                    00000001800055c8 f   inflate.obj
+ 0001:00005f14       inflateEnd                 0000000180006f14 f   inflate.obj
+ 0001:00005f84       inflateSetDictionary       0000000180006f84 f   inflate.obj
+ 0001:00006050       inflate_table              0000000180007050 f   inftrees.obj
+ 0001:00006e48       _tr_tally                  0000000180007e48 f   trees.obj
+ 0001:000072cc       _tr_init                   00000001800082cc f   trees.obj
+ 0001:00007770       _tr_stored_block           0000000180008770 f   trees.obj
+ 0001:0000783c       _tr_flush_bits             000000018000883c f   trees.obj
+ 0001:00007844       _tr_align                  0000000180008844 f   trees.obj
+ 0001:000078a4       _tr_flush_block            00000001800088a4 f   trees.obj
+ 0001:00007ba8       adler32                    0000000180008ba8 f   zadler32.obj
+ 0001:00008188       crc32                      0000000180009188 f   zcrc32.obj
+ 0001:00008d40       ZIP_Get_From_Cache         0000000180009d40 f   zip_util.obj
+ 0001:0000949c       ZIP_Lock                   000000018000a49c f   zip_util.obj
+ 0001:000094a8       ZIP_Unlock                 000000018000a4a8 f   zip_util.obj
+ 0001:000094b4       ZIP_GetEntryDataOffset     000000018000a4b4 f   zip_util.obj
+ 0001:00009598       ZIP_Read                   000000018000a598 f   zip_util.obj
+ 0001:00009664       InflateFully               000000018000a664 f   zip_util.obj
+ 0001:000097f4       ZIP_FreeEntry              000000018000a7f4 f   zip_util.obj
+ 0001:00009870       ZIP_GetEntry2              000000018000a870 f   zip_util.obj
+ 0001:00009a0c       ZIP_GetNextEntry           000000018000aa0c f   zip_util.obj
+ 0001:00009a68       ZIP_ReadEntry              000000018000aa68 f   zip_util.obj
+ 0001:00009c10       ZIP_Put_In_Cache0          000000018000ac10 f   zip_util.obj
+ 0001:00009dfc       ZIP_Close                  000000018000adfc f   zip_util.obj
+ 0001:00009e80       ZIP_FindEntry              000000018000ae80 f   zip_util.obj
+ 0001:00009eec       ZIP_Open_Generic           000000018000aeec f   zip_util.obj
+ 0001:00009fec       ZIP_Open                   000000018000afec f   zip_util.obj
+ 0001:0000a038       z_error                    000000018000b038 f   zutil.obj
+ 0001:0000a068       zcalloc                    000000018000b068 f   zutil.obj
+ 0001:0000a078       zcfree                     000000018000b078 f   zutil.obj
+ 0001:0000a082       JVM_RawMonitorCreate       000000018000b082 f   jvm:jvm.dll
+ 0001:0000a088       JVM_RawMonitorExit         000000018000b088 f   jvm:jvm.dll
+ 0001:0000a08e       JVM_RawMonitorEnter        000000018000b08e f   jvm:jvm.dll
+ 0001:0000a094       JVM_NativePath             000000018000b094 f   jvm:jvm.dll
+ 0001:0000a09a       jio_fprintf                000000018000b09a f   jvm:jvm.dll
+ 0001:0000a0a0       JVM_RawMonitorDestroy      000000018000b0a0 f   jvm:jvm.dll
+ 0001:0000a0a6       JVM_GetLastErrorString     000000018000b0a6 f   jvm:jvm.dll
+ 0001:0000a0ac       JNU_ThrowOutOfMemoryError  000000018000b0ac f   java:java.dll
+ 0001:0000a0b2       JNU_ThrowIllegalArgumentException 000000018000b0b2 f   java:java.dll
+ 0001:0000a0b8       JNU_ThrowInternalError     000000018000b0b8 f   java:java.dll
+ 0001:0000a0be       JNU_ThrowByName            000000018000b0be f   java:java.dll
+ 0001:0000a0c4       JNU_NewObjectByName        000000018000b0c4 f   java:java.dll
+ 0001:0000a0ca       JNU_NewStringPlatform      000000018000b0ca f   java:java.dll
+ 0001:0000a0d0       JNU_ReleaseStringPlatformChars 000000018000b0d0 f   java:java.dll
+ 0001:0000a0d6       winFileHandleOpen          000000018000b0d6 f   java:java.dll
+ 0001:0000a0dc       JNU_GetStringPlatformChars 000000018000b0dc f   java:java.dll
+ 0001:0000a0e2       JNU_ThrowIOExceptionWithLastError 000000018000b0e2 f   java:java.dll
+ 0001:0000a0e8       handleRead                 000000018000b0e8 f   java:java.dll
+ 0001:0000a0ee       handleLseek                000000018000b0ee f   java:java.dll
+ 0001:0000a0f4       __GSHandlerCheckCommon     000000018000b0f4 f   MSVCRT:gshandler.obj
+ 0001:0000a158       __GSHandlerCheck           000000018000b158 f   MSVCRT:gshandler.obj
+ 0001:0000a190       __security_check_cookie    000000018000b190 f   MSVCRT:amdsecgs.obj
+ 0001:0000a1b0       strlen                     000000018000b1b0 f   MSVCRT:MSVCR100.dll
+ 0001:0000a1d0       _alloca_probe              000000018000b1d0     MSVCRT:chkstk.obj
+ 0001:0000a1d0       __chkstk                   000000018000b1d0 f   MSVCRT:chkstk.obj
+ 0001:0000a21e       memcpy                     000000018000b21e f   MSVCRT:MSVCR100.dll
+ 0001:0000a224       memset                     000000018000b224 f   MSVCRT:MSVCR100.dll
+ 0001:0000a22a       memcmp                     000000018000b22a f   MSVCRT:MSVCR100.dll
+ 0001:0000a230       strcmp                     000000018000b230 f   MSVCRT:MSVCR100.dll
+ 0001:0000a236       strcpy                     000000018000b236 f   MSVCRT:MSVCR100.dll
+ 0001:0000a29c       _CRT_INIT                  000000018000b29c f   MSVCRT:crtdll.obj
+ 0001:0000a634       _DllMainCRTStartup         000000018000b634 f   MSVCRT:crtdll.obj
+ 0001:0000a674       __report_gsfailure         000000018000b674 f   MSVCRT:gs_report.obj
+ 0001:0000a7c0       __clean_type_info_names    000000018000b7c0 f   MSVCRT:tncleanup.obj
+ 0001:0000a7cc       _onexit                    000000018000b7cc f   MSVCRT:atonexit.obj
+ 0001:0000a87c       atexit                     000000018000b87c f   MSVCRT:atonexit.obj
+ 0001:0000a894       _RTC_Initialize            000000018000b894 f   MSVCRT:_initsect_.obj
+ 0001:0000a8cc       _RTC_Terminate             000000018000b8cc f   MSVCRT:_initsect_.obj
+ 0001:0000a910       _ValidateImageBase         000000018000b910 f   MSVCRT:pesect.obj
+ 0001:0000a940       _FindPESection             000000018000b940 f   MSVCRT:pesect.obj
+ 0001:0000a990       _IsNonwritableInCurrentImage 000000018000b990 f   MSVCRT:pesect.obj
+ 0001:0000a9d2       _initterm                  000000018000b9d2 f   MSVCRT:MSVCR100.dll
+ 0001:0000a9d8       _initterm_e                000000018000b9d8 f   MSVCRT:MSVCR100.dll
+ 0001:0000a9de       _amsg_exit                 000000018000b9de f   MSVCRT:MSVCR100.dll
+ 0001:0000a9e4       __C_specific_handler       000000018000b9e4 f   MSVCRT:MSVCR100.dll
+ 0001:0000a9ea       __CppXcptFilter            000000018000b9ea f   MSVCRT:MSVCR100.dll
+ 0001:0000a9f0       DllMain                    000000018000b9f0 f   MSVCRT:dllmain.obj
+ 0001:0000aa14       __security_init_cookie     000000018000ba14 f   MSVCRT:gs_support.obj
+ 0001:0000aac8       __crt_debugger_hook        000000018000bac8 f   MSVCRT:MSVCR100.dll
+ 0001:0000aace       __clean_type_info_names_internal 000000018000bace f   MSVCRT:MSVCR100.dll
+ 0001:0000aad4       _unlock                    000000018000bad4 f   MSVCRT:MSVCR100.dll
+ 0001:0000aada       __dllonexit                000000018000bada f   MSVCRT:MSVCR100.dll
+ 0001:0000aae0       _lock                      000000018000bae0 f   MSVCRT:MSVCR100.dll
+ 0001:0000aae6       RtlVirtualUnwind           000000018000bae6 f   kernel32:KERNEL32.dll
+ 0001:0000aaec       RtlLookupFunctionEntry     000000018000baec f   kernel32:KERNEL32.dll
+ 0002:00000000       __imp_DecodePointer        000000018000c000     kernel32:KERNEL32.dll
+ 0002:00000008       __imp_CloseHandle          000000018000c008     kernel32:KERNEL32.dll
+ 0002:00000010       __imp_CreateFileA          000000018000c010     kernel32:KERNEL32.dll
+ 0002:00000018       __imp_EncodePointer        000000018000c018     kernel32:KERNEL32.dll
+ 0002:00000020       __imp_Sleep                000000018000c020     kernel32:KERNEL32.dll
+ 0002:00000028       __imp_GetSystemTimeAsFileTime 000000018000c028     kernel32:KERNEL32.dll
+ 0002:00000030       __imp_GetCurrentProcessId  000000018000c030     kernel32:KERNEL32.dll
+ 0002:00000038       __imp_GetCurrentThreadId   000000018000c038     kernel32:KERNEL32.dll
+ 0002:00000040       __imp_GetTickCount         000000018000c040     kernel32:KERNEL32.dll
+ 0002:00000048       __imp_QueryPerformanceCounter 000000018000c048     kernel32:KERNEL32.dll
+ 0002:00000050       __imp_DisableThreadLibraryCalls 000000018000c050     kernel32:KERNEL32.dll
+ 0002:00000058       __imp_RtlCaptureContext    000000018000c058     kernel32:KERNEL32.dll
+ 0002:00000060       __imp_RtlLookupFunctionEntry 000000018000c060     kernel32:KERNEL32.dll
+ 0002:00000068       __imp_RtlVirtualUnwind     000000018000c068     kernel32:KERNEL32.dll
+ 0002:00000070       __imp_IsDebuggerPresent    000000018000c070     kernel32:KERNEL32.dll
+ 0002:00000078       __imp_SetUnhandledExceptionFilter 000000018000c078     kernel32:KERNEL32.dll
+ 0002:00000080       __imp_UnhandledExceptionFilter 000000018000c080     kernel32:KERNEL32.dll
+ 0002:00000088       __imp_GetCurrentProcess    000000018000c088     kernel32:KERNEL32.dll
+ 0002:00000090       __imp_TerminateProcess     000000018000c090     kernel32:KERNEL32.dll
+ 0002:00000098       \177KERNEL32_NULL_THUNK_DATA 000000018000c098     kernel32:KERNEL32.dll
+ 0002:000000a0       __imp_free                 000000018000c0a0     MSVCRT:MSVCR100.dll
+ 0002:000000a8       __imp_calloc               000000018000c0a8     MSVCRT:MSVCR100.dll
+ 0002:000000b0       __imp__wassert             000000018000c0b0     MSVCRT:MSVCR100.dll
+ 0002:000000b8       __imp__errno               000000018000c0b8     MSVCRT:MSVCR100.dll
+ 0002:000000c0       __imp_malloc               000000018000c0c0     MSVCRT:MSVCR100.dll
+ 0002:000000c8       __imp_strlen               000000018000c0c8     MSVCRT:MSVCR100.dll
+ 0002:000000d0       __imp_sprintf              000000018000c0d0     MSVCRT:MSVCR100.dll
+ 0002:000000d8       __imp_memcpy               000000018000c0d8     MSVCRT:MSVCR100.dll
+ 0002:000000e0       __imp_memset               000000018000c0e0     MSVCRT:MSVCR100.dll
+ 0002:000000e8       __imp_putc                 000000018000c0e8     MSVCRT:MSVCR100.dll
+ 0002:000000f0       __imp___iob_func           000000018000c0f0     MSVCRT:MSVCR100.dll
+ 0002:000000f8       __imp_memcmp               000000018000c0f8     MSVCRT:MSVCR100.dll
+ 0002:00000100       __imp_strerror             000000018000c100     MSVCRT:MSVCR100.dll
+ 0002:00000108       __imp_isgraph              000000018000c108     MSVCRT:MSVCR100.dll
+ 0002:00000110       __imp_realloc              000000018000c110     MSVCRT:MSVCR100.dll
+ 0002:00000118       __imp__strdup              000000018000c118     MSVCRT:MSVCR100.dll
+ 0002:00000118       __imp_strdup               000000018000c118     MSVCRT:MSVCR100.dll
+ 0002:00000120       __imp_strcpy               000000018000c120     MSVCRT:MSVCR100.dll
+ 0002:00000128       __imp_exit                 000000018000c128     MSVCRT:MSVCR100.dll
+ 0002:00000130       __imp__malloc_crt          000000018000c130     MSVCRT:MSVCR100.dll
+ 0002:00000138       __imp__initterm            000000018000c138     MSVCRT:MSVCR100.dll
+ 0002:00000140       __imp__initterm_e          000000018000c140     MSVCRT:MSVCR100.dll
+ 0002:00000148       __imp__encoded_null        000000018000c148     MSVCRT:MSVCR100.dll
+ 0002:00000150       __imp__amsg_exit           000000018000c150     MSVCRT:MSVCR100.dll
+ 0002:00000158       __imp___C_specific_handler 000000018000c158     MSVCRT:MSVCR100.dll
+ 0002:00000160       __imp___CppXcptFilter      000000018000c160     MSVCRT:MSVCR100.dll
+ 0002:00000168       __imp___crt_debugger_hook  000000018000c168     MSVCRT:MSVCR100.dll
+ 0002:00000170       __imp___clean_type_info_names_internal 000000018000c170     MSVCRT:MSVCR100.dll
+ 0002:00000178       __imp__unlock              000000018000c178     MSVCRT:MSVCR100.dll
+ 0002:00000180       __imp___dllonexit          000000018000c180     MSVCRT:MSVCR100.dll
+ 0002:00000188       __imp__lock                000000018000c188     MSVCRT:MSVCR100.dll
+ 0002:00000190       __imp__onexit              000000018000c190     MSVCRT:MSVCR100.dll
+ 0002:00000198       __imp_fprintf              000000018000c198     MSVCRT:MSVCR100.dll
+ 0002:000001a0       __imp_strcmp               000000018000c1a0     MSVCRT:MSVCR100.dll
+ 0002:000001a8       \177MSVCR100_NULL_THUNK_DATA 000000018000c1a8     MSVCRT:MSVCR100.dll
+ 0002:000001b0       __imp_handleLseek          000000018000c1b0     java:java.dll
+ 0002:000001b8       __imp_handleRead           000000018000c1b8     java:java.dll
+ 0002:000001c0       __imp_JNU_ThrowIOExceptionWithLastError 000000018000c1c0     java:java.dll
+ 0002:000001c8       __imp_JNU_GetStringPlatformChars 000000018000c1c8     java:java.dll
+ 0002:000001d0       __imp_winFileHandleOpen    000000018000c1d0     java:java.dll
+ 0002:000001d8       __imp_JNU_ReleaseStringPlatformChars 000000018000c1d8     java:java.dll
+ 0002:000001e0       __imp_JNU_NewStringPlatform 000000018000c1e0     java:java.dll
+ 0002:000001e8       __imp_JNU_NewObjectByName  000000018000c1e8     java:java.dll
+ 0002:000001f0       __imp_JNU_ThrowByName      000000018000c1f0     java:java.dll
+ 0002:000001f8       __imp_JNU_ThrowInternalError 000000018000c1f8     java:java.dll
+ 0002:00000200       __imp_JNU_ThrowIllegalArgumentException 000000018000c200     java:java.dll
+ 0002:00000208       __imp_JNU_ThrowOutOfMemoryError 000000018000c208     java:java.dll
+ 0002:00000210       \177java_NULL_THUNK_DATA   000000018000c210     java:java.dll
+ 0002:00000218       __imp_JVM_GetLastErrorString 000000018000c218     jvm:jvm.dll
+ 0002:00000220       __imp_JVM_RawMonitorDestroy 000000018000c220     jvm:jvm.dll
+ 0002:00000228       __imp_jio_fprintf          000000018000c228     jvm:jvm.dll
+ 0002:00000230       __imp_JVM_NativePath       000000018000c230     jvm:jvm.dll
+ 0002:00000238       __imp_JVM_RawMonitorEnter  000000018000c238     jvm:jvm.dll
+ 0002:00000240       __imp_JVM_RawMonitorExit   000000018000c240     jvm:jvm.dll
+ 0002:00000248       __imp_JVM_RawMonitorCreate 000000018000c248     jvm:jvm.dll
+ 0002:00000250       \177jvm_NULL_THUNK_DATA    000000018000c250     jvm:jvm.dll
+ 0002:00000258       __xc_a                     000000018000c258     MSVCRT:cinitexe.obj
+ 0002:00000260       __xc_z                     000000018000c260     MSVCRT:cinitexe.obj
+ 0002:00000268       __xi_a                     000000018000c268     MSVCRT:cinitexe.obj
+ 0002:00000278       __xi_z                     000000018000c278     MSVCRT:cinitexe.obj
+ 0002:0000029c       ??_C@_03BKCJCHLK@len?$AA@  000000018000c29c     Deflater.obj
+ 0002:000002a0       ??_C@_03MCADLMAF@off?$AA@  000000018000c2a0     Deflater.obj
+ 0002:000002a4       ??_C@_03COAJHJPB@buf?$AA@  000000018000c2a4     Deflater.obj
+ 0002:000002a8       ??_C@_02KCBIMKDL@?$FLB?$AA@ 000000018000c2a8     Deflater.obj
+ 0002:000002b0       ??_C@_08CDECDFO@finished?$AA@ 000000018000c2b0     Deflater.obj
+ 0002:000002bc       ??_C@_06DOLBEBMP@finish?$AA@ 000000018000c2bc     Deflater.obj
+ 0002:000002c8       ??_C@_09JLANJGFE@setParams?$AA@ 000000018000c2c8     Deflater.obj
+ 0002:000002d4       ??_C@_01POHCFINO@Z?$AA@    000000018000c2d4     Deflater.obj
+ 0002:000002d8       ??_C@_08PDFCMIPC@strategy?$AA@ 000000018000c2d8     Deflater.obj
+ 0002:000002e4       ??_C@_05KJNJLLGA@level?$AA@ 000000018000c2e4     Deflater.obj
+ 0002:000002ec       ??_C@_01JPJNBJEM@I?$AA@    000000018000c2ec     Deflater.obj
+ 0002:000002f0       ??_C@_05IAIEPMAK@1?42?48?$AA@ 000000018000c2f0     Deflater.obj
+ 0002:000002f8       ??_C@_08LFCILODN@needDict?$AA@ 000000018000c2f8     Inflater.obj
+ 0002:00000310       ??_C@_0FE@LGLGPGLE@zlib?5returned?5Z_VERSION_ERROR?3?5c@ 000000018000c310     Inflater.obj
+ 0002:00000368       ??_C@_0CI@GPICINMP@unknown?5error?5initializing?5zlib?5@ 000000018000c368     Inflater.obj
+ 0002:00000390       ??_C@_0CF@BEGCBKMP@inflateInit2?5returned?5Z_STREAM_E@ 000000018000c390     Inflater.obj
+ 0002:000003b8       ??_C@_0CC@MDBAKBOC@java?1util?1zip?1DataFormatExceptio@ 000000018000c3b8     Inflater.obj
+ 0002:000003e0       ??_C@_1BM@KMKNNOE@?$AAj?$AAz?$AAf?$AAi?$AAl?$AAe?$AAI?$AAD?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA0?$AA?$AA@ 000000018000c3e0     ZipFile.obj
+ 0002:00000400       ??_C@_1HO@CPAPJEDG@?$AAd?$AA?3?$AA?1?$AAx?$AAy?$AAs?$AAz?$AAi?$AAv?$AA?1?$AAo?$AAp?$AAe?$AAn?$AAj?$AAd?$AAk?$AA?1?$AAj?$AAd?$AAk?$AA?1?$AAs?$AAr?$AAc?$AA?1?$AAs?$AAh?$AAa?$AAr?$AAe?$AA?1@ 000000018000c400     ZipFile.obj
+ 0002:00000480       ??_C@_06OOPHIKEP@jzfile?$AA@ 000000018000c480     ZipFile.obj
+ 0002:00000488       ??_C@_01LELAEKIP@J?$AA@    000000018000c488     ZipFile.obj
+ 0002:00000490       ??_C@_0BL@CKLGJBHG@java?1util?1zip?1ZipException?$AA@ 000000018000c490     ZipFile.obj
+ 0002:000004b0       ??_C@_0BG@IKDDPPGD@?$CILjava?1lang?1String?$DL?$CJV?$AA@ 000000018000c4b0     ZipFile.obj
+ 0002:000004c8       ??_C@_0BK@FHJMJMHP@error?5in?5opening?5zip?5file?$AA@ 000000018000c4c8     ZipFile.obj
+ 0002:000004e8       ??_C@_0BG@FKCLIFOO@errno?3?5?$CFd?0?5error?3?5?$CFs?6?$AA@ 000000018000c4e8     ZipFile.obj
+ 0002:00000500       ??_C@_0BH@HDNEJMA@Error?5reading?5ZIP?5file?$AA@ 000000018000c500     ZipFile.obj
+ 0002:00000518       ??_C@_0BB@FLFAIHG@java?1lang?1String?$AA@ 000000018000c518     ZipFile.obj
+ 0002:00000530       ??_C@_0CA@EJBFMCPI@java?1lang?1IllegalStateException?$AA@ 000000018000c530     ZipFile.obj
+ 0002:00000550       ??_C@_0BA@HFGOOFGK@zip?5file?5closed?$AA@ 000000018000c550     ZipFile.obj
+ 0002:00000560       deflate_copyright          000000018000c560     deflate.obj
+ 0002:00000650       ??_C@_09CCLLMDGP@wild?5scan?$AA@ 000000018000c650     deflate.obj
+ 0002:00000660       ??_C@_09CMMMJAKE@match?$FL2?$FN?$DP?$AA@ 000000018000c660     deflate.obj
+ 0002:00000670       ??_C@_09FDCFPLJ@no?5future?$AA@ 000000018000c670     deflate.obj
+ 0002:00000680       ??_C@_0P@NHOGBJFC@need?5lookahead?$AA@ 000000018000c680     deflate.obj
+ 0002:00000690       ??_C@_0BA@BJIBMGP@Code?5too?5clever?$AA@ 000000018000c690     deflate.obj
+ 0002:000006a0       ??_C@_08FICKDADI@?2?$FL?$CFd?0?$CFd?$FN?$AA@ 000000018000c6a0     deflate.obj
+ 0002:000006b0       ??_C@_0O@BBCAOIOL@invalid?5match?$AA@ 000000018000c6b0     deflate.obj
+ 0002:000006c0       ??_C@_04GJDJEMBE@?$CFc?$CFc?$AA@ 000000018000c6c0     deflate.obj
+ 0002:000006c8       ??_C@_0CA@BDOMDBAB@?5start?5?$CFu?0?5match?5?$CFu?0?5length?5?$CFd?6?$AA@ 000000018000c6c8     deflate.obj
+ 0002:000006e8       ??_C@_0BL@EJADJAAF@not?5enough?5room?5for?5search?$AA@ 000000018000c6e8     deflate.obj
+ 0002:00000708       ??_C@_08DANOBKNC@more?5?$DM?52?$AA@ 000000018000c708     deflate.obj
+ 0002:00000718       ??_C@_0BJ@IEKGFKDO@already?5enough?5lookahead?$AA@ 000000018000c718     deflate.obj
+ 0002:00000738       ??_C@_07JFAHFKME@?$FLFLUSH?$FN?$AA@ 000000018000c738     deflate.obj
+ 0002:00000740       ??_C@_0L@BGCMEENA@block?5gone?$AA@ 000000018000c740     deflate.obj
+ 0002:00000750       ??_C@_0P@BPDFKABC@slide?5too?5late?$AA@ 000000018000c750     deflate.obj
+ 0002:00000760       ??_C@_02HAOIJKIC@?$CFc?$AA@ 000000018000c760     deflate.obj
+ 0002:00000768       ??_C@_09GIAFOJPO@no?5flush?$DP?$AA@ 000000018000c768     deflate.obj
+ 0002:00000774       ??_C@_04CGCGPFLF@bug2?$AA@ 000000018000c774     deflate.obj
+ 0002:00000779       ??_C@_00CNPNBAHC@?$AA@     000000018000c779     gzlib.obj
+ 0002:00001028       ??_C@_0BE@MEDJIBLJ@inflate?3?5allocated?6?$AA@ 000000018000d028     infback.obj
+ 0002:00001040       ??_C@_0BN@HIEFEHNA@inflate?3?5?5?5?5?5stored?5block?$CFs?6?$AA@ 000000018000d040     infback.obj
+ 0002:00001060       ??_C@_0CC@OMPNBKKJ@inflate?3?5?5?5?5?5fixed?5codes?5block?$CFs@ 000000018000d060     infback.obj
+ 0002:00001088       ??_C@_0CE@MLGPDPJL@inflate?3?5?5?5?5?5dynamic?5codes?5block@ 000000018000d088     infback.obj
+ 0002:000010b0       ??_C@_07CKKJPEPC@?5?$CIlast?$CJ?$AA@ 000000018000d0b0     infback.obj
+ 0002:000010b8       ??_C@_0BD@PJCBIDD@invalid?5block?5type?$AA@ 000000018000d0b8     infback.obj
+ 0002:000010d0       ??_C@_0BL@JFENPKIA@inflate?3?5?5?5?5?5?5?5stored?5end?6?$AA@ 000000018000d0d0     infback.obj
+ 0002:000010f0       ??_C@_0CB@NBIHBHGP@inflate?3?5?5?5?5?5?5?5stored?5length?5?$CFu?6@ 000000018000d0f0     infback.obj
+ 0002:00001118       ??_C@_0BN@LGAADGOK@invalid?5stored?5block?5lengths?$AA@ 000000018000d118     infback.obj
+ 0002:00001138       ??_C@_0CE@GMIGFPBB@too?5many?5length?5or?5distance?5symb@ 000000018000d138     infback.obj
+ 0002:00001160       ??_C@_0BO@NHKGAPBM@inflate?3?5?5?5?5?5?5?5?5?5distance?5?$CFu?6?$AA@ 000000018000d160     infback.obj
+ 0002:00001180       ??_C@_0BO@ECPMAOGG@invalid?5distance?5too?5far?5back?$AA@ 000000018000d180     infback.obj
+ 0002:000011a0       ??_C@_0BG@LBKINIKP@invalid?5distance?5code?$AA@ 000000018000d1a0     infback.obj
+ 0002:000011b8       ??_C@_0BM@DMHHFBFF@inflate?3?5?5?5?5?5?5?5?5?5length?5?$CFu?6?$AA@ 000000018000d1b8     infback.obj
+ 0002:000011d8       ??_C@_0BM@FFFLPBBC@invalid?5literal?1length?5code?$AA@ 000000018000d1d8     infback.obj
+ 0002:000011f8       ??_C@_0BP@CPLIBFLB@inflate?3?5?5?5?5?5?5?5?5?5end?5of?5block?6?$AA@ 000000018000d1f8     infback.obj
+ 0002:00001218       ??_C@_0CB@HMKHCMMK@inflate?3?5?5?5?5?5?5?5?5?5literal?50x?$CF02x?6@ 000000018000d218     infback.obj
+ 0002:00001240       ??_C@_0BP@ECFBKOHI@inflate?3?5?5?5?5?5?5?5?5?5literal?5?8?$CFc?8?6?$AA@ 000000018000d240     infback.obj
+ 0002:00001260       ??_C@_0BJ@NOHBBEIH@inflate?3?5?5?5?5?5?5?5codes?5ok?6?$AA@ 000000018000d260     infback.obj
+ 0002:00001280       ??_C@_0BG@GMDFCBGP@invalid?5distances?5set?$AA@ 000000018000d280     infback.obj
+ 0002:00001298       ??_C@_0BM@IIMGAINC@invalid?5literal?1lengths?5set?$AA@ 000000018000d298     infback.obj
+ 0002:000012b8       ??_C@_0CF@DGDMADCD@invalid?5code?5?9?9?5missing?5end?9of?9b@ 000000018000d2b8     infback.obj
+ 0002:000012e0       ??_C@_0BK@BMMPFBBH@invalid?5bit?5length?5repeat?$AA@ 000000018000d2e0     infback.obj
+ 0002:00001300       ??_C@_0CA@POFACBEE@inflate?3?5?5?5?5?5?5?5code?5lengths?5ok?6?$AA@ 000000018000d300     infback.obj
+ 0002:00001320       ??_C@_0BJ@HDEPPGOH@invalid?5code?5lengths?5set?$AA@ 000000018000d320     infback.obj
+ 0002:00001340       ??_C@_0BP@FPHLNNHK@inflate?3?5?5?5?5?5?5?5table?5sizes?5ok?6?$AA@ 000000018000d340     infback.obj
+ 0002:00001360       ??_C@_0O@FKLPLCLB@inflate?3?5end?6?$AA@ 000000018000d360     infback.obj
+ 0002:00001c18       ??_C@_0BA@IJNMBKE@inflate?3?5reset?6?$AA@ 000000018000dc18     inflate.obj
+ 0002:00001c28       ??_C@_0CD@NBBEGPPB@inflate?3?5?5?5length?5matches?5traile@ 000000018000dc28     inflate.obj
+ 0002:00001c50       ??_C@_0BH@FGKKJGOC@incorrect?5length?5check?$AA@ 000000018000dc50     inflate.obj
+ 0002:00001c68       ??_C@_0CC@MPICEEGM@inflate?3?5?5?5check?5matches?5trailer@ 000000018000dc68     inflate.obj
+ 0002:00001c90       ??_C@_0BF@MEIGEHBE@incorrect?5data?5check?$AA@ 000000018000dc90     inflate.obj
+ 0002:00001ca8       ??_C@_0BE@GONKLEPM@header?5crc?5mismatch?$AA@ 000000018000dca8     inflate.obj
+ 0002:00001cc0       ??_C@_0BH@LIBMMIGA@incorrect?5header?5check?$AA@ 000000018000dcc0     inflate.obj
+ 0002:00001cd8       ??_C@_0BE@EMOGCLGO@invalid?5window?5size?$AA@ 000000018000dcd8     inflate.obj
+ 0002:00001cf0       ??_C@_0BL@HBJJBDDK@inflate?3?5?5?5zlib?5header?5ok?6?$AA@ 000000018000dcf0     inflate.obj
+ 0002:00001d10       ??_C@_0BJ@BLBBCOMO@unknown?5header?5flags?5set?$AA@ 000000018000dd10     inflate.obj
+ 0002:00001d30       ??_C@_0BL@IHKGDAEE@unknown?5compression?5method?$AA@ 000000018000dd30     inflate.obj
+ 0002:00001d50       ??_C@_0BL@GCOHHDNF@inflate?3?5?5?5dictionary?5set?6?$AA@ 000000018000dd50     inflate.obj
+ 0002:00001d70       inflate_copyright          000000018000dd70     inftrees.obj
+ 0002:00002510       _dist_code                 000000018000e510     trees.obj
+ 0002:00002710       _length_code               000000018000e710     trees.obj
+ 0002:00002908       ??_C@_0P@BHAFPBHF@invalid?5length?$AA@ 000000018000e908     trees.obj
+ 0002:00002918       ??_C@_0O@DNHGLHDM@?5l?5?$CF2d?5v?5?$CF4x?5?$AA@ 000000018000e918     trees.obj
+ 0002:00002928       ??_C@_0BF@HBNAMGFG@code?5?$CFd?5bits?5?$CFd?9?$DO?$CFd?6?$AA@ 000000018000e928     trees.obj
+ 0002:00002940       ??_C@_0BG@GHJFNIDK@?6bit?5length?5overflow?6?$AA@ 000000018000e940     trees.obj
+ 0002:00002958       ??_C@_05EEEGDFNG@?53_6?$DP?$AA@ 000000018000e958     trees.obj
+ 0002:00002960       ??_C@_08JLAMBLDC@?6cd?5?$CF3d?5?$AA@ 000000018000e960     trees.obj
+ 0002:00002970       ??_C@_0BF@CFHMJKEE@?6dist?5tree?3?5sent?5?$CFld?$AA@ 000000018000e970     trees.obj
+ 0002:00002988       ??_C@_0BE@JOMLGDBO@?6lit?5tree?3?5sent?5?$CFld?$AA@ 000000018000e988     trees.obj
+ 0002:000029a0       ??_C@_0BD@OGMFKFGA@?6bl?5tree?3?5sent?5?$CFld?$AA@ 000000018000e9a0     trees.obj
+ 0002:000029b8       ??_C@_0O@IDMIHDNL@?6bl?5code?5?$CF2d?5?$AA@ 000000018000e9b8     trees.obj
+ 0002:000029c8       ??_C@_0N@DCAFLJKK@?6bl?5counts?3?5?$AA@ 000000018000e9c8     trees.obj
+ 0002:000029d8       ??_C@_0P@GJNJCPDJ@too?5many?5codes?$AA@ 000000018000e9d8     trees.obj
+ 0002:000029e8       ??_C@_0BB@GMDEMGDE@not?5enough?5codes?$AA@ 000000018000e9e8     trees.obj
+ 0002:00002a00       ??_C@_0BF@NALMGCJF@_tr_tally?3?5bad?5match?$AA@ 000000018000ea00     trees.obj
+ 0002:00002a18       ??_C@_0BE@JCHAEEMN@pendingBuf?5overflow?$AA@ 000000018000ea18     trees.obj
+ 0002:00002a30       ??_C@_0L@DCLOHIFI@bad?5d_code?$AA@ 000000018000ea30     trees.obj
+ 0002:00002a3c       ??_C@_06DPLDKAMN@?5?8?$CFc?8?5?$AA@ 000000018000ea3c     trees.obj
+ 0002:00002a48       ??_C@_0BM@DNPPPMAG@?6n?5?$CF3d?5?$CFc?5l?5?$CF2d?5c?5?$CF4x?5?$CI?$CFx?$CJ?5?$AA@ 000000018000ea48     trees.obj
+ 0002:00002a68       ??_C@_0BJ@MHIMLIHE@?6gen_codes?3?5max_code?5?$CFd?5?$AA@ 000000018000ea68     trees.obj
+ 0002:00002a88       ??_C@_0BI@HMCNGDCJ@inconsistent?5bit?5counts?$AA@ 000000018000ea88     trees.obj
+ 0002:00002aa0       ??_C@_0BO@HHDANFCK@?6dyn?5trees?3?5dyn?5?$CFld?0?5stat?5?$CFld?$AA@ 000000018000eaa0     trees.obj
+ 0002:00002ac0       ??_C@_0BE@GCCGIKNA@?6comprlen?5?$CFlu?$CI?$CFlu?$CJ?5?$AA@ 000000018000eac0     trees.obj
+ 0002:00002ad8       ??_C@_0BE@IIOOJOKB@bad?5compressed?5size?$AA@ 000000018000ead8     trees.obj
+ 0002:00002af0       ??_C@_08NGCKNIIB@lost?5buf?$AA@ 000000018000eaf0     trees.obj
+ 0002:00002b00       ??_C@_0CP@PNBCDCDP@?6opt?5?$CFlu?$CI?$CFlu?$CJ?5stat?5?$CFlu?$CI?$CFlu?$CJ?5stor@ 000000018000eb00     trees.obj
+ 0002:00002b30       ??_C@_0BO@HNDKOECG@?6dist?5data?3?5dyn?5?$CFld?0?5stat?5?$CFld?$AA@ 000000018000eb30     trees.obj
+ 0002:00002b50       ??_C@_0BN@OPLNLCDH@?6lit?5data?3?5dyn?5?$CFld?0?5stat?5?$CFld?$AA@ 000000018000eb50     trees.obj
+ 0002:00004b78       ??_C@_09CDDFBEOB@META?9INF?1?$AA@ 0000000180010b78     zip_util.obj
+ 0002:00004b88       ??_C@_0CD@OGNDFFDB@invalid?5CEN?5header?5?$CIbad?5signatur@ 0000000180010b88     zip_util.obj
+ 0002:00004bb0       ??_C@_0CF@JMIBKLMP@invalid?5CEN?5header?5?$CIencrypted?5en@ 0000000180010bb0     zip_util.obj
+ 0002:00004bd8       ??_C@_0CF@EDCPNMDL@invalid?5CEN?5header?5?$CIbad?5header?5s@ 0000000180010bd8     zip_util.obj
+ 0002:00004c00       ??_C@_0CM@OFBGAGKC@invalid?5CEN?5header?5?$CIbad?5compress@ 0000000180010c00     zip_util.obj
+ 0002:00004c30       ??_C@_0DC@HNGNGCGO@invalid?5END?5header?5?$CIbad?5central?5@ 0000000180010c30     zip_util.obj
+ 0002:00004c68       ??_C@_0DA@LDHLKKMA@invalid?5END?5header?5?$CIbad?5central?5@ 0000000180010c68     zip_util.obj
+ 0002:00004c98       ??_C@_0BH@LJLKODMB@zip?5file?5name?5too?5long?$AA@ 0000000180010c98     zip_util.obj
+ 0002:00004cb0       ??_C@_0CD@MENKOKKM@invalid?5LOC?5header?5?$CIbad?5signatur@ 0000000180010cb0     zip_util.obj
+ 0002:00004cd8       ??_C@_0BH@LBOCJMDB@error?5reading?5zip?5file?$AA@ 0000000180010cd8     zip_util.obj
+ 0002:00004cf0       ??_C@_0CI@IPMMKOEL@ZIP_Read?3?5specified?5offset?5out?5o@ 0000000180010cf0     zip_util.obj
+ 0002:00004d18       ??_C@_0CB@CIEAIEG@ZIP_Read?3?5error?5reading?5zip?5file@ 0000000180010d18     zip_util.obj
+ 0002:00004d40       ??_C@_0CP@NKNCEDJJ@ZIP_Read?3?5corrupt?5zip?5file?3?5inva@ 0000000180010d40     zip_util.obj
+ 0002:00004d70       ??_C@_0CF@CIDJLPNC@inflateFully?3?5Unexpected?5end?5of?5@ 0000000180010d70     zip_util.obj
+ 0002:00004d98       ??_C@_0CH@CEOIBOIL@inflateFully?3?5Unexpected?5end?5of?5@ 0000000180010d98     zip_util.obj
+ 0002:00004dc0       ??_C@_0CD@NHPFPCNC@inflateFully?3?5entry?5not?5compress@ 0000000180010dc0     zip_util.obj
+ 0002:00004de8       ??_C@_07KJFPOMFC@?$CFs?3?5?$CFs?6?$AA@ 0000000180010de8     zip_util.obj
+ 0002:00004df0       ??_C@_0BC@FKAFCEIB@zip?5file?5is?5empty?$AA@ 0000000180010df0     zip_util.obj
+ 0002:00004e08       ??_C@_0BE@LOIOAONC@Zip?5file?5open?5error?$AA@ 0000000180010e08     zip_util.obj
+ 0002:00004e20       ??_C@_0BF@CJFPCCEG@incompatible?5version?$AA@ 0000000180010e20     zutil.obj
+ 0002:00004e38       ??_C@_0N@DFPGLBGC@buffer?5error?$AA@ 0000000180010e38     zutil.obj
+ 0002:00004e48       ??_C@_0BE@OGGJBMCE@insufficient?5memory?$AA@ 0000000180010e48     zutil.obj
+ 0002:00004e60       ??_C@_0L@HAHMBNLP@data?5error?$AA@ 0000000180010e60     zutil.obj
+ 0002:00004e70       ??_C@_0N@MKKNPMJD@stream?5error?$AA@ 0000000180010e70     zutil.obj
+ 0002:00004e80       ??_C@_0L@KIJFAKBJ@file?5error?$AA@ 0000000180010e80     zutil.obj
+ 0002:00004e90       ??_C@_0L@FNAOCBOG@stream?5end?$AA@ 0000000180010e90     zutil.obj
+ 0002:00004ea0       ??_C@_0BA@MOKMMFOD@need?5dictionary?$AA@ 0000000180010ea0     zutil.obj
+ 0002:00004eb0       z_errmsg                   0000000180010eb0     zutil.obj
+ 0002:00004f00       ??_C@_03OFAPEBGM@?$CFs?6?$AA@ 0000000180010f00     zutil.obj
+ 0002:00004f08       _pRawDllMain               0000000180010f08     MSVCRT:crtdll.obj
+ 0002:00004f08       _pDefaultRawDllMain        0000000180010f08     MSVCRT:crtdll.obj
+ 0002:00004f90       __rtc_iaa                  0000000180010f90     MSVCRT:_initsect_.obj
+ 0002:00004f98       __rtc_izz                  0000000180010f98     MSVCRT:_initsect_.obj
+ 0002:00004fa0       __rtc_taa                  0000000180010fa0     MSVCRT:_initsect_.obj
+ 0002:00004fa8       __rtc_tzz                  0000000180010fa8     MSVCRT:_initsect_.obj
+ 0002:0000540c       __IMPORT_DESCRIPTOR_jvm    000000018001140c     jvm:jvm.dll
+ 0002:00005420       __IMPORT_DESCRIPTOR_java   0000000180011420     java:java.dll
+ 0002:00005434       __IMPORT_DESCRIPTOR_MSVCR100 0000000180011434     MSVCRT:MSVCR100.dll
+ 0002:00005448       __IMPORT_DESCRIPTOR_KERNEL32 0000000180011448     kernel32:KERNEL32.dll
+ 0002:0000545c       __NULL_IMPORT_DESCRIPTOR   000000018001145c     jvm:jvm.dll
+ 0003:00000070       __security_cookie          0000000180013070     MSVCRT:gs_cookie.obj
+ 0003:00000078       __security_cookie_complement 0000000180013078     MSVCRT:gs_cookie.obj
+ 0003:00000080       __native_dllmain_reason    0000000180013080     MSVCRT:natstart.obj
+ 0003:00000084       __native_vcclrit_reason    0000000180013084     MSVCRT:natstart.obj
+ 0003:00000114       z_verbose                  0000000180013114     zutil.obj
+ 0003:00000690       ?__type_info_root_node@@3U__type_info_node@@A 0000000180013690     MSVCRT:tncleanup.obj
+ 0003:000006a0       __native_startup_state     00000001800136a0     <common>
+ 0003:000006a8       __native_startup_lock      00000001800136a8     <common>
+ 0003:000006b0       __onexitend                00000001800136b0     <common>
+ 0003:000006b8       __onexitbegin              00000001800136b8     <common>
+ 0003:000006c0       __dyn_tls_init_callback    00000001800136c0     <common>
+
+ entry point at        0001:0000a634
+
+ Static symbols
+
+ 0001:00000d98       ThrowZipException          0000000180001d98 f   ZipFile.obj
+ 0001:000014c4       flush_pending              00000001800024c4 f   deflate.obj
+ 0001:0000160c       lm_init                    000000018000260c f   deflate.obj
+ 0001:000016bc       longest_match              00000001800026bc f   deflate.obj
+ 0001:00001914       check_match                0000000180002914 f   deflate.obj
+ 0001:00001a14       fill_window                0000000180002a14 f   deflate.obj
+ 0001:00001d0c       deflate_stored             0000000180002d0c f   deflate.obj
+ 0001:00001fb0       deflate_fast               0000000180002fb0 f   deflate.obj
+ 0001:00002388       deflate_slow               0000000180003388 f   deflate.obj
+ 0001:000028c0       deflate_rle                00000001800038c0 f   deflate.obj
+ 0001:00002c30       deflate_huff               0000000180003c30 f   deflate.obj
+ 0001:000044cc       updatewindow               00000001800054cc f   inflate.obj
+ 0001:00006494       send_bits                  0000000180007494 f   trees.obj
+ 0001:00006578       init_block                 0000000180007578 f   trees.obj
+ 0001:000065e8       pqdownheap                 00000001800075e8 f   trees.obj
+ 0001:0000669c       gen_bitlen                 000000018000769c f   trees.obj
+ 0001:0000692c       scan_tree                  000000018000792c f   trees.obj
+ 0001:00006a20       send_tree                  0000000180007a20 f   trees.obj
+ 0001:00006c74       send_all_trees             0000000180007c74 f   trees.obj
+ 0001:00006f7c       compress_block             0000000180007f7c f   trees.obj
+ 0001:000071e8       bi_flush                   00000001800081e8 f   trees.obj
+ 0001:00007260       bi_windup                  0000000180008260 f   trees.obj
+ 0001:0000733c       build_tree                 000000018000833c f   trees.obj
+ 0001:000076b0       build_bl_tree              00000001800086b0 f   trees.obj
+ 0001:00007e7c       crc32_little               0000000180008e7c f   zcrc32.obj
+ 0001:00008198       readFully                  0000000180009198 f   zip_util.obj
+ 0001:00008204       readFullyAt                0000000180009204 f   zip_util.obj
+ 0001:00008250       verifyEND                  0000000180009250 f   zip_util.obj
+ 0001:00008368       findEND                    0000000180009368 f   zip_util.obj
+ 0001:00008530       findEND64                  0000000180009530 f   zip_util.obj
+ 0001:00008604       addMetaName                0000000180009604 f   zip_util.obj
+ 0001:00008738       freeCEN                    0000000180009738 f   zip_util.obj
+ 0001:000087c4       readCEN                    00000001800097c4 f   zip_util.obj
+ 0001:00008e60       readCENHeader              0000000180009e60 f   zip_util.obj
+ 0001:00008f44       sequentialAccessReadCENHeader 0000000180009f44 f   zip_util.obj
+ 0001:00009008       newEntry                   000000018000a008 f   zip_util.obj
+ 0001:00009ba8       freeZip                    000000018000aba8 f   zip_util.obj
+ 0001:0000a23c       pre_c_init                 000000018000b23c f   MSVCRT:crtdll.obj
+ 0001:0000a4f8       __DllMainCRTStartup        000000018000b4f8 f   MSVCRT:crtdll.obj
+ 0001:0000ab00       __DllMainCRTStartup$filt$0 000000018000bb00 f   MSVCRT:crtdll.obj
+ 0001:0000ab30       __DllMainCRTStartup$fin$1  000000018000bb30 f   MSVCRT:crtdll.obj
+ 0001:0000ab4a       _onexit$fin$0              000000018000bb4a f   MSVCRT:atonexit.obj
+ 0001:0000ab70       _IsNonwritableInCurrentImage$filt$0 000000018000bb70 f   MSVCRT:pesect.obj

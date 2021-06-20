@@ -1,0 +1,125 @@
+ServerSocketChannelImpl.c
+Note: including file: C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\windows.h
+Note: including file:  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\sdkddkver.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\excpt.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\sal.h
+Note: including file:     c:\program files (x86)\microsoft visual studio 10.0\vc\include\codeanalysis\sourceannotations.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\vadefs.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stdarg.h
+Note: including file:  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\windef.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winnt.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\ctype.h
+Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\specstrings.h
+Note: including file:     c:\program files (x86)\microsoft sdks\windows\v7.0a\include\sal_supp.h
+Note: including file:     c:\program files (x86)\microsoft sdks\windows\v7.0a\include\specstrings_supp.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\specstrings_strict.h
+Note: including file:      C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\specstrings_undef.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\driverspecs.h
+Note: including file:      c:\program files (x86)\microsoft sdks\windows\v7.0a\include\sdv_driverspecs.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\kernelspecs.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\basetsd.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\guiddef.h
+Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\string.h
+Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:    c:\program files (x86)\microsoft sdks\windows\v7.0a\include\pshpack4.h
+Note: including file:    c:\program files (x86)\microsoft sdks\windows\v7.0a\include\poppack.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack4.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:    c:\program files (x86)\microsoft sdks\windows\v7.0a\include\pshpack4.h
+Note: including file:    c:\program files (x86)\microsoft sdks\windows\v7.0a\include\pshpack2.h
+Note: including file:    c:\program files (x86)\microsoft sdks\windows\v7.0a\include\poppack.h
+Note: including file:    c:\program files (x86)\microsoft sdks\windows\v7.0a\include\pshpack2.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack2.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:    c:\program files (x86)\microsoft sdks\windows\v7.0a\include\poppack.h
+Note: including file:    c:\program files (x86)\microsoft sdks\windows\v7.0a\include\pshpack8.h
+Note: including file:    c:\program files (x86)\microsoft sdks\windows\v7.0a\include\poppack.h
+Note: including file:    c:\program files (x86)\microsoft sdks\windows\v7.0a\include\poppack.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\ktmtypes.h
+Note: including file:  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winbase.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winerror.h
+Note: including file:  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\wingdi.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack2.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack2.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack4.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack4.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winuser.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack2.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\tvout.h
+Note: including file:  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winnls.h
+Note: including file:  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\wincon.h
+Note: including file:  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winver.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\verrsrc.h
+Note: including file:  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winreg.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\reason.h
+Note: including file:  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winnetwk.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\wnnc.h
+Note: including file:  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\stralign.h
+Note: including file:  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winsvc.h
+Note: including file:  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\mcx.h
+Note: including file:  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\imm.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\ime_cmodes.h
+Note: including file: C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winsock2.h
+Note: including file:  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\ws2def.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\inaddr.h
+Note: including file:  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\qos.h
+Note: including file: C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stdio.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\swprintf.inl
+Note: including file: C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stdlib.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\limits.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file: C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\malloc.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file: C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\sys/types.h
+Note: including file: d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\javavm\export\jni_md.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\common\jni_util.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\common\jlong.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\windows\native\common\jlong_md.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stddef.h
+Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\javavm\export\jvm.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\sys/stat.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\sys/stat.inl
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\javavm\export\jni.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\javavm\export\jvm_md.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\javavm\export\jni.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\fcntl.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\errno.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\signal.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\javavm\export\classfile_constants.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\common\jlong.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\nio\ch\nio.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_nio_ch_IOStatus.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file: d:\xysziv\openjdk\jdk\src\windows\native\sun\nio\ch\nio_util.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\java\net\net_util.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\javavm\export\jvm.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\common\jni_util.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\windows\native\java\net\net_util_md.h
+Note: including file:   C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\WS2tcpip.h
+Note: including file:    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\ws2ipdef.h
+Note: including file:     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\in6addr.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_io_FileDescriptor.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_net_SocketOptions.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file: d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\sun_nio_ch_ServerSocketChannelImpl.h
+Note: including file:  d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h

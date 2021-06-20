@@ -1,0 +1,2 @@
+/cygdrive/d/xysziv/openjdk/build/windows-x86_64-normal-server-fastdebug/corba/gensrc/org/omg/Messaging/SyncScopeHelper.java: /cygdrive/d/xysziv/openjdk/corba/src/share/classes/org/omg/PortableInterceptor/Messaging.idl
+/cygdrive/d/xysziv/openjdk/build/windows-x86_64-normal-server-fastdebug/corba/gensrc/org/omg/Messaging/SYNC_WITH_TRANSPORT.java: /cygdrive/d/xysziv/openjdk/corba/src/share/classes/org/omg/PortableInterceptor/Messaging.idl

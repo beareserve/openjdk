@@ -1,0 +1,10 @@
+splashscreen_stubs.c
+Note: including file: C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stdio.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\sal.h
+Note: including file:    c:\program files (x86)\microsoft visual studio 10.0\vc\include\codeanalysis\sourceannotations.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\vadefs.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\swprintf.inl
+Note: including file: d:\xysziv\openjdk\jdk\src\share\bin\splashscreen.h
+d:/xysziv/openjdk/jdk/src/share/bin/splashscreen_stubs.c(64) : warning C4047: 'return' : 'int' differs in levels of indirection from 'void *'
+d:/xysziv/openjdk/jdk/src/share/bin/splashscreen_stubs.c(68) : warning C4047: 'return' : 'int' differs in levels of indirection from 'void *'

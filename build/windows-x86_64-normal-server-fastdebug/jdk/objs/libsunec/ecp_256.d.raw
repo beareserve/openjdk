@@ -1,0 +1,43 @@
+ecp_256.c
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\security\ec\impl\ecp.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\security\ec\impl\ecl-priv.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\security\ec\impl\ecl.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\share\native\sun\security\ec\impl\ecl-exp.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\share\native\sun\security\ec\impl\mpi.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\share\native\sun\security\ec\impl\mpi-config.h
+Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\limits.h
+Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\sal.h
+Note: including file:        c:\program files (x86)\microsoft visual studio 10.0\vc\include\codeanalysis\sourceannotations.h
+Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\vadefs.h
+Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\sys/types.h
+Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\assert.h
+Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\security\ec\impl\mpi.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\security\ec\impl\mplogic.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\share\native\sun\security\ec\impl\mpi.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\security\ec\impl\mpi.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\security\ec\impl\mplogic.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\security\ec\impl\mpi-priv.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\security\ec\impl\mpi.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stdlib.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\string.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\ctype.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+d:/xysziv/openjdk/jdk/src/share/native/sun/security/ec/impl/ecp_256.c(288) : warning C4244: '=' : conversion from 'mp_digit' to 'int', possible loss of data
+d:/xysziv/openjdk/jdk/src/share/native/sun/security/ec/impl/ecp_256.c(292) : warning C4244: '+=' : conversion from 'mp_digit' to 'int', possible loss of data
+d:/xysziv/openjdk/jdk/src/share/native/sun/security/ec/impl/ecp_256.c(297) : warning C4244: '+=' : conversion from 'mp_digit' to 'int', possible loss of data
+d:/xysziv/openjdk/jdk/src/share/native/sun/security/ec/impl/ecp_256.c(301) : warning C4244: '+=' : conversion from 'mp_digit' to 'int', possible loss of data
+d:/xysziv/openjdk/jdk/src/share/native/sun/security/ec/impl/ecp_256.c(308) : warning C4244: '+=' : conversion from 'mp_digit' to 'int', possible loss of data
+d:/xysziv/openjdk/jdk/src/share/native/sun/security/ec/impl/ecp_256.c(314) : warning C4244: '+=' : conversion from 'mp_digit' to 'int', possible loss of data
+d:/xysziv/openjdk/jdk/src/share/native/sun/security/ec/impl/ecp_256.c(320) : warning C4244: '-=' : conversion from 'mp_digit' to 'int', possible loss of data
+d:/xysziv/openjdk/jdk/src/share/native/sun/security/ec/impl/ecp_256.c(326) : warning C4244: '-=' : conversion from 'mp_digit' to 'int', possible loss of data
+d:/xysziv/openjdk/jdk/src/share/native/sun/security/ec/impl/ecp_256.c(332) : warning C4244: '-=' : conversion from 'mp_digit' to 'int', possible loss of data
+d:/xysziv/openjdk/jdk/src/share/native/sun/security/ec/impl/ecp_256.c(338) : warning C4244: '-=' : conversion from 'mp_digit' to 'int', possible loss of data
+d:/xysziv/openjdk/jdk/src/share/native/sun/security/ec/impl/ecp_256.c(345) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+d:/xysziv/openjdk/jdk/src/share/native/sun/security/ec/impl/ecp_256.c(348) : warning C4244: '=' : conversion from 'mp_digit' to 'int', possible loss of data
+d:/xysziv/openjdk/jdk/src/share/native/sun/security/ec/impl/ecp_256.c(356) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+d:/xysziv/openjdk/jdk/src/share/native/sun/security/ec/impl/ecp_256.c(359) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+d:/xysziv/openjdk/jdk/src/share/native/sun/security/ec/impl/ecp_256.c(359) : warning C4244: '=' : conversion from 'mp_digit' to 'int', possible loss of data

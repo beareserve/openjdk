@@ -1,0 +1,4 @@
+e_fmod.c
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\java\lang\fdlibm\include\fdlibm.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\java\lang\fdlibm\include\jfdlibm.h
+d:/xysziv/openjdk/jdk/src/share/native/java/lang/fdlibm/src/e_fmod.c(61) : warning C4146: unary minus operator applied to unsigned type, result still unsigned

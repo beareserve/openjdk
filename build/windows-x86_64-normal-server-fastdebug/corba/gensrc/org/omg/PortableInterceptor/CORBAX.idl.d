@@ -1,0 +1,10 @@
+/cygdrive/d/xysziv/openjdk/build/windows-x86_64-normal-server-fastdebug/corba/gensrc/org/omg/CORBA/ParameterMode.java: /cygdrive/d/xysziv/openjdk/corba/src/share/classes/org/omg/PortableInterceptor/CORBAX.idl
+/cygdrive/d/xysziv/openjdk/build/windows-x86_64-normal-server-fastdebug/corba/gensrc/org/omg/CORBA/ParameterModeHelper.java: /cygdrive/d/xysziv/openjdk/corba/src/share/classes/org/omg/PortableInterceptor/CORBAX.idl
+/cygdrive/d/xysziv/openjdk/build/windows-x86_64-normal-server-fastdebug/corba/gensrc/org/omg/CORBA/ParameterModeHolder.java: /cygdrive/d/xysziv/openjdk/corba/src/share/classes/org/omg/PortableInterceptor/CORBAX.idl
+/cygdrive/d/xysziv/openjdk/build/windows-x86_64-normal-server-fastdebug/corba/gensrc/org/omg/CORBA/PolicyErrorCodeHelper.java: /cygdrive/d/xysziv/openjdk/corba/src/share/classes/org/omg/PortableInterceptor/CORBAX.idl
+/cygdrive/d/xysziv/openjdk/build/windows-x86_64-normal-server-fastdebug/corba/gensrc/org/omg/CORBA/PolicyErrorHelper.java: /cygdrive/d/xysziv/openjdk/corba/src/share/classes/org/omg/PortableInterceptor/CORBAX.idl
+/cygdrive/d/xysziv/openjdk/build/windows-x86_64-normal-server-fastdebug/corba/gensrc/org/omg/CORBA/PolicyErrorHolder.java: /cygdrive/d/xysziv/openjdk/corba/src/share/classes/org/omg/PortableInterceptor/CORBAX.idl
+/cygdrive/d/xysziv/openjdk/build/windows-x86_64-normal-server-fastdebug/corba/gensrc/org/omg/CORBA/StringSeqHelper.java: /cygdrive/d/xysziv/openjdk/corba/src/share/classes/org/omg/PortableInterceptor/CORBAX.idl
+/cygdrive/d/xysziv/openjdk/build/windows-x86_64-normal-server-fastdebug/corba/gensrc/org/omg/CORBA/StringSeqHolder.java: /cygdrive/d/xysziv/openjdk/corba/src/share/classes/org/omg/PortableInterceptor/CORBAX.idl
+/cygdrive/d/xysziv/openjdk/build/windows-x86_64-normal-server-fastdebug/corba/gensrc/org/omg/CORBA/WStringSeqHelper.java: /cygdrive/d/xysziv/openjdk/corba/src/share/classes/org/omg/PortableInterceptor/CORBAX.idl
+/cygdrive/d/xysziv/openjdk/build/windows-x86_64-normal-server-fastdebug/corba/gensrc/org/omg/CORBA/WStringSeqHolder.java: /cygdrive/d/xysziv/openjdk/corba/src/share/classes/org/omg/PortableInterceptor/CORBAX.idl

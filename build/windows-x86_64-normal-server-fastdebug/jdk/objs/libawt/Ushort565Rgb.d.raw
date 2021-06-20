@@ -1,0 +1,52 @@
+Ushort565Rgb.c
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\AnyShort.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\GraphicsPrimitiveMgr.h
+Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stddef.h
+Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\sal.h
+Note: including file:      c:\program files (x86)\microsoft visual studio 10.0\vc\include\codeanalysis\sourceannotations.h
+Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\vadefs.h
+Note: including file:   d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\gensrc_headers\java_awt_AlphaComposite.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stdio.h
+Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\crtdefs.h
+Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\swprintf.inl
+Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stdarg.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\windows\javavm\export\jni_md.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\SurfaceData.h
+Note: including file:    d:\xysziv\openjdk\build\windows-x86_64-normal-server-fastdebug\jdk\include\jni.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\pipe\SpanIterator.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\windows\native\sun\java2d\j2d_md.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\share\native\common\gdefs.h
+Note: including file:     d:\xysziv\openjdk\jdk\src\windows\native\common\gdefs_md.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\AlphaMath.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\GlyphImageRef.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\LoopMacros.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\windows\native\sun\java2d\j2d_md.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\LineUtils.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\Ushort565Rgb.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\AlphaMacros.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\GraphicsPrimitiveMgr.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\AlphaMath.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\IntArgb.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\IntDcm.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\ByteGray.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\IntDcm.h
+Note: including file:   d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\UshortGray.h
+Note: including file:    d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\IntDcm.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\IntArgb.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\IntArgbBm.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\IntDcm.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\ByteGray.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\UshortGray.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\IntArgbPre.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\IntDcm.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\IntRgb.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\IntDcm.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\ByteGray.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\UshortGray.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\ThreeByteBgr.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\ByteGray.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\ByteIndexed.h
+Note: including file:  d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\IntDcm.h
+Note: including file: d:\xysziv\openjdk\jdk\src\share\native\sun\java2d\loops\Ushort4444Argb.h

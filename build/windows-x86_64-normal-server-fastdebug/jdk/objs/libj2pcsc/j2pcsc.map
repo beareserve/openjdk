@@ -1,0 +1,182 @@
+ j2pcsc
+
+ Timestamp is 60b79cdc (Wed Jun 02 15:59:40 2021)
+
+ Preferred load address is 0000000180000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000014b2H .text                   CODE
+ 0001:000014c0 00000092H .text$x                 CODE
+ 0002:00000000 00000180H .idata$5                DATA
+ 0002:00000180 00000008H .CRT$XCA                DATA
+ 0002:00000188 00000008H .CRT$XCZ                DATA
+ 0002:00000190 00000008H .CRT$XIA                DATA
+ 0002:00000198 00000008H .CRT$XIAA               DATA
+ 0002:000001a0 00000008H .CRT$XIZ                DATA
+ 0002:000001b0 000000a8H .rdata                  DATA
+ 0002:00000258 00000075H .rdata$debug            DATA
+ 0002:000002d0 00000008H .rtc$IAA                DATA
+ 0002:000002d8 00000008H .rtc$IZZ                DATA
+ 0002:000002e0 00000008H .rtc$TAA                DATA
+ 0002:000002e8 00000008H .rtc$TZZ                DATA
+ 0002:000002f0 000001a0H .xdata                  DATA
+ 0002:00000490 0000003cH .idata$2                DATA
+ 0002:000004cc 00000014H .idata$3                DATA
+ 0002:000004e0 00000180H .idata$4                DATA
+ 0002:00000660 0000035eH .idata$6                DATA
+ 0002:000009c0 000002b4H .edata                  DATA
+ 0003:00000000 00000018H .data                   DATA
+ 0003:00000020 000005b8H .bss                    DATA
+ 0004:00000000 0000018cH .pdata                  DATA
+ 0005:00000000 00000058H .rsrc$01                DATA
+ 0005:00000060 00000358H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
+ 0000:00000000       __ImageBase                0000000180000000     <linker-defined>
+ 0001:00000000       throwOutOfMemoryError      0000000180001000 f   pcsc.obj
+ 0001:00000040       throwPCSCException         0000000180001040 f   pcsc.obj
+ 0001:000000c4       JNI_OnLoad                 00000001800010c4 f   pcsc.obj
+ 0001:000000cc       Java_sun_security_smartcardio_PCSC_SCardEstablishContext 00000001800010cc f   pcsc.obj
+ 0001:0000010c       pcsc_multi2jstring         000000018000110c f   pcsc.obj
+ 0001:00000280       Java_sun_security_smartcardio_PCSC_SCardListReaders 0000000180001280 f   pcsc.obj
+ 0001:00000338       Java_sun_security_smartcardio_PCSC_SCardConnect 0000000180001338 f   pcsc.obj
+ 0001:000003d4       Java_sun_security_smartcardio_PCSC_SCardTransmit 00000001800013d4 f   pcsc.obj
+ 0001:00000514       Java_sun_security_smartcardio_PCSC_SCardStatus 0000000180001514 f   pcsc.obj
+ 0001:0000064c       Java_sun_security_smartcardio_PCSC_SCardDisconnect 000000018000164c f   pcsc.obj
+ 0001:00000674       Java_sun_security_smartcardio_PCSC_SCardGetStatusChange 0000000180001674 f   pcsc.obj
+ 0001:00000914       Java_sun_security_smartcardio_PCSC_SCardBeginTransaction 0000000180001914 f   pcsc.obj
+ 0001:0000093c       Java_sun_security_smartcardio_PCSC_SCardEndTransaction 000000018000193c f   pcsc.obj
+ 0001:00000964       Java_sun_security_smartcardio_PCSC_SCardControl 0000000180001964 f   pcsc.obj
+ 0001:00000a9e       SCardEstablishContext      0000000180001a9e f   winscard:WinSCard.dll
+ 0001:00000aa4       SCardListReadersA          0000000180001aa4 f   winscard:WinSCard.dll
+ 0001:00000aaa       SCardConnectA              0000000180001aaa f   winscard:WinSCard.dll
+ 0001:00000ab0       SCardTransmit              0000000180001ab0 f   winscard:WinSCard.dll
+ 0001:00000ab6       SCardStatusA               0000000180001ab6 f   winscard:WinSCard.dll
+ 0001:00000abc       SCardDisconnect            0000000180001abc f   winscard:WinSCard.dll
+ 0001:00000ac2       SCardGetStatusChangeA      0000000180001ac2 f   winscard:WinSCard.dll
+ 0001:00000ac8       SCardBeginTransaction      0000000180001ac8 f   winscard:WinSCard.dll
+ 0001:00000ace       SCardEndTransaction        0000000180001ace f   winscard:WinSCard.dll
+ 0001:00000ad4       SCardControl               0000000180001ad4 f   winscard:WinSCard.dll
+ 0001:00000ada       strlen                     0000000180001ada f   MSVCRT:MSVCR100.dll
+ 0001:00000ae0       __GSHandlerCheckCommon     0000000180001ae0 f   MSVCRT:gshandler.obj
+ 0001:00000b44       __GSHandlerCheck           0000000180001b44 f   MSVCRT:gshandler.obj
+ 0001:00000b80       __security_check_cookie    0000000180001b80 f   MSVCRT:amdsecgs.obj
+ 0001:00000bb0       _alloca_probe              0000000180001bb0     MSVCRT:chkstk.obj
+ 0001:00000bb0       __chkstk                   0000000180001bb0 f   MSVCRT:chkstk.obj
+ 0001:00000c60       _CRT_INIT                  0000000180001c60 f   MSVCRT:crtdll.obj
+ 0001:00000ff8       _DllMainCRTStartup         0000000180001ff8 f   MSVCRT:crtdll.obj
+ 0001:00001038       __report_gsfailure         0000000180002038 f   MSVCRT:gs_report.obj
+ 0001:00001184       __clean_type_info_names    0000000180002184 f   MSVCRT:tncleanup.obj
+ 0001:00001190       _onexit                    0000000180002190 f   MSVCRT:atonexit.obj
+ 0001:00001240       atexit                     0000000180002240 f   MSVCRT:atonexit.obj
+ 0001:00001258       _RTC_Initialize            0000000180002258 f   MSVCRT:_initsect_.obj
+ 0001:00001290       _RTC_Terminate             0000000180002290 f   MSVCRT:_initsect_.obj
+ 0001:000012d0       _ValidateImageBase         00000001800022d0 f   MSVCRT:pesect.obj
+ 0001:00001300       _FindPESection             0000000180002300 f   MSVCRT:pesect.obj
+ 0001:00001350       _IsNonwritableInCurrentImage 0000000180002350 f   MSVCRT:pesect.obj
+ 0001:00001392       _initterm                  0000000180002392 f   MSVCRT:MSVCR100.dll
+ 0001:00001398       _initterm_e                0000000180002398 f   MSVCRT:MSVCR100.dll
+ 0001:0000139e       _amsg_exit                 000000018000239e f   MSVCRT:MSVCR100.dll
+ 0001:000013a4       __C_specific_handler       00000001800023a4 f   MSVCRT:MSVCR100.dll
+ 0001:000013aa       __CppXcptFilter            00000001800023aa f   MSVCRT:MSVCR100.dll
+ 0001:000013b0       DllMain                    00000001800023b0 f   MSVCRT:dllmain.obj
+ 0001:000013d4       __security_init_cookie     00000001800023d4 f   MSVCRT:gs_support.obj
+ 0001:00001488       __crt_debugger_hook        0000000180002488 f   MSVCRT:MSVCR100.dll
+ 0001:0000148e       __clean_type_info_names_internal 000000018000248e f   MSVCRT:MSVCR100.dll
+ 0001:00001494       _unlock                    0000000180002494 f   MSVCRT:MSVCR100.dll
+ 0001:0000149a       __dllonexit                000000018000249a f   MSVCRT:MSVCR100.dll
+ 0001:000014a0       _lock                      00000001800024a0 f   MSVCRT:MSVCR100.dll
+ 0001:000014a6       RtlVirtualUnwind           00000001800024a6 f   kernel32:KERNEL32.dll
+ 0001:000014ac       RtlLookupFunctionEntry     00000001800024ac f   kernel32:KERNEL32.dll
+ 0002:00000000       __imp_IsDebuggerPresent    0000000180003000     kernel32:KERNEL32.dll
+ 0002:00000008       __imp_GetSystemTimeAsFileTime 0000000180003008     kernel32:KERNEL32.dll
+ 0002:00000010       __imp_GetCurrentProcessId  0000000180003010     kernel32:KERNEL32.dll
+ 0002:00000018       __imp_GetCurrentThreadId   0000000180003018     kernel32:KERNEL32.dll
+ 0002:00000020       __imp_GetTickCount         0000000180003020     kernel32:KERNEL32.dll
+ 0002:00000028       __imp_QueryPerformanceCounter 0000000180003028     kernel32:KERNEL32.dll
+ 0002:00000030       __imp_DisableThreadLibraryCalls 0000000180003030     kernel32:KERNEL32.dll
+ 0002:00000038       __imp_RtlCaptureContext    0000000180003038     kernel32:KERNEL32.dll
+ 0002:00000040       __imp_RtlLookupFunctionEntry 0000000180003040     kernel32:KERNEL32.dll
+ 0002:00000048       __imp_RtlVirtualUnwind     0000000180003048     kernel32:KERNEL32.dll
+ 0002:00000050       __imp_UnhandledExceptionFilter 0000000180003050     kernel32:KERNEL32.dll
+ 0002:00000058       __imp_GetCurrentProcess    0000000180003058     kernel32:KERNEL32.dll
+ 0002:00000060       __imp_TerminateProcess     0000000180003060     kernel32:KERNEL32.dll
+ 0002:00000068       __imp_Sleep                0000000180003068     kernel32:KERNEL32.dll
+ 0002:00000070       __imp_DecodePointer        0000000180003070     kernel32:KERNEL32.dll
+ 0002:00000078       __imp_EncodePointer        0000000180003078     kernel32:KERNEL32.dll
+ 0002:00000080       __imp_SetUnhandledExceptionFilter 0000000180003080     kernel32:KERNEL32.dll
+ 0002:00000088       \177KERNEL32_NULL_THUNK_DATA 0000000180003088     kernel32:KERNEL32.dll
+ 0002:00000090       __imp__initterm_e          0000000180003090     MSVCRT:MSVCR100.dll
+ 0002:00000098       __imp__amsg_exit           0000000180003098     MSVCRT:MSVCR100.dll
+ 0002:000000a0       __imp___C_specific_handler 00000001800030a0     MSVCRT:MSVCR100.dll
+ 0002:000000a8       __imp___CppXcptFilter      00000001800030a8     MSVCRT:MSVCR100.dll
+ 0002:000000b0       __imp___crt_debugger_hook  00000001800030b0     MSVCRT:MSVCR100.dll
+ 0002:000000b8       __imp_strdup               00000001800030b8     MSVCRT:MSVCR100.dll
+ 0002:000000b8       __imp__strdup              00000001800030b8     MSVCRT:MSVCR100.dll
+ 0002:000000c0       __imp__unlock              00000001800030c0     MSVCRT:MSVCR100.dll
+ 0002:000000c8       __imp___dllonexit          00000001800030c8     MSVCRT:MSVCR100.dll
+ 0002:000000d0       __imp__lock                00000001800030d0     MSVCRT:MSVCR100.dll
+ 0002:000000d8       __imp__onexit              00000001800030d8     MSVCRT:MSVCR100.dll
+ 0002:000000e0       __imp__initterm            00000001800030e0     MSVCRT:MSVCR100.dll
+ 0002:000000e8       __imp__malloc_crt          00000001800030e8     MSVCRT:MSVCR100.dll
+ 0002:000000f0       __imp_calloc               00000001800030f0     MSVCRT:MSVCR100.dll
+ 0002:000000f8       __imp_strlen               00000001800030f8     MSVCRT:MSVCR100.dll
+ 0002:00000100       __imp_malloc               0000000180003100     MSVCRT:MSVCR100.dll
+ 0002:00000108       __imp_free                 0000000180003108     MSVCRT:MSVCR100.dll
+ 0002:00000110       __imp__encoded_null        0000000180003110     MSVCRT:MSVCR100.dll
+ 0002:00000118       __imp___clean_type_info_names_internal 0000000180003118     MSVCRT:MSVCR100.dll
+ 0002:00000120       \177MSVCR100_NULL_THUNK_DATA 0000000180003120     MSVCRT:MSVCR100.dll
+ 0002:00000128       __imp_SCardControl         0000000180003128     winscard:WinSCard.dll
+ 0002:00000130       __imp_SCardEndTransaction  0000000180003130     winscard:WinSCard.dll
+ 0002:00000138       __imp_SCardBeginTransaction 0000000180003138     winscard:WinSCard.dll
+ 0002:00000140       __imp_SCardGetStatusChangeA 0000000180003140     winscard:WinSCard.dll
+ 0002:00000148       __imp_SCardDisconnect      0000000180003148     winscard:WinSCard.dll
+ 0002:00000150       __imp_SCardStatusA         0000000180003150     winscard:WinSCard.dll
+ 0002:00000158       __imp_SCardTransmit        0000000180003158     winscard:WinSCard.dll
+ 0002:00000160       __imp_SCardConnectA        0000000180003160     winscard:WinSCard.dll
+ 0002:00000168       __imp_SCardListReadersA    0000000180003168     winscard:WinSCard.dll
+ 0002:00000170       __imp_SCardEstablishContext 0000000180003170     winscard:WinSCard.dll
+ 0002:00000178       \177WinSCard_NULL_THUNK_DATA 0000000180003178     winscard:WinSCard.dll
+ 0002:00000180       __xc_a                     0000000180003180     MSVCRT:cinitexe.obj
+ 0002:00000188       __xc_z                     0000000180003188     MSVCRT:cinitexe.obj
+ 0002:00000190       __xi_a                     0000000180003190     MSVCRT:cinitexe.obj
+ 0002:000001a0       __xi_z                     00000001800031a0     MSVCRT:cinitexe.obj
+ 0002:000001d0       ??_C@_0BL@ENCPOIKC@java?1lang?1OutOfMemoryError?$AA@ 00000001800031d0     pcsc.obj
+ 0002:000001ec       ??_C@_06FALKBLGB@?$DMinit?$DO?$AA@ 00000001800031ec     pcsc.obj
+ 0002:000001f4       ??_C@_04PFANPMCN@?$CII?$CJV?$AA@ 00000001800031f4     pcsc.obj
+ 0002:00000200       ??_C@_0CH@CNFHJICF@sun?1security?1smartcardio?1PCSCExc@ 0000000180003200     pcsc.obj
+ 0002:00000228       ??_C@_0BB@FLFAIHG@java?1lang?1String?$AA@ 0000000180003228     pcsc.obj
+ 0002:00000240       _pDefaultRawDllMain        0000000180003240     MSVCRT:crtdll.obj
+ 0002:00000240       _pRawDllMain               0000000180003240     MSVCRT:crtdll.obj
+ 0002:000002d0       __rtc_iaa                  00000001800032d0     MSVCRT:_initsect_.obj
+ 0002:000002d8       __rtc_izz                  00000001800032d8     MSVCRT:_initsect_.obj
+ 0002:000002e0       __rtc_taa                  00000001800032e0     MSVCRT:_initsect_.obj
+ 0002:000002e8       __rtc_tzz                  00000001800032e8     MSVCRT:_initsect_.obj
+ 0002:00000490       __IMPORT_DESCRIPTOR_WinSCard 0000000180003490     winscard:WinSCard.dll
+ 0002:000004a4       __IMPORT_DESCRIPTOR_MSVCR100 00000001800034a4     MSVCRT:MSVCR100.dll
+ 0002:000004b8       __IMPORT_DESCRIPTOR_KERNEL32 00000001800034b8     kernel32:KERNEL32.dll
+ 0002:000004cc       __NULL_IMPORT_DESCRIPTOR   00000001800034cc     winscard:WinSCard.dll
+ 0003:00000000       __security_cookie          0000000180004000     MSVCRT:gs_cookie.obj
+ 0003:00000008       __security_cookie_complement 0000000180004008     MSVCRT:gs_cookie.obj
+ 0003:00000010       __native_dllmain_reason    0000000180004010     MSVCRT:natstart.obj
+ 0003:00000014       __native_vcclrit_reason    0000000180004014     MSVCRT:natstart.obj
+ 0003:000005a0       ?__type_info_root_node@@3U__type_info_node@@A 00000001800045a0     MSVCRT:tncleanup.obj
+ 0003:000005b0       __native_startup_state     00000001800045b0     <common>
+ 0003:000005b8       __native_startup_lock      00000001800045b8     <common>
+ 0003:000005c0       __onexitend                00000001800045c0     <common>
+ 0003:000005c8       __onexitbegin              00000001800045c8     <common>
+ 0003:000005d0       __dyn_tls_init_callback    00000001800045d0     <common>
+
+ entry point at        0001:00000ff8
+
+ Static symbols
+
+ 0001:00000c00       pre_c_init                 0000000180001c00 f   MSVCRT:crtdll.obj
+ 0001:00000ebc       __DllMainCRTStartup        0000000180001ebc f   MSVCRT:crtdll.obj
+ 0001:000014c0       __DllMainCRTStartup$filt$0 00000001800024c0 f   MSVCRT:crtdll.obj
+ 0001:000014f0       __DllMainCRTStartup$fin$1  00000001800024f0 f   MSVCRT:crtdll.obj
+ 0001:0000150a       _onexit$fin$0              000000018000250a f   MSVCRT:atonexit.obj
+ 0001:00001530       _IsNonwritableInCurrentImage$filt$0 0000000180002530 f   MSVCRT:pesect.obj
