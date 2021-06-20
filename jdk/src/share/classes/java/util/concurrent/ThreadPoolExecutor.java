@@ -906,12 +906,15 @@ public class ThreadPoolExecutor extends AbstractExecutorService {
 
             for (;;) {
                 int wc = workerCountOf(c);
-                if (wc >= CAPACITY ||
-                    wc >= (core ? corePoolSize : maximumPoolSize))
+
+                //k2 当前线程数量不小于最大容量，
+                // 或者：加核心线程时已不小于核心线程数；加非核心线程时已不小于最大线程数，返回false，拒绝新增线程
+                if (wc >= CAPACITY ||  wc >= (core ? corePoolSize : maximumPoolSize))
                     return false;
                 if (compareAndIncrementWorkerCount(c))
                     break retry;
                 c = ctl.get();  // Re-read ctl
+                //k2 线程池状态已被修改，重新获取状态，外部大循环
                 if (runStateOf(c) != rs)
                     continue retry;
                 // else CAS failed due to workerCount change; retry inner loop
@@ -933,9 +936,8 @@ public class ThreadPoolExecutor extends AbstractExecutorService {
                     // shut down before lock acquired.
                     int rs = runStateOf(ctl.get());
 
-                    if (rs < SHUTDOWN ||
-                        (rs == SHUTDOWN && firstTask == null)) {
-                        if (t.isAlive()) // precheck that t is startable
+                    if (rs < SHUTDOWN || (rs == SHUTDOWN && firstTask == null)) {
+                        if (t.isAlive()) // pre check that t is startable
                             throw new IllegalThreadStateException();
                         workers.add(w);
                         int s = workers.size();
@@ -1052,6 +1054,7 @@ public class ThreadPoolExecutor extends AbstractExecutorService {
             int wc = workerCountOf(c);
 
             // Are workers subject to culling?
+
             boolean timed = allowCoreThreadTimeOut || wc > corePoolSize;
 
             if ((wc > maximumPoolSize || (timed && timedOut))
@@ -1064,7 +1067,7 @@ public class ThreadPoolExecutor extends AbstractExecutorService {
             try {
                 Runnable r = timed ?
                     workQueue.poll(keepAliveTime, TimeUnit.NANOSECONDS) :
-                    workQueue.take();
+                    workQueue.take(); //k1 workQueue.take()保证了线程池保持核心线程数
                 if (r != null)
                     return r;
                 timedOut = true;
