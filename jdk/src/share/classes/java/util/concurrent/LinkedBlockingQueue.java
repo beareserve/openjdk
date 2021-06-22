@@ -152,14 +152,12 @@ public class LinkedBlockingQueue<E> extends AbstractQueue<E>
     private transient Node<E> last;
 
     /** Lock held by take, poll, etc */
-    private final ReentrantLock takeLock = new ReentrantLock();
-
+    private final ReentrantLock takeLock = new ReentrantLock(); //k2 取元素锁
     /** Wait queue for waiting takes */
     private final Condition notEmpty = takeLock.newCondition();
 
     /** Lock held by put, offer, etc */
-    private final ReentrantLock putLock = new ReentrantLock();
-
+    private final ReentrantLock putLock = new ReentrantLock(); //k2 放元素锁
     /** Wait queue for waiting puts */
     private final Condition notFull = putLock.newCondition();
 
@@ -347,12 +345,13 @@ public class LinkedBlockingQueue<E> extends AbstractQueue<E>
              * for all other uses of count in other wait guards.
              */
             while (count.get() == capacity) {
+                //k3 队列满了，不满的条件不满足了，等待在这。
                 notFull.await();
             }
-            enqueue(node);
+            enqueue(node); //k2 简单的加到队尾
             c = count.getAndIncrement();
             if (c + 1 < capacity)
-                notFull.signal();
+                notFull.signal(); //k2 队列中被消费掉了
         } finally {
             putLock.unlock();
         }
@@ -439,10 +438,11 @@ public class LinkedBlockingQueue<E> extends AbstractQueue<E>
         takeLock.lockInterruptibly();
         try {
             while (count.get() == 0) {
+                //k3 队列为空，不空的条件不满足，所以notEmpty在此等待
                 notEmpty.await();
             }
             x = dequeue();
-            c = count.getAndDecrement();
+            c = count.getAndDecrement(); //k1 count减1，然后返回原count值
             if (c > 1)
                 notEmpty.signal();
         } finally {

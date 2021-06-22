@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc3947ab-582d-4e39-801c-949857e69a0b" name="Default Changelist" comment="ThreadPoolExecutor completed">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk/src/share/classes/java/lang/Thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk/src/share/classes/java/lang/Thread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk/src/share/classes/java/util/concurrent/ArrayBlockingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk/src/share/classes/java/util/concurrent/ArrayBlockingQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk/src/share/classes/java/util/concurrent/LinkedBlockingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk/src/share/classes/java/util/concurrent/LinkedBlockingQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk/src/share/classes/java/util/concurrent/locks/AbstractQueuedSynchronizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk/src/share/classes/java/util/concurrent/locks/AbstractQueuedSynchronizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk/src/share/classes/java/util/concurrent/locks/ReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk/src/share/classes/java/util/concurrent/locks/ReentrantLock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +31,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SvnConfiguration">
@@ -50,7 +56,8 @@
       <workItem from="1618662077934" duration="1000" />
       <workItem from="1622553558038" duration="104000" />
       <workItem from="1622553957298" duration="554000" />
-      <workItem from="1624181927988" duration="7110000" />
+      <workItem from="1624181927988" duration="7277000" />
+      <workItem from="1624255857245" duration="24507000" />
     </task>
     <task id="LOCAL-00001" summary="ThreadPoolExecutor explanatory">
       <created>1624184993117</created>
@@ -73,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624189505707</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="know what">
+      <created>1624208437337</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624208437337</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,13 +97,14 @@
     <MESSAGE value="ThreadPoolExecutor explanatory" />
     <MESSAGE value="source package" />
     <MESSAGE value="ThreadPoolExecutor completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="ThreadPoolExecutor completed" />
+    <MESSAGE value="know what" />
+    <option name="LAST_COMMIT_MESSAGE" value="know what" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2646" y="309" key="#TODO" timestamp="1624187012098">
+    <state x="2646" y="309" key="#TODO" timestamp="1624293380378">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2646" y="309" key="#TODO/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1624187012098" />
+    <state x="2646" y="309" key="#TODO/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1624293380378" />
     <state x="2752" y="417" key="Github.ShareDialog" timestamp="1624182769724">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -98,24 +113,24 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2711" y="224" key="Github.UntrackedFilesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1624182786575" />
-    <state x="2231" y="0" key="SettingsEditor" timestamp="1624186526441">
+    <state x="2231" y="0" key="SettingsEditor" timestamp="1624280803868">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1616420060576" />
-    <state x="2231" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1624186526441" />
-    <state x="2533" y="194" width="702" height="662" key="StructurePopup" timestamp="1624188011565">
+    <state x="2231" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1624280803868" />
+    <state x="2400" y="241" width="702" height="662" key="StructurePopup" timestamp="1624336941575">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="154" width="561" height="524" key="StructurePopup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1618591554647" />
-    <state x="2533" y="194" width="702" height="662" key="StructurePopup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1624188011565" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1624189506936">
+    <state x="2400" y="241" width="702" height="662" key="StructurePopup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1624336941575" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1624208438711">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1624189506936" />
-    <state x="2459" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1624182165349">
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1624208438711" />
+    <state x="2459" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1624336935690">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1618592095412" />
-    <state x="2459" y="183" width="840" height="856" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1624182165349" />
+    <state x="2459" y="183" width="840" height="856" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1624336935690" />
   </component>
 </project>

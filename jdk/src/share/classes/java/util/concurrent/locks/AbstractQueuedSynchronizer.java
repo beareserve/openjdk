@@ -286,9 +286,8 @@ import sun.misc.Unsafe;
  * @since 1.5
  * @author Doug Lea
  */
-public abstract class AbstractQueuedSynchronizer
-    extends AbstractOwnableSynchronizer
-    implements java.io.Serializable {
+//k3 AQS相当于是一个同步等待队列，内部类ConditionObject相当于是一个条件队列
+public abstract class AbstractQueuedSynchronizer extends AbstractOwnableSynchronizer implements java.io.Serializable {
 
     private static final long serialVersionUID = 7373984972572414691L;
 
@@ -377,6 +376,8 @@ public abstract class AbstractQueuedSynchronizer
      * expert group, for helpful ideas, discussions, and critiques
      * on the design of this class.
      */
+    //K1 双向链表，节点中保存阻塞的thread；比如LinkedBlockingQueue中的应用，当队列为空，调用take()取数时，取数线程就会因为不满足unEmpty（不空）的条件而park()住
+    // 然后放入aqs的这个等待队列中，当其他线程put()到LinkedBlockingQueue中时
     static final class Node {
         /** Marker to indicate a node is waiting in shared mode */
         static final Node SHARED = new Node();
@@ -386,14 +387,14 @@ public abstract class AbstractQueuedSynchronizer
         /** waitStatus value to indicate thread has cancelled */
         static final int CANCELLED =  1;
         /** waitStatus value to indicate successor's thread needs unparking */
-        static final int SIGNAL    = -1;
+        static final int SIGNAL    = -1; //k2 可被唤醒状态
         /** waitStatus value to indicate thread is waiting on condition */
-        static final int CONDITION = -2;
+        static final int CONDITION = -2; //k2 等待队列
         /**
          * waitStatus value to indicate the next acquireShared should
          * unconditionally propagate
          */
-        static final int PROPAGATE = -3;
+        static final int PROPAGATE = -3; //k3 好像没啥用的状态
 
         /**
          * Status field, taking on only the values:
@@ -530,6 +531,7 @@ public abstract class AbstractQueuedSynchronizer
     /**
      * The synchronization state.
      */
+    //k3 相当于是锁信号，为1表示被1个线程持有
     private volatile int state;
 
     /**
@@ -580,6 +582,7 @@ public abstract class AbstractQueuedSynchronizer
      * @param node the node to insert
      * @return node's predecessor
      */
+    //k3 确保节点加入队尾,是aqs的同步等待CLH队列的队尾
     private Node enq(final Node node) {
         for (;;) {
             Node t = tail;
@@ -608,6 +611,7 @@ public abstract class AbstractQueuedSynchronizer
         Node pred = tail;
         if (pred != null) {
             node.prev = pred;
+            //k3 cas设置尾节点为新建的节点node，如果失败了，走到下面的enq方法里cas+自旋来设置尾节点
             if (compareAndSetTail(pred, node)) {
                 pred.next = node;
                 return node;
@@ -635,6 +639,7 @@ public abstract class AbstractQueuedSynchronizer
      *
      * @param node the node
      */
+    //k2 释放头结点——>node传进来的是head
     private void unparkSuccessor(Node node) {
         /*
          * If status is negative (i.e., possibly needing signal) try
@@ -652,7 +657,8 @@ public abstract class AbstractQueuedSynchronizer
          * non-cancelled successor.
          */
         Node s = node.next;
-        if (s == null || s.waitStatus > 0) {
+        //k1 如果首节点的下一个节点为空或者是废弃节点，从等待队列队尾往前找，找到离队首节点最近的非废弃节点，将其持有的线程唤醒
+        if (s == null || s.waitStatus > 0) { //k3 waitStatus大于0就表示该废弃
             s = null;
             for (Node t = tail; t != null && t != node; t = t.prev)
                 if (t.waitStatus <= 0)
@@ -794,6 +800,7 @@ public abstract class AbstractQueuedSynchronizer
      */
     private static boolean shouldParkAfterFailedAcquire(Node pred, Node node) {
         int ws = pred.waitStatus;
+        //k2 前置节点状态为SIGNAL，表示当前节点为可唤醒，所以当前节点可以放心park
         if (ws == Node.SIGNAL)
             /*
              * This node has already set status asking a release
@@ -805,6 +812,7 @@ public abstract class AbstractQueuedSynchronizer
              * Predecessor was cancelled. Skip over predecessors and
              * indicate retry.
              */
+            //k2 前置节点>0，为取消状态，将其从等待队列里删除，且遍历删除，直到前置节点为非取消态
             do {
                 node.prev = pred = pred.prev;
             } while (pred.waitStatus > 0);
@@ -834,7 +842,8 @@ public abstract class AbstractQueuedSynchronizer
      */
     private final boolean parkAndCheckInterrupt() {
         LockSupport.park(this);
-        return Thread.interrupted();
+        return Thread.interrupted(); //k2 返回是否因为中断导致park被唤醒的，且清除了中断标志，以便下次可以再次park住。并且将中断返回供处理，即AQS是响应中断的
+                                    //k2 Thread.currentThread().isInterrupted()不会清除中断标志；sleep()方法会清除中断标志
     }
 
     /*
@@ -887,12 +896,14 @@ public abstract class AbstractQueuedSynchronizer
         try {
             for (;;) {
                 final Node p = node.predecessor();
+                //k3 如果加入等待队列的前节点为首节点，尝试抢锁
                 if (p == head && tryAcquire(arg)) {
                     setHead(node);
                     p.next = null; // help GC
                     failed = false;
                     return;
                 }
+                //k3 未能抢到锁，判断是否要阻塞park住，是的话调用LockSupport.park()进行阻塞
                 if (shouldParkAfterFailedAcquire(p, node) &&
                     parkAndCheckInterrupt())
                     throw new InterruptedException();
@@ -1219,6 +1230,7 @@ public abstract class AbstractQueuedSynchronizer
         if (Thread.interrupted())
             throw new InterruptedException();
         if (!tryAcquire(arg))
+            //k3 没抢到锁，准备放入等待队列
             doAcquireInterruptibly(arg);
     }
 
@@ -1256,9 +1268,10 @@ public abstract class AbstractQueuedSynchronizer
      *        {@link #tryRelease} but is otherwise uninterpreted and
      *        can represent anything you like.
      * @return the value returned from {@link #tryRelease}
+     * k3 java.util.concurrent.locks.AbstractQueuedSynchronizer#release(int)
      */
     public final boolean release(int arg) {
-        if (tryRelease(arg)) {
+        if (tryRelease(arg)) { //k2 释放锁，为当前线程的单线程操作，比较简单
             Node h = head;
             if (h != null && h.waitStatus != 0)
                 unparkSuccessor(h);
@@ -1680,7 +1693,7 @@ public abstract class AbstractQueuedSynchronizer
          * attempt to set waitStatus fails, wake up to resync (in which
          * case the waitStatus can be transiently and harmlessly wrong).
          */
-        Node p = enq(node);
+        Node p = enq(node); //k1 节点加入到同步队列里
         int ws = p.waitStatus;
         if (ws > 0 || !compareAndSetWaitStatus(p, ws, Node.SIGNAL))
             LockSupport.unpark(node.thread);
@@ -1824,7 +1837,7 @@ public abstract class AbstractQueuedSynchronizer
      * condition semantics that rely on those of the associated
      * {@code AbstractQueuedSynchronizer}.
      *
-     * <p>This class is Serializable, but all fields are transient,
+     * <p>This class is Serializable, k3 but all fields are transient,
      * so deserialized conditions have no waiters.
      */
     public class ConditionObject implements Condition, java.io.Serializable {
@@ -1845,12 +1858,13 @@ public abstract class AbstractQueuedSynchronizer
          * Adds a new waiter to wait queue.
          * @return its new wait node
          */
+        //k1 整个逻辑就是条件队列队尾加1个条件节点。里头的代码，值得以后慢慢看
         private Node addConditionWaiter() {
             Node t = lastWaiter;
-            // If lastWaiter is cancelled, clean out.
+            // If lastWaiter is cancelled, clean out. k2 不是-2状态CONDITION，只能是1 CANCELLED，将其剔除
             if (t != null && t.waitStatus != Node.CONDITION) {
                 unlinkCancelledWaiters();
-                t = lastWaiter;
+                t = lastWaiter; //k2 确保t是CONDITION状态的尾节点
             }
             Node node = new Node(Thread.currentThread(), Node.CONDITION);
             if (t == null)
@@ -1869,11 +1883,15 @@ public abstract class AbstractQueuedSynchronizer
          */
         private void doSignal(Node first) {
             do {
-                if ( (firstWaiter = first.nextWaiter) == null)
+                //k1 do这里就是把firstWaiter从条件队列里剔除出去，然后把第二个waiter设置为firstWaiter，
+                // 其实，就是每次的循环都砍掉了头节点
+                if ((firstWaiter = first.nextWaiter) == null)
                     lastWaiter = null;
                 first.nextWaiter = null;
-            } while (!transferForSignal(first) &&
-                     (first = firstWaiter) != null);
+
+                //k3 CAS更改掉first的CONDITION为0，成功就可跳出while循环。
+                //    之后还会将first加入到同步等待队列。如果这时候first的状态变为CANCELLED，或者无法CAS改为SIGNAL，直接unpark此线程
+            } while (!transferForSignal(first) && (first = firstWaiter) != null);
         }
 
         /**
@@ -1904,13 +1922,14 @@ public abstract class AbstractQueuedSynchronizer
          * without requiring many re-traversals during cancellation
          * storms.
          */
+        //k3 这里的逻辑把我绕晕了,应该就是遍历了条件队列，将CANCELLED节点全部剔除
         private void unlinkCancelledWaiters() {
             Node t = firstWaiter;
             Node trail = null;
             while (t != null) {
                 Node next = t.nextWaiter;
                 if (t.waitStatus != Node.CONDITION) {
-                    t.nextWaiter = null;
+                    t.nextWaiter = null; //k2 将队首的CANCELLED状态的node从条件队列剔除
                     if (trail == null)
                         firstWaiter = next;
                     else
@@ -1918,8 +1937,9 @@ public abstract class AbstractQueuedSynchronizer
                     if (next == null)
                         lastWaiter = trail;
                 }
-                else
-                    trail = t;
+                else {
+                    trail = t; //k2 将CONDITION状态的队首节点保存在trail里
+                }
                 t = next;
             }
         }
@@ -2033,9 +2053,9 @@ public abstract class AbstractQueuedSynchronizer
             if (Thread.interrupted())
                 throw new InterruptedException();
             Node node = addConditionWaiter();
-            int savedState = fullyRelease(node);
+            int savedState = fullyRelease(node);//k1 上一步把自己加入条件队列，这一步然后要释放自己持有的state锁,并唤醒等待队列队第一个节点的线程
             int interruptMode = 0;
-            while (!isOnSyncQueue(node)) {
+            while (!isOnSyncQueue(node)) { //k2 不在同步队列，进行park
                 LockSupport.park(this);
                 if ((interruptMode = checkInterruptWhileWaiting(node)) != 0)
                     break;

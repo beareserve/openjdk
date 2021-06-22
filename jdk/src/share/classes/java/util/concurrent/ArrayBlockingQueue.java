@@ -349,8 +349,8 @@ public class ArrayBlockingQueue<E> extends AbstractQueue<E>
         final ReentrantLock lock = this.lock;
         lock.lockInterruptibly();
         try {
-            while (count == items.length)
-                notFull.await();
+            while (count == items.length) //k2 队列满了
+                notFull.await();          //k2 所以full是满足的，notFull不满足了，阻塞，等待full变成notFull
             enqueue(e);
         } finally {
             lock.unlock();
@@ -401,7 +401,7 @@ public class ArrayBlockingQueue<E> extends AbstractQueue<E>
         try {
             while (count == 0)
                 notEmpty.await();
-            return dequeue();
+            return dequeue(); //k2 消费产品，产品出队，然后唤醒生产者
         } finally {
             lock.unlock();
         }

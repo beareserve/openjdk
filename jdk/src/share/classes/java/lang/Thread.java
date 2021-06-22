@@ -344,6 +344,7 @@ class Thread implements Runnable {
      * Initializes a Thread with the current AccessControlContext.
      * @see #init(ThreadGroup,Runnable,String,long,AccessControlContext)
      */
+    //k2 new Thread() 与 new Thread(runnable)都走进这里了
     private void init(ThreadGroup g, Runnable target, String name,
                       long stackSize) {
         init(g, target, name, stackSize, null);
@@ -741,6 +742,7 @@ class Thread implements Runnable {
      */
     @Override
     public void run() {
+        //如果传入了runnable作为target，直接执行target的run方法
         if (target != null) {
             target.run();
         }

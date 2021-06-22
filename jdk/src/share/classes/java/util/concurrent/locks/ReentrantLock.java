@@ -234,10 +234,12 @@ public class ReentrantLock implements Lock, java.io.Serializable {
             if (c == 0) {
                 if (!hasQueuedPredecessors() &&
                     compareAndSetState(0, acquires)) {
+                    //k3 更新state成功，将线程自己设置为aqs的拥有者
                     setExclusiveOwnerThread(current);
                     return true;
                 }
             }
+            //k3 持有锁的线程再次获取锁，说明aqs是可重入锁
             else if (current == getExclusiveOwnerThread()) {
                 int nextc = c + acquires;
                 if (nextc < 0)
@@ -496,6 +498,7 @@ public class ReentrantLock implements Lock, java.io.Serializable {
      *
      * @return the Condition object
      */
+    //k3 相当于为锁创建了一个条件队列
     public Condition newCondition() {
         return sync.newCondition();
     }
