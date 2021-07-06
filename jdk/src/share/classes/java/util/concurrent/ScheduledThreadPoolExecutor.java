@@ -413,8 +413,7 @@ public class ScheduledThreadPoolExecutor
      * @return a task that can execute the callable
      * @since 1.6
      */
-    protected <V> RunnableScheduledFuture<V> decorateTask(
-        Callable<V> callable, RunnableScheduledFuture<V> task) {
+    protected <V> RunnableScheduledFuture<V> decorateTask(Callable<V> callable, RunnableScheduledFuture<V> task) {
         return task;
     }
 
@@ -497,8 +496,7 @@ public class ScheduledThreadPoolExecutor
      * Returns the trigger time of a delayed action.
      */
     long triggerTime(long delay) {
-        return now() +
-            ((delay < (Long.MAX_VALUE >> 1)) ? delay : overflowFree(delay));
+        return now() + ((delay < (Long.MAX_VALUE >> 1)) ? delay : overflowFree(delay));
     }
 
     /**
@@ -541,11 +539,10 @@ public class ScheduledThreadPoolExecutor
     public <V> ScheduledFuture<V> schedule(Callable<V> callable,
                                            long delay,
                                            TimeUnit unit) {
-        if (callable == null || unit == null)
-            throw new NullPointerException();
+        if (callable == null || unit == null) throw new NullPointerException();
+
         RunnableScheduledFuture<V> t = decorateTask(callable,
-            new ScheduledFutureTask<V>(callable,
-                                       triggerTime(delay, unit)));
+            new ScheduledFutureTask<V>(callable, triggerTime(delay, unit))); //k3 装饰方法直接返回了这个 ScheduledFutureTask
         delayedExecute(t);
         return t;
     }

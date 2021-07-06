@@ -667,6 +667,7 @@ public class HashMap<K,V> extends AbstractMap<K,V>
             }
         }
         ++modCount;
+        //k1 元素数量超过阈值，进行扩容
         if (++size > threshold)
             resize();
         afterNodeInsertion(evict);

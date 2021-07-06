@@ -220,7 +220,7 @@ public class DelayQueue<E extends Delayed> extends AbstractQueue<E>
                         Thread thisThread = Thread.currentThread();
                         leader = thisThread;
                         try {
-                            available.awaitNanos(delay);
+                            available.awaitNanos(delay); //k3 延时队列取元素，利用等待条件队列的awaitNanos，阻塞delay的时长
                         } finally {
                             if (leader == thisThread)
                                 leader = null;
