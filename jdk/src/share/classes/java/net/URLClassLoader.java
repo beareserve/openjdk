@@ -107,8 +107,7 @@ public class URLClassLoader extends SecureClassLoader implements Closeable {
         this.acc = AccessController.getContext();
     }
 
-    URLClassLoader(URL[] urls, ClassLoader parent,
-                   AccessControlContext acc) {
+    URLClassLoader(URL[] urls, ClassLoader parent, AccessControlContext acc) {
         super(parent);
         // this is to make the stack depth consistent with 1.1
         SecurityManager security = System.getSecurityManager();
@@ -581,10 +580,10 @@ public class URLClassLoader extends SecureClassLoader implements Closeable {
      * @exception IOException if an I/O exception occurs
      * @return an {@code Enumeration} of {@code URL}s
      *         If the loader is closed, the Enumeration will be empty.
+     *
+     * k2: dubbo spi 加载配置文件，这里返回一个Enumeration<URL>匿名子类对象
      */
-    public Enumeration<URL> findResources(final String name)
-        throws IOException
-    {
+    public Enumeration<URL> findResources(final String name) throws IOException {
         final Enumeration<URL> e = ucp.findResources(name, true);
 
         return new Enumeration<URL>() {

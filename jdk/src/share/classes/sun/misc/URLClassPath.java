@@ -272,8 +272,7 @@ public class URLClassPath {
      * @param name the resource name
      * @return an Enumeration of all the resources having the specified name
      */
-    public Enumeration<Resource> getResources(final String name,
-                                    final boolean check) {
+    public Enumeration<Resource> getResources(final String name, final boolean check) {
         return new Enumeration<Resource>() {
             private int index = 0;
             private int[] cache = getLookupCache(name);

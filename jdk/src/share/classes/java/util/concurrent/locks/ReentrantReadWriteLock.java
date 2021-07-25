@@ -262,10 +262,10 @@ public class ReentrantReadWriteLock
         static final int SHARED_SHIFT   = 16;
         static final int SHARED_UNIT    = (1 << SHARED_SHIFT);
         static final int MAX_COUNT      = (1 << SHARED_SHIFT) - 1;
-        static final int EXCLUSIVE_MASK = (1 << SHARED_SHIFT) - 1;
+        static final int EXCLUSIVE_MASK = (1 << SHARED_SHIFT) - 1;//111 1111 1111 1111
 
         /** Returns the number of shared holds represented in count  */
-        static int sharedCount(int c)    { return c >>> SHARED_SHIFT; }
+        static int sharedCount(int c)    { return c >>> SHARED_SHIFT; } //k3:高16位记录共享锁数量
         /** Returns the number of exclusive holds represented in count  */
         static int exclusiveCount(int c) { return c & EXCLUSIVE_MASK; }
 
@@ -419,8 +419,8 @@ public class ReentrantReadWriteLock
                     firstReaderHoldCount--;
             } else {
                 HoldCounter rh = cachedHoldCounter;
-                if (rh == null || rh.tid != getThreadId(current))
-                    rh = readHolds.get();
+                if (rh == null || rh.tid != getThreadId(current)) //k3:最后1个获取读锁的线程计数保持器不存在，或者不是当前线程
+                    rh = readHolds.get(); //k3:从ThreadLocal获取当前线程的读锁获取次数
                 int count = rh.count;
                 if (count <= 1) {
                     readHolds.remove();
@@ -431,6 +431,7 @@ public class ReentrantReadWriteLock
             }
             for (;;) {
                 int c = getState();
+                //k9:todo
                 int nextc = c - SHARED_UNIT;
                 if (compareAndSetState(c, nextc))
                     // Releasing the read lock has no effect on readers,
@@ -441,8 +442,7 @@ public class ReentrantReadWriteLock
         }
 
         private IllegalMonitorStateException unmatchedUnlockException() {
-            return new IllegalMonitorStateException(
-                "attempt to unlock read lock, not locked by current thread");
+            return new IllegalMonitorStateException("attempt to unlock read lock, not locked by current thread");
         }
 
         protected final int tryAcquireShared(int unused) {
@@ -463,24 +463,28 @@ public class ReentrantReadWriteLock
              */
             Thread current = Thread.currentThread();
             int c = getState();
-            if (exclusiveCount(c) != 0 &&
-                getExclusiveOwnerThread() != current)
+            //k3: (c & EXCLUSIVE_MASK)不为0，并且写锁线程不是当前线程，说明c的低16位的表示的独占写锁有值，无法获取到读锁
+            if (exclusiveCount(c) != 0 && getExclusiveOwnerThread() != current)
                 return -1;
-            int r = sharedCount(c);
-            if (!readerShouldBlock() &&
+            int r = sharedCount(c); //k3 c右移16位，得到共享锁count
+            if (!readerShouldBlock()/*k3:等待队列有在等待的节点*/ &&
                 r < MAX_COUNT &&
-                compareAndSetState(c, c + SHARED_UNIT)) {
+                compareAndSetState(c, c + SHARED_UNIT)) { //k9: 为何要把c改为 c + 1000 0000 0000 0000?
+                //k3:当前还未获取过共享锁，说明我是第一个reader
                 if (r == 0) {
                     firstReader = current;
                     firstReaderHoldCount = 1;
-                } else if (firstReader == current) {
+                }
+                //k3:如果当前已有获取共享锁的线程，且firstReader是我自己，把我的读数量加1
+                else if (firstReader == current) {
                     firstReaderHoldCount++;
                 } else {
                     HoldCounter rh = cachedHoldCounter;
+                    //k3:缓存的cachedHoldCounter不是我，从ThreadLocal拿到我的获取次数保持器，赋值给cachedHoldCounter
                     if (rh == null || rh.tid != getThreadId(current))
                         cachedHoldCounter = rh = readHolds.get();
                     else if (rh.count == 0)
-                        readHolds.set(rh);
+                        readHolds.set(rh); //k3:缓存的数量保持器是我的保持器，保存到ThreadLocal里
                     rh.count++;
                 }
                 return 1;
@@ -900,8 +904,7 @@ public class ReentrantReadWriteLock
          */
         public String toString() {
             int r = sync.getReadLockCount();
-            return super.toString() +
-                "[Read locks = " + r + "]";
+            return super.toString() + "[Read locks = " + r + "]";
         }
     }
 

@@ -587,11 +587,11 @@ public abstract class AbstractQueuedSynchronizer extends AbstractOwnableSynchron
         for (;;) {
             Node t = tail;
             if (t == null) { // Must initialize
-                if (compareAndSetHead(new Node()))
+                if (compareAndSetHead(new Node())) //k3:尾节点为空，说明是第一次放入等待队列，设置首节点（此时其waitStatus为0）
                     tail = head;
             } else {
                 node.prev = t;
-                if (compareAndSetTail(t, node)) {
+                if (compareAndSetTail(t, node)) { //k3:首节点初始化完毕后，下一次循环中把新加节点设置为tail节点
                     t.next = node;
                     return t;
                 }
@@ -606,7 +606,7 @@ public abstract class AbstractQueuedSynchronizer extends AbstractOwnableSynchron
      * @return the new node
      */
     private Node addWaiter(Node mode) {
-        Node node = new Node(Thread.currentThread(), mode);
+        Node node = new Node(Thread.currentThread(), mode); //k3:设定nextWaiter为new Node()（此时waitStatus为0），表示当前为共享模式?
         // Try the fast path of enq; backup to full enq on failure
         Node pred = tail;
         if (pred != null) {
@@ -687,17 +687,19 @@ public abstract class AbstractQueuedSynchronizer extends AbstractOwnableSynchron
          */
         for (;;) {
             Node h = head;
+            //k3:等待队列中头结点不为null且不等于尾节点，说明有需要被释放的节点
             if (h != null && h != tail) {
                 int ws = h.waitStatus;
+                //k3:头结点waitStatu为-1，可以解锁后继线程：
                 if (ws == Node.SIGNAL) {
                     if (!compareAndSetWaitStatus(h, Node.SIGNAL, 0))
                         continue;            // loop to recheck cases
                     unparkSuccessor(h);
                 }
-                else if (ws == 0 &&
-                         !compareAndSetWaitStatus(h, 0, Node.PROPAGATE))
+                else if (ws == 0 && !compareAndSetWaitStatus(h, 0, Node.PROPAGATE)) //k3:把首节点设置为 PROPAGATE（-3）传播状态
                     continue;                // loop on failed CAS
             }
+            //k9: 因为状态原因
             if (h == head)                   // loop if head changed
                 break;
         }
@@ -730,9 +732,10 @@ public abstract class AbstractQueuedSynchronizer extends AbstractOwnableSynchron
          * racing acquires/releases, so most need signals now or soon
          * anyway.
          */
-        if (propagate > 0 || h == null || h.waitStatus < 0 ||
-            (h = head) == null || h.waitStatus < 0) {
+        //k2:传播资源数大于0 或者 头结点为null 或者 头结点等待状态小于0 或者新的head为空 或者 新head的等待状态小于0
+        if (propagate > 0 || h == null || h.waitStatus < 0 || (h = head) == null || h.waitStatus < 0) {
             Node s = node.next;
+            //k3:下一个节点为空，或者下一个节点的nextWaiter是个 new Node()
             if (s == null || s.isShared())
                 doReleaseShared();
         }
@@ -801,7 +804,7 @@ public abstract class AbstractQueuedSynchronizer extends AbstractOwnableSynchron
     private static boolean shouldParkAfterFailedAcquire(Node pred, Node node) {
         int ws = pred.waitStatus;
         //k2 前置节点状态为SIGNAL，表示当前节点为可唤醒，所以当前节点可以放心park
-        if (ws == Node.SIGNAL)
+        if (ws == Node.SIGNAL) //k3:-1
             /*
              * This node has already set status asking a release
              * to signal it, so it can safely park.
@@ -823,7 +826,7 @@ public abstract class AbstractQueuedSynchronizer extends AbstractOwnableSynchron
              * need a signal, but don't park yet.  Caller will need to
              * retry to make sure it cannot acquire before parking.
              */
-            compareAndSetWaitStatus(pred, ws, Node.SIGNAL);
+            compareAndSetWaitStatus(pred, ws, Node.SIGNAL); //k3：会把PROPAGATE = -3 改为-1；改为-1后就可以执行park了，表示节点为可唤醒状态
         }
         return false;
     }
@@ -964,6 +967,7 @@ public abstract class AbstractQueuedSynchronizer extends AbstractOwnableSynchron
             for (;;) {
                 final Node p = node.predecessor();
                 if (p == head) {
+                    //k3: 新加节点是等待队列的第一个节点，再次尝试获取锁，获取到了，就把我设置为头结点，且向后传播1个资源
                     int r = tryAcquireShared(arg);
                     if (r >= 0) {
                         setHeadAndPropagate(node, r);
@@ -974,8 +978,8 @@ public abstract class AbstractQueuedSynchronizer extends AbstractOwnableSynchron
                         return;
                     }
                 }
-                if (shouldParkAfterFailedAcquire(p, node) &&
-                    parkAndCheckInterrupt())
+                if (shouldParkAfterFailedAcquire(p, node) && //k3:根据前一个节点的状态判断是否可以park：前一个是-1可以park，不是的话此次循环先改成-1，即被park住的线程，其前面的节点都是-1状态
+                    parkAndCheckInterrupt()) //k3:放入阻塞队列，park在这等待资源释放
                     interrupted = true;
             }
         } finally {
@@ -2320,8 +2324,10 @@ public abstract class AbstractQueuedSynchronizer extends AbstractOwnableSynchron
     private static final boolean compareAndSetWaitStatus(Node node,
                                                          int expect,
                                                          int update) {
-        return unsafe.compareAndSwapInt(node, waitStatusOffset,
-                                        expect, update);
+        return unsafe.compareAndSwapInt(node,
+                                        waitStatusOffset,
+                                        expect,
+                                        update);
     }
 
     /**
