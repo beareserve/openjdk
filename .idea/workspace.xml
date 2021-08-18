@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3947ab-582d-4e39-801c-949857e69a0b" name="Default Changelist" comment="read write lock , again aqs">
+    <list default="true" id="bc3947ab-582d-4e39-801c-949857e69a0b" name="Default Changelist" comment="again aqs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdk/src/share/classes/java/util/concurrent/ArrayBlockingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk/src/share/classes/java/util/concurrent/ArrayBlockingQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdk/src/share/classes/java/util/concurrent/LinkedBlockingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk/src/share/classes/java/util/concurrent/LinkedBlockingQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdk/src/share/classes/java/util/concurrent/locks/AbstractQueuedSynchronizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk/src/share/classes/java/util/concurrent/locks/AbstractQueuedSynchronizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk/src/share/classes/java/util/concurrent/locks/ReentrantReadWriteLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk/src/share/classes/java/util/concurrent/locks/ReentrantReadWriteLock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +106,7 @@
       <workItem from="1626191626105" duration="28000" />
       <workItem from="1627232921138" duration="6821000" />
       <workItem from="1629098350912" duration="1032000" />
-      <workItem from="1629220861791" duration="13160000" />
+      <workItem from="1629220861791" duration="14507000" />
     </task>
     <task id="LOCAL-00001" summary="ThreadPoolExecutor explanatory">
       <created>1624184993117</created>
@@ -166,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627239949760</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="again aqs">
+      <created>1629258924769</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1629258924769</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +198,7 @@
     <MESSAGE value="hashmap again" />
     <MESSAGE value="DelayQueue look look" />
     <MESSAGE value="read write lock , again aqs" />
-    <option name="LAST_COMMIT_MESSAGE" value="read write lock , again aqs" />
+    <MESSAGE value="again aqs" />
+    <option name="LAST_COMMIT_MESSAGE" value="again aqs" />
   </component>
 </project>
