@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3947ab-582d-4e39-801c-949857e69a0b" name="Default Changelist" comment="DelayQueue look look">
+    <list default="true" id="bc3947ab-582d-4e39-801c-949857e69a0b" name="Default Changelist" comment="read write lock , again aqs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdk/src/share/classes/java/net/URLClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk/src/share/classes/java/net/URLClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk/src/share/classes/java/util/concurrent/ArrayBlockingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk/src/share/classes/java/util/concurrent/ArrayBlockingQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk/src/share/classes/java/util/concurrent/LinkedBlockingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk/src/share/classes/java/util/concurrent/LinkedBlockingQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jdk/src/share/classes/java/util/concurrent/locks/AbstractQueuedSynchronizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk/src/share/classes/java/util/concurrent/locks/AbstractQueuedSynchronizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdk/src/share/classes/java/util/concurrent/locks/ReentrantReadWriteLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk/src/share/classes/java/util/concurrent/locks/ReentrantReadWriteLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdk/src/share/classes/sun/misc/URLClassPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk/src/share/classes/sun/misc/URLClassPath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +106,9 @@
       <workItem from="1626188209162" duration="1052000" />
       <workItem from="1626191519649" duration="80000" />
       <workItem from="1626191626105" duration="28000" />
-      <workItem from="1627232921138" duration="6164000" />
+      <workItem from="1627232921138" duration="6821000" />
+      <workItem from="1629098350912" duration="1032000" />
+      <workItem from="1629220861791" duration="13160000" />
     </task>
     <task id="LOCAL-00001" summary="ThreadPoolExecutor explanatory">
       <created>1624184993117</created>
@@ -158,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625567275370</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="read write lock , again aqs">
+      <created>1627239949760</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1627239949760</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +192,7 @@
     <MESSAGE value="blocking queue twice interpret" />
     <MESSAGE value="hashmap again" />
     <MESSAGE value="DelayQueue look look" />
-    <option name="LAST_COMMIT_MESSAGE" value="DelayQueue look look" />
+    <MESSAGE value="read write lock , again aqs" />
+    <option name="LAST_COMMIT_MESSAGE" value="read write lock , again aqs" />
   </component>
 </project>

@@ -387,7 +387,7 @@ public abstract class AbstractQueuedSynchronizer extends AbstractOwnableSynchron
         /** waitStatus value to indicate thread has cancelled */
         static final int CANCELLED =  1;
         /** waitStatus value to indicate successor's thread needs unparking */
-        static final int SIGNAL    = -1; //k2 可被唤醒状态
+        static final int SIGNAL    = -1; //k2 可唤醒后续节点
         /** waitStatus value to indicate thread is waiting on condition */
         static final int CONDITION = -2; //k2 等待队列
         /**
@@ -429,6 +429,14 @@ public abstract class AbstractQueuedSynchronizer extends AbstractOwnableSynchron
          * The field is initialized to 0 for normal sync nodes, and
          * CONDITION for condition nodes.  It is modified using CAS
          * (or when possible, unconditional volatile writes).
+         */
+        /**
+         * k3：节点的等待状态：
+         *  -1：可以被唤醒
+         *  -2：处于等待队列
+         *  -3：传播态
+         *  1：无效节点
+         *  0：初始状态
          */
         volatile int waitStatus;
 
@@ -587,11 +595,11 @@ public abstract class AbstractQueuedSynchronizer extends AbstractOwnableSynchron
         for (;;) {
             Node t = tail;
             if (t == null) { // Must initialize
-                if (compareAndSetHead(new Node())) //k3:尾节点为空，说明是第一次放入等待队列，设置首节点（此时其waitStatus为0）
+                if (compareAndSetHead(new Node())) //k3:尾节点为空，说明是第一次放入等待队列，设置一个空节点做首节点（此时其waitStatus为0）
                     tail = head;
             } else {
                 node.prev = t;
-                if (compareAndSetTail(t, node)) { //k3:首节点初始化完毕后，下一次循环中把新加节点设置为tail节点
+                if (compareAndSetTail(t, node)) { //k3:等待队列初始化之后，再一次循环中把要入队的节点加到队尾
                     t.next = node;
                     return t;
                 }
@@ -699,7 +707,7 @@ public abstract class AbstractQueuedSynchronizer extends AbstractOwnableSynchron
                 else if (ws == 0 && !compareAndSetWaitStatus(h, 0, Node.PROPAGATE)) //k3:把首节点设置为 PROPAGATE（-3）传播状态
                     continue;                // loop on failed CAS
             }
-            //k9: 因为状态原因
+            //k3: 如果h==head，说明没有节点获取到资源而更改掉head，无需再进行唤醒
             if (h == head)                   // loop if head changed
                 break;
         }
@@ -732,7 +740,8 @@ public abstract class AbstractQueuedSynchronizer extends AbstractOwnableSynchron
          * racing acquires/releases, so most need signals now or soon
          * anyway.
          */
-        //k2:传播资源数大于0 或者 头结点为null 或者 头结点等待状态小于0 或者新的head为空 或者 新head的等待状态小于0
+        //k2:传播资源数大于0 或者 头结点为null 或者 头结点等待状态小于0
+        //      或者新的head为空 或者 新head的等待状态小于0【其他线程更改了head，head就不是上面开始的h了】
         if (propagate > 0 || h == null || h.waitStatus < 0 || (h = head) == null || h.waitStatus < 0) {
             Node s = node.next;
             //k3:下一个节点为空，或者下一个节点的nextWaiter是个 new Node()
@@ -1008,6 +1017,7 @@ public abstract class AbstractQueuedSynchronizer extends AbstractOwnableSynchron
                         return;
                     }
                 }
+                //k3:未获取到共享资源，要把其状态都改为-1，然后park在这
                 if (shouldParkAfterFailedAcquire(p, node) &&
                     parkAndCheckInterrupt())
                     throw new InterruptedException();
@@ -1699,6 +1709,7 @@ public abstract class AbstractQueuedSynchronizer extends AbstractOwnableSynchron
          */
         Node p = enq(node); //k1 节点加入到同步队列里
         int ws = p.waitStatus;
+        //k9:为什么不能改为-1就要unpark呢。难道因为已经
         if (ws > 0 || !compareAndSetWaitStatus(p, ws, Node.SIGNAL))
             LockSupport.unpark(node.thread);
         return true;
@@ -1862,7 +1873,7 @@ public abstract class AbstractQueuedSynchronizer extends AbstractOwnableSynchron
          * Adds a new waiter to wait queue.
          * @return its new wait node
          */
-        //k1 整个逻辑就是条件队列队尾加1个条件节点。里头的代码，值得以后慢慢看
+        //k9: 整个逻辑就是条件队列队尾加1个条件节点。里头的代码，值得以后慢慢看
         private Node addConditionWaiter() {
             Node t = lastWaiter;
             // If lastWaiter is cancelled, clean out. k2 不是-2状态CONDITION，只能是1 CANCELLED，将其剔除
@@ -1893,8 +1904,8 @@ public abstract class AbstractQueuedSynchronizer extends AbstractOwnableSynchron
                     lastWaiter = null;
                 first.nextWaiter = null;
 
-                //k3 CAS更改掉first的CONDITION为0，成功就可跳出while循环。
-                //    之后还会将first加入到同步等待队列。如果这时候first的状态变为CANCELLED，或者无法CAS改为SIGNAL，直接unpark此线程
+                //k3 直到找到条件队列里可以由-2改为0，并转移到等待队列队尾的节点，打断循环；或者条件队列遍历结束，也打断循环
+                //   加入等待队列后，如果这时候first的状态变为CANCELLED，或者无法CAS改为SIGNAL，直接unpark此线程
             } while (!transferForSignal(first) && (first = firstWaiter) != null);
         }
 
@@ -1958,6 +1969,7 @@ public abstract class AbstractQueuedSynchronizer extends AbstractOwnableSynchron
          * @throws IllegalMonitorStateException if {@link #isHeldExclusively}
          *         returns {@code false}
          */
+        //k3:将等待最久的线程，从条件队列转移到等待队列
         public final void signal() {
             if (!isHeldExclusively())
                 throw new IllegalMonitorStateException();
@@ -2054,12 +2066,11 @@ public abstract class AbstractQueuedSynchronizer extends AbstractOwnableSynchron
          * </ol>
          */
         public final void await() throws InterruptedException {
-            if (Thread.interrupted())
-                throw new InterruptedException();
+            if (Thread.interrupted()) throw new InterruptedException();
             Node node = addConditionWaiter();
-            int savedState = fullyRelease(node);//k1 上一步把自己加入条件队列，这一步然后要释放自己持有的state锁,并唤醒等待队列队第一个节点的线程
+            int savedState = fullyRelease(node);//k1 上一步把自己加入条件队列，这一步然后要释放自己持有的 state 锁,并唤醒等待队列队第一个节点的线程
             int interruptMode = 0;
-            while (!isOnSyncQueue(node)) { //k2 不在同步队列，进行park
+            while (!isOnSyncQueue(node)) { //k2 不在同步队列，说明在等待队列中，将其park。会出现这样的情况，上面从等待队列释放的取数据successor，因为队列没有元素，所以又会被park在条件队列里
                 LockSupport.park(this);
                 if ((interruptMode = checkInterruptWhileWaiting(node)) != 0)
                     break;

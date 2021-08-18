@@ -181,7 +181,7 @@ public class ArrayBlockingQueue<E> extends AbstractQueue<E>
         count--;
         if (itrs != null)
             itrs.elementDequeued();
-        notFull.signal();
+        notFull.signal(); //k3:消费了元素后，队列肯定不满。notFull就可以运行了
         return x;
     }
 

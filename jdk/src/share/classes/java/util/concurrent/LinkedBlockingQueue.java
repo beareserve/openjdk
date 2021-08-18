@@ -205,12 +205,18 @@ public class LinkedBlockingQueue<E> extends AbstractQueue<E>
      * @return the node
      */
     private E dequeue() {
+        /**
+         * 这样是不是就可以了？
+         * first = head.next;
+         * head.next = null;
+         * head = first;
+         */
         // assert takeLock.isHeldByCurrentThread();
         // assert head.item == null;
-        Node<E> h = head;
-        Node<E> first = h.next;
-        h.next = h; // help GC
-        head = first;
+        Node<E> h = head; //k4:头结点赋给h
+        Node<E> first = h.next; //k4:拿到first节点
+        h.next = h; // help GC k4:把h的next由first改为h k9:直接h.next=null不行吗
+        head = first; //k4:把first指定为新的head
         E x = first.item;
         first.item = null;
         return x;
@@ -444,7 +450,7 @@ public class LinkedBlockingQueue<E> extends AbstractQueue<E>
             x = dequeue();
             c = count.getAndDecrement(); //k1 count减1，然后返回原count值
             if (c > 1)
-                notEmpty.signal();
+                notEmpty.signal(); //k3 队列有数据，唤醒阻塞等待的不空条件
         } finally {
             takeLock.unlock();
         }
